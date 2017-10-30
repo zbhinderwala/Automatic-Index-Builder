@@ -63,9 +63,13 @@ if len(sys.argv) >= 0:
     # Open given LaTeX file
     file = open(sys.argv[1], 'r')
 
+    output_name = sys.argv[2]
+
 else:
     # Open default LaTeX file
     file = open("chikin.tex", 'r')
+
+    output_name = "CSV/text.csv"
 
 # Get only the text from the file
 text = LatexNodes2Text().latex_to_text(file.read())
@@ -76,4 +80,4 @@ words = splitText(text)
 # create pandas DataFrame of words
 data_set = generateDataSet(words)
 
-data_set.to_csv("text.csv", index=False)
+data_set.to_csv(output_name, index=False)
