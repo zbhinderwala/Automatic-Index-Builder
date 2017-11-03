@@ -6,9 +6,10 @@ import csv
 import sys
 import re
 import pandas as pd
-from TexSoup import TexSoup
 from pylatexenc.latex2text import LatexNodes2Text
-from plasTeX.Renderers.Text import Renderer
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 
 
 #############################################
@@ -59,7 +60,7 @@ def generateDataSet(words):
 #   Main code
 #############################################
 
-if len(sys.argv) >= 0:
+if len(sys.argv) > 1:
     # Open given LaTeX file
     file = open(sys.argv[1], 'r')
 
@@ -74,10 +75,37 @@ else:
 # Get only the text from the file
 text = LatexNodes2Text().latex_to_text(file.read())
 
+##############################################
+#    UNIGRAMS
+##############################################
 # Create list where each word is a separate element
 words = splitText(text)
 
 # create pandas DataFrame of words
 data_set = generateDataSet(words)
 
-data_set.to_csv(output_name, index=False)
+
+
+#############################################
+#    BIGRAMS
+#############################################
+
+bigrams = list(nltk.bigrams(words))
+ignored_words = nltk.corpus.stopwords.words('english')
+filt_bigrams = []
+for w in range(len(bigrams)):
+    t = bigrams[w]
+    str1 = str(t[0]).lower()
+    str2 = str(t[1]).lower()
+    if((str1 in ignored_words) or (str2 in ignored_words)):
+        filt_bigrams.append(t)
+bigrams = [e for e in bigrams if e not in filt_bigrams]
+dataset2 = generateDataSet(bigrams)
+df_final = data_set.append(dataset2,ignore_index = True)
+df_final.to_csv(output_name, index=False)
+
+
+##############################################
+# POS Tagging
+##############################################
+
