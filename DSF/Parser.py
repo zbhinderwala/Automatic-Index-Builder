@@ -94,30 +94,15 @@ words = splitText(text)
 data_set = generateDataSet(words)
 df_final = data_set
 
-'''
 #############################################
 #   BIGRAMS - Commented until improved efficiency
-            - Potentially use pandas instead of for loop
 #############################################
-print('Gethering Bigrams...\n')
+print('Gathering Bigrams...\n')
 bigrams = list(nltk.bigrams(words))
-ignored_words = nltk.corpus.stopwords.words('english')
-filt_bigrams = []
-for w in range(len(bigrams)):
-    try:
-        t = bigrams[w]
-        str1 = str(t[0]).lower()
-        str2 = str(t[1]).lower()
-        if((str1 in ignored_words) or (str2 in ignored_words)):
-            filt_bigrams.append(t)
-    except:
-        # Do Nothing
 
-bigrams = [e for e in bigrams if e not in filt_bigrams]
 dataset2 = generateDataSet(bigrams)
 
 df_final = df_final.append(dataset2, ignore_index = True)
-'''
 
 ##############################################
 #   POS Tagging
