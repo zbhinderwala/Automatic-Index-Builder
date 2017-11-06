@@ -1,15 +1,15 @@
 #############################################
 #   Imports
 #############################################
-
 import csv
 import sys
 import re
 import pandas as pd
 from pylatexenc.latex2text import LatexNodes2Text
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
+from TexSoup import TexSoup
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
 
 
 #############################################
@@ -20,6 +20,14 @@ nltk.download('stopwords')
 # useful for removing strings without letters
 # "'" is not valid but "don't" is valid
 def checkWords(word):
+    try:
+        word = str(word)
+    except:
+        return False
+
+    if word in nltk.corpus.stopwords.words('english'):
+        return False
+
     pattern = re.compile("([A-Za-z0-9]+)")
     return pattern.match(word)
 
@@ -28,7 +36,8 @@ def checkWords(word):
 def splitText(text):
     # delimiters - only for characters that separate words
     # conjoining characters not included
-    splitChars = {'\.', ' ', '\,', ':', ';', '\n', '\*'}
+    splitChars = {'\.', ' ', '\,', ':', ';', '\n', '\*' \
+        '\|', '\?'}
 
     splitString = ""
     for char in splitChars:
@@ -59,7 +68,6 @@ def generateDataSet(words):
 #############################################
 #   Main code
 #############################################
-
 if len(sys.argv) > 1:
     # Open given LaTeX file
     file = open(sys.argv[1], 'r')
@@ -73,39 +81,53 @@ else:
     output_name = "CSV/text.csv"
 
 # Get only the text from the file
-text = LatexNodes2Text().latex_to_text(file.read())
+text = LatexNodes2Text().latex_to_text(file.read().encode('utf-8'))
 
 ##############################################
-#    UNIGRAMS
+#   UNIGRAMS
 ##############################################
+print('Gathering Unigrams...\n')
 # Create list where each word is a separate element
 words = splitText(text)
 
 # create pandas DataFrame of words
 data_set = generateDataSet(words)
+df_final = data_set
 
-
-
+'''
 #############################################
-#    BIGRAMS
+#   BIGRAMS - Commented until improved efficiency
+            - Potentially use pandas instead of for loop
 #############################################
-
+print('Gethering Bigrams...\n')
 bigrams = list(nltk.bigrams(words))
 ignored_words = nltk.corpus.stopwords.words('english')
 filt_bigrams = []
 for w in range(len(bigrams)):
-    t = bigrams[w]
-    str1 = str(t[0]).lower()
-    str2 = str(t[1]).lower()
-    if((str1 in ignored_words) or (str2 in ignored_words)):
-        filt_bigrams.append(t)
+    try:
+        t = bigrams[w]
+        str1 = str(t[0]).lower()
+        str2 = str(t[1]).lower()
+        if((str1 in ignored_words) or (str2 in ignored_words)):
+            filt_bigrams.append(t)
+    except:
+        # Do Nothing
+
 bigrams = [e for e in bigrams if e not in filt_bigrams]
 dataset2 = generateDataSet(bigrams)
-df_final = data_set.append(dataset2,ignore_index = True)
+
+df_final = df_final.append(dataset2, ignore_index = True)
+'''
+
+##############################################
+#   POS Tagging
+##############################################
+
+
+##############################################
+#   Export CSV
+##############################################
+print('Exporting CSV...\n')
 df_final.to_csv(output_name, index=False)
 
-
-##############################################
-# POS Tagging
-##############################################
-
+print('Dataset Generation Complete.')

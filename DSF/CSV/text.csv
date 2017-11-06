@@ -24,3 +24,23 @@ ordered,1
 to,1
 squat,1
 I,1
+"('Chikin', 'Tales')",1
+"('Tales', 'Chikin')",1
+"('Chikin', 'Fly')",1
+"('Fly', 'Chickens')",1
+"('Chickens', ""don't"")",1
+"(""don't"", 'fly')",1
+"('following', 'waddle')",1
+"('waddle', 'plop')",1
+"('plop', 'Chikin')",1
+"('Chikin', 'Scream')",1
+"('Scream', 'Plopping')",1
+"('Plopping', 'Plopping')",1
+"('Plopping', 'involves')",1
+"('involves', 'three')",1
+"('three', 'steps')",1
+"('steps', 'squawk')",1
+"('squawk', 'plop')",1
+"('plop', 'repeat')",1
+"('repeat', 'unless')",1
+"('unless', 'ordered')",1
