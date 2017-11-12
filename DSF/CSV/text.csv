@@ -1,46 +1,22 @@
-words,frequency
-Chikin,3
-Tales,1
-Fly,1
-Chickens,1
-don't,1
-fly,1
-They,1
-do,1
-only,1
-the,1
-following,1
-waddle,1
-plop,2
-Scream,2
-Plopping,2
-involves,1
-three,1
-steps,1
-squawk,1
-repeat,1
-unless,1
-ordered,1
-to,1
-squat,1
-I,1
-"('Chikin', 'Tales')",1
-"('Tales', 'Chikin')",1
-"('Chikin', 'Fly')",1
-"('Fly', 'Chickens')",1
-"('Chickens', ""don't"")",1
-"(""don't"", 'fly')",1
-"('following', 'waddle')",1
-"('waddle', 'plop')",1
-"('plop', 'Chikin')",1
-"('Chikin', 'Scream')",1
-"('Scream', 'Plopping')",1
-"('Plopping', 'Plopping')",1
-"('Plopping', 'involves')",1
-"('involves', 'three')",1
-"('three', 'steps')",1
-"('steps', 'squawk')",1
-"('squawk', 'plop')",1
-"('plop', 'repeat')",1
-"('repeat', 'unless')",1
-"('unless', 'ordered')",1
+word,pos,frequency
+Chikin,NNP,3
+Plopping,NNP,2
+Chickens,NNP,1
+plop,JJ,1
+unless,IN,1
+three,CD,1
+steps,NNS,1
+squawk,RB,1
+squat,NN,1
+repeat,NN,1
+plop,VBP,1
+involves,VBZ,1
+ordered,VBN,1
+following,VBG,1
+fly,VB,1
+don't,VBP,1
+Tales,NNP,1
+Scream,NNP,1
+Scream,NN,1
+Fly,NNP,1
+waddle,JJ,1
