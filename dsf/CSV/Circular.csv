@@ -1,4319 +1,1775 @@
-word,pos,frequency
-free,JJ,99
-matrix,NN,67
-unitary,JJ,42
-circular,JJ,40
-follows,VBZ,40
-Let,NNP,37
-matrices,NNS,37
-pencil,NN,33
-denote,VB,30
-Since,IN,28
-convex,NN,28
-free circular,NA,28
-polynomials,NNS,28
-matrix convex,NA,27
-Theorem,NNP,26
-j=1,NN,26
-Hence,NNP,25
-Thus,NNP,25
-exists,VBZ,23
-linear,JJ,22
-equation,NN,21
-positive,JJ,21
-spectrahedron,NN,21
-subspace,NN,21
-1<,CD,20
-Lemma,NNP,20
-Let denote,NA,20
-invariant,JJ,20
-direct,JJ,19
-free spectrahedron,NA,19
-set,VBN,18
-block,NN,17
-closed,VBD,17
-conjugation,NN,17
-cross,NN,17
-entries,NNS,17
-operator,NN,17
-since,IN,17
-Math,NNP,16
-coordinate,NN,16
-cross terms,NA,16
-respect,NN,16
-terms,NNS,16
-Free,NNP,15
-defining,VBG,15
-given,VBN,15
-proof,NN,15
-decomposition,NN,14
-minimal,JJ,14
-monic,JJ,14
-particular,JJ,14
-chain,NN,13
-convex sets,NA,13
-coordinate unitary,NA,13
-free matrix,NA,13
-invariant coordinate,NA,13
-linear pencil,NA,13
-size,NN,13
-spectrahedra,NN,13
-unitary conjugation,NA,13
-boundary,JJ,12
-direct sums,NA,12
-free spectrahedra,NA,12
-j],NN,12
-let,NN,12
-matrix polynomials,NA,12
-polynomial,JJ,12
-sets,NNS,12
-Proposition,NNP,11
-Suppose,NNP,11
-circular free,NA,11
-commutative cross,NA,11
-contains,NNS,11
-contains,VBZ,11
-matrix balanced,NA,11
-A=,NNP,10
-closed respect,NA,10
-convex,JJ,10
-equivalence,NN,10
-g-tuple,JJ,10
-homogeneous,JJ,10
-integers,NNS,10
-matrix,JJ,10
-matrix,VBP,10
-positive integers,NA,10
-reducing,VBG,10
-set,NN,10
-sum,NN,10
-sums,NNS,10
-unitarily equivalent,NA,10
-unitary equivalence,NA,10
-variables,NNS,10
-vector,NN,10
-Matrix,NNP,9
-block decomposition,NA,9
-circular,NN,9
-circular matrix,NA,9
-direct sum,NA,9
-equivalent,JJ,9
-form,NN,9
-hand,NN,9
-homogeneous linear,NA,9
-implies,NNS,9
-minimal defining,NA,9
-respect direct,NA,9
-theorem,NN,9
-tuple,NN,9
-unit,NN,9
-zero,CD,9
-Circular,NNP,8
-Fix,NNP,8
-Hahn-Banach,NNP,8
-Helton,NNP,8
-McCullough,NNP,8
-balanced,VBD,8
-ball,NN,8
-case,NN,8
-column,NN,8
-commutative,JJ,8
-item,NN,8
-matrix polynomial,NA,8
-operator pencil,NA,8
-pencil ball,NA,8
-section,NN,8
-symmetric,JJ,8
-tuple,JJ,8
-two,CD,8
-1< j<,NA,7
-LMI,NNP,7
-Write,NNP,7
-also,RB,7
-assumption,NN,7
-closed,JJ,7
-common,JJ,7
-exists unitary,NA,7
-finite,JJ,7
-hence,NN,7
-holds,VBZ,7
-j<,NN,7
-j=1 j=1,NA,7
-let denote,NA,7
-monic free,NA,7
-noncommutative,JJ,7
-one,CD,7
-pair,NN,7
-proof Theorem,NA,7
-prove,VBP,7
-separation,NN,7
-shows,NNS,7
-unit vector,NA,7
-Free Circular,NA,6
-Given,NNP,6
-Hahn-Banach separation,NA,6
-Klep,NNP,6
-Mathematics,NNP,6
-Moreover,RB,6
-Section,NNP,6
-called,VBD,6
-called free,NA,6
-coefficients,NNS,6
-contains free,NA,6
-convex set,NA,6
-convexity,NN,6
-denote,NN,6
-described,VBD,6
-dimension,NN,6
-dimensional,JJ,6
-exists,NNS,6
-free polynomials,NA,6
-g-1,JJ,6
-inclusion,NN,6
-itA,NN,6
-let,VB,6
-main,JJ,6
-may,MD,6
-p=1,NN,6
-pencil size,NA,6
-reducing subspace,NA,6
-see,VBP,6
-sense,NN,6
-separation theorem,NA,6
-show,NN,6
-subset,NN,6
-thus,RB,6
-unitary matrix,NA,6
-whenever,WRB,6
-words,NNS,6
-1},CD,5
-5]BVM,CD,5
-Effros-Winkler,NNP,5
-Finally,NNP,5
-Math Soc,NA,5
-Observe,NNP,5
-Sets,NNP,5
-Soc,NNP,5
-Spectrahedra,NNP,5
-University,NNP,5
-admissible,JJ,5
-admissible chain,NA,5
-basis,NN,5
-block zero,NA,5
-blocks,NNS,5
-complete,JJ,5
-complex,JJ,5
-contractions,NNS,5
-defining pencil,NA,5
-denote subspace,NA,5
-exists homogeneous,NA,5
-fact,NN,5
-finite dimensional,NA,5
-following,VBG,5
-graded set,NA,5
-implies,VBZ,5
-interior,JJ,5
-irrational,JJ,5
-k=1,NN,5
-maps,NNS,5
-ncr cr,NA,5
-nonzero,NN,5
-paper,NN,5
-polynomials invariant,NA,5
-proof,VBP,5
-s=,NN,5
-say,VBP,5
-sequence,NN,5
-several,JJ,5
-shows,VBZ,5
-subpencil,NN,5
-subspaces,NNS,5
-unitarily,JJ,5
-unitarily,RB,5
-vectors,NNS,5
-version,NN,5
-word,NN,5
-zero column,NA,5
-1< s<,NA,4
-2]HKM13,CD,4
-Assume,NNP,4
-BVM,NNP,4
-Circular Free,NA,4
-Convex,NNP,4
-Convex Sets,NA,4
-Define,NNP,4
-Department,NNP,4
-Department Mathematics,NA,4
-EW,NNP,4
-Fix positive,NA,4
-Free Spectrahedra,NA,4
-Furthermore,NNP,4
-Gleichstellensatz,NNP,4
-LMI defining,NA,4
-LMIs,NNP,4
-Lemma exists,NA,4
-Lemma shows,NA,4
-Let j=1,NA,4
-Linear,NNP,4
-Mathematics University,NA,4
-Matrix Convex,NA,4
-Note,NNP,4
-Operator,NNP,4
-Since contains,NA,4
-U=,NNP,4
-Z=,NNP,4
-analysis,NN,4
-balanced closed,NA,4
-circular closed,NA,4
-coefficients minimal,NA,4
-completes proof,NA,4
-consisting,VBG,4
-countable,JJ,4
-cross term,NA,4
-depending,VBG,4
-described equation,NA,4
-detailed boundary,NA,4
-different,JJ,4
-distinct,JJ,4
-e<,NN,4
-elements,NNS,4
-evaluations,NNS,4
-every,DT,4
-exactly,RB,4
-family,NN,4
-following lemma,NA,4
-form equation,NA,4
-freely,RB,4
-functional,JJ,4
-generality,NN,4
-hypothesis,NN,4
-identity,NN,4
-ij,NN,4
-integer,NN,4
-irrational respect,NA,4
-isometric,JJ,4
-isometry,NN,4
-left,JJ,4
-linear,VBP,4
-loss,NN,4
-loss generality,NA,4
-m+n,NN,4
-minimal LMI,NA,4
-monomial,JJ,4
-multiplication,NN,4
-must,MD,4
-nN,JJ,4
-ncr,JJ,4
-nd g-1,NA,4
-needed,VBN,4
-noncommutative polynomials,NA,4
-numbers,NNS,4
-observe,NN,4
-orthogonal,JJ,4
-orthonormal,JJ,4
-orthonormal basis,NA,4
-pair contractions,NA,4
-positive integer,NA,4
-product,NN,4
-proof,JJ,4
-prove Theorem,NA,4
-relatively,RB,4
-relatively irrational,NA,4
-result,NN,4
-right,JJ,4
-s<,NN,4
-self-adjoint,JJ,4
-set,VBD,4
-show,VBP,4
-subspace consisting,NA,4
-suffices,NNS,4
-sum univariate,NA,4
-term,NN,4
-tuples,NNS,4
-types,NNS,4
-unitaries,NNS,4
-univariate,JJ,4
-1< e<,NA,3
-2]HKM13 2]Zal,NA,3
-2]Zal,CD,3
-Adv,NNP,3
-Adv Math,NA,3
-Amer,NNP,3
-Amer Math,NA,3
-Appendix,NNP,3
-Applying,NNP,3
-Applying Lemma,NA,3
-Ball,NNP,3
-Circular Matrix,NA,3
-Corollary,NNP,3
-Effros,NNP,3
-Equation,NNP,3
-Free,JJ,3
-Given,VBN,3
-Helton Klep,NA,3
-Helton McCullough,NA,3
-Inequalities,NNP,3
-Klep McCullough,NA,3
-Let,VB,3
-Linear Matrix,NA,3
-Matrix Inequalities,NA,3
-New,NNP,3
-Paulsen,NNP,3
-Polynomials,NNP,3
-SIAM,NNP,3
-Theory,NNP,3
-Therefore,NNP,3
-Write j=1,NA,3
-appears,VBZ,3
-argument,NN,3
-article,NN,3
-assumed,VB,3
-called,VBN,3
-canonical,JJ,3
-characterize free,NA,3
-characterizing,VBG,3
-choice,NN,3
-classification,NN,3
-closed matrix,NA,3
-collection,NN,3
-common reducing,NA,3
-commutative,VBP,3
-compact,JJ,3
-compact convex,NA,3
-completes,NNS,3
-consequence,NN,3
-consisting matrices,NA,3
-contain,VBP,3
-contain commutative,NA,3
-continuous,JJ,3
-contraction,NN,3
-contradiction,NN,3
-convex free,NA,3
-cr,JJ,3
-cr,NN,3
-decomposition s=,NA,3
-defining free,NA,3
-definition,NN,3
-denote projection,NA,3
-denote standard,NA,3
-dense,NN,3
-detailed,VBD,3
-dimension e<,NA,3
-domains,VBZ,3
-effective,JJ,3
-empty,JJ,3
-entries commutative,NA,3
-entries contain,NA,3
-equation holds,NA,3
-equivalence block,NA,3
-evaluating,VBG,3
-fixed,VBN,3
-follows whenever,NA,3
-g-tuple matrices,NA,3
-g-tuples,NNS,3
-g-tuples matrices,NA,3
-generality may,NA,3
-geometry,NN,3
-gives,VBZ,3
-graded,VBD,3
-hand since,NA,3
-hence Thus,NA,3
-immediately,RB,3
-inequality,NN,3
-integers pair,NA,3
-invariant,VBP,3
-involution,NN,3
-irreducible,JJ,3
-isometries,NNS,3
-j=1 follows,NA,3
-j] Thus,NA,3
-k+1,NN,3
-left end,NA,3
-let,VBP,3
-letters,NNS,3
-linear matrix,NA,3
-location,NN,3
-m+1,NN,3
-matrices entries,NA,3
-matrices j],NA,3
-matricial,JJ,3
-may assumed,NA,3
-monic linear,NA,3
-multiplication unitary,NA,3
-ncr,VBP,3
-nd,JJ,3
-none,NN,3
-none entries,NA,3
-norm,NN,3
-norm one,NA,3
-notation,NN,3
-onto,IN,3
-orthogonal decomposition,NA,3
-pair,VBP,3
-pair positive,NA,3
-pencil minimal,NA,3
-pencils,NNS,3
-permutation,NN,3
-polynomial invariant,NA,3
-positive semidefinite,NA,3
-positivity,NN,3
-positivity set,NA,3
-projection,NN,3
-projection onto,NA,3
-proper,JJ,3
-prove item,NA,3
-respectively,RB,3
-results,NNS,3
-rotations,NNS,3
-satisfies,NNS,3
-says,VBZ,3
-self-contained,JJ,3
-self-contained proof,NA,3
-set contains,NA,3
-set matrix,NA,3
-sets,VBZ,3
-size unit,NA,3
-space,NN,3
-spaces,NNS,3
-span,JJ,3
-spectrahedron unitary,NA,3
-standard,JJ,3
-standard orthonormal,NA,3
-subsection,NN,3
-subset,VBD,3
-subset graded,NA,3
-subsets,NNS,3
-suffices prove,NA,3
-sums contains,NA,3
-superdiagonal,JJ,3
-supported,VBD,3
-suppose,JJ,3
-suppose,VBD,3
-system,NN,3
-systems,NNS,3
-terms Since,NA,3
-theorem free,NA,3
-theory,NN,3
-tuple matrices,NA,3
-two blocks,NA,3
-whose,WP$,3
-without,IN,3
-without loss,NA,3
-write,VBP,3
-0],CD,2
-1/2,CD,2
-1< k<,NA,2
-2Re,CD,2
-A= itA,NA,2
-AMS,NNP,2
-Additionally,NNP,2
-Additionally since,NA,2
-Anal,NNP,2
-BKU78,NNP,2
-C=,NNP,2
-California,NNP,2
-California San,NA,2
-Call,NNP,2
-Cambridge,NNP,2
-Choose,NNP,2
-Choosing,NNP,2
-Choosing shows,NA,2
-Consequently,NNP,2
-Control,NNP,2
-Effros-Winkler Theorem,NA,2
-Effros-Winkler matricial,NA,2
-Equation implies,NA,2
-Equivalently,RB,2
-Farenick,NNP,2
-Finally,RB,2
-Finally suppose,NA,2
-Free Polynomials,NA,2
-Free Spectrahedron,NA,2
-Function,NNP,2
-Function Theory,NA,2
-Furthermore,RB,2
-HKM12,NNP,2
-HKM16,NNP,2
-Hence Thus,NA,2
-Hilbert,NNP,2
-Hilbert space,NA,2
-Hilbert-Schmidt,NNP,2
-Hilbert-Schmidt norm,NA,2
-Indeed,RB,2
-Inequalities LMIs,NA,2
-Invariant,NNP,2
-LMIs called,NA,2
-Lemma show,NA,2
-Let let,NA,2
-Likewise,NNP,2
-London,NNP,2
-Mathematical,NNP,2
-NSF,NNP,2
-NSF grant,NA,2
-Noncommutative,NNP,2
-Note,NN,2
-Part,NNP,2
-Pencil,NNP,2
-Positivstellensatz,NNP,2
-Proof,NNP,2
-Proof Theorem,NA,2
-Putinar,NNP,2
-Reinhardt,NNP,2
-Reinhardt domains,NA,2
-Rotationally,NNP,2
-Rotationally invariant,NA,2
-San,NNP,2
-Series,NNP,2
-Set,NNP,2
-Sets section,NA,2
-Similarly,RB,2
-Since closed,NA,2
-Since finite,NA,2
-Since follows,NA,2
-Society,NNP,2
-Spectrahedron,NNP,2
-Studies,NNP,2
-Suppose matrix,NA,2
-Taylor,NNP,2
-Theorem Suppose,NA,2
-Theorem characterizing,NA,2
-Theorem stated,NA,2
-Theorem tuple,NA,2
-Therefore,VBP,2
-Thus,RB,2
-Thus boundary,NA,2
-Trans Amer,NA,2
-U= exists,NA,2
-U=U,NNP,2
-University California,NA,2
-Using,NNP,2
-Vinnikov,NNP,2
-William,NNP,2
-William Helton,NA,2
-Winkler,NNP,2
-affine linear,NA,2
-algebra,NN,2
-algebraic geometry,NA,2
-also gives,NA,2
-also invariant,NA,2
-analog,NN,2
-analog Effros-Winkler,NA,2
-appear,VBP,2
-appears right,NA,2
-application,NN,2
-appropriate,VBP,2
-appropriate sizes,NA,2
-assume,VB,2
-assumption contains,NA,2
-balanced,VBN,2
-balanced implies,NA,2
-balanced subset,NA,2
-basis Let,NA,2
-block superdiagonal,NA,2
-blocks paper,NA,2
-blocks superdiagonal,NA,2
-bound,NN,2
-boundary Write,NA,2
-boundary tuple,NA,2
-bounded,VBD,2
-canonical shuffle,NA,2
-cf,NN,2
-chain distinct,NA,2
-characterize,VBP,2
-choose,JJ,2
-circular domains,NA,2
-circular implies,NA,2
-circular subsets,NA,2
-class,NN,2
-classical,JJ,2
-classification noncommutative,NA,2
-classify,VB,2
-classify free,NA,2
-closed direct,NA,2
-closed left,NA,2
-closed multiplication,NA,2
-common block,NA,2
-common invariant,NA,2
-commuting,VBG,2
-compact,NN,2
-complete proof,NA,2
-completes,VBZ,2
-complex variables,NA,2
-conclude,VBP,2
-conjugating,VBG,2
-conjugating coordinate,NA,2
-conjugation given,NA,2
-consequence Hahn-Banach,NA,2
-considers,NNS,2
-considers matrix,NA,2
-construction,NN,2
-contained,VBN,2
-containing,VBG,2
-contains interior,NA,2
-contains product,NA,2
-contraction matrices,NA,2
-contractive,JJ,2
-contradicting,VBG,2
-contradiction suppose,NA,2
-convenience,NN,2
-convex,NNS,2
-convex compact,NA,2
-convex subset,NA,2
-coordinate different,NA,2
-corresponding,VBG,2
-countable set,NA,2
-cr ncr,NA,2
-cross,JJ,2
-decomposition nonzero,NA,2
-decomposition respect,NA,2
-decomposition two,NA,2
-define,NN,2
-define,VBP,2
-define free,NA,2
-defined,VBD,2
-defined equation,NA,2
-defining circular,NA,2
-defining subpencil,NA,2
-definite,NN,2
-denote inclusion,NA,2
-denote linear,NA,2
-denote matrix,NA,2
-denote span,NA,2
-denoted,VBD,2
-desired,VBD,2
-determined,VBD,2
-diagonal,JJ,2
-different unitary,NA,2
-direct,VB,2
-direction,NN,2
-domain,NN,2
-domains,NNS,2
-d},JJ,2
-d},NN,2
-e< Let,NA,2
-edu,VBD,2
-effective version,NA,2
-empty word,NA,2
-end,NN,2
-end block,NA,2
-entries ncr,NA,2
-entry,NN,2
-equation common,NA,2
-equation j=1,NA,2
-equations,NNS,2
-equivalence coefficients,NA,2
-equivalence direct,NA,2
-equivalence polynomial,NA,2
-evaluating tuples,NA,2
-exactly follows,NA,2
-exactly one,NA,2
-exist,VBP,2
-existence,NN,2
-exists positive,NA,2
-exists tuple,NA,2
-extend,VBP,2
-extends,VBZ,2
-family block,NA,2
-field,NN,2
-first,JJ,2
-first,RB,2
-follows Lemma,NA,2
-follows Thus,NA,2
-follows also,NA,2
-follows entries,NA,2
-follows span,NA,2
-form,JJ,2
-form,VB,2
-form m+1,NA,2
-free analysis,NA,2
-free polynomial,NA,2
-free semialgebraic,NA,2
-free set,NA,2
-freely generated,NA,2
-function,NN,2
-g-tuple unitaries,NA,2
-give,JJ,2
-given positivity,NA,2
-gives classification,NA,2
-g} denote,NA,2
-hand side,NA,2
-hypotheses,NNS,2
-hypotheses,VBZ,2
-hypotheses Lemma,NA,2
-ij,JJ,2
-ij ij,NA,2
-ij rs,NA,2
-implies matrix,NA,2
-inclusions,NNS,2
-indices,NNS,2
-integers let,NA,2
-integers tuple,NA,2
-intersection,NN,2
-invariant conjugating,NA,2
-invariant free,NA,2
-invariant several,NA,2
-invariant subspace,NA,2
-invertible,JJ,2
-involution extends,NA,2
-isometric conjugation,NA,2
-j-th,JJ,2
-j< Write,NA,2
-j=0,NN,2
-j=1,JJ,2
-j=1,NNP,2
-j=1,VBP,2
-j=1 Let,NA,2
-j=1 Since,NA,2
-j=1 p=1,NA,2
-j>,NN,2
-j],$,2
-j],VBP,2
-j] 1<,NA,2
-je,NN,2
-k=1,NNP,2
-k=1 Let,NA,2
-k=1 j=1,NA,2
-kRe,NN,2
-known,VBN,2
-known matrix,NA,2
-left,VBD,2
-left multiplication,NA,2
-lemma,JJ,2
-lemma,NN,2
-let given,NA,2
-letting,VBG,2
-letting denote,NA,2
-lies,VBZ,2
-linear,IN,2
-linear functional,NA,2
-linear pencils,NA,2
-linear polynomial,NA,2
-m+1,VBP,2
-m-1,JJ,2
-m-1 admissible,NA,2
-main result,NA,2
-main results,NA,2
-mappings,NNS,2
-matrices Let,NA,2
-matrices appropriate,NA,2
-matrices consequence,NA,2
-matrices trace,NA,2
-matrices unitarily,NA,2
-matrices write,NA,2
-matricial Hahn-Banach,NA,2
-matrix,RB,2
-matrix,VBD,2
-matrix inequality,NA,2
-matrix pencil,NA,2
-matrix unitary,NA,2
-maximal,JJ,2
-may assume,NA,2
-model,NN,2
-monic pencil,NA,2
-monomial appears,NA,2
-multiplying left,NA,2
-must direct,NA,2
-n+m,NN,2
-n=p,JJ,2
-n=p nd,NA,2
-nN Let,NA,2
-nN let,NA,2
-natural,JJ,2
-nd,IN,2
-nd,NNS,2
-neighborhood,NN,2
-next,JJ,2
-noncommuting,VBG,2
-noncommuting letters,NA,2
-nonzero blocks,NA,2
-nonzero location,NA,2
-nonzero matrix,NA,2
-notations,NNS,2
-note,NN,2
-numbers evaluating,NA,2
-obtain,VB,2
-operator systems,NA,2
-optimization,NN,2
-order,NN,2
-p=1 2Re,NA,2
-pair,JJ,2
-pair matrices,NA,2
-paper also,NA,2
-paper considers,NA,2
-part,NN,2
-part Theorem,NA,2
-particular Since,NA,2
-pencil free,NA,2
-pencils size,NA,2
-permutation matrices,NA,2
-polynomial,NN,2
-polynomial must,NA,2
-positive definite,NA,2
-precisely,RB,2
-preliminary,JJ,2
-preprint,VBP,2
-preprint org/abs/1602,NA,2
-present,JJ,2
-produces,NNS,2
-product form,NA,2
-proper subspace,NA,2
-prove,NN,2
-prove,VB,2
-proved,VBD,2
-real,JJ,2
-recent,JJ,2
-reducing subspaces,NA,2
-reindexing,VBG,2
-reindexing needed,NA,2
-replacing,VBG,2
-representation,NN,2
-respect decomposition,NA,2
-restriction,NN,2
-result section,NA,2
-right hand,NA,2
-role,NN,2
-rotations known,NA,2
-rs,NN,2
-s= described,NA,2
-s=1,NN,2
-s=1 k=1,NA,2
-sW,VBP,2
-section Theorem,NA,2
-section contains,NA,2
-see,NN,2
-see Theorem,NA,2
-self-adjoint,NN,2
-self-adjoint variables,NA,2
-semi-algebraic,JJ,2
-semialgebraic,JJ,2
-semialgebraic solution,NA,2
-semidefinite,JJ,2
-semidefinite,NN,2
-semidefinite matrices,NA,2
-set called,NA,2
-set proof,NA,2
-sets Linear,NA,2
-sets free,NA,2
-sets invariant,NA,2
-sets show,NA,2
-several complex,NA,2
-several types,NA,2
-show coefficients,NA,2
-show cross,NA,2
-shows matrix,NA,2
-shuffle,NN,2
-side,RB,2
-side exactly,NA,2
-since invariant,NA,2
-size Free,NA,2
-size nonzero,NA,2
-sizes,JJ,2
-solution,NN,2
-solution sets,NA,2
-span 1<,NA,2
-spectrahedra circular,NA,2
-spectrahedra classify,NA,2
-spectrahedra free,NA,2
-spectrahedron common,NA,2
-spectrahedron free,NA,2
-spectrahedron given,NA,2
-spectrahedron set,NA,2
-stated,VBD,2
-subset,VBP,2
-subset circular,NA,2
-subspace,JJ,2
-subspace dimension,NA,2
-sums matrix,NA,2
-superdiagonal matrix,NA,2
-supported NSF,NA,2
-suppose,VBP,2
-symmetric monic,NA,2
-tY,JJ,2
-tY hence,NA,2
-tends,VBZ,2
-term contains,NA,2
-terms Therefore,NA,2
-theorem EW,NA,2
-theorem operator,NA,2
-therefore,RB,2
-trace,VBP,2
-trace norm,NA,2
-tuple lies,NA,2
-types rotations,NA,2
-unit vectors,NA,2
-unitaries U=,NA,2
-unitary U=,NA,2
-unitary form,NA,2
-unitary matrices,NA,2
-univariate matrix,NA,2
-univariate polynomials,NA,2
-use,NN,2
-various,JJ,2
-vector j],NA,2
-vectors j],NA,2
-version 5]BVM,NA,2
-whenever,NN,2
-whose left,NA,2
-written,VBN,2
-yields,NNS,2
-00762>,CD,1
-00762> Blekherman,NA,1
-00765>,CD,1
-07993>,CD,1
-07993> de,NA,1
-0<,CD,1
-0< reindexing,NA,1
-0<r<,CD,1
-0<r< since,NA,1
-0] Let,NA,1
-0] Therefore,NA,1
-0},CD,1
-0} boundary,NA,1
-1/2 X+X,NA,1
-1/2 choice,NA,1
-1/2C,CD,1
-1/2C 1C,NA,1
-1003--1057,JJ,1
-1003--1057 Skelton,NA,1
-1006--1008,JJ,1
-1006--1008 Effros,NA,1
-1065--1084,JJ,1
-1065--1084 Ball,NA,1
-117--152,JJ,1
-117--152 Farenick,NA,1
-13]Pau,CD,1
-13]Pau give,NA,1
-155--236,JJ,1
-155--236 Webster,NA,1
-17--61,JJ,1
-17--61 Springer-Verlag,NA,1
-175--188,JJ,1
-175--188 North-Holland,NA,1
-183--252,JJ,1
-183--252 Voiculescu,NA,1
-1< d},NA,1
-1< k+1,NA,1
-1< r<,NA,1
-1< size,NA,1
-1=,CD,1
-1= 2=0,NA,1
-1C,CD,1
-1C nTT,NA,1
-1J,CD,1
-1J William,NA,1
-1Research,CD,1
-1Research supported,NA,1
-1U,CD,1
-1U unitary,NA,1
-1em,CD,1
-1em 4pc,NA,1
-1em]3,CD,1
-1em]3 2em,NA,1
-1} Agler,NA,1
-1} Moreover,NA,1
-1} exists,NA,1
-1} particular,NA,1
-1} therefore,NA,1
-2-,JJ,1
-2- Since,NA,1
-2-2,JJ,1
-2-2 kRe,NA,1
-210--243,JJ,1
-210--243 HKM12,NA,1
-241--285,JJ,1
-241--285 Arveson,NA,1
-2<C,CD,1
-2<C thus,NA,1
-2=0,CD,1
-2=0 Choose,NA,1
-2C,CD,1
-2C 2<C,NA,1
-2Igor,CD,1
-2Igor Klep,NA,1
-2Re Let,NA,1
-2Re Note,NA,1
-2Supported,CD,1
-2Supported Marsden,NA,1
-2]EW,CD,1
-2]EW Suppose,NA,1
-2]HKM13 invariant,NA,1
-2]Zal characterizing,NA,1
-2]Zal easy,NA,1
-2]Zal reducing,NA,1
-2em,CD,1
-2em 4pcsubsubsection[8,NA,1
-2g,CD,1
-2g noncommuting,NA,1
-307--322,JJ,1
-307--322 Wittstock,NA,1
-321--360,JJ,1
-321--360 Klep,NA,1
-32F17,CD,1
-32F17 Secondary,NA,1
-3721--3737,JJ,1
-3721--3737 Kaliuzhnyi-Verbovetskyi,NA,1
-3Research,CD,1
-3Research supported,NA,1
-3Scott,CD,1
-3Scott McCullough,NA,1
-3em,CD,1
-3em 4pcsubsection[6,NA,1
-401--445,JJ,1
-401--445 HKM16,NA,1
-46L07,CD,1
-46L07 32F17,NA,1
-46N10,CD,1
-46N10 46L07,NA,1
-4em]4,CD,1
-4em]4 1em,NA,1
-4pc,CD,1
-4pc paper,NA,1
-4pcsubsection[6,CD,1
-4pcsubsection[6 1em]3,NA,1
-4pcsubsubsection[8,CD,1
-4pcsubsubsection[8 4em]4,NA,1
-516--534,JJ,1
-516--534 HKM13,NA,1
-52A05,CD,1
-52A05 Primary,NA,1
-55emsection[3,CD,1
-55emsection[3 8em]2,NA,1
-5]BVM Proposition,NA,1
-5]BVM Suppose,NA,1
-5]BVM consequence,NA,1
-5]BVM free,NA,1
-5]BVM operator,NA,1
-5]ER,CD,1
-5]ER 13]Pau,NA,1
-8198>,CD,1
-8198> Helton,NA,1
-885--892,JJ,1
-885--892 Farenick,NA,1
-8em]2,CD,1
-8em]2 3em,NA,1
-97--133,CD,1
-97--133 Davidson,NA,1
-979--1013,CD,1
-979--1013 Helton,NA,1
-A= defining,NA,1
-A= g-tuple,NA,1
-A= implies,NA,1
-A= let,NA,1
-A= minimal,NA,1
-A= particular,NA,1
-A= prove,NA,1
-A= separate,NA,1
-A=A,NNP,1
-A=A case,NA,1
-A={A,NNP,1
-A={A s},NA,1
-AM14,NNP,1
-AM14 BVM,NA,1
-AMS Kavruk,NA,1
-AMS Paulsen,NA,1
-Acad,NNP,1
-Acad Sci,NA,1
-Accordingly,NNP,1
-Accordingly let,NA,1
-Additionally,RB,1
-Additionally say,NA,1
-Advanced,NNP,1
-Advanced Mathematics,NA,1
-Agency,NNP,1
-Agency grants,NA,1
-Agler,NNP,1
-Agler McCarthy,NA,1
-Algebraic,NNP,1
-Algebraic Approach,NA,1
-Anal 1003--1057,NA,1
-Anal 117--152,NA,1
-Ann,NNP,1
-Ann Math,NA,1
-Appendix Criteria,NA,1
-Appendix contains,NA,1
-Appendix see,NA,1
-Applied,NNP,1
-Applied Mathematics,NA,1
-Approach,NNP,1
-Approach Linear,NA,1
-Arguing,NNP,1
-Arguing contradiction,NA,1
-Arv08,NNP,1
-Arv08 recent,NA,1
-Arveson,NNP,1
-Arveson noncommutative,NA,1
-Assume reducing,NA,1
-Assume relatively,NA,1
-Assume set,NA,1
-Assume setup,NA,1
-Assuming,NNP,1
-Assuming circular,NA,1
-Auckland,NNP,1
-Auckland New,NA,1
-B-A,NNP,1
-B-A positive,NA,1
-BGFB94,NNP,1
-BGFB94 optimization,NA,1
-BKU78 Given,NA,1
-BKU78 Main,NA,1
-BPR13,NNP,1
-BPR13 Indeed,NA,1
-BVM HKM12,NA,1
-BVM call,NA,1
-BVM classifying,NA,1
-BVM obtain,NA,1
-Balakrishnan,NNP,1
-Balakrishnan Linear,NA,1
-Ball Marx,NA,1
-Ball circular,NA,1
-Ball section,NA,1
-Ball-Marx-Vinnikov,NNP,1
-Ball-Marx-Vinnikov Theorem,NA,1
-Balls,NNP,1
-Balls section,NA,1
-Banach,NNP,1
-Banach spaces,NA,1
-Berezin,NNP,1
-Berezin transforms,NA,1
-Bi-disk,NNP,1
-Bi-disk circular,NA,1
-Blekherman,NNP,1
-Blekherman Parrilo,NA,1
-Boyd,NNP,1
-Boyd El,NA,1
-Braun,NNP,1
-Braun Kaup,NA,1
-Braun-Kaup-Upmeier,NNP,1
-Braun-Kaup-Upmeier BKU78,NA,1
-C= contractions,NA,1
-C= matrices,NA,1
-Call left,NA,1
-Call monomial,NA,1
-Cambridge Studies,NA,1
-Cambridge University,NA,1
-Canad,NNP,1
-Canad Math,NA,1
-Choose permutation,NA,1
-Choose unit,NA,1
-Choosing,NN,1
-Choosing,VBG,1
-Choosing completes,NA,1
-Choosing either,NA,1
-Choquet,NNP,1
-Choquet boundary,NA,1
-Circular Sets,NA,1
-Clearly,NNP,1
-Clearly WAW,NA,1
-Co,NNP,1
-Co Klep]Igor,NA,1
-Completely,NNP,1
-Completely bounded,NA,1
-Complex,NNP,1
-Complex Variables,NA,1
-Conjugation,NNP,1
-Conjugation main,NA,1
-Consequently Lemma,NA,1
-Consequently prove,NA,1
-Consider,NNP,1
-Consider Since,NA,1
-Control Design,NA,1
-Control Theory,NA,1
-Conversely,NNP,1
-Conversely,RB,1
-Conversely given,NA,1
-Conversely interior,NA,1
-Coordinate,NNP,1
-Coordinate Unitary,NA,1
-Corollary depends,NA,1
-Corollary proved,NA,1
-Corollary shows,NA,1
-Council,NNP,1
-Council Royal,NA,1
-Criteria,NNP,1
-Criteria Membership,NA,1
-DDSS,NNP,1
-DDSS Eff09,NA,1
-DMS,NNP,1
-DMS Ford,NA,1
-DMS-1361501,NNP,1
-DMS-1361501 52A05,NA,1
-Davidson,NNP,1
-Davidson Dor-On,NA,1
-Decompose,NNP,1
-Decompose direct,NA,1
-Define 1=,NA,1
-Define convex,NA,1
-Define g-tuple,NA,1
-Define matrix,NA,1
-Design,NNP,1
-Design Taylor,NA,1
-Diego,NNP,1
-Diego eevert@ucsd,NA,1
-Diegohelton@math,NNP,1
-Diegohelton@math ucsd,NA,1
-Dilations,NNP,1
-Dilations inclusions,NA,1
-Dor-On,NNP,1
-Dor-On Shalit,NA,1
-Duals,NNP,1
-Duals Matrix,NA,1
-E=,NNP,1
-E= Part,NA,1
-EW Far12,NA,1
-EW HM12,NA,1
-EW free,NA,1
-EW says,NA,1
-Eff09,NNP,1
-Eff09 EW,NA,1
-Effros Ruan,NA,1
-Effros Winkler,NA,1
-Effros matrix,NA,1
-Effros-Winkler separation,NA,1
-El,NNP,1
-El Ghaoui,NA,1
-Elements,NNS,1
-Elements represented,NA,1
-Emerging,NNP,1
-Emerging applications,NA,1
-Engineering,NNP,1
-Engineering systems,NA,1
-Equation,NN,1
-Equation holds,NA,1
-Equation shows,NA,1
-Equivalently Furthermore,NA,1
-Equivalently hand,NA,1
-Estimate,NNP,1
-Estimate using,NA,1
-Eur,NNP,1
-Eur Math,NA,1
-Evaluations,NNP,1
-Evaluations write,NA,1
-Evert,NNP,1
-Evert Department,NA,1
-EvertEric,NNP,1
-EvertEric Evert,NA,1
-Evert]Eric,NNP,1
-Evert]Eric EvertEric,NA,1
-Every,NNP,1
-Every free,NA,1
-Examples,NNP,1
-Examples two,NA,1
-Experts,NNP,1
-Experts skip,NA,1
-Extremal,NNP,1
-Extremal matrix,NA,1
-F={f,NNP,1
-F={f C=,NA,1
-FP12,NNP,1
-FP12 KPTT,NA,1
-Far12,NNP,1
-Far12 HKM16,NA,1
-Farenick Extremal,NA,1
-Farenick Paulsen,NA,1
-Feron,NNP,1
-Feron Balakrishnan,NA,1
-Finally Fix,NA,1
-Finally Section,NA,1
-Finally Z=,NA,1
-Finally existence,NA,1
-Finally multiplying,NA,1
-Fix Write,NA,1
-Fix consider,NA,1
-Fix k+1,NA,1
-Fix number,NA,1
-Florida,NNP,1
-Florida Gainesville,NA,1
-Following,VBG,1
-Following BVM,NA,1
-Ford,NNP,1
-Ford Motor,NA,1
-Foundations,NNP,1
-Foundations Free,NA,1
-Francis,NNP,1
-Francis Taylor,NA,1
-Free Noncommutative,NA,1
-Free analysis,NA,1
-Free matrix,NA,1
-Free spectrahedra,NA,1
-Func,NNP,1
-Func Anal,NA,1
-Funct,NNP,1
-Funct Anal,NA,1
-Functional,NNP,1
-Functional analysis,NA,1
-Functionals,NNS,1
-Functionals Let,NA,1
-Fund,NNP,1
-Fund Council,NA,1
-Furthermore bounded,NA,1
-Furthermore complete,NA,1
-Furthermore entries,NA,1
-Furthermore follows,NA,1
-Furthermore g-1,NA,1
-Furthermore interior,NA,1
-F},NNP,1
-F} finite,NA,1
-Gainesville,NNP,1
-Gainesville sam@math,NA,1
-Geometric,NNP,1
-Geometric analytic,NA,1
-Ghaoui,NNP,1
-Ghaoui Feron,NA,1
-Given 1<,NA,1
-Given define,NA,1
-Given family,NA,1
-Given free,NA,1
-Given g-tuple,NA,1
-Given positive,NA,1
-Given tuple,NA,1
-Given vector,NA,1
-Given vectors,NA,1
-Gleichstellensatz 2]HKM13,NA,1
-Gleichstellensatz adapted,NA,1
-Gleichstellensatz see,NA,1
-Gleichstellensatz unitarily,NA,1
-Global,NNP,1
-Global holomorphic,NA,1
-Grassmannian,NNP,1
-Grassmannian completion,NA,1
-Grigoriadis,NNP,1
-Grigoriadis Unified,NA,1
-Guide,NNP,1
-Guide Section,NA,1
-HKM12 Helton,NA,1
-HKM12 KVV14,NA,1
-HKM13,NNP,1
-HKM13 Helton,NA,1
-HKM16 Helton,NA,1
-HKM16 WW99,NA,1
-HM04,NNP,1
-HM04 hard,NA,1
-HM12,NNP,1
-HM12 Suppose,NA,1
-Hahn-Banach Theorem,NA,1
-Hahn-Banach theorems,NA,1
-Helton 1J,NA,1
-Helton Department,NA,1
-Helton]J,NNP,1
-Helton]J William,NA,1
-Hence 1},NA,1
-Hence A=,NA,1
-Hence Choosing,NA,1
-Hence Gleichstellensatz,NA,1
-Hence N=1,NA,1
-Hence assumption,NA,1
-Hence contraction,NA,1
-Hence exists,NA,1
-Hence hand,NA,1
-Hence homogeneity,NA,1
-Hence interior,NA,1
-Hence item,NA,1
-Hence j],NA,1
-Hence linear,NA,1
-Hence loc,NA,1
-Hence maps,NA,1
-Hence matrix,NA,1
-Hence ml+1,NA,1
-Hence proof,NA,1
-Hence pt,NA,1
-Hence reducing,NA,1
-Hence thus,NA,1
-Hence unit,NA,1
-I-A,NNP,1
-I-A j-A,NA,1
-I-C,NNP,1
-I-C 1/2,NA,1
-II,NNP,1
-II Grassmannian,NA,1
-III,NNP,1
-III Paderborn,NA,1
-Indeed LMIs,NA,1
-Indeed otherwise,NA,1
-Inequalities System,NA,1
-Interpolation,NNP,1
-Interpolation transfer-function,NA,1
-Introduction,NNP,1
-Introduction square,NA,1
-Invariant Coordinate,NA,1
-Invariant Polynomials,NA,1
-Items,NNP,1
-Items follow,NA,1
-Iwasaki,NNP,1
-Iwasaki Grigoriadis,NA,1
-K=,NNP,1
-K= define,NA,1
-KPTT,NNP,1
-KPTT Arv08,NA,1
-KS,NNP,1
-KS Pop08,NA,1
-KVV14,NNP,1
-KVV14 KS,NA,1
-Kaliuzhnyi-Verbovetskyi,NNP,1
-Kaliuzhnyi-Verbovetskyi Vinnikov,NA,1
-Kaup,NNP,1
-Kaup Upmeier,NA,1
-Kavruk,NNP,1
-Kavruk Paulsen,NA,1
-Klep 2Igor,NA,1
-Klep Department,NA,1
-Klep function,NA,1
-Klep]Igor,NNP,1
-Klep]Igor Klep,NA,1
-Kra01,NNP,1
-Kra01 cf,NA,1
-Krantz,NNP,1
-Krantz Function,NA,1
-Krein-Milman,NNP,1
-Krein-Milman theorem,NA,1
-Kronecker,NNP,1
-Kronecker product,NA,1
-L1-6722,NNP,1
-L1-6722 McCullough]Scott,NA,1
-LMI Spectrahedra,NA,1
-LMI corresponding,NA,1
-LMI representation,NA,1
-LMIs heart,NA,1
-LMIs ubiquitous,NA,1
-Lemma 1<,NA,1
-Lemma assume,NA,1
-Lemma chain,NA,1
-Lemma column,NA,1
-Lemma completes,NA,1
-Lemma every,NA,1
-Lemma hence,NA,1
-Lemma subspace,NA,1
-Lemma suffices,NA,1
-Lemma use,NA,1
-Let,VBD,1
-Let 1<,NA,1
-Let Since,NA,1
-Let Y=,NA,1
-Let functional,NA,1
-Let given,NA,1
-Let g},NA,1
-Let j=,NA,1
-Let j=1/2,NA,1
-Let j],NA,1
-Let positive,NA,1
-Let r=1,NA,1
-Let sa,NA,1
-Let suppose,NA,1
-Let unitary,NA,1
-Let x=,NA,1
-Letting,NNP,1
-Letting Z=W,NA,1
-Likewise Hence,NA,1
-Likewise Moreover,NA,1
-Linear,JJ,1
-Linear Control,NA,1
-Linear Functionals,NA,1
-London Math,NA,1
-London Mathematical,NA,1
-MOS-SIAM,NNP,1
-MOS-SIAM Series,NA,1
-Main,NNP,1
-Main Results,NA,1
-Manuscripta,NNP,1
-Manuscripta Math,NA,1
-Marsden,NNP,1
-Marsden Fund,NA,1
-Marx,NNP,1
-Marx Vinnikov,NA,1
-Math 155--236,NA,1
-Math 183--252,NA,1
-Math 241--285,NA,1
-Math 321--360,NA,1
-Math 516--534,NA,1
-Math 97--133,NA,1
-Math 979--1013,NA,1
-Math Krantz,NA,1
-Math Program,NA,1
-Math Scand,NA,1
-Math Stud,NA,1
-Mathematical Society,NA,1
-Mathematical Surveys,NA,1
-Mathematics Cambridge,NA,1
-Mathematics SIAM,NA,1
-Matrix Pencil,NA,1
-Matrix convexity,NA,1
-McCarthy,NNP,1
-McCarthy Global,NA,1
-McCullough 3Scott,NA,1
-McCullough Department,NA,1
-McCullough Every,NA,1
-McCullough Positivstellensatz,NA,1
-McCullough Putinar,NA,1
-McCullough Tracial,NA,1
-McCullough convex,NA,1
-McCullough matricial,NA,1
-McCullough]Scott,NNP,1
-McCullough]Scott McCullough,NA,1
-Membership,NNP,1
-Membership Free,NA,1
-Mono-,NNP,1
-Mono- graphs,NA,1
-Monographs,NNP,1
-Monographs AMS,NA,1
-Moreover 0],NA,1
-Moreover Since,NA,1
-Moreover direct,NA,1
-Moreover exists,NA,1
-Moreover intersect,NA,1
-Moreover nonzero,NA,1
-Motor,NNP,1
-Motor Co,NA,1
-Mspan,NNP,1
-Mspan bluepurple,NA,1
-N=1,NNP,1
-N=1 Lemma,NA,1
-Namely,RB,1
-Namely free,NA,1
-Nat,NNP,1
-Nat Acad,NA,1
-New Series,NA,1
-New Zealand,NA,1
-New Zealandigor,NA,1
-Next,NNP,1
-Next observe,NA,1
-Noncommutative Berezin,NA,1
-Noncommutative Function,NA,1
-North-Holland,NNP,1
-North-Holland Math,NA,1
-Note follows,NA,1
-Note identity,NA,1
-Note inequality,NA,1
-Note since,NA,1
-Note symmetric,NA,1
-Note words,NA,1
-N},NNP,1
-N} follows,NA,1
-Observe formulas,NA,1
-Observe k=1,NA,1
-Observe matrix,NA,1
-Observe pair,NA,1
-Observe since,NA,1
-Oliveira,NNP,1
-Oliveira Helton,NA,1
-Operator Pencil,NA,1
-Operator Spaces,NA,1
-Operator noncommutative,NA,1
-Operator system,NA,1
-Optimization,NNP,1
-Optimization SIAM,NA,1
-Otherwise,NNP,1
-Otherwise let,NA,1
-Oxford,NNP,1
-Oxford Science,NA,1
-P1-0222,JJ,1
-P1-0222 L1-6722,NA,1
-Paderborn,NNP,1
-Paderborn 175--188,NA,1
-Parrilo,NNP,1
-Parrilo Thomas,NA,1
-Part given,NA,1
-Part proved,NA,1
-Partially,NNP,1
-Partially supported,NA,1
-Paulsen Completely,NA,1
-Paulsen Operator,NA,1
-Paulsen Todorov,NA,1
-Pencil Ball,NA,1
-Pencil Balls,NA,1
-Polar,NNP,1
-Polar Duals,NA,1
-Polynomial,JJ,1
-Polynomial evaluations,NA,1
-Polynomials,NNS,1
-Polynomials Evaluations,NA,1
-Polynomials Invariant,NA,1
-Polynomials fixed,NA,1
-Polynomials subsection,NA,1
-Pop08,NNP,1
-Pop08 Tay72,NA,1
-Popescu,NNP,1
-Popescu Noncommutative,NA,1
-Positivstellensatz free,NA,1
-Positivstellensatz noncommutative,NA,1
-Press,NNP,1
-Press Popescu,NA,1
-Primary,NNP,1
-Primary 46N10,NA,1
-Proc,NNP,1
-Proc Nat,NA,1
-Program,NNP,1
-Program 401--445,NA,1
-Projections,NNP,1
-Projections Free,NA,1
-Properties,NNP,1
-Properties Free,NA,1
-Proposition 5]BVM,NA,1
-Proposition Appendix,NA,1
-Proposition Circular,NA,1
-Proposition Hence,NA,1
-Proposition Let,NA,1
-Proposition analog,NA,1
-Proposition characterization,NA,1
-Proposition homogeneous,NA,1
-Proposition implies,NA,1
-Proposition restated,NA,1
-Proposition unitary,NA,1
-Publications,NNP,1
-Publications Effros,NA,1
-Putinar Engineering,NA,1
-Putinar Sullivant,NA,1
-Quotients,NNP,1
-Quotients exactness,NA,1
-Readers,NNP,1
-Readers Guide,NA,1
-Recall,NNP,1
-Recall canonical,NA,1
-Recursively,RB,1
-Recursively define,NA,1
-Relative,NNP,1
-Relative block,NA,1
-Representations,NNPS,1
-Representations Separating,NA,1
-Research,NNP,1
-Research Agency,NA,1
-Results,NNP,1
-Results subsection,NA,1
-Royal,NNP,1
-Royal Society,NA,1
-Ruan,NNP,1
-Ruan Operator,NA,1
-Ruan's,NNP,1
-Ruan's representation,NA,1
-SIAM Boyd,NA,1
-SIAM Braun,NA,1
-SIAM Studies,NA,1
-SIG97,NNP,1
-SIG97 BGFB94,NA,1
-San Diego,NA,1
-San Diegohelton@math,NA,1
-Say,NNP,1
-Say pencil,NA,1
-Scand,NNP,1
-Scand 210--243,NA,1
-Schur-Agler,NNP,1
-Schur-Agler class,NA,1
-Sci,NNP,1
-Sci 1006--1008,NA,1
-Science,NNP,1
-Science Publications,NA,1
-Secondary,JJ,1
-Secondary 55emsection[3,NA,1
-Section Readers,NA,1
-Section characterize,NA,1
-Section geometric,NA,1
-Section prove,NA,1
-Section see,NA,1
-Section turn,NA,1
-Semidefinite,NNP,1
-Semidefinite optimization,NA,1
-Separating,VBG,1
-Separating Linear,NA,1
-Series Optimization,NA,1
-Series Oxford,NA,1
-Set K=,NA,1
-Set Proof,NA,1
-Sets Operator,NA,1
-Sets Projections,NA,1
-Sets free,NA,1
-Several,NNP,1
-Several Complex,NA,1
-Shalit,NNP,1
-Shalit Solel,NA,1
-Similarly Since,NA,1
-Similarly zero,NA,1
-Since assumption,NA,1
-Since boundary,NA,1
-Since case,NA,1
-Since commutative,NA,1
-Since compact,NA,1
-Since convex,NA,1
-Since countable,NA,1
-Since d=,NA,1
-Since dense,NA,1
-Since distinct,NA,1
-Since entries,NA,1
-Since equation,NA,1
-Since itA,NA,1
-Since j],NA,1
-Since monomial,NA,1
-Since since,NA,1
-Since unitarily,NA,1
-Since whenever,NA,1
-Skelton,NNP,1
-Skelton Iwasaki,NA,1
-Slovenian,JJ,1
-Slovenian Research,NA,1
-Soc 1065--1084,NA,1
-Soc 307--322,NA,1
-Soc 3721--3737,NA,1
-Soc 885--892,NA,1
-Soc org/abs/1407,NA,1
-Society Mono-,NA,1
-Society New,NA,1
-Solel,NNP,1
-Solel Dilations,NA,1
-Spaces,NNP,1
-Spaces London,NA,1
-Spectrahedra Evert]Eric,NA,1
-Spectrahedra LMIs,NA,1
-Spectrahedra appear,NA,1
-Spectrahedra final,NA,1
-Spectrahedra subset,NA,1
-Spectrahedron Matrix,NA,1
-Spectrahedron section,NA,1
-Springer-Verlag,NNP,1
-Springer-Verlag Effros,NA,1
-Start,NNP,1
-Start positive,NA,1
-States,NNPS,1
-States Representations,NA,1
-Stud,NNP,1
-Stud Zalar,NA,1
-Studies Advanced,NA,1
-Studies Applied,NA,1
-Subsection,NNP,1
-Subsection Words,NA,1
-Sullivant,NNP,1
-Sullivant 17--61,NA,1
-Summarizing,VBG,1
-Summarizing exists,NA,1
-Suppose chain,NA,1
-Suppose contains,NA,1
-Suppose convex,NA,1
-Suppose holds,NA,1
-Suppose i=1,NA,1
-Suppose minimal,NA,1
-Suppose monic,NA,1
-Suppose satisfies,NA,1
-Suppose symmetric,NA,1
-Surveys,NNP,1
-Surveys Monographs,NA,1
-System,NNP,1
-System Control,NA,1
-T=T,NNP,1
-T=T notations,NA,1
-Tay72,NNP,1
-Tay72 Voi10,NA,1
-Taylor Francis,NA,1
-Taylor general,NA,1
-Theorem 2]HKM13,NA,1
-Theorem Appendix,NA,1
-Theorem Assume,NA,1
-Theorem BVM,NA,1
-Theorem Corollary,NA,1
-Theorem EW,NA,1
-Theorem Finally,NA,1
-Theorem Free,NA,1
-Theorem Polar,NA,1
-Theorem Rotationally,NA,1
-Theorem Throughout,NA,1
-Theorem classification,NA,1
-Theorem exist,NA,1
-Theorem given,NA,1
-Theorem initial,NA,1
-Theorem rests,NA,1
-Theorem says,NA,1
-Theorem shows,NA,1
-Theory Mathematical,NA,1
-Theory SIAM,NA,1
-Theory Several,NA,1
-Therefore convex,NA,1
-Therefore cross,NA,1
-Therefore none,NA,1
-Therefore proper,NA,1
-Therefore whenever,NA,1
-Thomas,NNP,1
-Thomas editors,NA,1
-Throughout,NNP,1
-Throughout fixed,NA,1
-Thus 1},NA,1
-Thus Let,NA,1
-Thus Likewise,NA,1
-Thus ZX,NA,1
-Thus case,NA,1
-Thus common,NA,1
-Thus construction,NA,1
-Thus dimension,NA,1
-Thus equation,NA,1
-Thus every,NA,1
-Thus exist,NA,1
-Thus follows,NA,1
-Thus free,NA,1
-Thus hand,NA,1
-Thus invariant,NA,1
-Thus j=1,NA,1
-Thus j],NA,1
-Thus k=1,NA,1
-Thus matrix,NA,1
-Thus must,NA,1
-Thus need,NA,1
-Thus proper,NA,1
-Thus since,NA,1
-Thus unit,NA,1
-Thus without,NA,1
-Todorov,NNP,1
-Todorov Tomforde,NA,1
-Tomforde,NNP,1
-Tomforde Quotients,NA,1
-Tracial,NNP,1
-Tracial Hahn-Banach,NA,1
-Tracking,VBG,1
-Tracking decompositions,NA,1
-Trans,NNP,1
-Trans,NNPS,1
-Turning,NNP,1
-Turning item,NA,1
-U= free,NA,1
-U= j=1,NA,1
-U=U s=,NA,1
-U=U unitary,NA,1
-U=W,NNP,1
-U=W diagonal,NA,1
-U=e,NNP,1
-U=e Relative,NA,1
-UX,NNP,1
-UX unitary,NA,1
-UZ,NNP,1
-UZ unitary,NA,1
-Unified,NNP,1
-Unified Algebraic,NA,1
-Unitary,NNP,1
-Unitary Conjugation,NA,1
-University Auckland,NA,1
-University Florida,NA,1
-University Press,NA,1
-Upmeier,NNP,1
-Upmeier automorphisms,NA,1
-Use,NNP,1
-Use notations,NA,1
-Using,VBG,1
-Using conclude,NA,1
-Using equation,NA,1
-Using notation,NA,1
-V=,NNP,1
-V= monic,NA,1
-Variables,NNP,1
-Variables AMS,NA,1
-Vinnikov Foundations,NA,1
-Vinnikov Interpolation,NA,1
-Voi10,NNP,1
-Voi10 free,NA,1
-Voiculescu,NNP,1
-Voiculescu Free,NA,1
-W=,NNP,1
-W= Letting,NA,1
-WAW,NNP,1
-WAW define,NA,1
-WW99,NNP,1
-WW99 Wit84,NA,1
-Webster,NNP,1
-Webster Winkler,NA,1
-Winkler Krein-Milman,NA,1
-Winkler Matrix,NA,1
-Wit84,NNP,1
-Wit84 Zal,NA,1
-Without,IN,1
-Without loss,NA,1
-Wittstock,NNP,1
-Wittstock matrix,NA,1
-Words,NNP,1
-Words Free,NA,1
-Write Let,NA,1
-Write indicate,NA,1
-Write k=1,NA,1
-Write nd,NA,1
-X+X,NNP,1
-X+X X-X,NA,1
-X-X,JJ,1
-X-X free,NA,1
-X=,NNP,1
-X= according,NA,1
-X=V,NNP,1
-X=V inclusion,NA,1
-Y=,NNP,1
-Y= given,NA,1
-Z= Geometric,NA,1
-Z= hand,NA,1
-Z= matrices,NA,1
-Z= result,NA,1
-Z=V,NNP,1
-Z=V Note,NA,1
-Z=W,NNP,1
-Z=W gives,NA,1
-ZF,NNP,1
-ZF pF,NA,1
-ZX,NNP,1
-ZX matrix,NA,1
-Zal,NNP,1
-Zal free,NA,1
-Zalar,NNP,1
-Zalar Operator,NA,1
-Zealand,NNP,1
-Zealand Partially,NA,1
-Zealandigor,NNP,1
-Zealandigor klep@auckland,NA,1
-abbreviate,NN,1
-abbreviate U=U,NA,1
-ac,NN,1
-ac nz,NA,1
-according,VBG,1
-according formula,NA,1
-acting,VBG,1
-acting Hilbert,NA,1
-acts,NNS,1
-acts,VBZ,1
-acts irreducibly,NA,1
-acts polynomials,NA,1
-adapted,VBD,1
-adapted set,NA,1
-added,JJ,1
-added assumption,NA,1
-address,JJ,1
-address technical,NA,1
-adjoint,JJ,1
-adjoint isometry,NA,1
-affine,JJ,1
-affine,NN,1
-algebra Adv,NA,1
-algebra free,NA,1
-algebraic,JJ,1
-algebraic,VBP,1
-algebras,IN,1
-algebras,NNS,1
-algebras Cambridge,NA,1
-algebras tensor,NA,1
-alone,RB,1
-alone Suppose,NA,1
-also common,NA,1
-also countable,NA,1
-also says,NA,1
-ampliated,VBD,1
-ampliated LMI,NA,1
-analog,VBZ,1
-analog separating,NA,1
-analogues,NNS,1
-analogues bipolar,NA,1
-analysis AM14,NA,1
-analysis interested,NA,1
-analysis questions,NA,1
-analysis surveys,NA,1
-analytic,JJ,1
-analytic properties,NA,1
-angew,JJ,1
-angew Math,NA,1
-appear Eur,NA,1
-appear Math,NA,1
-appears Section,NA,1
-application Lemma,NA,1
-application item,NA,1
-applications,NNS,1
-applications algebraic,NA,1
-apply,NN,1
-apply Gleichstellensatz,NA,1
-approach,NN,1
-approach celebrated,NA,1
-appropriately,RB,1
-appropriately sized,NA,1
-areas,NNS,1
-areas free,NA,1
-arguing,VBG,1
-arguing contradiction,NA,1
-argument completes,NA,1
-argument given,NA,1
-argument strong,NA,1
-arguments,NNS,1
-arguments fact,NA,1
-article characterize,NA,1
-article comes,NA,1
-article investigates,NA,1
-associate,VBP,1
-associate monic,NA,1
-associative,JJ,1
-associative freely,NA,1
-assume,VBP,1
-assume m-1,NA,1
-assume m>,NA,1
-assume maximal,NA,1
-assumed,JJ,1
-assumed,VBD,1
-assumed 1<,NA,1
-assumed free,NA,1
-assumed j=1,NA,1
-assumed passing,NA,1
-assumed reducing,NA,1
-assumption Finally,NA,1
-assumption Hence,NA,1
-assumption desired,NA,1
-assumption exists,NA,1
-assumption isometries,NA,1
-attention,NN,1
-attention free,NA,1
-authors,NNS,1
-authors BVM,NA,1
-automorphisms,IN,1
-automorphisms circular,NA,1
-background,RB,1
-background free,NA,1
-balanced,JJ,1
-balanced free,NA,1
-balanced matrix,NA,1
-balanced pair,NA,1
-ball 1},NA,1
-ball Let,NA,1
-ball described,NA,1
-ball determined,NA,1
-ball exists,NA,1
-ball main,NA,1
-ball matrix,NA,1
-ball thus,NA,1
-basic,JJ,1
-basic convex,NA,1
-basis Thus,NA,1
-basis hypothesis,NA,1
-basis let,NA,1
-becomes,NNS,1
-becomes p=1,NA,1
-behave,VBP,1
-behave well,NA,1
-bianalytic,JJ,1
-bianalytic mappings,NA,1
-bilinear,JJ,1
-bilinear form,NA,1
-bipolar,JJ,1
-bipolar Hahn-Banach,NA,1
-block,JJ,1
-block,VB,1
-block column,NA,1
-block diagonalized,NA,1
-block form,NA,1
-blocks refer,NA,1
-blue,NN,1
-blue settranslatorsemptysetaddresses,NA,1
-bluepurple,NN,1
-bluepurple orange,NA,1
-bound follows,NA,1
-bound norms,NA,1
-boundary 1<,NA,1
-boundary Amer,NA,1
-boundary Hence,NA,1
-boundary Proposition,NA,1
-boundary application,NA,1
-boundary indexed,NA,1
-boundary see,NA,1
-boundary v=0,NA,1
-bounded maps,NA,1
-bounded operator,NA,1
-calculus,NN,1
-calculus Adv,NA,1
-call,NN,1
-call graded,NA,1
-called canonical,NA,1
-called generic,NA,1
-called semidefinite,NA,1
-cannot,JJ,1
-cannot,NN,1
-cannot commutative,NA,1
-cannot cross,NA,1
-canonical shuffles,NA,1
-case chosen,NA,1
-case circular,NA,1
-case closed,NA,1
-case exists,NA,1
-case may,NA,1
-case monic,NA,1
-case since,NA,1
-case subpencil,NA,1
-category,NN,1
-category Adv,NA,1
-cd,NN,1
-cd unique,NA,1
-celebrated,VBD,1
-celebrated quantum,NA,1
-cf BKU78,NA,1
-cf Proposition,NA,1
-chain Call,NA,1
-chain Hence,NA,1
-chain Lemma,NA,1
-chain Summarizing,NA,1
-chain Use,NA,1
-chain application,NA,1
-chain form,NA,1
-chain structure,NA,1
-chain subsets,NA,1
-chain subspaces,NA,1
-chain whose,NA,1
-characterization,NN,1
-characterization 5]BVM,NA,1
-characterize,NN,1
-characterizes,VBZ,1
-characterizes monic,NA,1
-characterizing circular,NA,1
-characterizing monic,NA,1
-characterizing two,NA,1
-choice follows,NA,1
-choice m+n,NA,1
-choice relatively,NA,1
-choose countable,NA,1
-choose dense,NA,1
-chosen,VBN,1
-chosen size,NA,1
-circular Choosing,NA,1
-circular Reinhardt,NA,1
-circular UX,NA,1
-circular UZ,NA,1
-circular analog,NA,1
-circular contains,NA,1
-circular exist,NA,1
-circular exists,NA,1
-circular fact,NA,1
-circular hypothesis,NA,1
-circular orthogonal,NA,1
-circular set,NA,1
-circular spectrahedra,NA,1
-circular spectrahedron,NA,1
-circular state,NA,1
-circular symmetry,NA,1
-circular two,NA,1
-circular view,NA,1
-circular written,NA,1
-cit,NNS,1
-cit unitarily,NA,1
-claim,NN,1
-claim minimal,NA,1
-claimed,VBD,1
-claimed written,NA,1
-class circular,NA,1
-class preprint,NA,1
-classical examples,NA,1
-classical several,NA,1
-classification circular,NA,1
-classifying,VBG,1
-classifying free,NA,1
-closed contractive,NA,1
-closed isometric,NA,1
-closed meaning,NA,1
-closed rotations,NA,1
-closed subspace,NA,1
-closely,RB,1
-closely connected,NA,1
-coefficients elements,NA,1
-coefficients self-adjoint,NA,1
-collected,VBD,1
-collected next,NA,1
-collection 1},NA,1
-collection F={f,NA,1
-collection F},NA,1
-column Applying,NA,1
-column Assume,NA,1
-column Suppose,NA,1
-column Using,NA,1
-column following,NA,1
-column matrix,NA,1
-column reindexing,NA,1
-column row,NA,1
-combinations,NNS,1
-combinations entries,NA,1
-comes,VBZ,1
-comes classical,NA,1
-commuting letters,NA,1
-commuting variables,NA,1
-compact since,NA,1
-compact suffices,NA,1
-compactness,JJ,1
-compactness subsequence,NA,1
-complete Free,NA,1
-complete Otherwise,NA,1
-complete Turning,NA,1
-completely,RB,1
-completely positive,NA,1
-completes set,NA,1
-completion,NN,1
-completion series,NA,1
-complex Banach,NA,1
-complex conjugation,NA,1
-complex numbers,NA,1
-compression,NN,1
-compression subspace,NA,1
-compute,JJ,1
-compute matrix,NA,1
-computing,VBG,1
-computing becomes,NA,1
-conclude,NN,1
-conclude cr,NA,1
-conclude entries,NA,1
-conclude ncr,NA,1
-concludes,VBZ,1
-concludes proof,NA,1
-conclusion,NN,1
-conclusion follows,NA,1
-condition,NN,1
-condition g-tuple,NA,1
-conjugation closed,NA,1
-conjugation equation,NA,1
-conjugation follows,NA,1
-conjugation g-tuple,NA,1
-conjugation hence,NA,1
-conjugation implies,NA,1
-conjugation monic,NA,1
-conjugation must,NA,1
-conjugation needed,NA,1
-conjugation replacing,NA,1
-conjugation satisfies,NA,1
-conjugation say,NA,1
-conjugation sense,NA,1
-conjugation therefore,NA,1
-conjugation unitary,NA,1
-connected,VBN,1
-connected operator,NA,1
-consequence Ruan's,NA,1
-consequently,RB,1
-consequently unit,NA,1
-consider,NN,1
-consider,VB,1
-consider Given,NA,1
-consider evaluations,NA,1
-consideration,NN,1
-consideration decomposing,NA,1
-consisting j],NA,1
-consists,VBZ,1
-consists words,NA,1
-constant,VBP,1
-constant 1<,NA,1
-construction Hence,NA,1
-construction continuity,NA,1
-contained compute,NA,1
-contained fashion,NA,1
-containing neighborhood,NA,1
-containing span,NA,1
-contains Choosing,NA,1
-contains Hence,NA,1
-contains Recursively,NA,1
-contains closed,NA,1
-contains contains,NA,1
-contains cross,NA,1
-contains follows,NA,1
-contains linear,NA,1
-contains proof,NA,1
-contains self-contained,NA,1
-contains summary,NA,1
-contains three,NA,1
-context,NN,1
-context identify,NA,1
-continuity,NN,1
-continuity boundary,NA,1
-continuous Finally,NA,1
-continuous Moreover,NA,1
-continuous fact,NA,1
-contraction definition,NA,1
-contractions Hence,NA,1
-contractions Let,NA,1
-contractions convex,NA,1
-contractions given,NA,1
-contractions matrix,NA,1
-contractive HM04,NA,1
-contractive conjugation,NA,1
-contradicting choice,NA,1
-contradicting minimality,NA,1
-contradiction completes,NA,1
-contradicts,VBZ,1
-contradicts maximality,NA,1
-contrast,NN,1
-contrast proof,NA,1
-control,NN,1
-control theory,NA,1
-convenience Write,NA,1
-convenience reader,NA,1
-conventional,JJ,1
-conventional sense,NA,1
-converges,NNS,1
-converges norm,NA,1
-converging,VBG,1
-converging respectively,NA,1
-converse,JJ,1
-converse,NN,1
-converse added,NA,1
-converse straightforward,NA,1
-convex,VBP,1
-convex Choosing,NA,1
-convex Observe,NA,1
-convex Positivstellensatz,NA,1
-convex algebraic,NA,1
-convex assumption,NA,1
-convex conventional,NA,1
-convex convex,NA,1
-convex every,NA,1
-convex exists,NA,1
-convex follows,NA,1
-convex hence,NA,1
-convex isometry,NA,1
-convex ordinary,NA,1
-convex particular,NA,1
-convex semi-algebraic,NA,1
-convexEW,NN,1
-convexEW closed,NA,1
-convexity DDSS,NA,1
-convexity Functional,NA,1
-convexity Trans,NA,1
-convexity approach,NA,1
-convexity operator,NA,1
-convexity phenomena,NA,1
-coordinate,JJ,1
-coordinate Thus,NA,1
-coordinate denote,NA,1
-cor[theorem]Corollarylemma[theorem]Lemmasublemma[theorem]Sublemmaprop[theorem]Propositiondefinition[theorem]Definitionalg[theorem]Algorithmremark[theorem]Remarkrem[theorem]Remarkconj[theorem]Conjecturequestion[theorem]Questionexample[theorem]Examplethm[theorem]Theoremlem[theorem]LemmaCor[theorem]Corollarydefi[theorem]Definitionlemma*Lemma,NN,1
-cor[theorem]Corollarylemma[theorem]Lemmasublemma[theorem]Sublemmaprop[theorem]Propositiondefinition[theorem]Definitionalg[theorem]Algorithmremark[theorem]Remarkrem[theorem]Remarkconj[theorem]Conjecturequestion[theorem]Questionexample[theorem]Examplethm[theorem]Theoremlem[theorem]LemmaCor[theorem]Corollarydefi[theorem]Definitionlemma*Lemma equationsection,NA,1
-core,NN,1
-core motivation,NA,1
-corollary,JJ,1
-corollary proof,NA,1
-corresponding eigenspace,NA,1
-corresponding particular,NA,1
-countable Furthermore,NA,1
-countable follows,NA,1
-cr,VBP,1
-cr cannot,NA,1
-cr commutative,NA,1
-cr nd,NA,1
-cr notation,NA,1
-cr show,NA,1
-cross,VBP,1
-d-,JJ,1
-d- j=1,NA,1
-d-e,JJ,1
-d-e let,NA,1
-d=,JJ,1
-d=,NN,1
-d= k+1,NA,1
-d= m+1,NA,1
-dM,NN,1
-dM Circular,NA,1
-dOHMP09,VBP,1
-dOHMP09 main,NA,1
-darkbluergb0,NN,1
-darkbluergb0 blue,NA,1
-de,IN,1
-de Oliveira,NA,1
-dealing,VBG,1
-dealing polynomials,NA,1
-decomposing,VBG,1
-decomposing m+1,NA,1
-decomposition A=A,NA,1
-decomposition block,NA,1
-decomposition described,NA,1
-decomposition matrices,NA,1
-decomposition write,NA,1
-decompositions,NNS,1
-decompositions yields,NA,1
-define,JJ,1
-define,VB,1
-define Since,NA,1
-define bilinear,NA,1
-define j=1,NA,1
-define observe,NA,1
-defined,JJ,1
-defined,VBN,1
-defined also,NA,1
-defined natural,NA,1
-defining cf,NA,1
-defining tuples,NA,1
-defining unitarily,NA,1
-definite Equivalently,NA,1
-definite Given,NA,1
-definition ZF,NA,1
-definition chain,NA,1
-definition irreducible,NA,1
-deg,NN,1
-deg set,NA,1
-degree,JJ,1
-degree,NN,1
-degree,VBP,1
-degree Fix,NA,1
-degree denoted,NA,1
-degree vector,NA,1
-denote,JJ,1
-denote associative,NA,1
-denote block,NA,1
-denote corresponding,NA,1
-denote countable,NA,1
-denote dimension,NA,1
-denote dimensional,NA,1
-denote finite,NA,1
-denote free,NA,1
-denote homogeneous,NA,1
-denote indices,NA,1
-denote j],NA,1
-denote restriction,NA,1
-denote self-adjoint,NA,1
-denote sequence,NA,1
-denote symmetric,NA,1
-denote tuple,NA,1
-denote vectors,NA,1
-denote words,NA,1
-denoted deg,NA,1
-denoted graded,NA,1
-denoting,NN,1
-denoting monic,NA,1
-dense continuous,NA,1
-dense set,NA,1
-dense subset,NA,1
-depending Furthermore,NA,1
-depending immediately,NA,1
-depending permutation,NA,1
-depending repeat,NA,1
-depends,VBZ,1
-depends strengthening,NA,1
-describe,NN,1
-describe free,NA,1
-described,VBN,1
-described Braun-Kaup-Upmeier,NA,1
-described entirely,NA,1
-described positivity,NA,1
-desired,VBN,1
-desired Since,NA,1
-desired block,NA,1
-desired conclusion,NA,1
-detailed,JJ,1
-determined Let,NA,1
-determined Since,NA,1
-determines,NNS,1
-determines free,NA,1
-diagonal entries,NA,1
-diagonal unitary,NA,1
-diagonalized,VBD,1
-diagonalized U=W,NA,1
-diagrams,NNS,1
-diagrams dOHMP09,NA,1
-different direction,NA,1
-different form,NA,1
-dimension less,NA,1
-dimension necessary,NA,1
-dimension particular,NA,1
-dimensional algebra,NA,1
-dimensional non-unital,NA,1
-dimensional process,NA,1
-dimensional set,NA,1
-dimensional spectrum,NA,1
-dimensional subspace,NA,1
-direct,NN,1
-direct proof,NA,1
-direction let,NA,1
-direction provide,NA,1
-discussed,VBD,1
-discussed Lemma,NA,1
-distinct,NN,1
-distinct Since,NA,1
-distinct family,NA,1
-distinct follows,NA,1
-distinct indices,NA,1
-distinct unimodular,NA,1
-dn,NN,1
-dn self-adjoint,NA,1
-domain free,NA,1
-domain matrix,NA,1
-domains behave,NA,1
-domains complex,NA,1
-domains heavily,NA,1
-domains major,NA,1
-domains see,NA,1
-d} Thus,NA,1
-d} orthonormal,NA,1
-d} particular,NA,1
-d} subspace,NA,1
-e<,FW,1
-e<,JJ,1
-e< A=,NA,1
-e< Thus,NA,1
-e< X=V,NA,1
-e< tuple,NA,1
-ease,NN,1
-ease abbreviate,NA,1
-easy,JJ,1
-easy see,NA,1
-edited,VBD,1
-edited Putinar,NA,1
-editors,NNS,1
-editors Semidefinite,NA,1
-edu,NN,1
-edu 1Research,NA,1
-edu 3Research,NA,1
-edu Helton]J,NA,1
-eevert@ucsd,NN,1
-eevert@ucsd edu,NA,1
-effective Hahn-Banach,NA,1
-eigenspace,JJ,1
-eigenspace let,NA,1
-either,CC,1
-either equal,NA,1
-elementary,JJ,1
-elementary self-contained,NA,1
-elements called,NA,1
-elements matrices,NA,1
-elements polynomials,NA,1
-elements suppose,NA,1
-emerging,VBG,1
-emerging areas,NA,1
-empty proof,NA,1
-end,JJ,1
-end,VBP,1
-end denote,NA,1
-end let,NA,1
-endow,VBZ,1
-endow Hilbert-Schmidt,NA,1
-engineering,NN,1
-engineering problems,NA,1
-enough,RB,1
-enough follows,NA,1
-entirely,RB,1
-entirely signal,NA,1
-entries Hence,NA,1
-entries Theorem,NA,1
-entries cr,NA,1
-entries follows,NA,1
-entries linear,NA,1
-entries nd,NA,1
-entries play,NA,1
-entries subset,NA,1
-entries zero,NA,1
-entry is=-1,NA,1
-entry since,NA,1
-entrywise,NN,1
-entrywise Note,NA,1
-equal,JJ,1
-equal zero,NA,1
-equality,NN,1
-equality ncr,NA,1
-equation Applying,NA,1
-equation Assume,NA,1
-equation Likewise,NA,1
-equation U=e,NA,1
-equation chain,NA,1
-equation complete,NA,1
-equation entries,NA,1
-equation implies,NA,1
-equation irreducible,NA,1
-equation let,NA,1
-equation p=1,NA,1
-equation respect,NA,1
-equation shows,NA,1
-equation zero,NA,1
-equations imply,NA,1
-equations particular,NA,1
-equationsection,NN,1
-equationsection exaExample[section],NA,1
-equivalence nilpotent,NA,1
-equivalent,NN,1
-equivalent,VBP,1
-equivalent E=,NA,1
-equivalent Let,NA,1
-equivalent Suppose,NA,1
-equivalent Thus,NA,1
-equivalent circular,NA,1
-equivalent g-tuple,NA,1
-equivalent j=1,NA,1
-equivalent n=p,NA,1
-equivalent routine,NA,1
-equivalent subpencil,NA,1
-equivalent suffices,NA,1
-equivalently,RB,1
-equivalently endow,NA,1
-established,VBD,1
-established main,NA,1
-establishing,VBG,1
-establishing effective,NA,1
-etc,FW,1
-etc Tracking,NA,1
-evaluate,VBP,1
-evaluate linear,NA,1
-evaluating entrywise,NA,1
-evaluation,NN,1
-evaluation defined,NA,1
-evaluations collected,NA,1
-evaluations extend,NA,1
-evaluations nd,NA,1
-evaluations produce,NA,1
-every Effros-Winkler,NA,1
-every Since,NA,1
-every continuous,NA,1
-every subspace,NA,1
-evidently,RB,1
-evidently invariant,NA,1
-exaExample[section],FW,1
-exaExample[section] qm,NA,1
-exactness,JJ,1
-exactness nuclearity,NA,1
-examples,NNS,1
-examples circular,NA,1
-except,IN,1
-except possibly,NA,1
-exist,NN,1
-exist contradiction,NA,1
-exist positive,NA,1
-exist s+t=d,NA,1
-existence bound,NA,1
-existence m+1},NA,1
-exists Equation,NA,1
-exists Equivalently,NA,1
-exists Hilbert,NA,1
-exists Since,NA,1
-exists case,NA,1
-exists constant,NA,1
-exists j+1,NA,1
-exists least,NA,1
-exists linear,NA,1
-exists matrix,NA,1
-exists relatively,NA,1
-exists sequence,NA,1
-exists tY,NA,1
-exits,NNS,1
-exits positive,NA,1
-exp,NN,1
-exp unitary,NA,1
-expansions,NNS,1
-expansions origin,NA,1
-express,JJ,1
-express B-A,NA,1
-expressions,NNS,1
-expressions unitarily,NA,1
-extend matrix,NA,1
-extend tuples,NA,1
-extends complex,NA,1
-extends matrix,NA,1
-fact corollary,NA,1
-fact minimal,NA,1
-fact permutation,NA,1
-fact two,NA,1
-fact use,NA,1
-family k+1,NA,1
-family matrices,NA,1
-fashion,NN,1
-fashion reader's,NA,1
-field complex,NA,1
-field real,NA,1
-final,JJ,1
-final part,NA,1
-finally,RB,1
-finally T=T,NA,1
-finishing,VBG,1
-finishing proof,NA,1
-finite intersection,NA,1
-finite runs,NA,1
-first coordinate,NA,1
-first note,NA,1
-first part,NA,1
-first present,NA,1
-fixed,VBD,1
-fixed choose,NA,1
-fixed equation,NA,1
-fixed involution,NA,1
-fixed tuple,NA,1
-flow,NN,1
-flow diagrams,NA,1
-follow,VBP,1
-follow immediately,NA,1
-following hold,NA,1
-follows 1<,NA,1
-follows Assuming,NA,1
-follows Elements,NA,1
-follows Equation,NA,1
-follows Given,NA,1
-follows Let,NA,1
-follows Similarly,NA,1
-follows Theorem,NA,1
-follows consequently,NA,1
-follows defined,NA,1
-follows equation,NA,1
-follows hand,NA,1
-follows item,NA,1
-follows j>,NA,1
-follows j],NA,1
-follows maximal,NA,1
-follows n+m,NA,1
-follows nN,NA,1
-follows one,NA,1
-follows proceeding,NA,1
-follows since,NA,1
-follows singular,NA,1
-follows subsequences,NA,1
-follows tY,NA,1
-follows tends,NA,1
-follows two,NA,1
-follows vanishes,NA,1
-form,VBP,1
-form Corollary,NA,1
-form Let,NA,1
-form cd,NA,1
-form free,NA,1
-form ij,NA,1
-form ix,NA,1
-form k+1,NA,1
-form linear,NA,1
-formula,NN,1
-formula j=1,NA,1
-formulas,NNS,1
-formulas naturally,NA,1
-framework,NN,1
-framework multi-operator,NA,1
-free,VBP,1
-free Proposition,NA,1
-free algebra,NA,1
-free analog,NA,1
-free basic,NA,1
-free boundary,NA,1
-free closed,NA,1
-free convexity,NA,1
-free denoted,NA,1
-free exists,NA,1
-free neighborhood,NA,1
-free non-symmetric,NA,1
-free operator,NA,1
-free semi-algebraic,NA,1
-free variables,NA,1
-freely let,NA,1
-freely noncommuting,NA,1
-function form,NA,1
-function theory,NA,1
-functional Lemma,NA,1
-functional calculus,NA,1
-functional exists,NA,1
-functional given,NA,1
-functions,NNS,1
-functions several,NA,1
-g-1 Define,NA,1
-g-1 Fix,NA,1
-g-1 g-1,NA,1
-g-1 g-tuples,NA,1
-g-1 hence,NA,1
-g-1 next,NA,1
-g-tuple,NN,1
-g-tuple A=,NA,1
-g-tuple Observe,NA,1
-g-tuple j=0,NA,1
-g-tuple noncommuting,NA,1
-g-tuple said,NA,1
-g-tuple statement,NA,1
-g-tuples,JJ,1
-g-tuples X=,NA,1
-general,JJ,1
-general framework,NA,1
-generality take,NA,1
-generalizations,NNS,1
-generalizations Reinhardt,NA,1
-generated,JJ,1
-generated,VBD,1
-generated,VBN,1
-generated elements,NA,1
-generated word,NA,1
-generated x=,NA,1
-generic,JJ,1
-generic matrix,NA,1
-geometric,JJ,1
-geometric argument,NA,1
-geometry Emerging,NA,1
-geometry MOS-SIAM,NA,1
-geometry edited,NA,1
-give,VBP,1
-give block,NA,1
-give elementary,NA,1
-give self-contained,NA,1
-given Arguing,NA,1
-given Call,NA,1
-given Choose,NA,1
-given Corollary,NA,1
-given Hence,NA,1
-given Lemma,NA,1
-given Let,NA,1
-given Section,NA,1
-given Write,NA,1
-given consider,NA,1
-given direct,NA,1
-given exits,NA,1
-given unitaries,NA,1
-gives free,NA,1
-goal,NN,1
-goal show,NA,1
-graded,JJ,1
-graded,VBN,1
-grant,JJ,1
-grant,NN,1
-grant DMS,NA,1
-grant DMS-1361501,NA,1
-grants,VBZ,1
-grants P1-0222,NA,1
-graphs,VBD,1
-graphs New,NA,1
-g},JJ,1
-g},NN,1
-hand Hence,NA,1
-hand computing,NA,1
-hand fact,NA,1
-hand j=0,NA,1
-hard,NN,1
-hard show,NA,1
-heart,NN,1
-heart subject,NA,1
-heavily,RB,1
-heavily investigated,NA,1
-hence,RB,1
-hence Given,NA,1
-hence Let,NA,1
-hence cannot,NA,1
-hence entries,NA,1
-hence reducing,NA,1
-hold,NN,1
-hold defined,NA,1
-holds conclude,NA,1
-holds converse,NA,1
-holds evidently,NA,1
-holds obtain,NA,1
-holds real,NA,1
-holds whenever,NA,1
-holds working,NA,1
-holomorphic,JJ,1
-holomorphic functions,NA,1
-homogeneity,NN,1
-homogeneity pair,NA,1
-homogeneous operator,NA,1
-ht,NN,1
-ht min,NA,1
-hyperplane,NN,1
-hyperplane closed,NA,1
-hypotheses immediately,NA,1
-hypotheses theorem,NA,1
-hypothesis Hence,NA,1
-hypothesis Thus,NA,1
-hypothesis non-empty,NA,1
-hypothesis tuple,NA,1
-i=,VBP,1
-i= Recall,NA,1
-i=1,NN,1
-i=1,VBP,1
-i=1 Additionally,NA,1
-i=1 free,NA,1
-idea,NN,1
-idea proof,NA,1
-identify,NN,1
-identify equivalently,NA,1
-identity Let,NA,1
-identity Z=,NA,1
-identity matrices,NA,1
-identity matrix,NA,1
-ij commutative,NA,1
-ij commuting,NA,1
-ij},VBP,1
-ij} ij,NA,1
-immediate,JJ,1
-immediate goal,NA,1
-immediately follows,NA,1
-immediately imply,NA,1
-immediately item,NA,1
-implies Finally,NA,1
-implies Hence,NA,1
-implies Let,NA,1
-implies claim,NA,1
-implies exists,NA,1
-implies free,NA,1
-implies j-1,NA,1
-implies monomial,NA,1
-implies none,NA,1
-implies section,NA,1
-implies unitaries,NA,1
-implies whenever,NA,1
-imply,JJ,1
-imply,VBP,1
-imply also,NA,1
-imply prove,NA,1
-important,JJ,1
-important class,NA,1
-including,VBG,1
-including empty,NA,1
-inclusion Hence,NA,1
-inclusion Since,NA,1
-inclusion m+n,NA,1
-inclusion map,NA,1
-inclusion nN,NA,1
-inclusion observe,NA,1
-inclusions matrix,NA,1
-inclusions respectively,NA,1
-indexed,JJ,1
-indexed unit,NA,1
-indicate,NN,1
-indicate matrices,NA,1
-indices j],NA,1
-indices m-1,NA,1
-inequalities,NNS,1
-inequalities Proc,NA,1
-inequality LMI,NA,1
-inequality Math,NA,1
-inequality sharp,NA,1
-initial,JJ,1
-initial set,NA,1
-int,NN,1
-int thus,NA,1
-integer let,NA,1
-integer nonnegative,NA,1
-integer suppose,NA,1
-integer tuple,NA,1
-integers Free,NA,1
-integers s+t=d,NA,1
-integers suppose,NA,1
-interested,JJ,1
-interested matrix,NA,1
-interior,NN,1
-interior Conversely,NA,1
-interior States,NA,1
-interior closed,NA,1
-interior exists,NA,1
-interior interior,NA,1
-interior usual,NA,1
-intersect,VBP,1
-intersect j>,NA,1
-intersection free,NA,1
-intersection property,NA,1
-invariant,NN,1
-invariant Thus,NA,1
-invariant hence,NA,1
-invariant various,NA,1
-invariants,NNS,1
-invariants appear,NA,1
-invertible Finally,NA,1
-invertible assumed,NA,1
-investigated,JJ,1
-investigated several,NA,1
-investigates,VBZ,1
-investigates spectrahedra,NA,1
-involution symmetric,NA,1
-irrational unitarily,NA,1
-irreducibility,JJ,1
-irreducibility condition,NA,1
-irreducible Proof,NA,1
-irreducible common,NA,1
-irreducible family,NA,1
-irreducibly,RB,1
-irreducibly m+1,NA,1
-is=-1,JJ,1
-is=-1 n+m,NA,1
-isometric contractive,NA,1
-isometric matrix,NA,1
-isometries Since,NA,1
-isometries case,NA,1
-isometries t>,NA,1
-isometry Observe,NA,1
-isometry follows,NA,1
-isometry right,NA,1
-isometry sizes,NA,1
-itA Proposition,NA,1
-itA determines,NA,1
-itA fixed,NA,1
-itA minimal,NA,1
-itA s=U,NA,1
-itA thus,NA,1
-itWA,JJ,1
-itWA sW,NA,1
-item,JJ,1
-item arguing,NA,1
-item complete,NA,1
-item concludes,NA,1
-item definition,NA,1
-item first,NA,1
-item implies,NA,1
-item may,NA,1
-item prove,NA,1
-item suppose,NA,1
-ix,NN,1
-ix immediate,NA,1
-j+1,VBP,1
-j+1 exists,NA,1
-j+A,VB,1
-j+A j=1/2i,NA,1
-j-1,JJ,1
-j-1 Thus,NA,1
-j-A,JJ,1
-j-A,NN,1
-j-A j=1,NA,1
-j-A jx,NA,1
-j-th column,NA,1
-j-th entry,NA,1
-j< Hence,NA,1
-j< Let,NA,1
-j< Moreover,NA,1
-j< context,NA,1
-j< g},NA,1
-j=,VB,1
-j=,VBP,1
-j= I-C,NA,1
-j= hence,NA,1
-j=0 Given,NA,1
-j=0 choice,NA,1
-j=1,VB,1
-j=1 Consequently,NA,1
-j=1 Define,NA,1
-j=1 I-A,NA,1
-j=1 Thus,NA,1
-j=1 contraction,NA,1
-j=1 denote,NA,1
-j=1 d},NA,1
-j=1 hand,NA,1
-j=1 j],NA,1
-j=1 k=1,NA,1
-j=1 let,NA,1
-j=1 ndN,NA,1
-j=1 positive,NA,1
-j=1 show,NA,1
-j=1 spectrahedron,NA,1
-j=1 standard,NA,1
-j=1 yields,NA,1
-j=1/2,NNP,1
-j=1/2 j+A,NA,1
-j=1/2i,JJ,1
-j=1/2i j-A,NA,1
-j> j},NA,1
-j> since,NA,1
-j],JJ,1
-j],NNP,1
-j],NNS,1
-j] Estimate,NA,1
-j] Lemma,NA,1
-j] Let,NA,1
-j] Moreover,NA,1
-j] Observe,NA,1
-j] exists,NA,1
-j] follows,NA,1
-j] implies,NA,1
-j] j],NA,1
-j] large,NA,1
-j] letting,NA,1
-j] positive,NA,1
-j] properly,NA,1
-j] subspace,NA,1
-je 2-,NA,1
-je je,NA,1
-jx,NN,1
-jx Free,NA,1
-j},NN,1
-j} Hence,NA,1
-k+1,FW,1
-k+1,JJ,1
-k+1,VBD,1
-k+1 1<,NA,1
-k+1 distinct,NA,1
-k+1 equation,NA,1
-k+1 k+1,NA,1
-k+1 note,NA,1
-k+1 use,NA,1
-k+1},JJ,1
-k+1},NN,1
-k+1} admissible,NA,1
-k+1} form,NA,1
-k<,NN,1
-k<,NNS,1
-k< d},NA,1
-k< nN,NA,1
-k=,NN,1
-k=,NNP,1
-k= ij,NA,1
-k= isometry,NA,1
-k=1,VB,1
-k=1,VBZ,1
-k=1 1<,NA,1
-k=1 k=1,NA,1
-k=1 kv,NA,1
-k=1 matrix,NA,1
-k=1 v],NA,1
-k>0,NN,1
-k>0 Without,NA,1
-kRe je,NA,1
-kRe kRe,NA,1
-kernel,NN,1
-kernel follows,NA,1
-klep@auckland,NN,1
-klep@auckland ac,NA,1
-know,VBP,1
-know equation,NA,1
-kv,NN,1
-kv nd,NA,1
-large,JJ,1
-large enough,NA,1
-latter,NN,1
-latter Appendix,NA,1
-least,VBP,1
-least one,NA,1
-left,VBN,1
-left adjoint,NA,1
-left right,NA,1
-lemma Note,NA,1
-lemma completes,NA,1
-lemma needed,NA,1
-lemma version,NA,1
-lemmas,FW,1
-lemmas,NNS,1
-lemmas Given,NA,1
-lemmas preliminary,NA,1
-length,NN,1
-length longest,NA,1
-less,RBR,1
-less nothing,NA,1
-let,JJ,1
-let,VBD,1
-let A=,NA,1
-let Let,NA,1
-let Z=V,NA,1
-let finally,NA,1
-let hypothesis,NA,1
-let identity,NA,1
-let k=,NA,1
-let m},NA,1
-let sa,NA,1
-let sequence,NA,1
-let set,NA,1
-let since,NA,1
-let v],NA,1
-let vector,NA,1
-letters ij},NA,1
-letters including,NA,1
-letters suppose,NA,1
-lies every,NA,1
-lies inclusion,NA,1
-limiting,VBG,1
-limiting argument,NA,1
-linear Gleichstellensatz,NA,1
-linear combinations,NA,1
-linear following,NA,1
-linear mapping,NA,1
-linear mappings,NA,1
-linear system,NA,1
-loc,NN,1
-loc cit,NA,1
-location Lemma,NA,1
-location matrices,NA,1
-location nonzero,NA,1
-longest,JJS,1
-longest word,NA,1
-m+1,JJ,1
-m+1,NNS,1
-m+1 1<,NA,1
-m+1 acts,NA,1
-m+1 contradicts,NA,1
-m+1 direct,NA,1
-m+1 family,NA,1
-m+1 follows,NA,1
-m+1 whose,NA,1
-m+1=,NN,1
-m+1= invariant,NA,1
-m+1=j,JJ,1
-m+1=j 0<,NA,1
-m+1},$,1
-m+1},NN,1
-m+1} 1<,NA,1
-m+1} m+1,NA,1
-m+n Next,NA,1
-m+n inclusions,NA,1
-m+n m+n,NA,1
-m+n matrices,NA,1
-m>,VB,1
-m> m+1=j,NA,1
-main idea,NA,1
-main theorem,NA,1
-major,JJ,1
-major theme,NA,1
-map,NNS,1
-map prove,NA,1
-mapping,VBG,1
-mapping function,NA,1
-mappings compact,NA,1
-mappings described,NA,1
-maps definition,NA,1
-maps j=1,NA,1
-maps operator,NA,1
-maps preprint,NA,1
-maps various,NA,1
-matrices,VBZ,1
-matrices 2]HKM13,NA,1
-matrices A=,NA,1
-matrices A={A,NA,1
-matrices Given,NA,1
-matrices N},NA,1
-matrices assumed,NA,1
-matrices assumption,NA,1
-matrices block,NA,1
-matrices define,NA,1
-matrices equality,NA,1
-matrices exists,NA,1
-matrices form,NA,1
-matrices i=,NA,1
-matrices isometries,NA,1
-matrices n=,NA,1
-matrices n=p,NA,1
-matrices p=1,NA,1
-matrices reduce,NA,1
-matrices spaces,NA,1
-matrices zero,NA,1
-matricial relaxation,NA,1
-matrix,VBZ,1
-matrix Define,NA,1
-matrix Hence,NA,1
-matrix Hilbert-Schmidt,NA,1
-matrix Invariant,NA,1
-matrix Let,NA,1
-matrix Observe,NA,1
-matrix Properties,NA,1
-matrix W=,NA,1
-matrix Z=,NA,1
-matrix algebras,NA,1
-matrix block,NA,1
-matrix case,NA,1
-matrix convexEW,NA,1
-matrix convexity,NA,1
-matrix entries,NA,1
-matrix evaluations,NA,1
-matrix g-tuple,NA,1
-matrix invariants,NA,1
-matrix j-th,NA,1
-matrix j],NA,1
-matrix k=,NA,1
-matrix let,NA,1
-matrix often,NA,1
-matrix order,NA,1
-matrix particular,NA,1
-matrix product,NA,1
-matrix states,NA,1
-matrix variables,NA,1
-maximal admissible,NA,1
-maximal chain,NA,1
-maximality,NN,1
-maximality chain,NA,1
-may taken,NA,1
-meaning,NN,1
-meaning closed,NA,1
-means,VBZ,1
-means exists,NA,1
-min,NN,1
-min Mspan,NA,1
-minimal unitarily,NA,1
-minimality,NN,1
-minimality Hence,NA,1
-ml+1,NN,1
-ml+1 follows,NA,1
-model convexity,NA,1
-model theory,NA,1
-monic matrix,NA,1
-monic symmetric,NA,1
-monoid,NN,1
-monoid freely,NA,1
-monomial cross,NA,1
-monomial noncommutative,NA,1
-monomials,NNS,1
-monomials define,NA,1
-motivation,NN,1
-motivation article,NA,1
-multi-operator,NN,1
-multi-operator functional,NA,1
-multiple,NN,1
-multiple contradicting,NA,1
-multiplication exp,NA,1
-multiplying,NN,1
-multiplying,VBG,1
-multivariable,JJ,1
-multivariable operator,NA,1
-must p-1,NA,1
-must unitary,NA,1
-m},JJ,1
-m} denote,NA,1
-n+m Since,NA,1
-n+m closed,NA,1
-n=,NNS,1
-n= say,NA,1
-n=1,JJ,1
-n=1 Let,NA,1
-n=h,RB,1
-n=h Consider,NA,1
-nTT,JJ,1
-nTT nrg,NA,1
-namely,RB,1
-namely A=,NA,1
-natural types,NA,1
-natural way,NA,1
-naturally,RB,1
-naturally extend,NA,1
-ncr,IN,1
-ncr,NN,1
-ncr,RB,1
-ncr Define,NA,1
-ncr Equation,NA,1
-ncr Since,NA,1
-ncr Therefore,NA,1
-ncr commutative,NA,1
-nd,CC,1
-nd,NN,1
-nd,RB,1
-nd,VBP,1
-nd depending,NA,1
-nd detailed,NA,1
-nd k=1,NA,1
-nd nd,NA,1
-nd pair,NA,1
-nd rank,NA,1
-nd therefore,NA,1
-ndN,NN,1
-ndN Thus,NA,1
-nearly,RB,1
-nearly complete,NA,1
-necessary,JJ,1
-necessary invertible,NA,1
-need,VBP,1
-need invertible,NA,1
-needed background,NA,1
-needed k+1},NA,1
-needed may,NA,1
-needed proof,NA,1
-neighborhood operator,NA,1
-neighborhood uniform,NA,1
-next show,NA,1
-next subsection,NA,1
-nilpotent,JJ,1
-nilpotent,NN,1
-nilpotent Fix,NA,1
-nilpotent matrices,NA,1
-non-commuting,JJ,1
-non-commuting variables,NA,1
-non-empty,JJ,1
-non-empty suffices,NA,1
-non-symmetric,JJ,1
-non-symmetric variables,NA,1
-non-trivial,JJ,1
-non-trivial direction,NA,1
-non-unital,JJ,1
-non-unital generated,NA,1
-noncommutative Choquet,NA,1
-noncommutative Schur-Agler,NA,1
-noncommutative cross,NA,1
-noncommuting,NN,1
-noncommuting variables,NA,1
-nonnegative,JJ,1
-nonnegative numbers,NA,1
-nonzero,CD,1
-nonzero,VBZ,1
-nonzero entry,NA,1
-norm,JJ,1
-norm,RB,1
-norm,VBP,1
-norm authors,NA,1
-norm exists,NA,1
-norm follows,NA,1
-norms,NNS,1
-norms matrices,NA,1
-notation denote,NA,1
-notation means,NA,1
-notation ncr,NA,1
-notational,JJ,1
-notational ease,NA,1
-notations 2C,NA,1
-notations equations,NA,1
-note equation,NA,1
-note hypotheses,NA,1
-nothing,NN,1
-nothing prove,NA,1
-nrg,JJ,1
-nrg dM,NA,1
-nuclearity,NN,1
-nuclearity operator,NA,1
-number,NN,1
-number relatively,NA,1
-numbers Let,NA,1
-numbers j=1,NA,1
-nz,RB,1
-nz 2Supported,NA,1
-n},JJ,1
-n} dimension,NA,1
-observe 0<r<,NA,1
-observe Since,NA,1
-observe int,NA,1
-observe without,NA,1
-obtain 5]BVM,NA,1
-obtain g-tuples,NA,1
-occurs,VBZ,1
-occurs following,NA,1
-often,RB,1
-often called,NA,1
-one 1<,NA,1
-one block,NA,1
-one case,NA,1
-one nonzero,NA,1
-one norm,NA,1
-one p=1,NA,1
-one pair,NA,1
-onto Since,NA,1
-onto first,NA,1
-onto second,NA,1
-operator,VBP,1
-operator Lemma,NA,1
-operator algebras,NA,1
-operator analogues,NA,1
-operator convexity,NA,1
-operator model,NA,1
-operator spaces,NA,1
-operator system,NA,1
-operator tuple,NA,1
-operators,NNS,1
-operators particular,NA,1
-optimization BPR13,NA,1
-optimization convex,NA,1
-orange,NN,1
-orange 1/2C,NA,1
-order convexity,NA,1
-order words,NA,1
-ordinary,JJ,1
-ordinary sense,NA,1
-org/abs/1407,VBD,1
-org/abs/1407 8198>,NA,1
-org/abs/1601,JJ,1
-org/abs/1601 07993>,NA,1
-org/abs/1602,RB,1
-org/abs/1602,VBD,1
-org/abs/1602 00762>,NA,1
-org/abs/1602 00765>,NA,1
-origin,VBP,1
-origin reine,NA,1
-orthogonal sum,NA,1
-otherwise,RB,1
-otherwise Gleichstellensatz,NA,1
-p-1,VB,1
-p-1 Hence,NA,1
-p=1,JJ,1
-p=1,VBP,1
-p=1 2-2,NA,1
-p=1 Thus,NA,1
-p=1 contained,NA,1
-p=1 j=1,NA,1
-p=1 p=1,NA,1
-p=1 pair,NA,1
-pF,NN,1
-pF Therefore,NA,1
-pair C=,NA,1
-pair detailed,NA,1
-pair isometries,NA,1
-pairs,NNS,1
-pairs set,NA,1
-paper Let,NA,1
-particular,VBP,1
-particular Finally,NA,1
-particular Free,NA,1
-particular Let,NA,1
-particular compact,NA,1
-particular convex,NA,1
-particular exactly,NA,1
-particular j],NA,1
-particular m+1=,NA,1
-particular maps,NA,1
-particular operator,NA,1
-particular positive,NA,1
-particular s=1,NA,1
-particular size,NA,1
-passing,NN,1
-passing subspaces,NA,1
-pencil 1<,NA,1
-pencil Assume,NA,1
-pencil Indeed,NA,1
-pencil Moreover,NA,1
-pencil circular,NA,1
-pencil d-,NA,1
-pencil determined,NA,1
-pencil finite,NA,1
-pencil g-tuples,NA,1
-pencil itA,NA,1
-pencil particular,NA,1
-pencil proper,NA,1
-pencil self-adjoint,NA,1
-pencil v>1,NA,1
-pencils 1<,NA,1
-permutation matrix,NA,1
-perspective,NN,1
-perspective emerging,NA,1
-phenomena,VBP,1
-phenomena linear,NA,1
-play,VBP,1
-play role,NA,1
-plays,VBZ,1
-plays role,NA,1
-point,NN,1
-point,VBP,1
-point 1/2,NA,1
-point related,NA,1
-polynomial Fix,NA,1
-polynomial degree,NA,1
-polynomial denoting,NA,1
-polynomial depending,NA,1
-polynomial evaluation,NA,1
-polynomial g-tuple,NA,1
-polynomial j=1,NA,1
-polynomial notation,NA,1
-polynomial whenever,NA,1
-polynomials Introduction,NA,1
-polynomials Namely,NA,1
-polynomials Polynomial,NA,1
-polynomials Polynomials,NA,1
-polynomials Trans,NA,1
-polynomials characterizes,NA,1
-polynomials degree,NA,1
-polynomials depending,NA,1
-polynomials elements,NA,1
-polynomials evaluating,NA,1
-polynomials evaluations,NA,1
-polynomials following,NA,1
-polynomials free,NA,1
-polynomials freely,NA,1
-polynomials involution,NA,1
-polynomials ncr,NA,1
-polynomials paper,NA,1
-polynomials positive,NA,1
-polynomials proof,NA,1
-polynomials prove,NA,1
-polynomials v=,NA,1
-polynomials variable,NA,1
-polynomials variables,NA,1
-position,NN,1
-position apply,NA,1
-positive maps,NA,1
-positive matrix,NA,1
-possibly,RB,1
-possibly irreducibility,NA,1
-precisely Thus,NA,1
-precisely prove,NA,1
-preliminary lemmas,NA,1
-preliminary proof,NA,1
-preprint,NN,1
-preprint org/abs/1601,NA,1
-present effective,NA,1
-present linear,NA,1
-problems,NNS,1
-problems described,NA,1
-proceeding,VBG,1
-proceeding address,NA,1
-process,NN,1
-process terminates,NA,1
-produce,VBP,1
-produce finite,NA,1
-produces chain,NA,1
-produces linear,NA,1
-product direct,NA,1
-product occurs,NA,1
-products,NNS,1
-products Math,NA,1
-programming,NN,1
-programming article,NA,1
-proof,VBD,1
-proof Ball-Marx-Vinnikov,NA,1
-proof Examples,NA,1
-proof Let,NA,1
-proof Part,NA,1
-proof Proposition,NA,1
-proof Set,NA,1
-proof appears,NA,1
-proof complete,NA,1
-proof existence,NA,1
-proof fixed,NA,1
-proof following,NA,1
-proof follows,NA,1
-proof item,NA,1
-proof latter,NA,1
-proof let,NA,1
-proof nearly,NA,1
-proof observe,NA,1
-proof shows,NA,1
-proofs,JJ,1
-proofs work,NA,1
-proper,NN,1
-proper subpencil,NA,1
-proper subset,NA,1
-properly,RB,1
-properly contains,NA,1
-properties,NNS,1
-properties circular,NA,1
-property,NN,1
-property Accordingly,NA,1
-propertyM,NN,1
-propertyM nd,NA,1
-proposition,NN,1
-proposition case,NA,1
-prove,IN,1
-prove,JJ,1
-prove,VBD,1
-prove Since,NA,1
-prove collection,NA,1
-prove converse,NA,1
-prove let,NA,1
-prove non-trivial,NA,1
-prove reverse,NA,1
-prove sharpened,NA,1
-proved Section,NA,1
-proved subsection,NA,1
-provide,VBP,1
-provide model,NA,1
-pt,NN,1
-pt multiple,NA,1
-qm,NN,1
-qm rOpenness,NA,1
-quantum,JJ,1
-quantum inequalities,NA,1
-questions,NNS,1
-questions II,NA,1
-quotients,NNS,1
-quotients matrix,NA,1
-r+1,NN,1
-r+1 admissible,NA,1
-r<,NN,1
-r< r+1,NA,1
-r=1,VB,1
-r=1 Thus,NA,1
-rOpenness,NN,1
-rOpenness propertyM,NA,1
-rank,NN,1
-rank ht,NA,1
-reader,NN,1
-reader Proposition,NA,1
-reader's,NN,1
-reader's convenience,NA,1
-real numbers,NA,1
-real spectrum,NA,1
-realization,NN,1
-realization noncommutative,NA,1
-recent references,NA,1
-recent results,NA,1
-reduce,VB,1
-reduce proposition,NA,1
-reducing Hence,NA,1
-reducing Items,NA,1
-refer,VBP,1
-refer domain,NA,1
-references,NNS,1
-references different,NA,1
-reine,JJ,1
-reine angew,NA,1
-related,VBN,1
-related Kronecker,NA,1
-relaxation,NN,1
-relaxation linear,NA,1
-repeat,NN,1
-repeat consideration,NA,1
-replacing isometric,NA,1
-replacing sending,NA,1
-representation Ann,NA,1
-representation theorem,NA,1
-represented,VBD,1
-represented sum,NA,1
-resp,JJ,1
-resp,NN,1
-resp express,NA,1
-resp positive,NA,1
-respect,VBP,1
-respect itA,NA,1
-respect multiplying,NA,1
-respect notational,NA,1
-respect orthogonal,NA,1
-respect proof,NA,1
-respect unitary,NA,1
-respectively implies,NA,1
-respectively particular,NA,1
-respectively proof,NA,1
-restated,VBD,1
-restated convenience,NA,1
-restriction form,NA,1
-restriction monic,NA,1
-rests,VBZ,1
-rests two,NA,1
-result follows,NA,1
-result free,NA,1
-results III,NA,1
-results article,NA,1
-results paper,NA,1
-reverse,JJ,1
-reverse inclusion,NA,1
-reverses,VBZ,1
-reverses order,NA,1
-right isometry,NA,1
-right produces,NA,1
-role follows,NA,1
-role identity,NA,1
-rotations Section,NA,1
-routine,NN,1
-routine limiting,NA,1
-row,NN,1
-row exactly,NA,1
-rs equivalent,NA,1
-rs ij,NA,1
-runs,NNS,1
-runs words,NA,1
-s+t=d,NN,1
-s+t=d,VBP,1
-s+t=d g-tuple,NA,1
-s+t=d tuple,NA,1
-s< Finally,NA,1
-s< first,NA,1
-s< matrix,NA,1
-s< particular,NA,1
-s= itA,NA,1
-s= sequence,NA,1
-s= subordinate,NA,1
-s=1,JJ,1
-s=1 block,NA,1
-s=U,VBD,1
-s=U Given,NA,1
-sW Clearly,NA,1
-sW itWA,NA,1
-sa,JJ,1
-sa,NN,1
-sa,VB,1
-sa 1},NA,1
-sa affine,NA,1
-sa denote,NA,1
-said,VBD,1
-said irreducible,NA,1
-sam@math,NN,1
-sam@math ufl,NA,1
-satisfies A=,NA,1
-satisfies hypotheses,NA,1
-satisfies reverses,NA,1
-satisfying,VBG,1
-satisfying linear,NA,1
-say d=,NA,1
-say free,NA,1
-say monic,NA,1
-say symmetric,NA,1
-say word,NA,1
-says closed,NA,1
-says domain,NA,1
-says tuple,NA,1
-second,JJ,1
-second coordinate,NA,1
-section characterize,NA,1
-section describe,NA,1
-section first,NA,1
-section present,NA,1
-see 2]HKM13,NA,1
-see 5]ER,NA,1
-see Hence,NA,1
-see Proposition,NA,1
-see monic,NA,1
-see proofs,NA,1
-self,NN,1
-self contained,NA,1
-self-adjoint coefficients,NA,1
-self-adjoint elements,NA,1
-self-adjoint matrices,NA,1
-self-adjoint matrix,NA,1
-semi-algebraic geometry,NA,1
-semi-algebraic set,NA,1
-semidefinite programming,NA,1
-semidefinite resp,NA,1
-sending,VBG,1
-sending empty,NA,1
-sense Effros-Winkler,NA,1
-sense free,NA,1
-sense isometric,NA,1
-sense p=1,NA,1
-sense subset,NA,1
-sense tuple,NA,1
-separate,JJ,1
-separate argument,NA,1
-separating,VBG,1
-separating hyperplane,NA,1
-separation result,NA,1
-sequence,VB,1
-sequence Rotationally,NA,1
-sequence called,NA,1
-sequence detailed,NA,1
-sequence g-tuples,NA,1
-sequence pairs,NA,1
-sequence unit,NA,1
-series,NN,1
-series expansions,NA,1
-set Ball,NA,1
-set Free,NA,1
-set LMI,NA,1
-set Since,NA,1
-set Start,NA,1
-set affine,NA,1
-set assumption,NA,1
-set choose,NA,1
-set closed,NA,1
-set containing,NA,1
-set cross,NA,1
-set free,NA,1
-set hypotheses,NA,1
-set intersection,NA,1
-set k+1},NA,1
-set n=1,NA,1
-set operator,NA,1
-set satisfying,NA,1
-set solutions,NA,1
-set symmetric,NA,1
-set tuple,NA,1
-set words,NA,1
-sets completely,NA,1
-sets effective,NA,1
-sets give,NA,1
-sets preprint,NA,1
-sets prove,NA,1
-sets set,NA,1
-sets version,NA,1
-settranslatorsemptysetaddresses,VBZ,1
-settranslatorsemptysetaddresses theoremTheorem[section],NA,1
-setup,NN,1
-setup hypotheses,NA,1
-several non-commuting,NA,1
-sharp,JJ,1
-sharp sense,NA,1
-sharpened,VBN,1
-sharpened version,NA,1
-show collection,NA,1
-show construction,NA,1
-show entries,NA,1
-show form,NA,1
-show matrix,NA,1
-show ncr,NA,1
-shows Applying,NA,1
-shows Hence,NA,1
-shows defined,NA,1
-shows fact,NA,1
-shows follows,NA,1
-shows free,NA,1
-shows j=,NA,1
-shows m+1},NA,1
-shows sW,NA,1
-shows unitary,NA,1
-shuffle Z=,NA,1
-shuffle discussed,NA,1
-shuffles,NNS,1
-shuffles n=h,NA,1
-signal,JJ,1
-signal flow,NA,1
-simple,JJ,1
-simple lemmas,NA,1
-since 0],NA,1
-since Lemma,NA,1
-since closed,NA,1
-since continuous,NA,1
-since convex,NA,1
-since diagonal,NA,1
-since direct,NA,1
-since empty,NA,1
-since follows,NA,1
-since hypothesis,NA,1
-since k>0,NA,1
-since kernel,NA,1
-since location,NA,1
-since matrix,NA,1
-since reducing,NA,1
-singular,JJ,1
-singular particular,NA,1
-size Let,NA,1
-size Suppose,NA,1
-size Thus,NA,1
-size m+n,NA,1
-size pencil,NA,1
-size without,NA,1
-sized,VBN,1
-sized identity,NA,1
-sizes,VBZ,1
-sizes Following,NA,1
-sizes exists,NA,1
-sizes let,NA,1
-skip,NN,1
-skip straight,NA,1
-smaller,JJR,1
-smaller dimension,NA,1
-solutions,NNS,1
-solutions ampliated,NA,1
-somewhat,RB,1
-somewhat different,NA,1
-space free,NA,1
-space g-tuple,NA,1
-space operator,NA,1
-spaces Manuscripta,NA,1
-spaces Since,NA,1
-spaces see,NA,1
-span,VB,1
-span,VBP,1
-span d},NA,1
-span n},NA,1
-span subspaces,NA,1
-spectrahedra,JJ,1
-spectrahedra,NNS,1
-spectrahedra Bi-disk,NA,1
-spectrahedra Proposition,NA,1
-spectrahedra closed,NA,1
-spectrahedra closely,NA,1
-spectrahedra established,NA,1
-spectrahedra perspective,NA,1
-spectrahedra subset,NA,1
-spectrahedra thus,NA,1
-spectrahedra turns,NA,1
-spectrahedron A=,NA,1
-spectrahedron Thus,NA,1
-spectrahedron circular,NA,1
-spectrahedron contradicting,NA,1
-spectrahedron exists,NA,1
-spectrahedron follows,NA,1
-spectrahedron invariant,NA,1
-spectrahedron namely,NA,1
-spectrahedron pencil,NA,1
-spectrahedron self-adjoint,NA,1
-spectrum,JJ,1
-spectrum,NN,1
-spectrum circular,NA,1
-spectrum nilpotent,NA,1
-square,NN,1
-square matrices,NA,1
-standard,VB,1
-standard basis,NA,1
-state,NN,1
-state precisely,NA,1
-stated self,NA,1
-stated somewhat,NA,1
-statement,NN,1
-statement holds,NA,1
-states,NNS,1
-states operator,NA,1
-steps,NNS,1
-steps produces,NA,1
-straight,VBD,1
-straight Subsection,NA,1
-straightforward,NN,1
-straightforward holds,NA,1
-strengthening,VBG,1
-strengthening Proposition,NA,1
-strong,JJ,1
-strong contrast,NA,1
-structure,NN,1
-structure described,NA,1
-study,VBP,1
-study maps,NA,1
-subject,NN,1
-subject called,NA,1
-subordinate,JJ,1
-subordinate Note,NA,1
-subpencil,NNS,1
-subpencil,RB,1
-subpencil A=,NA,1
-subpencil Say,NA,1
-subpencil Theorem,NA,1
-subpencil defining,NA,1
-subpencil desired,NA,1
-subpencil free,NA,1
-subpencil subpencil,NA,1
-subsection,JJ,1
-subsection Experts,NA,1
-subsection contains,NA,1
-subsection free,NA,1
-subsection prove,NA,1
-subsequence,NN,1
-subsequence converges,NA,1
-subsequences,NNS,1
-subsequences converging,NA,1
-subset 0},NA,1
-subset closed,NA,1
-subset free,NA,1
-subset matrices,NA,1
-subset sequence,NA,1
-subset since,NA,1
-subsets generalizations,NA,1
-subsets homogeneous,NA,1
-subsets subset,NA,1
-subspace 1<,NA,1
-subspace Hence,NA,1
-subspace Lemma,NA,1
-subspace collection,NA,1
-subspace compression,NA,1
-subspace containing,NA,1
-subspace follows,NA,1
-subspace free,NA,1
-subspace hand,NA,1
-subspace letting,NA,1
-subspace m+1,NA,1
-subspace nN,NA,1
-subspace proper,NA,1
-subspace restriction,NA,1
-subspace sa,NA,1
-subspace turn,NA,1
-subspace vectors,NA,1
-subspaces chain,NA,1
-subspaces etc,NA,1
-subspaces precisely,NA,1
-subspaces say,NA,1
-subspaces smaller,NA,1
-suffices arguments,NA,1
-sum,JJ,1
-sum block,NA,1
-sum finite,NA,1
-sum give,NA,1
-sum homogeneous,NA,1
-sum invariant,NA,1
-sum pencils,NA,1
-sum reducing,NA,1
-summary,JJ,1
-summary main,NA,1
-sums,JJ,1
-sums,NN,1
-sums Let,NA,1
-sums boundary,NA,1
-sums canonical,NA,1
-sums homogeneous,NA,1
-sums isometric,NA,1
-sums pair,NA,1
-sums sense,NA,1
-superdiagonal,NN,1
-superdiagonal also,NA,1
-superdiagonal matrices,NA,1
-supported Slovenian,NA,1
-suppose,NN,1
-suppose,VB,1
-suppose 1<,NA,1
-suppose Since,NA,1
-suppose exists,NA,1
-suppose j=1,NA,1
-suppose minimal,NA,1
-suppose monic,NA,1
-suppose nd,NA,1
-suppose sequence,NA,1
-suppose subspace,NA,1
-suppose t>1,NA,1
-surveys,NNS,1
-surveys recent,NA,1
-symmetric Additionally,NA,1
-symmetric dn,NA,1
-symmetric length,NA,1
-symmetric linear,NA,1
-symmetric matrices,NA,1
-symmetric operator,NA,1
-symmetry,NN,1
-symmetry core,NA,1
-system category,NA,1
-system engineering,NA,1
-system quotients,NA,1
-systems FP12,NA,1
-systems London,NA,1
-systems free,NA,1
-s},NN,1
-s} s=1,NA,1
-t>,VBP,1
-t> pair,NA,1
-t>1,JJ,1
-t>1 tY,NA,1
-tY,VBP,1
-tY follows,NA,1
-take,VBP,1
-take size,NA,1
-taken,VBN,1
-taken form,NA,1
-technical,JJ,1
-technical point,NA,1
-tends Fix,NA,1
-tends compactness,NA,1
-tensor,NN,1
-tensor products,NA,1
-term monomials,NA,1
-term none,NA,1
-terminates,NNS,1
-terminates steps,NA,1
-terms Furthermore,NA,1
-terms Thus,NA,1
-terms Using,NA,1
-terms claimed,NA,1
-terms conclude,NA,1
-terms end,NA,1
-terms follows,NA,1
-terms implies,NA,1
-terms know,NA,1
-terms monomial,NA,1
-terms show,NA,1
-theme,NN,1
-theme important,NA,1
-theorem,JJ,1
-theorem assumption,NA,1
-theorem except,NA,1
-theorem polynomials,NA,1
-theoremTheorem[section],JJ,1
-theoremTheorem[section] cor[theorem]Corollarylemma[theorem]Lemmasublemma[theorem]Sublemmaprop[theorem]Propositiondefinition[theorem]Definitionalg[theorem]Algorithmremark[theorem]Remarkrem[theorem]Remarkconj[theorem]Conjecturequestion[theorem]Questionexample[theorem]Examplethm[theorem]Theoremlem[theorem]LemmaCor[theorem]Corollarydefi[theorem]Definitionlemma*Lemma,NA,1
-theorems,NNS,1
-theorems Funct,NA,1
-theory Func,NA,1
-theory SIG97,NA,1
-theory matrix,NA,1
-therefore,NN,1
-therefore cross,NA,1
-therefore ncr,NA,1
-therefore operator,NA,1
-three,CD,1
-three simple,NA,1
-thus dense,NA,1
-thus finishing,NA,1
-thus free,NA,1
-thus inclusion,NA,1
-thus j=1,NA,1
-thus position,NA,1
-transfer-function,NN,1
-transfer-function realization,NA,1
-transforms,VBZ,1
-transforms multivariable,NA,1
-tuple,NNS,1
-tuple,VBD,1
-tuple A=,NA,1
-tuple Furthermore,NA,1
-tuple Hence,NA,1
-tuple Proposition,NA,1
-tuple Set,NA,1
-tuple acting,NA,1
-tuple contraction,NA,1
-tuple minimal,NA,1
-tuple orthogonal,NA,1
-tuple pair,NA,1
-tuple sense,NA,1
-tuple unitarily,NA,1
-tuple whose,NA,1
-tuple zeros,NA,1
-tuples free,NA,1
-tuples operators,NA,1
-tuples self-adjoint,NA,1
-tuples symmetric,NA,1
-turn,VB,1
-turn,VBP,1
-turn attention,NA,1
-turn yield,NA,1
-turns,VBZ,1
-turns irrational,NA,1
-two classical,NA,1
-two equations,NA,1
-two expressions,NA,1
-two free,NA,1
-two preliminary,NA,1
-types circular,NA,1
-types domains,NA,1
-ubiquitous,JJ,1
-ubiquitous control,NA,1
-ucsd,JJ,1
-ucsd edu,NA,1
-ufl,NN,1
-ufl edu,NA,1
-uniform,NN,1
-uniform bound,NA,1
-unimodular,JJ,1
-unimodular numbers,NA,1
-unique,JJ,1
-unique matrix,NA,1
-unitaries Suppose,NA,1
-unitaries exists,NA,1
-unitary 1U,NA,1
-unitary Equation,NA,1
-unitary U=U,NA,1
-unitary V=,NA,1
-unitary depending,NA,1
-unitary main,NA,1
-unitary nd,NA,1
-use,VBP,1
-use dealing,NA,1
-use freely,NA,1
-use orthogonal,NA,1
-using,VBG,1
-using equation,NA,1
-usual,JJ,1
-usual Hahn-Banach,NA,1
-v=,NNS,1
-v= say,NA,1
-v=0,NN,1
-v=0 Fix,NA,1
-v>1,NN,1
-v>1 Consequently,NA,1
-v],NN,1
-v],VB,1
-v] Let,NA,1
-v] s=1,NA,1
-vanishes,NNS,1
-vanishes particular,NA,1
-variable,JJ,1
-variable Thus,NA,1
-variables,VBP,1
-variables Canad,NA,1
-variables Conversely,NA,1
-variables Kra01,NA,1
-variables alone,NA,1
-variables associate,NA,1
-variables called,NA,1
-variables coefficients,NA,1
-variables evaluate,NA,1
-variables follows,NA,1
-variables satisfies,NA,1
-variables study,NA,1
-various natural,NA,1
-various types,NA,1
-vector Hence,NA,1
-vector detailed,NA,1
-vector follows,NA,1
-vector given,NA,1
-vector k=1,NA,1
-vector matrix,NA,1
-vector size,NA,1
-vector space,NA,1
-vectors j=1,NA,1
-vectors let,NA,1
-vectors tends,NA,1
-version 2]EW,NA,1
-version Effros-Winkler,NA,1
-version establishing,NA,1
-view,NN,1
-view Lemma,NA,1
-way,NN,1
-way replacing,NA,1
-well,RB,1
-well bianalytic,NA,1
-whenever Additionally,NA,1
-whenever Furthermore,NA,1
-whenever Let,NA,1
-whenever Similarly,NA,1
-whenever Using,NA,1
-whenever exists,NA,1
-whenever follows,NA,1
-whenever see,NA,1
-whose j-th,NA,1
-word Decompose,NA,1
-word appropriately,NA,1
-word commuting,NA,1
-word free,NA,1
-word plays,NA,1
-words 2g,NA,1
-words acts,NA,1
-words degree,NA,1
-words involution,NA,1
-words respectively,NA,1
-words write,NA,1
-work,NN,1
-work field,NA,1
-working,VBG,1
-working field,NA,1
-write,RB,1
-write,WRB,1
-write Note,NA,1
-write Suppose,NA,1
-write monoid,NA,1
-write resp,NA,1
-write s=,NA,1
-written direct,NA,1
-written i=1,NA,1
-x=,JJ,1
-x=,NNP,1
-x= consists,NA,1
-x= g-tuple,NA,1
-yield,VBN,1
-yield subpencil,NA,1
-yields desired,NA,1
-yields point,NA,1
-zero,NN,1
-zero Fix,NA,1
-zero distinct,NA,1
-zero equation,NA,1
-zero particular,NA,1
-zero shows,NA,1
-zeros,CD,1
-zeros d-e,NA,1
+word,pos,frequency,tf_idf,inf
+free,JJ,100,0.0913781982369,-0.0185551827215
+matrix,NN,64,0.0584820468716,-0.0140902597576
+unitary,JJ,42,0.0383788432595,-0.0106186244002
+follows,VBZ,40,0.0365512792948,-0.0102643179712
+circular,JJ,38,0.03472371533,-0.0099022535505
+matrices,NNS,36,0.0328961513653,-0.00953202245463
+pencil,NN,33,0.0301548054182,-0.00896035544556
+free circular,NA,28,0.0255858955063,-0.00795948231101
+polynomials,NNS,28,0.0255858955063,-0.00795948231101
+convex,NN,27,0.024672113524,-0.00775136109385
+matrix convex,NA,27,0.024672113524,-0.00775136109385
+Theorem,NNP,26,0.0237583315416,-0.00754036708737
+Hence,NNP,25,0.0228445495592,-0.00732638974616
+linear,JJ,24,0.0219307675769,-0.00710930967433
+exists,VBZ,23,0.0210169855945,-0.00688899751806
+j=1,NN,23,0.0210169855945,-0.00688899751806
+denote,NN,22,0.0201032036121,-0.00666531266513
+direct,JJ,21,0.0191894216298,-0.00643810170772
+equation,NN,21,0.0191894216298,-0.00643810170772
+invariant,JJ,21,0.0191894216298,-0.00643810170772
+positive,JJ,21,0.0191894216298,-0.00643810170772
+subspace,NN,21,0.0191894216298,-0.00643810170772
+1<,CD,20,0.0182756396474,-0.0062071966119
+Lemma,NNP,20,0.0182756396474,-0.0062071966119
+spectrahedron,NN,20,0.0182756396474,-0.0062071966119
+closed,VBD,19,0.017361857665,-0.00597241252025
+free spectrahedron,NA,19,0.017361857665,-0.00597241252025
+block,NN,18,0.0164480756826,-0.005733545091
+cross,NN,18,0.0164480756826,-0.005733545091
+operator,NN,18,0.0164480756826,-0.005733545091
+conjugation,NN,17,0.0155342937003,-0.00549036724438
+entries,NNS,17,0.0155342937003,-0.00549036724438
+Math,NNP,16,0.0146205117179,-0.0052426251415
+coordinate,NN,16,0.0146205117179,-0.0052426251415
+cross terms,NA,16,0.0146205117179,-0.0052426251415
+respect,NN,16,0.0146205117179,-0.0052426251415
+terms,NNS,16,0.0146205117179,-0.0052426251415
+Free,NNP,15,0.0137067297355,-0.00499003315497
+defining,VBG,15,0.0137067297355,-0.00499003315497
+proof,NN,15,0.0137067297355,-0.00499003315497
+contains,VBZ,14,0.0127929477532,-0.00473226749393
+decomposition,NN,14,0.0127929477532,-0.00473226749393
+minimal,JJ,14,0.0127929477532,-0.00473226749393
+particular,JJ,14,0.0127929477532,-0.00473226749393
+polynomial,JJ,14,0.0127929477532,-0.00473226749393
+chain,NN,13,0.0118791657708,-0.00446895800079
+coordinate unitary,NA,13,0.0118791657708,-0.00446895800079
+j],NN,13,0.0118791657708,-0.00446895800079
+linear pencil,NA,13,0.0118791657708,-0.00446895800079
+matrix,VBP,13,0.0118791657708,-0.00446895800079
+size,NN,13,0.0118791657708,-0.00446895800079
+spectrahedra,NN,13,0.0118791657708,-0.00446895800079
+unitary conjugation,NA,13,0.0118791657708,-0.00446895800079
+boundary,JJ,12,0.0109653837884,-0.00419967741296
+convex sets,NA,12,0.0109653837884,-0.00419967741296
+direct sums,NA,12,0.0109653837884,-0.00419967741296
+free spectrahedra,NA,12,0.0109653837884,-0.00419967741296
+matrix polynomials,NA,12,0.0109653837884,-0.00419967741296
+monic,JJ,12,0.0109653837884,-0.00419967741296
+sets,NNS,12,0.0109653837884,-0.00419967741296
+Proposition,NNP,11,0.0100516018061,-0.00392392702704
+Suppose,NNP,11,0.0100516018061,-0.00392392702704
+circular free,NA,11,0.0100516018061,-0.00392392702704
+commutative cross,NA,11,0.0100516018061,-0.00392392702704
+convex,JJ,11,0.0100516018061,-0.00392392702704
+matrix,JJ,11,0.0100516018061,-0.00392392702704
+matrix balanced,NA,11,0.0100516018061,-0.00392392702704
+variables,NNS,11,0.0100516018061,-0.00392392702704
+A=,NNP,10,0.00913781982369,-0.00364111711911
+balanced,VBD,10,0.00913781982369,-0.00364111711911
+circular,NN,10,0.00913781982369,-0.00364111711911
+equivalence,NN,10,0.00913781982369,-0.00364111711911
+equivalent,JJ,10,0.00913781982369,-0.00364111711911
+homogeneous,JJ,10,0.00913781982369,-0.00364111711911
+integers,NNS,10,0.00913781982369,-0.00364111711911
+positive integers,NA,10,0.00913781982369,-0.00364111711911
+reducing,VBG,10,0.00913781982369,-0.00364111711911
+sum,NN,10,0.00913781982369,-0.00364111711911
+sums,NNS,10,0.00913781982369,-0.00364111711911
+tuple,JJ,10,0.00913781982369,-0.00364111711911
+unitarily equivalent,NA,10,0.00913781982369,-0.00364111711911
+unitary equivalence,NA,10,0.00913781982369,-0.00364111711911
+vector,NN,10,0.00913781982369,-0.00364111711911
+Matrix,NNP,9,0.00822403784132,-0.00335053947734
+block decomposition,NA,9,0.00822403784132,-0.00335053947734
+direct sum,NA,9,0.00822403784132,-0.00335053947734
+free matrix,NA,9,0.00822403784132,-0.00335053947734
+homogeneous linear,NA,9,0.00822403784132,-0.00335053947734
+implies,NNS,9,0.00822403784132,-0.00335053947734
+theorem,NN,9,0.00822403784132,-0.00335053947734
+unit,NN,9,0.00822403784132,-0.00335053947734
+zero,CD,9,0.00822403784132,-0.00335053947734
+Circular,NNP,8,0.00731025585896,-0.00305132762127
+Fix,NNP,8,0.00731025585896,-0.00305132762127
+Hahn-Banach,NNP,8,0.00731025585896,-0.00305132762127
+Helton,NNP,8,0.00731025585896,-0.00305132762127
+McCullough,NNP,8,0.00731025585896,-0.00305132762127
+column,NN,8,0.00731025585896,-0.00305132762127
+contains,NNS,8,0.00731025585896,-0.00305132762127
+g-tuple,JJ,8,0.00731025585896,-0.00305132762127
+item,NN,8,0.00731025585896,-0.00305132762127
+matrix polynomial,NA,8,0.00731025585896,-0.00305132762127
+minimal defining,NA,8,0.00731025585896,-0.00305132762127
+operator pencil,NA,8,0.00731025585896,-0.00305132762127
+pencil ball,NA,8,0.00731025585896,-0.00305132762127
+section,NN,8,0.00731025585896,-0.00305132762127
+tuple,NN,8,0.00731025585896,-0.00305132762127
+1< j<,NA,7,0.00639647387659,-0.00274239691617
+LMI,NNP,7,0.00639647387659,-0.00274239691617
+Write,NNP,7,0.00639647387659,-0.00274239691617
+assumption,NN,7,0.00639647387659,-0.00274239691617
+ball,NN,7,0.00639647387659,-0.00274239691617
+commutative,JJ,7,0.00639647387659,-0.00274239691617
+denote,JJ,7,0.00639647387659,-0.00274239691617
+finite,JJ,7,0.00639647387659,-0.00274239691617
+hence,NN,7,0.00639647387659,-0.00274239691617
+holds,VBZ,7,0.00639647387659,-0.00274239691617
+j<,NN,7,0.00639647387659,-0.00274239691617
+j=1,JJ,7,0.00639647387659,-0.00274239691617
+noncommutative,JJ,7,0.00639647387659,-0.00274239691617
+pair,NN,7,0.00639647387659,-0.00274239691617
+prove,VBP,7,0.00639647387659,-0.00274239691617
+separation,NN,7,0.00639647387659,-0.00274239691617
+shows,NNS,7,0.00639647387659,-0.00274239691617
+symmetric,JJ,7,0.00639647387659,-0.00274239691617
+unit vector,NA,7,0.00639647387659,-0.00274239691617
+Finally,NNP,6,0.00548269189422,-0.00242234999437
+Free Circular,NA,6,0.00548269189422,-0.00242234999437
+Klep,NNP,6,0.00548269189422,-0.00242234999437
+Mathematics,NNP,6,0.00548269189422,-0.00242234999437
+Moreover,RB,6,0.00548269189422,-0.00242234999437
+Section,NNP,6,0.00548269189422,-0.00242234999437
+circular matrix,NA,6,0.00548269189422,-0.00242234999437
+coefficients,NNS,6,0.00548269189422,-0.00242234999437
+convexity,NN,6,0.00548269189422,-0.00242234999437
+described,VBD,6,0.00548269189422,-0.00242234999437
+dimension,NN,6,0.00548269189422,-0.00242234999437
+dimensional,JJ,6,0.00548269189422,-0.00242234999437
+exists,NNS,6,0.00548269189422,-0.00242234999437
+free polynomials,NA,6,0.00548269189422,-0.00242234999437
+g-1,JJ,6,0.00548269189422,-0.00242234999437
+inclusion,NN,6,0.00548269189422,-0.00242234999437
+main,JJ,6,0.00548269189422,-0.00242234999437
+p=1,NN,6,0.00548269189422,-0.00242234999437
+reducing subspace,NA,6,0.00548269189422,-0.00242234999437
+separation theorem,NA,6,0.00548269189422,-0.00242234999437
+subpencil,NN,6,0.00548269189422,-0.00242234999437
+subset,NN,6,0.00548269189422,-0.00242234999437
+unitarily,RB,6,0.00548269189422,-0.00242234999437
+whenever,WRB,6,0.00548269189422,-0.00242234999437
+1},CD,5,0.00456890991185,-0.00208931796613
+5]BVM,CD,5,0.00456890991185,-0.00208931796613
+Furthermore,NNP,5,0.00456890991185,-0.00208931796613
+Linear,NNP,5,0.00456890991185,-0.00208931796613
+Note,NNP,5,0.00456890991185,-0.00208931796613
+Observe,NNP,5,0.00456890991185,-0.00208931796613
+Sets,NNP,5,0.00456890991185,-0.00208931796613
+Soc,NNP,5,0.00456890991185,-0.00208931796613
+Spectrahedra,NNP,5,0.00456890991185,-0.00208931796613
+University,NNP,5,0.00456890991185,-0.00208931796613
+admissible,JJ,5,0.00456890991185,-0.00208931796613
+admissible chain,NA,5,0.00456890991185,-0.00208931796613
+assumed,VBD,5,0.00456890991185,-0.00208931796613
+basis,NN,5,0.00456890991185,-0.00208931796613
+block zero,NA,5,0.00456890991185,-0.00208931796613
+blocks,NNS,5,0.00456890991185,-0.00208931796613
+closed,JJ,5,0.00456890991185,-0.00208931796613
+complete,JJ,5,0.00456890991185,-0.00208931796613
+complex,JJ,5,0.00456890991185,-0.00208931796613
+contractions,NNS,5,0.00456890991185,-0.00208931796613
+defining pencil,NA,5,0.00456890991185,-0.00208931796613
+denote,VBP,5,0.00456890991185,-0.00208931796613
+distinct,JJ,5,0.00456890991185,-0.00208931796613
+finite dimensional,NA,5,0.00456890991185,-0.00208931796613
+graded,VBD,5,0.00456890991185,-0.00208931796613
+ij,NN,5,0.00456890991185,-0.00208931796613
+implies,VBZ,5,0.00456890991185,-0.00208931796613
+interior,JJ,5,0.00456890991185,-0.00208931796613
+irrational,JJ,5,0.00456890991185,-0.00208931796613
+itA,NN,5,0.00456890991185,-0.00208931796613
+k=1,NN,5,0.00456890991185,-0.00208931796613
+maps,NNS,5,0.00456890991185,-0.00208931796613
+monic free,NA,5,0.00456890991185,-0.00208931796613
+nonzero,NN,5,0.00456890991185,-0.00208931796613
+paper,NN,5,0.00456890991185,-0.00208931796613
+proof,JJ,5,0.00456890991185,-0.00208931796613
+s=,NN,5,0.00456890991185,-0.00208931796613
+sequence,NN,5,0.00456890991185,-0.00208931796613
+shows,VBZ,5,0.00456890991185,-0.00208931796613
+subspaces,NNS,5,0.00456890991185,-0.00208931796613
+unitary matrix,NA,5,0.00456890991185,-0.00208931796613
+vectors,NNS,5,0.00456890991185,-0.00208931796613
+version,NN,5,0.00456890991185,-0.00208931796613
+zero column,NA,5,0.00456890991185,-0.00208931796613
+1< s<,NA,4,0.00365512792948,-0.0017406713359
+2]HKM13,CD,4,0.00365512792948,-0.0017406713359
+Assume,NNP,4,0.00365512792948,-0.0017406713359
+BVM,NNP,4,0.00365512792948,-0.0017406713359
+Circular Free,NA,4,0.00365512792948,-0.0017406713359
+Convex,NNP,4,0.00365512792948,-0.0017406713359
+Convex Sets,NA,4,0.00365512792948,-0.0017406713359
+Define,NNP,4,0.00365512792948,-0.0017406713359
+Department,NNP,4,0.00365512792948,-0.0017406713359
+EW,NNP,4,0.00365512792948,-0.0017406713359
+Effros-Winkler,NNP,4,0.00365512792948,-0.0017406713359
+Free Spectrahedra,NA,4,0.00365512792948,-0.0017406713359
+Gleichstellensatz,NNP,4,0.00365512792948,-0.0017406713359
+Hahn-Banach separation,NA,4,0.00365512792948,-0.0017406713359
+LMI defining,NA,4,0.00365512792948,-0.0017406713359
+LMIs,NNP,4,0.00365512792948,-0.0017406713359
+Matrix Convex,NA,4,0.00365512792948,-0.0017406713359
+Operator,NNP,4,0.00365512792948,-0.0017406713359
+U=,NNP,4,0.00365512792948,-0.0017406713359
+Z=,NNP,4,0.00365512792948,-0.0017406713359
+analysis,NN,4,0.00365512792948,-0.0017406713359
+commutative,VBP,4,0.00365512792948,-0.0017406713359
+compact,JJ,4,0.00365512792948,-0.0017406713359
+consisting,VBG,4,0.00365512792948,-0.0017406713359
+countable,JJ,4,0.00365512792948,-0.0017406713359
+cross term,NA,4,0.00365512792948,-0.0017406713359
+depending,VBG,4,0.00365512792948,-0.0017406713359
+detailed boundary,NA,4,0.00365512792948,-0.0017406713359
+elements,NNS,4,0.00365512792948,-0.0017406713359
+evaluations,NNS,4,0.00365512792948,-0.0017406713359
+exactly,RB,4,0.00365512792948,-0.0017406713359
+freely,RB,4,0.00365512792948,-0.0017406713359
+functional,JJ,4,0.00365512792948,-0.0017406713359
+generality,NN,4,0.00365512792948,-0.0017406713359
+identity,NN,4,0.00365512792948,-0.0017406713359
+integer,NN,4,0.00365512792948,-0.0017406713359
+isometry,NN,4,0.00365512792948,-0.0017406713359
+loss,NN,4,0.00365512792948,-0.0017406713359
+minimal LMI,NA,4,0.00365512792948,-0.0017406713359
+monomial,JJ,4,0.00365512792948,-0.0017406713359
+multiplication,NN,4,0.00365512792948,-0.0017406713359
+ncr,JJ,4,0.00365512792948,-0.0017406713359
+ncr,VBP,4,0.00365512792948,-0.0017406713359
+nd,JJ,4,0.00365512792948,-0.0017406713359
+nd g-1,NA,4,0.00365512792948,-0.0017406713359
+needed,VBN,4,0.00365512792948,-0.0017406713359
+noncommutative polynomials,NA,4,0.00365512792948,-0.0017406713359
+numbers,NNS,4,0.00365512792948,-0.0017406713359
+orthogonal,JJ,4,0.00365512792948,-0.0017406713359
+orthonormal,JJ,4,0.00365512792948,-0.0017406713359
+orthonormal basis,NA,4,0.00365512792948,-0.0017406713359
+positive integer,NA,4,0.00365512792948,-0.0017406713359
+product,NN,4,0.00365512792948,-0.0017406713359
+proof,VBP,4,0.00365512792948,-0.0017406713359
+proper,JJ,4,0.00365512792948,-0.0017406713359
+relatively,RB,4,0.00365512792948,-0.0017406713359
+relatively irrational,NA,4,0.00365512792948,-0.0017406713359
+result,NN,4,0.00365512792948,-0.0017406713359
+s<,NN,4,0.00365512792948,-0.0017406713359
+self-adjoint,JJ,4,0.00365512792948,-0.0017406713359
+suffices,NNS,4,0.00365512792948,-0.0017406713359
+superdiagonal,JJ,4,0.00365512792948,-0.0017406713359
+suppose,VBD,4,0.00365512792948,-0.0017406713359
+term,NN,4,0.00365512792948,-0.0017406713359
+tuples,NNS,4,0.00365512792948,-0.0017406713359
+types,NNS,4,0.00365512792948,-0.0017406713359
+unitaries,NNS,4,0.00365512792948,-0.0017406713359
+unitarily,JJ,4,0.00365512792948,-0.0017406713359
+univariate,JJ,4,0.00365512792948,-0.0017406713359
+1< e<,NA,3,0.00274134594711,-0.00137243064113
+2]Zal,CD,3,0.00274134594711,-0.00137243064113
+Adv,NNP,3,0.00274134594711,-0.00137243064113
+Amer,NNP,3,0.00274134594711,-0.00137243064113
+Appendix,NNP,3,0.00274134594711,-0.00137243064113
+Applying,NNP,3,0.00274134594711,-0.00137243064113
+Applying Lemma,NA,3,0.00274134594711,-0.00137243064113
+Ball,NNP,3,0.00274134594711,-0.00137243064113
+Circular Matrix,NA,3,0.00274134594711,-0.00137243064113
+Corollary,NNP,3,0.00274134594711,-0.00137243064113
+Effros,NNP,3,0.00274134594711,-0.00137243064113
+Equation,NNP,3,0.00274134594711,-0.00137243064113
+Free,JJ,3,0.00274134594711,-0.00137243064113
+Inequalities,NNP,3,0.00274134594711,-0.00137243064113
+Linear Matrix,NA,3,0.00274134594711,-0.00137243064113
+Matrix Inequalities,NA,3,0.00274134594711,-0.00137243064113
+Paulsen,NNP,3,0.00274134594711,-0.00137243064113
+Polynomials,NNP,3,0.00274134594711,-0.00137243064113
+SIAM,NNP,3,0.00274134594711,-0.00137243064113
+Theory,NNP,3,0.00274134594711,-0.00137243064113
+appears,VBZ,3,0.00274134594711,-0.00137243064113
+argument,NN,3,0.00274134594711,-0.00137243064113
+article,NN,3,0.00274134594711,-0.00137243064113
+canonical,JJ,3,0.00274134594711,-0.00137243064113
+characterizing,VBG,3,0.00274134594711,-0.00137243064113
+choice,NN,3,0.00274134594711,-0.00137243064113
+classification,NN,3,0.00274134594711,-0.00137243064113
+collection,NN,3,0.00274134594711,-0.00137243064113
+completes,VBZ,3,0.00274134594711,-0.00137243064113
+consequence,NN,3,0.00274134594711,-0.00137243064113
+contain,VBP,3,0.00274134594711,-0.00137243064113
+continuous,JJ,3,0.00274134594711,-0.00137243064113
+contraction,NN,3,0.00274134594711,-0.00137243064113
+contradiction,NN,3,0.00274134594711,-0.00137243064113
+cr,JJ,3,0.00274134594711,-0.00137243064113
+cr,NN,3,0.00274134594711,-0.00137243064113
+definition,NN,3,0.00274134594711,-0.00137243064113
+denote,VB,3,0.00274134594711,-0.00137243064113
+desired,VBD,3,0.00274134594711,-0.00137243064113
+detailed,VBD,3,0.00274134594711,-0.00137243064113
+dimension e<,NA,3,0.00274134594711,-0.00137243064113
+domains,VBZ,3,0.00274134594711,-0.00137243064113
+effective,JJ,3,0.00274134594711,-0.00137243064113
+empty,JJ,3,0.00274134594711,-0.00137243064113
+evaluating,VBG,3,0.00274134594711,-0.00137243064113
+fixed,VBN,3,0.00274134594711,-0.00137243064113
+g-tuple,NN,3,0.00274134594711,-0.00137243064113
+g-tuples,NNS,3,0.00274134594711,-0.00137243064113
+geometry,NN,3,0.00274134594711,-0.00137243064113
+gives,VBZ,3,0.00274134594711,-0.00137243064113
+hypotheses,VBZ,3,0.00274134594711,-0.00137243064113
+hypothesis,NN,3,0.00274134594711,-0.00137243064113
+immediately,RB,3,0.00274134594711,-0.00137243064113
+inequality,NN,3,0.00274134594711,-0.00137243064113
+invariant,VBP,3,0.00274134594711,-0.00137243064113
+involution,NN,3,0.00274134594711,-0.00137243064113
+irreducible,JJ,3,0.00274134594711,-0.00137243064113
+isometric,JJ,3,0.00274134594711,-0.00137243064113
+isometries,NNS,3,0.00274134594711,-0.00137243064113
+j],VBP,3,0.00274134594711,-0.00137243064113
+letters,NNS,3,0.00274134594711,-0.00137243064113
+linear matrix,NA,3,0.00274134594711,-0.00137243064113
+location,NN,3,0.00274134594711,-0.00137243064113
+m+1,NN,3,0.00274134594711,-0.00137243064113
+m+n,NN,3,0.00274134594711,-0.00137243064113
+matricial,JJ,3,0.00274134594711,-0.00137243064113
+nN,JJ,3,0.00274134594711,-0.00137243064113
+noncommuting,VBG,3,0.00274134594711,-0.00137243064113
+none,NN,3,0.00274134594711,-0.00137243064113
+norm,JJ,3,0.00274134594711,-0.00137243064113
+notation,NN,3,0.00274134594711,-0.00137243064113
+onto,IN,3,0.00274134594711,-0.00137243064113
+orthogonal decomposition,NA,3,0.00274134594711,-0.00137243064113
+pair,VBP,3,0.00274134594711,-0.00137243064113
+pencils,NNS,3,0.00274134594711,-0.00137243064113
+permutation,NN,3,0.00274134594711,-0.00137243064113
+positive semidefinite,NA,3,0.00274134594711,-0.00137243064113
+positivity,NN,3,0.00274134594711,-0.00137243064113
+projection,NN,3,0.00274134594711,-0.00137243064113
+prove Theorem,NA,3,0.00274134594711,-0.00137243064113
+prove item,NA,3,0.00274134594711,-0.00137243064113
+respectively,RB,3,0.00274134594711,-0.00137243064113
+results,NNS,3,0.00274134594711,-0.00137243064113
+rotations,NNS,3,0.00274134594711,-0.00137243064113
+s=1,NN,3,0.00274134594711,-0.00137243064113
+satisfies,NNS,3,0.00274134594711,-0.00137243064113
+self-contained,JJ,3,0.00274134594711,-0.00137243064113
+self-contained proof,NA,3,0.00274134594711,-0.00137243064113
+sets,VBZ,3,0.00274134594711,-0.00137243064113
+space,NN,3,0.00274134594711,-0.00137243064113
+standard,JJ,3,0.00274134594711,-0.00137243064113
+standard orthonormal,NA,3,0.00274134594711,-0.00137243064113
+subsection,NN,3,0.00274134594711,-0.00137243064113
+subset,VBD,3,0.00274134594711,-0.00137243064113
+subsets,NNS,3,0.00274134594711,-0.00137243064113
+supported,VBD,3,0.00274134594711,-0.00137243064113
+suppose,JJ,3,0.00274134594711,-0.00137243064113
+suppose,VBP,3,0.00274134594711,-0.00137243064113
+system,NN,3,0.00274134594711,-0.00137243064113
+systems,NNS,3,0.00274134594711,-0.00137243064113
+theory,NN,3,0.00274134594711,-0.00137243064113
+0],CD,2,0.00182756396474,-0.000977839430582
+1/2,CD,2,0.00182756396474,-0.000977839430582
+2Re,CD,2,0.00182756396474,-0.000977839430582
+AMS,NNP,2,0.00182756396474,-0.000977839430582
+Additionally,NNP,2,0.00182756396474,-0.000977839430582
+Anal,NNP,2,0.00182756396474,-0.000977839430582
+BKU78,NNP,2,0.00182756396474,-0.000977839430582
+C=,NNP,2,0.00182756396474,-0.000977839430582
+California,NNP,2,0.00182756396474,-0.000977839430582
+Cambridge,NNP,2,0.00182756396474,-0.000977839430582
+Choose,NNP,2,0.00182756396474,-0.000977839430582
+Choosing,NNP,2,0.00182756396474,-0.000977839430582
+Consequently,NNP,2,0.00182756396474,-0.000977839430582
+Control,NNP,2,0.00182756396474,-0.000977839430582
+Effros-Winkler Theorem,NA,2,0.00182756396474,-0.000977839430582
+Equivalently,RB,2,0.00182756396474,-0.000977839430582
+Farenick,NNP,2,0.00182756396474,-0.000977839430582
+Fix positive,NA,2,0.00182756396474,-0.000977839430582
+Free Polynomials,NA,2,0.00182756396474,-0.000977839430582
+Free Spectrahedron,NA,2,0.00182756396474,-0.000977839430582
+Function,NNP,2,0.00182756396474,-0.000977839430582
+Function Theory,NA,2,0.00182756396474,-0.000977839430582
+HKM12,NNP,2,0.00182756396474,-0.000977839430582
+HKM16,NNP,2,0.00182756396474,-0.000977839430582
+Hilbert,NNP,2,0.00182756396474,-0.000977839430582
+Hilbert space,NA,2,0.00182756396474,-0.000977839430582
+Hilbert-Schmidt,NNP,2,0.00182756396474,-0.000977839430582
+Hilbert-Schmidt norm,NA,2,0.00182756396474,-0.000977839430582
+Invariant,NNP,2,0.00182756396474,-0.000977839430582
+Likewise,NNP,2,0.00182756396474,-0.000977839430582
+London,NNP,2,0.00182756396474,-0.000977839430582
+Mathematical,NNP,2,0.00182756396474,-0.000977839430582
+NSF,NNP,2,0.00182756396474,-0.000977839430582
+NSF grant,NA,2,0.00182756396474,-0.000977839430582
+Noncommutative,NNP,2,0.00182756396474,-0.000977839430582
+Pencil,NNP,2,0.00182756396474,-0.000977839430582
+Positivstellensatz,NNP,2,0.00182756396474,-0.000977839430582
+Proof,NNP,2,0.00182756396474,-0.000977839430582
+Putinar,NNP,2,0.00182756396474,-0.000977839430582
+Reinhardt,NNP,2,0.00182756396474,-0.000977839430582
+Reinhardt domains,NA,2,0.00182756396474,-0.000977839430582
+Rotationally,NNP,2,0.00182756396474,-0.000977839430582
+Rotationally invariant,NA,2,0.00182756396474,-0.000977839430582
+San,NNP,2,0.00182756396474,-0.000977839430582
+Series,NNP,2,0.00182756396474,-0.000977839430582
+Similarly,RB,2,0.00182756396474,-0.000977839430582
+Society,NNP,2,0.00182756396474,-0.000977839430582
+Spectrahedron,NNP,2,0.00182756396474,-0.000977839430582
+Studies,NNP,2,0.00182756396474,-0.000977839430582
+Taylor,NNP,2,0.00182756396474,-0.000977839430582
+U=U,NNP,2,0.00182756396474,-0.000977839430582
+Using,NNP,2,0.00182756396474,-0.000977839430582
+Vinnikov,NNP,2,0.00182756396474,-0.000977839430582
+William,NNP,2,0.00182756396474,-0.000977839430582
+William Helton,NA,2,0.00182756396474,-0.000977839430582
+Winkler,NNP,2,0.00182756396474,-0.000977839430582
+acts,NNS,2,0.00182756396474,-0.000977839430582
+affine,NN,2,0.00182756396474,-0.000977839430582
+affine linear,NA,2,0.00182756396474,-0.000977839430582
+algebra,NN,2,0.00182756396474,-0.000977839430582
+algebraic geometry,NA,2,0.00182756396474,-0.000977839430582
+analog,NN,2,0.00182756396474,-0.000977839430582
+appear,VBP,2,0.00182756396474,-0.000977839430582
+application,NN,2,0.00182756396474,-0.000977839430582
+appropriate,VBP,2,0.00182756396474,-0.000977839430582
+appropriate sizes,NA,2,0.00182756396474,-0.000977839430582
+assume,JJ,2,0.00182756396474,-0.000977839430582
+balanced implies,NA,2,0.00182756396474,-0.000977839430582
+block superdiagonal,NA,2,0.00182756396474,-0.000977839430582
+bound,NN,2,0.00182756396474,-0.000977839430582
+bounded,VBD,2,0.00182756396474,-0.000977839430582
+canonical shuffle,NA,2,0.00182756396474,-0.000977839430582
+cf,NN,2,0.00182756396474,-0.000977839430582
+characterize,VBP,2,0.00182756396474,-0.000977839430582
+characterize free,NA,2,0.00182756396474,-0.000977839430582
+choose,JJ,2,0.00182756396474,-0.000977839430582
+circular subsets,NA,2,0.00182756396474,-0.000977839430582
+class,NN,2,0.00182756396474,-0.000977839430582
+classical,JJ,2,0.00182756396474,-0.000977839430582
+classify,VB,2,0.00182756396474,-0.000977839430582
+closed matrix,NA,2,0.00182756396474,-0.000977839430582
+commuting,VBG,2,0.00182756396474,-0.000977839430582
+completes,NNS,2,0.00182756396474,-0.000977839430582
+complex variables,NA,2,0.00182756396474,-0.000977839430582
+conclude,VBP,2,0.00182756396474,-0.000977839430582
+conjugating,VBG,2,0.00182756396474,-0.000977839430582
+consider,NN,2,0.00182756396474,-0.000977839430582
+considers,NNS,2,0.00182756396474,-0.000977839430582
+considers matrix,NA,2,0.00182756396474,-0.000977839430582
+construction,NN,2,0.00182756396474,-0.000977839430582
+contained,VBN,2,0.00182756396474,-0.000977839430582
+containing,VBG,2,0.00182756396474,-0.000977839430582
+contractive,JJ,2,0.00182756396474,-0.000977839430582
+contradicting,VBG,2,0.00182756396474,-0.000977839430582
+convenience,NN,2,0.00182756396474,-0.000977839430582
+convex,VBP,2,0.00182756396474,-0.000977839430582
+corresponding,VBG,2,0.00182756396474,-0.000977839430582
+define,NN,2,0.00182756396474,-0.000977839430582
+define,VBP,2,0.00182756396474,-0.000977839430582
+defined,VBD,2,0.00182756396474,-0.000977839430582
+defined,VBN,2,0.00182756396474,-0.000977839430582
+defining subpencil,NA,2,0.00182756396474,-0.000977839430582
+degree,NN,2,0.00182756396474,-0.000977839430582
+dense,NN,2,0.00182756396474,-0.000977839430582
+determined,VBD,2,0.00182756396474,-0.000977839430582
+diagonal,JJ,2,0.00182756396474,-0.000977839430582
+direction,NN,2,0.00182756396474,-0.000977839430582
+domain,NN,2,0.00182756396474,-0.000977839430582
+domains,NNS,2,0.00182756396474,-0.000977839430582
+d},JJ,2,0.00182756396474,-0.000977839430582
+d},NN,2,0.00182756396474,-0.000977839430582
+e<,FW,2,0.00182756396474,-0.000977839430582
+e<,JJ,2,0.00182756396474,-0.000977839430582
+e<,NN,2,0.00182756396474,-0.000977839430582
+edu,VBD,2,0.00182756396474,-0.000977839430582
+effective version,NA,2,0.00182756396474,-0.000977839430582
+entry,NN,2,0.00182756396474,-0.000977839430582
+equations,NNS,2,0.00182756396474,-0.000977839430582
+existence,NN,2,0.00182756396474,-0.000977839430582
+exists positive,NA,2,0.00182756396474,-0.000977839430582
+extend,VBP,2,0.00182756396474,-0.000977839430582
+extends,VBZ,2,0.00182756396474,-0.000977839430582
+field,NN,2,0.00182756396474,-0.000977839430582
+free analysis,NA,2,0.00182756396474,-0.000977839430582
+free semialgebraic,NA,2,0.00182756396474,-0.000977839430582
+freely generated,NA,2,0.00182756396474,-0.000977839430582
+function,NN,2,0.00182756396474,-0.000977839430582
+g},NN,2,0.00182756396474,-0.000977839430582
+implies matrix,NA,2,0.00182756396474,-0.000977839430582
+inclusions,NNS,2,0.00182756396474,-0.000977839430582
+indices,NNS,2,0.00182756396474,-0.000977839430582
+intersection,NN,2,0.00182756396474,-0.000977839430582
+invariant free,NA,2,0.00182756396474,-0.000977839430582
+invariant subspace,NA,2,0.00182756396474,-0.000977839430582
+isometric conjugation,NA,2,0.00182756396474,-0.000977839430582
+j-th,JJ,2,0.00182756396474,-0.000977839430582
+j=,VBP,2,0.00182756396474,-0.000977839430582
+j=0,NN,2,0.00182756396474,-0.000977839430582
+j=1,VBP,2,0.00182756396474,-0.000977839430582
+j],$,2,0.00182756396474,-0.000977839430582
+je,NN,2,0.00182756396474,-0.000977839430582
+k+1,JJ,2,0.00182756396474,-0.000977839430582
+k+1,NN,2,0.00182756396474,-0.000977839430582
+k=1,NNP,2,0.00182756396474,-0.000977839430582
+k=1,VBD,2,0.00182756396474,-0.000977839430582
+kRe,NN,2,0.00182756396474,-0.000977839430582
+lemma,JJ,2,0.00182756396474,-0.000977839430582
+letting,VBG,2,0.00182756396474,-0.000977839430582
+lies,VBZ,2,0.00182756396474,-0.000977839430582
+linear,IN,2,0.00182756396474,-0.000977839430582
+linear,VBP,2,0.00182756396474,-0.000977839430582
+linear functional,NA,2,0.00182756396474,-0.000977839430582
+linear pencils,NA,2,0.00182756396474,-0.000977839430582
+linear polynomial,NA,2,0.00182756396474,-0.000977839430582
+m-1,JJ,2,0.00182756396474,-0.000977839430582
+main result,NA,2,0.00182756396474,-0.000977839430582
+main results,NA,2,0.00182756396474,-0.000977839430582
+mappings,NNS,2,0.00182756396474,-0.000977839430582
+matrices,VBZ,2,0.00182756396474,-0.000977839430582
+matrix,RB,2,0.00182756396474,-0.000977839430582
+matrix,VBD,2,0.00182756396474,-0.000977839430582
+matrix inequality,NA,2,0.00182756396474,-0.000977839430582
+matrix pencil,NA,2,0.00182756396474,-0.000977839430582
+maximal,JJ,2,0.00182756396474,-0.000977839430582
+model,NN,2,0.00182756396474,-0.000977839430582
+monic,NN,2,0.00182756396474,-0.000977839430582
+monic linear,NA,2,0.00182756396474,-0.000977839430582
+monic pencil,NA,2,0.00182756396474,-0.000977839430582
+monomial appears,NA,2,0.00182756396474,-0.000977839430582
+multiplying,VBG,2,0.00182756396474,-0.000977839430582
+n+m,NN,2,0.00182756396474,-0.000977839430582
+n=p,JJ,2,0.00182756396474,-0.000977839430582
+natural,JJ,2,0.00182756396474,-0.000977839430582
+nd,NN,2,0.00182756396474,-0.000977839430582
+nd,NNS,2,0.00182756396474,-0.000977839430582
+neighborhood,NN,2,0.00182756396474,-0.000977839430582
+noncommuting letters,NA,2,0.00182756396474,-0.000977839430582
+nonzero blocks,NA,2,0.00182756396474,-0.000977839430582
+nonzero location,NA,2,0.00182756396474,-0.000977839430582
+nonzero matrix,NA,2,0.00182756396474,-0.000977839430582
+norm,NN,2,0.00182756396474,-0.000977839430582
+notations,NNS,2,0.00182756396474,-0.000977839430582
+note,NN,2,0.00182756396474,-0.000977839430582
+observe,NN,2,0.00182756396474,-0.000977839430582
+observe,VBP,2,0.00182756396474,-0.000977839430582
+obtain,VB,2,0.00182756396474,-0.000977839430582
+operator systems,NA,2,0.00182756396474,-0.000977839430582
+optimization,NN,2,0.00182756396474,-0.000977839430582
+pair,JJ,2,0.00182756396474,-0.000977839430582
+paper considers,NA,2,0.00182756396474,-0.000977839430582
+permutation matrices,NA,2,0.00182756396474,-0.000977839430582
+polynomials invariant,NA,2,0.00182756396474,-0.000977839430582
+positive definite,NA,2,0.00182756396474,-0.000977839430582
+precisely,RB,2,0.00182756396474,-0.000977839430582
+preliminary,JJ,2,0.00182756396474,-0.000977839430582
+preprint,VBP,2,0.00182756396474,-0.000977839430582
+produces,NNS,2,0.00182756396474,-0.000977839430582
+prove,IN,2,0.00182756396474,-0.000977839430582
+prove,NN,2,0.00182756396474,-0.000977839430582
+prove,VB,2,0.00182756396474,-0.000977839430582
+proved,VBD,2,0.00182756396474,-0.000977839430582
+real,JJ,2,0.00182756396474,-0.000977839430582
+recent,JJ,2,0.00182756396474,-0.000977839430582
+reindexing,VBG,2,0.00182756396474,-0.000977839430582
+replacing,VBG,2,0.00182756396474,-0.000977839430582
+representation,NN,2,0.00182756396474,-0.000977839430582
+restriction,NN,2,0.00182756396474,-0.000977839430582
+role,NN,2,0.00182756396474,-0.000977839430582
+rs,NN,2,0.00182756396474,-0.000977839430582
+sW,VBP,2,0.00182756396474,-0.000977839430582
+section contains,NA,2,0.00182756396474,-0.000977839430582
+self-adjoint,NN,2,0.00182756396474,-0.000977839430582
+self-adjoint variables,NA,2,0.00182756396474,-0.000977839430582
+semi-algebraic,JJ,2,0.00182756396474,-0.000977839430582
+semialgebraic,JJ,2,0.00182756396474,-0.000977839430582
+semidefinite,JJ,2,0.00182756396474,-0.000977839430582
+semidefinite,NN,2,0.00182756396474,-0.000977839430582
+shuffle,NN,2,0.00182756396474,-0.000977839430582
+solution,NN,2,0.00182756396474,-0.000977839430582
+solution sets,NA,2,0.00182756396474,-0.000977839430582
+spaces,NNS,2,0.00182756396474,-0.000977839430582
+span,JJ,2,0.00182756396474,-0.000977839430582
+spectrum,NN,2,0.00182756396474,-0.000977839430582
+stated,VBD,2,0.00182756396474,-0.000977839430582
+subset,VBP,2,0.00182756396474,-0.000977839430582
+symmetric monic,NA,2,0.00182756396474,-0.000977839430582
+tends,VBZ,2,0.00182756396474,-0.000977839430582
+theorem EW,NA,2,0.00182756396474,-0.000977839430582
+trace,VBP,2,0.00182756396474,-0.000977839430582
+trace norm,NA,2,0.00182756396474,-0.000977839430582
+unit vectors,NA,2,0.00182756396474,-0.000977839430582
+unitaries U=,NA,2,0.00182756396474,-0.000977839430582
+unitary matrices,NA,2,0.00182756396474,-0.000977839430582
+univariate matrix,NA,2,0.00182756396474,-0.000977839430582
+univariate polynomials,NA,2,0.00182756396474,-0.000977839430582
+v],NN,2,0.00182756396474,-0.000977839430582
+various,JJ,2,0.00182756396474,-0.000977839430582
+write,VBP,2,0.00182756396474,-0.000977839430582
+written,VBN,2,0.00182756396474,-0.000977839430582
+yields,NNS,2,0.00182756396474,-0.000977839430582
+00762>,CD,1,0.000913781982369,-0.000542671596607
+00765>,CD,1,0.000913781982369,-0.000542671596607
+07993>,CD,1,0.000913781982369,-0.000542671596607
+0<,CD,1,0.000913781982369,-0.000542671596607
+0<r<,CD,1,0.000913781982369,-0.000542671596607
+0},CD,1,0.000913781982369,-0.000542671596607
+1/2 X+X,NA,1,0.000913781982369,-0.000542671596607
+1/2C,CD,1,0.000913781982369,-0.000542671596607
+1003--1057,JJ,1,0.000913781982369,-0.000542671596607
+1006--1008,JJ,1,0.000913781982369,-0.000542671596607
+1065--1084,JJ,1,0.000913781982369,-0.000542671596607
+117--152,JJ,1,0.000913781982369,-0.000542671596607
+13]Pau,CD,1,0.000913781982369,-0.000542671596607
+155--236,JJ,1,0.000913781982369,-0.000542671596607
+17--61,JJ,1,0.000913781982369,-0.000542671596607
+175--188,JJ,1,0.000913781982369,-0.000542671596607
+183--252,JJ,1,0.000913781982369,-0.000542671596607
+1< k<,NA,1,0.000913781982369,-0.000542671596607
+1< r<,NA,1,0.000913781982369,-0.000542671596607
+1=,CD,1,0.000913781982369,-0.000542671596607
+1C,CD,1,0.000913781982369,-0.000542671596607
+1J,CD,1,0.000913781982369,-0.000542671596607
+1Research,CD,1,0.000913781982369,-0.000542671596607
+1Research supported,NA,1,0.000913781982369,-0.000542671596607
+1U,CD,1,0.000913781982369,-0.000542671596607
+1em,CD,1,0.000913781982369,-0.000542671596607
+1em 4pc,NA,1,0.000913781982369,-0.000542671596607
+1em]3,CD,1,0.000913781982369,-0.000542671596607
+1em]3 2em,NA,1,0.000913781982369,-0.000542671596607
+2-,JJ,1,0.000913781982369,-0.000542671596607
+2-2,JJ,1,0.000913781982369,-0.000542671596607
+210--243,JJ,1,0.000913781982369,-0.000542671596607
+241--285,JJ,1,0.000913781982369,-0.000542671596607
+2<C,CD,1,0.000913781982369,-0.000542671596607
+2=0,CD,1,0.000913781982369,-0.000542671596607
+2C,CD,1,0.000913781982369,-0.000542671596607
+2Igor,CD,1,0.000913781982369,-0.000542671596607
+2Igor Klep,NA,1,0.000913781982369,-0.000542671596607
+2Supported,CD,1,0.000913781982369,-0.000542671596607
+2]EW,CD,1,0.000913781982369,-0.000542671596607
+2em,CD,1,0.000913781982369,-0.000542671596607
+2em 4pcsubsubsection[8,NA,1,0.000913781982369,-0.000542671596607
+2g,CD,1,0.000913781982369,-0.000542671596607
+2g noncommuting,NA,1,0.000913781982369,-0.000542671596607
+307--322,JJ,1,0.000913781982369,-0.000542671596607
+321--360,JJ,1,0.000913781982369,-0.000542671596607
+32F17,CD,1,0.000913781982369,-0.000542671596607
+3721--3737,JJ,1,0.000913781982369,-0.000542671596607
+3Research,CD,1,0.000913781982369,-0.000542671596607
+3Research supported,NA,1,0.000913781982369,-0.000542671596607
+3Scott,CD,1,0.000913781982369,-0.000542671596607
+3Scott McCullough,NA,1,0.000913781982369,-0.000542671596607
+3em,CD,1,0.000913781982369,-0.000542671596607
+3em 4pcsubsection[6,NA,1,0.000913781982369,-0.000542671596607
+401--445,JJ,1,0.000913781982369,-0.000542671596607
+46L07,CD,1,0.000913781982369,-0.000542671596607
+46N10,CD,1,0.000913781982369,-0.000542671596607
+4em]4,CD,1,0.000913781982369,-0.000542671596607
+4em]4 1em,NA,1,0.000913781982369,-0.000542671596607
+4pc,CD,1,0.000913781982369,-0.000542671596607
+4pcsubsection[6,CD,1,0.000913781982369,-0.000542671596607
+4pcsubsection[6 1em]3,NA,1,0.000913781982369,-0.000542671596607
+4pcsubsubsection[8,CD,1,0.000913781982369,-0.000542671596607
+4pcsubsubsection[8 4em]4,NA,1,0.000913781982369,-0.000542671596607
+516--534,JJ,1,0.000913781982369,-0.000542671596607
+52A05,CD,1,0.000913781982369,-0.000542671596607
+55emsection[3,CD,1,0.000913781982369,-0.000542671596607
+55emsection[3 8em]2,NA,1,0.000913781982369,-0.000542671596607
+5]ER,CD,1,0.000913781982369,-0.000542671596607
+8198>,CD,1,0.000913781982369,-0.000542671596607
+885--892,JJ,1,0.000913781982369,-0.000542671596607
+8em]2,CD,1,0.000913781982369,-0.000542671596607
+8em]2 3em,NA,1,0.000913781982369,-0.000542671596607
+97--133,CD,1,0.000913781982369,-0.000542671596607
+979--1013,CD,1,0.000913781982369,-0.000542671596607
+A=A,NNP,1,0.000913781982369,-0.000542671596607
+A={A,NNP,1,0.000913781982369,-0.000542671596607
+A={A s},NA,1,0.000913781982369,-0.000542671596607
+AM14,NNP,1,0.000913781982369,-0.000542671596607
+AM14 BVM,NA,1,0.000913781982369,-0.000542671596607
+Acad,NNP,1,0.000913781982369,-0.000542671596607
+Accordingly,NNP,1,0.000913781982369,-0.000542671596607
+Additionally,RB,1,0.000913781982369,-0.000542671596607
+Advanced,NNP,1,0.000913781982369,-0.000542671596607
+Advanced Mathematics,NA,1,0.000913781982369,-0.000542671596607
+Agency,NNP,1,0.000913781982369,-0.000542671596607
+Agency grants,NA,1,0.000913781982369,-0.000542671596607
+Agler,NNP,1,0.000913781982369,-0.000542671596607
+Algebraic,NNP,1,0.000913781982369,-0.000542671596607
+Algebraic Approach,NA,1,0.000913781982369,-0.000542671596607
+Ann,NNP,1,0.000913781982369,-0.000542671596607
+Applied,NNP,1,0.000913781982369,-0.000542671596607
+Applied Mathematics,NA,1,0.000913781982369,-0.000542671596607
+Approach,NNP,1,0.000913781982369,-0.000542671596607
+Arguing,NNP,1,0.000913781982369,-0.000542671596607
+Arv08,NNP,1,0.000913781982369,-0.000542671596607
+Arveson,NNP,1,0.000913781982369,-0.000542671596607
+Assuming,NNP,1,0.000913781982369,-0.000542671596607
+Auckland,NNP,1,0.000913781982369,-0.000542671596607
+B-A,NNP,1,0.000913781982369,-0.000542671596607
+BGFB94,NNP,1,0.000913781982369,-0.000542671596607
+BPR13,NNP,1,0.000913781982369,-0.000542671596607
+BVM HKM12,NA,1,0.000913781982369,-0.000542671596607
+BVM classifying,NA,1,0.000913781982369,-0.000542671596607
+BVM obtain,NA,1,0.000913781982369,-0.000542671596607
+Balakrishnan,NNP,1,0.000913781982369,-0.000542671596607
+Ball-Marx-Vinnikov,NNP,1,0.000913781982369,-0.000542671596607
+Balls,NNP,1,0.000913781982369,-0.000542671596607
+Banach,NNP,1,0.000913781982369,-0.000542671596607
+Banach spaces,NA,1,0.000913781982369,-0.000542671596607
+Berezin,NNP,1,0.000913781982369,-0.000542671596607
+Berezin transforms,NA,1,0.000913781982369,-0.000542671596607
+Bi-disk,NNP,1,0.000913781982369,-0.000542671596607
+Blekherman,NNP,1,0.000913781982369,-0.000542671596607
+Boyd,NNP,1,0.000913781982369,-0.000542671596607
+Braun,NNP,1,0.000913781982369,-0.000542671596607
+Braun-Kaup-Upmeier,NNP,1,0.000913781982369,-0.000542671596607
+Braun-Kaup-Upmeier BKU78,NA,1,0.000913781982369,-0.000542671596607
+Cambridge Studies,NA,1,0.000913781982369,-0.000542671596607
+Cambridge University,NA,1,0.000913781982369,-0.000542671596607
+Canad,NNP,1,0.000913781982369,-0.000542671596607
+Choose permutation,NA,1,0.000913781982369,-0.000542671596607
+Choose unit,NA,1,0.000913781982369,-0.000542671596607
+Choosing,NN,1,0.000913781982369,-0.000542671596607
+Choosing,VBG,1,0.000913781982369,-0.000542671596607
+Choquet,NNP,1,0.000913781982369,-0.000542671596607
+Choquet boundary,NA,1,0.000913781982369,-0.000542671596607
+Circular Sets,NA,1,0.000913781982369,-0.000542671596607
+Clearly,NNP,1,0.000913781982369,-0.000542671596607
+Co,NNP,1,0.000913781982369,-0.000542671596607
+Completely,NNP,1,0.000913781982369,-0.000542671596607
+Completely bounded,NA,1,0.000913781982369,-0.000542671596607
+Complex,NNP,1,0.000913781982369,-0.000542671596607
+Complex Variables,NA,1,0.000913781982369,-0.000542671596607
+Conjugation,NNP,1,0.000913781982369,-0.000542671596607
+Consider,NNP,1,0.000913781982369,-0.000542671596607
+Control Design,NA,1,0.000913781982369,-0.000542671596607
+Control Theory,NA,1,0.000913781982369,-0.000542671596607
+Conversely,NNP,1,0.000913781982369,-0.000542671596607
+Conversely,RB,1,0.000913781982369,-0.000542671596607
+Coordinate,NNP,1,0.000913781982369,-0.000542671596607
+Coordinate Unitary,NA,1,0.000913781982369,-0.000542671596607
+Council,NNP,1,0.000913781982369,-0.000542671596607
+Criteria,NNP,1,0.000913781982369,-0.000542671596607
+DDSS,NNP,1,0.000913781982369,-0.000542671596607
+DDSS Eff09,NA,1,0.000913781982369,-0.000542671596607
+DMS,NNP,1,0.000913781982369,-0.000542671596607
+DMS-1361501,NNP,1,0.000913781982369,-0.000542671596607
+Davidson,NNP,1,0.000913781982369,-0.000542671596607
+Decompose,NNP,1,0.000913781982369,-0.000542671596607
+Design,NNP,1,0.000913781982369,-0.000542671596607
+Diego,NNP,1,0.000913781982369,-0.000542671596607
+Diegohelton@math,NNP,1,0.000913781982369,-0.000542671596607
+Diegohelton@math ucsd,NA,1,0.000913781982369,-0.000542671596607
+Dilations,NNP,1,0.000913781982369,-0.000542671596607
+Dor-On,NNP,1,0.000913781982369,-0.000542671596607
+Duals,NNP,1,0.000913781982369,-0.000542671596607
+E=,NNP,1,0.000913781982369,-0.000542671596607
+EW Far12,NA,1,0.000913781982369,-0.000542671596607
+EW HM12,NA,1,0.000913781982369,-0.000542671596607
+Eff09,NNP,1,0.000913781982369,-0.000542671596607
+Eff09 EW,NA,1,0.000913781982369,-0.000542671596607
+Effros-Winkler,JJ,1,0.000913781982369,-0.000542671596607
+Effros-Winkler matricial,NA,1,0.000913781982369,-0.000542671596607
+Effros-Winkler separation,NA,1,0.000913781982369,-0.000542671596607
+El,NNP,1,0.000913781982369,-0.000542671596607
+El Ghaoui,NA,1,0.000913781982369,-0.000542671596607
+Elements,NNS,1,0.000913781982369,-0.000542671596607
+Emerging,NNP,1,0.000913781982369,-0.000542671596607
+Emerging applications,NA,1,0.000913781982369,-0.000542671596607
+Engineering,NNP,1,0.000913781982369,-0.000542671596607
+Engineering systems,NA,1,0.000913781982369,-0.000542671596607
+Equation,NN,1,0.000913781982369,-0.000542671596607
+Estimate,NNP,1,0.000913781982369,-0.000542671596607
+Eur,NNP,1,0.000913781982369,-0.000542671596607
+Evaluations,NNP,1,0.000913781982369,-0.000542671596607
+Evert,NNP,1,0.000913781982369,-0.000542671596607
+EvertEric,NNP,1,0.000913781982369,-0.000542671596607
+EvertEric Evert,NA,1,0.000913781982369,-0.000542671596607
+Evert]Eric,NNP,1,0.000913781982369,-0.000542671596607
+Evert]Eric EvertEric,NA,1,0.000913781982369,-0.000542671596607
+Examples,NNP,1,0.000913781982369,-0.000542671596607
+Experts,NNS,1,0.000913781982369,-0.000542671596607
+Extremal,NNP,1,0.000913781982369,-0.000542671596607
+Extremal matrix,NA,1,0.000913781982369,-0.000542671596607
+F={f,NNP,1,0.000913781982369,-0.000542671596607
+FP12,NNP,1,0.000913781982369,-0.000542671596607
+FP12 KPTT,NA,1,0.000913781982369,-0.000542671596607
+Far12,NNP,1,0.000913781982369,-0.000542671596607
+Far12 HKM16,NA,1,0.000913781982369,-0.000542671596607
+Feron,NNP,1,0.000913781982369,-0.000542671596607
+Finally,RB,1,0.000913781982369,-0.000542671596607
+Florida,NNP,1,0.000913781982369,-0.000542671596607
+Ford,NNP,1,0.000913781982369,-0.000542671596607
+Ford Motor,NA,1,0.000913781982369,-0.000542671596607
+Foundations,NNP,1,0.000913781982369,-0.000542671596607
+Francis,NNP,1,0.000913781982369,-0.000542671596607
+Free Noncommutative,NA,1,0.000913781982369,-0.000542671596607
+Free analysis,NA,1,0.000913781982369,-0.000542671596607
+Free matrix,NA,1,0.000913781982369,-0.000542671596607
+Free spectrahedra,NA,1,0.000913781982369,-0.000542671596607
+Func,NNP,1,0.000913781982369,-0.000542671596607
+Funct,NNP,1,0.000913781982369,-0.000542671596607
+Functional,NNP,1,0.000913781982369,-0.000542671596607
+Functional analysis,NA,1,0.000913781982369,-0.000542671596607
+Functionals,NNP,1,0.000913781982369,-0.000542671596607
+Fund,NNP,1,0.000913781982369,-0.000542671596607
+Fund Council,NA,1,0.000913781982369,-0.000542671596607
+Furthermore,RB,1,0.000913781982369,-0.000542671596607
+F},NNP,1,0.000913781982369,-0.000542671596607
+Gainesville,NNP,1,0.000913781982369,-0.000542671596607
+Gainesville sam@math,NA,1,0.000913781982369,-0.000542671596607
+Geometric,NNP,1,0.000913781982369,-0.000542671596607
+Ghaoui,NNP,1,0.000913781982369,-0.000542671596607
+Global,NNP,1,0.000913781982369,-0.000542671596607
+Global holomorphic,NA,1,0.000913781982369,-0.000542671596607
+Grassmannian,JJ,1,0.000913781982369,-0.000542671596607
+Grassmannian completion,NA,1,0.000913781982369,-0.000542671596607
+Grigoriadis,NNP,1,0.000913781982369,-0.000542671596607
+Guide,NNP,1,0.000913781982369,-0.000542671596607
+HKM12 KVV14,NA,1,0.000913781982369,-0.000542671596607
+HKM13,NNP,1,0.000913781982369,-0.000542671596607
+HKM16 WW99,NA,1,0.000913781982369,-0.000542671596607
+HM04,NNP,1,0.000913781982369,-0.000542671596607
+HM12,NNP,1,0.000913781982369,-0.000542671596607
+Hahn-Banach Theorem,NA,1,0.000913781982369,-0.000542671596607
+Hahn-Banach theorems,NA,1,0.000913781982369,-0.000542671596607
+Helton 1J,NA,1,0.000913781982369,-0.000542671596607
+Helton]J,NNP,1,0.000913781982369,-0.000542671596607
+I-A,NNP,1,0.000913781982369,-0.000542671596607
+I-C,JJ,1,0.000913781982369,-0.000542671596607
+III,NNP,1,0.000913781982369,-0.000542671596607
+Interpolation,NNP,1,0.000913781982369,-0.000542671596607
+Introduction,NNP,1,0.000913781982369,-0.000542671596607
+Invariant Polynomials,NA,1,0.000913781982369,-0.000542671596607
+Items,NNP,1,0.000913781982369,-0.000542671596607
+Iwasaki,NNP,1,0.000913781982369,-0.000542671596607
+K=,NNP,1,0.000913781982369,-0.000542671596607
+KPTT,NNP,1,0.000913781982369,-0.000542671596607
+KPTT Arv08,NA,1,0.000913781982369,-0.000542671596607
+KS,NNP,1,0.000913781982369,-0.000542671596607
+KS Pop08,NA,1,0.000913781982369,-0.000542671596607
+KVV14,NNP,1,0.000913781982369,-0.000542671596607
+KVV14 KS,NA,1,0.000913781982369,-0.000542671596607
+Kaliuzhnyi-Verbovetskyi,NNP,1,0.000913781982369,-0.000542671596607
+Kaup,NNP,1,0.000913781982369,-0.000542671596607
+Kavruk,NNP,1,0.000913781982369,-0.000542671596607
+Klep 2Igor,NA,1,0.000913781982369,-0.000542671596607
+Klep]Igor,NNP,1,0.000913781982369,-0.000542671596607
+Klep]Igor Klep,NA,1,0.000913781982369,-0.000542671596607
+Kra01,NNP,1,0.000913781982369,-0.000542671596607
+Krantz,NNP,1,0.000913781982369,-0.000542671596607
+Krein-Milman,NNP,1,0.000913781982369,-0.000542671596607
+Krein-Milman theorem,NA,1,0.000913781982369,-0.000542671596607
+Kronecker,NNP,1,0.000913781982369,-0.000542671596607
+Kronecker product,NA,1,0.000913781982369,-0.000542671596607
+L1-6722,NNP,1,0.000913781982369,-0.000542671596607
+LMI corresponding,NA,1,0.000913781982369,-0.000542671596607
+LMI representation,NA,1,0.000913781982369,-0.000542671596607
+Letting,NNP,1,0.000913781982369,-0.000542671596607
+Letting Z=W,NA,1,0.000913781982369,-0.000542671596607
+Linear Control,NA,1,0.000913781982369,-0.000542671596607
+Linear Functionals,NA,1,0.000913781982369,-0.000542671596607
+London Math,NA,1,0.000913781982369,-0.000542671596607
+London Mathematical,NA,1,0.000913781982369,-0.000542671596607
+MOS-SIAM,NNP,1,0.000913781982369,-0.000542671596607
+MOS-SIAM Series,NA,1,0.000913781982369,-0.000542671596607
+Main,NNP,1,0.000913781982369,-0.000542671596607
+Main Results,NA,1,0.000913781982369,-0.000542671596607
+Manuscripta,NNP,1,0.000913781982369,-0.000542671596607
+Manuscripta Math,NA,1,0.000913781982369,-0.000542671596607
+Marsden,NNP,1,0.000913781982369,-0.000542671596607
+Marsden Fund,NA,1,0.000913781982369,-0.000542671596607
+Marx,NNP,1,0.000913781982369,-0.000542671596607
+Mathematical Society,NA,1,0.000913781982369,-0.000542671596607
+Mathematical Surveys,NA,1,0.000913781982369,-0.000542671596607
+Matrix Pencil,NA,1,0.000913781982369,-0.000542671596607
+Matrix convexity,NA,1,0.000913781982369,-0.000542671596607
+McCarthy,NNP,1,0.000913781982369,-0.000542671596607
+McCullough 3Scott,NA,1,0.000913781982369,-0.000542671596607
+McCullough]Scott,NNP,1,0.000913781982369,-0.000542671596607
+McCullough]Scott McCullough,NA,1,0.000913781982369,-0.000542671596607
+Membership,NNP,1,0.000913781982369,-0.000542671596607
+Mono-,NNP,1,0.000913781982369,-0.000542671596607
+Mono- graphs,NA,1,0.000913781982369,-0.000542671596607
+Monographs,NNP,1,0.000913781982369,-0.000542671596607
+Motor,NNP,1,0.000913781982369,-0.000542671596607
+Motor Co,NA,1,0.000913781982369,-0.000542671596607
+Mspan,NNP,1,0.000913781982369,-0.000542671596607
+N=1,NNP,1,0.000913781982369,-0.000542671596607
+Namely,RB,1,0.000913781982369,-0.000542671596607
+Nat,NNP,1,0.000913781982369,-0.000542671596607
+Noncommutative Berezin,NA,1,0.000913781982369,-0.000542671596607
+Noncommutative Function,NA,1,0.000913781982369,-0.000542671596607
+North-Holland,NNP,1,0.000913781982369,-0.000542671596607
+North-Holland Math,NA,1,0.000913781982369,-0.000542671596607
+Note,NN,1,0.000913781982369,-0.000542671596607
+N},NNP,1,0.000913781982369,-0.000542671596607
+Oliveira,NNP,1,0.000913781982369,-0.000542671596607
+Operator Pencil,NA,1,0.000913781982369,-0.000542671596607
+Operator Spaces,NA,1,0.000913781982369,-0.000542671596607
+Operator system,NA,1,0.000913781982369,-0.000542671596607
+Optimization,NNP,1,0.000913781982369,-0.000542671596607
+Otherwise,NNP,1,0.000913781982369,-0.000542671596607
+Oxford,NNP,1,0.000913781982369,-0.000542671596607
+Oxford Science,NA,1,0.000913781982369,-0.000542671596607
+P1-0222,JJ,1,0.000913781982369,-0.000542671596607
+Paderborn,NNP,1,0.000913781982369,-0.000542671596607
+Parrilo,NNP,1,0.000913781982369,-0.000542671596607
+Partially,NNP,1,0.000913781982369,-0.000542671596607
+Partially supported,NA,1,0.000913781982369,-0.000542671596607
+Pencil Ball,NA,1,0.000913781982369,-0.000542671596607
+Pencil Balls,NA,1,0.000913781982369,-0.000542671596607
+Polar,NNP,1,0.000913781982369,-0.000542671596607
+Polar Duals,NA,1,0.000913781982369,-0.000542671596607
+Polynomial,JJ,1,0.000913781982369,-0.000542671596607
+Polynomial evaluations,NA,1,0.000913781982369,-0.000542671596607
+Polynomials,NNS,1,0.000913781982369,-0.000542671596607
+Polynomials fixed,NA,1,0.000913781982369,-0.000542671596607
+Pop08,NNP,1,0.000913781982369,-0.000542671596607
+Pop08 Tay72,NA,1,0.000913781982369,-0.000542671596607
+Popescu,NNP,1,0.000913781982369,-0.000542671596607
+Press,NNP,1,0.000913781982369,-0.000542671596607
+Primary,NNP,1,0.000913781982369,-0.000542671596607
+Proc,NNP,1,0.000913781982369,-0.000542671596607
+Program,NNP,1,0.000913781982369,-0.000542671596607
+Projections,NNP,1,0.000913781982369,-0.000542671596607
+Properties,NNP,1,0.000913781982369,-0.000542671596607
+Publications,NNP,1,0.000913781982369,-0.000542671596607
+Quotients,NNP,1,0.000913781982369,-0.000542671596607
+Readers,NNP,1,0.000913781982369,-0.000542671596607
+Readers Guide,NA,1,0.000913781982369,-0.000542671596607
+Recall,NNP,1,0.000913781982369,-0.000542671596607
+Recursively,RB,1,0.000913781982369,-0.000542671596607
+Recursively define,NA,1,0.000913781982369,-0.000542671596607
+Relative,NNP,1,0.000913781982369,-0.000542671596607
+Representations,NNP,1,0.000913781982369,-0.000542671596607
+Research,NNP,1,0.000913781982369,-0.000542671596607
+Research Agency,NA,1,0.000913781982369,-0.000542671596607
+Results,NNP,1,0.000913781982369,-0.000542671596607
+Royal,NNP,1,0.000913781982369,-0.000542671596607
+Royal Society,NA,1,0.000913781982369,-0.000542671596607
+Ruan,NNP,1,0.000913781982369,-0.000542671596607
+Ruan's,NNP,1,0.000913781982369,-0.000542671596607
+SIAM Studies,NA,1,0.000913781982369,-0.000542671596607
+SIG97,NNP,1,0.000913781982369,-0.000542671596607
+SIG97 BGFB94,NA,1,0.000913781982369,-0.000542671596607
+San Diego,NA,1,0.000913781982369,-0.000542671596607
+San Diegohelton@math,NA,1,0.000913781982369,-0.000542671596607
+Scand,NNP,1,0.000913781982369,-0.000542671596607
+Schur-Agler,NNP,1,0.000913781982369,-0.000542671596607
+Schur-Agler class,NA,1,0.000913781982369,-0.000542671596607
+Sci,NNP,1,0.000913781982369,-0.000542671596607
+Science,NNP,1,0.000913781982369,-0.000542671596607
+Science Publications,NA,1,0.000913781982369,-0.000542671596607
+Secondary,JJ,1,0.000913781982369,-0.000542671596607
+Semidefinite,NNP,1,0.000913781982369,-0.000542671596607
+Semidefinite optimization,NA,1,0.000913781982369,-0.000542671596607
+Separating,NNP,1,0.000913781982369,-0.000542671596607
+Separating Linear,NA,1,0.000913781982369,-0.000542671596607
+Shalit,NNP,1,0.000913781982369,-0.000542671596607
+Skelton,NNP,1,0.000913781982369,-0.000542671596607
+Slovenian,JJ,1,0.000913781982369,-0.000542671596607
+Slovenian Research,NA,1,0.000913781982369,-0.000542671596607
+Society Mono-,NA,1,0.000913781982369,-0.000542671596607
+Solel,NNP,1,0.000913781982369,-0.000542671596607
+Spaces,NNP,1,0.000913781982369,-0.000542671596607
+Springer-Verlag,NNP,1,0.000913781982369,-0.000542671596607
+Start,NNP,1,0.000913781982369,-0.000542671596607
+Stud,NNP,1,0.000913781982369,-0.000542671596607
+Subsection,NNP,1,0.000913781982369,-0.000542671596607
+Sullivant,NNP,1,0.000913781982369,-0.000542671596607
+Summarizing,VBG,1,0.000913781982369,-0.000542671596607
+Surveys,NNP,1,0.000913781982369,-0.000542671596607
+System,NNP,1,0.000913781982369,-0.000542671596607
+T=T,NNP,1,0.000913781982369,-0.000542671596607
+Tay72,NNP,1,0.000913781982369,-0.000542671596607
+Tay72 Voi10,NA,1,0.000913781982369,-0.000542671596607
+Theorem BVM,NA,1,0.000913781982369,-0.000542671596607
+Theorem EW,NA,1,0.000913781982369,-0.000542671596607
+Thomas,NNP,1,0.000913781982369,-0.000542671596607
+Throughout,NNP,1,0.000913781982369,-0.000542671596607
+Todorov,NNP,1,0.000913781982369,-0.000542671596607
+Tomforde,NNP,1,0.000913781982369,-0.000542671596607
+Tracial,NNP,1,0.000913781982369,-0.000542671596607
+Tracial Hahn-Banach,NA,1,0.000913781982369,-0.000542671596607
+Tracking,VBG,1,0.000913781982369,-0.000542671596607
+Trans,NNP,1,0.000913781982369,-0.000542671596607
+Trans,NNPS,1,0.000913781982369,-0.000542671596607
+Turning,NNP,1,0.000913781982369,-0.000542671596607
+U=W,NNP,1,0.000913781982369,-0.000542671596607
+U=e,NNP,1,0.000913781982369,-0.000542671596607
+UX,NNP,1,0.000913781982369,-0.000542671596607
+UZ,NNP,1,0.000913781982369,-0.000542671596607
+Unified,NNP,1,0.000913781982369,-0.000542671596607
+Unified Algebraic,NA,1,0.000913781982369,-0.000542671596607
+Unitary,NNP,1,0.000913781982369,-0.000542671596607
+Unitary Conjugation,NA,1,0.000913781982369,-0.000542671596607
+University Press,NA,1,0.000913781982369,-0.000542671596607
+Upmeier,NNP,1,0.000913781982369,-0.000542671596607
+Using,VBG,1,0.000913781982369,-0.000542671596607
+Using equation,NA,1,0.000913781982369,-0.000542671596607
+V=,NNP,1,0.000913781982369,-0.000542671596607
+Variables,NNP,1,0.000913781982369,-0.000542671596607
+Voi10,NNP,1,0.000913781982369,-0.000542671596607
+Voiculescu,NNP,1,0.000913781982369,-0.000542671596607
+W=,NNP,1,0.000913781982369,-0.000542671596607
+WAW,NNP,1,0.000913781982369,-0.000542671596607
+WW99,NNP,1,0.000913781982369,-0.000542671596607
+WW99 Wit84,NA,1,0.000913781982369,-0.000542671596607
+Webster,NNP,1,0.000913781982369,-0.000542671596607
+Wit84,NNP,1,0.000913781982369,-0.000542671596607
+Wit84 Zal,NA,1,0.000913781982369,-0.000542671596607
+Wittstock,NNP,1,0.000913781982369,-0.000542671596607
+X+X,NNP,1,0.000913781982369,-0.000542671596607
+X-X,JJ,1,0.000913781982369,-0.000542671596607
+X=,NNP,1,0.000913781982369,-0.000542671596607
+X=V,NNP,1,0.000913781982369,-0.000542671596607
+Y=,NNP,1,0.000913781982369,-0.000542671596607
+Z=V,NNP,1,0.000913781982369,-0.000542671596607
+Z=W,NNP,1,0.000913781982369,-0.000542671596607
+ZF,NNP,1,0.000913781982369,-0.000542671596607
+ZX,NNP,1,0.000913781982369,-0.000542671596607
+Zal,NNP,1,0.000913781982369,-0.000542671596607
+Zalar,NNP,1,0.000913781982369,-0.000542671596607
+Zealand,NNP,1,0.000913781982369,-0.000542671596607
+Zealandigor,NNP,1,0.000913781982369,-0.000542671596607
+Zealandigor klep@auckland,NA,1,0.000913781982369,-0.000542671596607
+abbreviate,NN,1,0.000913781982369,-0.000542671596607
+abbreviate U=U,NA,1,0.000913781982369,-0.000542671596607
+ac,VBD,1,0.000913781982369,-0.000542671596607
+ac nz,NA,1,0.000913781982369,-0.000542671596607
+according,VBG,1,0.000913781982369,-0.000542671596607
+acting,VBG,1,0.000913781982369,-0.000542671596607
+acts irreducibly,NA,1,0.000913781982369,-0.000542671596607
+adapted,VBD,1,0.000913781982369,-0.000542671596607
+added,JJ,1,0.000913781982369,-0.000542671596607
+added assumption,NA,1,0.000913781982369,-0.000542671596607
+address,RB,1,0.000913781982369,-0.000542671596607
+adjoint,JJ,1,0.000913781982369,-0.000542671596607
+algebraic,JJ,1,0.000913781982369,-0.000542671596607
+algebraic,VBP,1,0.000913781982369,-0.000542671596607
+algebras,IN,1,0.000913781982369,-0.000542671596607
+algebras,NNS,1,0.000913781982369,-0.000542671596607
+ampliated,VBD,1,0.000913781982369,-0.000542671596607
+ampliated LMI,NA,1,0.000913781982369,-0.000542671596607
+analog,VBZ,1,0.000913781982369,-0.000542671596607
+analogues,NNS,1,0.000913781982369,-0.000542671596607
+analysis questions,NA,1,0.000913781982369,-0.000542671596607
+analytic,JJ,1,0.000913781982369,-0.000542671596607
+analytic properties,NA,1,0.000913781982369,-0.000542671596607
+angew,JJ,1,0.000913781982369,-0.000542671596607
+applications,NNS,1,0.000913781982369,-0.000542671596607
+apply,NN,1,0.000913781982369,-0.000542671596607
+approach,NN,1,0.000913781982369,-0.000542671596607
+appropriately,RB,1,0.000913781982369,-0.000542671596607
+appropriately sized,NA,1,0.000913781982369,-0.000542671596607
+areas,NNS,1,0.000913781982369,-0.000542671596607
+arguing,VBG,1,0.000913781982369,-0.000542671596607
+argument completes,NA,1,0.000913781982369,-0.000542671596607
+arguments,NNS,1,0.000913781982369,-0.000542671596607
+article characterize,NA,1,0.000913781982369,-0.000542671596607
+article investigates,NA,1,0.000913781982369,-0.000542671596607
+associate,VBP,1,0.000913781982369,-0.000542671596607
+associative,JJ,1,0.000913781982369,-0.000542671596607
+assume,VB,1,0.000913781982369,-0.000542671596607
+attention,NN,1,0.000913781982369,-0.000542671596607
+authors,NNS,1,0.000913781982369,-0.000542671596607
+automorphisms,IN,1,0.000913781982369,-0.000542671596607
+background,RB,1,0.000913781982369,-0.000542671596607
+balanced,JJ,1,0.000913781982369,-0.000542671596607
+balanced subset,NA,1,0.000913781982369,-0.000542671596607
+ball,DT,1,0.000913781982369,-0.000542671596607
+ball determined,NA,1,0.000913781982369,-0.000542671596607
+basic,JJ,1,0.000913781982369,-0.000542671596607
+basic convex,NA,1,0.000913781982369,-0.000542671596607
+becomes,NNS,1,0.000913781982369,-0.000542671596607
+behave,VBP,1,0.000913781982369,-0.000542671596607
+bianalytic,JJ,1,0.000913781982369,-0.000542671596607
+bianalytic mappings,NA,1,0.000913781982369,-0.000542671596607
+bilinear,IN,1,0.000913781982369,-0.000542671596607
+bipolar,JJ,1,0.000913781982369,-0.000542671596607
+block,JJ,1,0.000913781982369,-0.000542671596607
+blue,NN,1,0.000913781982369,-0.000542671596607
+bluepurple,NN,1,0.000913781982369,-0.000542671596607
+bounded maps,NA,1,0.000913781982369,-0.000542671596607
+bounded operator,NA,1,0.000913781982369,-0.000542671596607
+calculus,NN,1,0.000913781982369,-0.000542671596607
+canonical shuffles,NA,1,0.000913781982369,-0.000542671596607
+category,NN,1,0.000913781982369,-0.000542671596607
+cd,NN,1,0.000913781982369,-0.000542671596607
+celebrated,VBD,1,0.000913781982369,-0.000542671596607
+celebrated quantum,NA,1,0.000913781982369,-0.000542671596607
+chain structure,NA,1,0.000913781982369,-0.000542671596607
+characterization,NN,1,0.000913781982369,-0.000542671596607
+characterize,NN,1,0.000913781982369,-0.000542671596607
+characterizes,VBZ,1,0.000913781982369,-0.000542671596607
+characterizes monic,NA,1,0.000913781982369,-0.000542671596607
+characterizing circular,NA,1,0.000913781982369,-0.000542671596607
+characterizing monic,NA,1,0.000913781982369,-0.000542671596607
+chosen,VBN,1,0.000913781982369,-0.000542671596607
+circular,VBP,1,0.000913781982369,-0.000542671596607
+circular analog,NA,1,0.000913781982369,-0.000542671596607
+circular domains,NA,1,0.000913781982369,-0.000542671596607
+circular hypothesis,NA,1,0.000913781982369,-0.000542671596607
+circular spectrahedra,NA,1,0.000913781982369,-0.000542671596607
+circular spectrahedron,NA,1,0.000913781982369,-0.000542671596607
+circular symmetry,NA,1,0.000913781982369,-0.000542671596607
+cit,NNS,1,0.000913781982369,-0.000542671596607
+claim,NN,1,0.000913781982369,-0.000542671596607
+claimed,VBD,1,0.000913781982369,-0.000542671596607
+classical examples,NA,1,0.000913781982369,-0.000542671596607
+classifying,VBG,1,0.000913781982369,-0.000542671596607
+closely,RB,1,0.000913781982369,-0.000542671596607
+closely connected,NA,1,0.000913781982369,-0.000542671596607
+collected,VBN,1,0.000913781982369,-0.000542671596607
+column matrix,NA,1,0.000913781982369,-0.000542671596607
+combinations,NNS,1,0.000913781982369,-0.000542671596607
+comes,VBZ,1,0.000913781982369,-0.000542671596607
+commuting letters,NA,1,0.000913781982369,-0.000542671596607
+commuting variables,NA,1,0.000913781982369,-0.000542671596607
+compact,NN,1,0.000913781982369,-0.000542671596607
+compact convex,NA,1,0.000913781982369,-0.000542671596607
+compactness,JJ,1,0.000913781982369,-0.000542671596607
+completely,RB,1,0.000913781982369,-0.000542671596607
+completely positive,NA,1,0.000913781982369,-0.000542671596607
+completion,NN,1,0.000913781982369,-0.000542671596607
+complex Banach,NA,1,0.000913781982369,-0.000542671596607
+complex conjugation,NA,1,0.000913781982369,-0.000542671596607
+complex numbers,NA,1,0.000913781982369,-0.000542671596607
+compression,NN,1,0.000913781982369,-0.000542671596607
+compute,JJ,1,0.000913781982369,-0.000542671596607
+computing,VBG,1,0.000913781982369,-0.000542671596607
+conclude,NN,1,0.000913781982369,-0.000542671596607
+concludes,VBZ,1,0.000913781982369,-0.000542671596607
+conclusion,NN,1,0.000913781982369,-0.000542671596607
+conclusion follows,NA,1,0.000913781982369,-0.000542671596607
+condition,NN,1,0.000913781982369,-0.000542671596607
+connected,VBN,1,0.000913781982369,-0.000542671596607
+consequently,RB,1,0.000913781982369,-0.000542671596607
+consideration,NN,1,0.000913781982369,-0.000542671596607
+consists,VBZ,1,0.000913781982369,-0.000542671596607
+constant,VBP,1,0.000913781982369,-0.000542671596607
+contained fashion,NA,1,0.000913781982369,-0.000542671596607
+context,NN,1,0.000913781982369,-0.000542671596607
+continuity,NN,1,0.000913781982369,-0.000542671596607
+contraction matrices,NA,1,0.000913781982369,-0.000542671596607
+contractive conjugation,NA,1,0.000913781982369,-0.000542671596607
+contradicts,VBZ,1,0.000913781982369,-0.000542671596607
+contrast,NN,1,0.000913781982369,-0.000542671596607
+control,NN,1,0.000913781982369,-0.000542671596607
+control theory,NA,1,0.000913781982369,-0.000542671596607
+conventional,JJ,1,0.000913781982369,-0.000542671596607
+converges,NNS,1,0.000913781982369,-0.000542671596607
+converging,VBG,1,0.000913781982369,-0.000542671596607
+converse,JJ,1,0.000913781982369,-0.000542671596607
+converse,NN,1,0.000913781982369,-0.000542671596607
+convex,NNS,1,0.000913781982369,-0.000542671596607
+convex Positivstellensatz,NA,1,0.000913781982369,-0.000542671596607
+convex algebraic,NA,1,0.000913781982369,-0.000542671596607
+convex assumption,NA,1,0.000913781982369,-0.000542671596607
+convex free,NA,1,0.000913781982369,-0.000542671596607
+convex semi-algebraic,NA,1,0.000913781982369,-0.000542671596607
+convex subset,NA,1,0.000913781982369,-0.000542671596607
+convexEW,NN,1,0.000913781982369,-0.000542671596607
+convexity DDSS,NA,1,0.000913781982369,-0.000542671596607
+convexity approach,NA,1,0.000913781982369,-0.000542671596607
+convexity phenomena,NA,1,0.000913781982369,-0.000542671596607
+coordinate,JJ,1,0.000913781982369,-0.000542671596607
+cor[theorem]Corollarylemma[theorem]Lemmasublemma[theorem]Sublemmaprop[theorem]Propositiondefinition[theorem]Definitionalg[theorem]Algorithmremark[theorem]Remarkrem[theorem]Remarkconj[theorem]Conjecturequestion[theorem]Questionexample[theorem]Examplethm[theorem]Theoremlem[theorem]LemmaCor[theorem]Corollarydefi[theorem]Definitionlemma*Lemma,NN,1,0.000913781982369,-0.000542671596607
+core,NN,1,0.000913781982369,-0.000542671596607
+core motivation,NA,1,0.000913781982369,-0.000542671596607
+corollary,JJ,1,0.000913781982369,-0.000542671596607
+corresponding eigenspace,NA,1,0.000913781982369,-0.000542671596607
+cr,VBP,1,0.000913781982369,-0.000542671596607
+cross,JJ,1,0.000913781982369,-0.000542671596607
+cross,VBP,1,0.000913781982369,-0.000542671596607
+d-,JJ,1,0.000913781982369,-0.000542671596607
+d-e,JJ,1,0.000913781982369,-0.000542671596607
+d=,JJ,1,0.000913781982369,-0.000542671596607
+d=,VBP,1,0.000913781982369,-0.000542671596607
+dM,NN,1,0.000913781982369,-0.000542671596607
+dOHMP09,VBP,1,0.000913781982369,-0.000542671596607
+darkbluergb0,NN,1,0.000913781982369,-0.000542671596607
+de,IN,1,0.000913781982369,-0.000542671596607
+de Oliveira,NA,1,0.000913781982369,-0.000542671596607
+dealing,VBG,1,0.000913781982369,-0.000542671596607
+decomposing,VBG,1,0.000913781982369,-0.000542671596607
+decomposition A=A,NA,1,0.000913781982369,-0.000542671596607
+decompositions,NNS,1,0.000913781982369,-0.000542671596607
+decompositions yields,NA,1,0.000913781982369,-0.000542671596607
+define,JJ,1,0.000913781982369,-0.000542671596607
+define,VB,1,0.000913781982369,-0.000542671596607
+defining tuples,NA,1,0.000913781982369,-0.000542671596607
+definite,JJ,1,0.000913781982369,-0.000542671596607
+definite,NN,1,0.000913781982369,-0.000542671596607
+deg,JJ,1,0.000913781982369,-0.000542671596607
+degree,VBP,1,0.000913781982369,-0.000542671596607
+denote self-adjoint,NA,1,0.000913781982369,-0.000542671596607
+denoted,VBD,1,0.000913781982369,-0.000542671596607
+denoted,VBN,1,0.000913781982369,-0.000542671596607
+denoting,VBG,1,0.000913781982369,-0.000542671596607
+dense,RB,1,0.000913781982369,-0.000542671596607
+dense subset,NA,1,0.000913781982369,-0.000542671596607
+depends,VBZ,1,0.000913781982369,-0.000542671596607
+describe,NN,1,0.000913781982369,-0.000542671596607
+describe free,NA,1,0.000913781982369,-0.000542671596607
+described,VBN,1,0.000913781982369,-0.000542671596607
+described entirely,NA,1,0.000913781982369,-0.000542671596607
+desired block,NA,1,0.000913781982369,-0.000542671596607
+desired conclusion,NA,1,0.000913781982369,-0.000542671596607
+detailed,JJ,1,0.000913781982369,-0.000542671596607
+determines,NNS,1,0.000913781982369,-0.000542671596607
+diagonalized,VBD,1,0.000913781982369,-0.000542671596607
+diagrams,NNS,1,0.000913781982369,-0.000542671596607
+diagrams dOHMP09,NA,1,0.000913781982369,-0.000542671596607
+dimensional subspace,NA,1,0.000913781982369,-0.000542671596607
+direct,NN,1,0.000913781982369,-0.000542671596607
+direct proof,NA,1,0.000913781982369,-0.000542671596607
+discussed,VBD,1,0.000913781982369,-0.000542671596607
+distinct indices,NA,1,0.000913781982369,-0.000542671596607
+distinct unimodular,NA,1,0.000913781982369,-0.000542671596607
+dn,NN,1,0.000913781982369,-0.000542671596607
+ease,NN,1,0.000913781982369,-0.000542671596607
+easy,JJ,1,0.000913781982369,-0.000542671596607
+edited,VBD,1,0.000913781982369,-0.000542671596607
+editors,NNS,1,0.000913781982369,-0.000542671596607
+edu,NN,1,0.000913781982369,-0.000542671596607
+edu 1Research,NA,1,0.000913781982369,-0.000542671596607
+edu 3Research,NA,1,0.000913781982369,-0.000542671596607
+eevert@ucsd,NN,1,0.000913781982369,-0.000542671596607
+eevert@ucsd edu,NA,1,0.000913781982369,-0.000542671596607
+eigenspace,NN,1,0.000913781982369,-0.000542671596607
+elementary,JJ,1,0.000913781982369,-0.000542671596607
+elementary self-contained,NA,1,0.000913781982369,-0.000542671596607
+emerging,VBG,1,0.000913781982369,-0.000542671596607
+emerging areas,NA,1,0.000913781982369,-0.000542671596607
+endow,VBZ,1,0.000913781982369,-0.000542671596607
+engineering,NN,1,0.000913781982369,-0.000542671596607
+engineering problems,NA,1,0.000913781982369,-0.000542671596607
+entirely,RB,1,0.000913781982369,-0.000542671596607
+entry is=-1,NA,1,0.000913781982369,-0.000542671596607
+entrywise,NN,1,0.000913781982369,-0.000542671596607
+equal,JJ,1,0.000913781982369,-0.000542671596607
+equal zero,NA,1,0.000913781982369,-0.000542671596607
+equality,NN,1,0.000913781982369,-0.000542671596607
+equations imply,NA,1,0.000913781982369,-0.000542671596607
+equationsection,NN,1,0.000913781982369,-0.000542671596607
+equivalent,VBP,1,0.000913781982369,-0.000542671596607
+equivalent suffices,NA,1,0.000913781982369,-0.000542671596607
+equivalently,RB,1,0.000913781982369,-0.000542671596607
+equivalently endow,NA,1,0.000913781982369,-0.000542671596607
+established,VBD,1,0.000913781982369,-0.000542671596607
+establishing,VBG,1,0.000913781982369,-0.000542671596607
+etc,FW,1,0.000913781982369,-0.000542671596607
+evaluate,VBP,1,0.000913781982369,-0.000542671596607
+evaluating entrywise,NA,1,0.000913781982369,-0.000542671596607
+evaluation,NN,1,0.000913781982369,-0.000542671596607
+evaluations extend,NA,1,0.000913781982369,-0.000542671596607
+evaluations produce,NA,1,0.000913781982369,-0.000542671596607
+evidently,RB,1,0.000913781982369,-0.000542671596607
+exaExample[section],FW,1,0.000913781982369,-0.000542671596607
+exactness,JJ,1,0.000913781982369,-0.000542671596607
+examples,NNS,1,0.000913781982369,-0.000542671596607
+except,IN,1,0.000913781982369,-0.000542671596607
+exist,JJ,1,0.000913781982369,-0.000542671596607
+exist,NN,1,0.000913781982369,-0.000542671596607
+exist,VBP,1,0.000913781982369,-0.000542671596607
+exist positive,NA,1,0.000913781982369,-0.000542671596607
+exits,NNS,1,0.000913781982369,-0.000542671596607
+exits positive,NA,1,0.000913781982369,-0.000542671596607
+exp,NN,1,0.000913781982369,-0.000542671596607
+expansions,NNS,1,0.000913781982369,-0.000542671596607
+express,JJ,1,0.000913781982369,-0.000542671596607
+expressions,NNS,1,0.000913781982369,-0.000542671596607
+fashion,NN,1,0.000913781982369,-0.000542671596607
+final,JJ,1,0.000913781982369,-0.000542671596607
+finally,RB,1,0.000913781982369,-0.000542671596607
+finally T=T,NA,1,0.000913781982369,-0.000542671596607
+finishing,VBG,1,0.000913781982369,-0.000542671596607
+finite intersection,NA,1,0.000913781982369,-0.000542671596607
+fixed,VBD,1,0.000913781982369,-0.000542671596607
+fixed tuple,NA,1,0.000913781982369,-0.000542671596607
+flow,NN,1,0.000913781982369,-0.000542671596607
+flow diagrams,NA,1,0.000913781982369,-0.000542671596607
+follow,VBP,1,0.000913781982369,-0.000542671596607
+follow immediately,NA,1,0.000913781982369,-0.000542671596607
+formula,NN,1,0.000913781982369,-0.000542671596607
+formulas,NNS,1,0.000913781982369,-0.000542671596607
+framework,NN,1,0.000913781982369,-0.000542671596607
+free algebra,NA,1,0.000913781982369,-0.000542671596607
+free analog,NA,1,0.000913781982369,-0.000542671596607
+free basic,NA,1,0.000913781982369,-0.000542671596607
+free convexity,NA,1,0.000913781982369,-0.000542671596607
+free neighborhood,NA,1,0.000913781982369,-0.000542671596607
+free polynomial,NA,1,0.000913781982369,-0.000542671596607
+free semi-algebraic,NA,1,0.000913781982369,-0.000542671596607
+free variables,NA,1,0.000913781982369,-0.000542671596607
+freely noncommuting,NA,1,0.000913781982369,-0.000542671596607
+function theory,NA,1,0.000913781982369,-0.000542671596607
+functional calculus,NA,1,0.000913781982369,-0.000542671596607
+functions,NNS,1,0.000913781982369,-0.000542671596607
+g-tuple A=,NA,1,0.000913781982369,-0.000542671596607
+g-tuples,JJ,1,0.000913781982369,-0.000542671596607
+generalizations,NNS,1,0.000913781982369,-0.000542671596607
+generated,JJ,1,0.000913781982369,-0.000542671596607
+generated,VBD,1,0.000913781982369,-0.000542671596607
+generated,VBN,1,0.000913781982369,-0.000542671596607
+generic,JJ,1,0.000913781982369,-0.000542671596607
+generic matrix,NA,1,0.000913781982369,-0.000542671596607
+geometric,JJ,1,0.000913781982369,-0.000542671596607
+geometric argument,NA,1,0.000913781982369,-0.000542671596607
+goal,NN,1,0.000913781982369,-0.000542671596607
+grant,JJ,1,0.000913781982369,-0.000542671596607
+grant,NN,1,0.000913781982369,-0.000542671596607
+grant DMS,NA,1,0.000913781982369,-0.000542671596607
+grant DMS-1361501,NA,1,0.000913781982369,-0.000542671596607
+grants,VBZ,1,0.000913781982369,-0.000542671596607
+grants P1-0222,NA,1,0.000913781982369,-0.000542671596607
+graphs,NN,1,0.000913781982369,-0.000542671596607
+g} denote,NA,1,0.000913781982369,-0.000542671596607
+heavily,RB,1,0.000913781982369,-0.000542671596607
+heavily investigated,NA,1,0.000913781982369,-0.000542671596607
+hence,RB,1,0.000913781982369,-0.000542671596607
+hence reducing,NA,1,0.000913781982369,-0.000542671596607
+holomorphic,JJ,1,0.000913781982369,-0.000542671596607
+holomorphic functions,NA,1,0.000913781982369,-0.000542671596607
+homogeneity,NN,1,0.000913781982369,-0.000542671596607
+homogeneous operator,NA,1,0.000913781982369,-0.000542671596607
+ht,NN,1,0.000913781982369,-0.000542671596607
+hyperplane,NN,1,0.000913781982369,-0.000542671596607
+hypotheses,NNS,1,0.000913781982369,-0.000542671596607
+hypothesis,JJ,1,0.000913781982369,-0.000542671596607
+i=,VBP,1,0.000913781982369,-0.000542671596607
+i=1,JJ,1,0.000913781982369,-0.000542671596607
+i=1,VBP,1,0.000913781982369,-0.000542671596607
+identify,NN,1,0.000913781982369,-0.000542671596607
+identity matrices,NA,1,0.000913781982369,-0.000542671596607
+identity matrix,NA,1,0.000913781982369,-0.000542671596607
+ij,JJ,1,0.000913781982369,-0.000542671596607
+ij},VBP,1,0.000913781982369,-0.000542671596607
+immediate,JJ,1,0.000913781982369,-0.000542671596607
+immediate goal,NA,1,0.000913781982369,-0.000542671596607
+immediately follows,NA,1,0.000913781982369,-0.000542671596607
+immediately imply,NA,1,0.000913781982369,-0.000542671596607
+imply,JJ,1,0.000913781982369,-0.000542671596607
+imply,VBP,1,0.000913781982369,-0.000542671596607
+important,JJ,1,0.000913781982369,-0.000542671596607
+including,VBG,1,0.000913781982369,-0.000542671596607
+inclusion map,NA,1,0.000913781982369,-0.000542671596607
+indexed,JJ,1,0.000913781982369,-0.000542671596607
+indicate,NN,1,0.000913781982369,-0.000542671596607
+inequalities,NNS,1,0.000913781982369,-0.000542671596607
+initial,JJ,1,0.000913781982369,-0.000542671596607
+int,NN,1,0.000913781982369,-0.000542671596607
+interested,JJ,1,0.000913781982369,-0.000542671596607
+interior,NN,1,0.000913781982369,-0.000542671596607
+intersect,VBP,1,0.000913781982369,-0.000542671596607
+intersection property,NA,1,0.000913781982369,-0.000542671596607
+invariants,NNS,1,0.000913781982369,-0.000542671596607
+invertible,JJ,1,0.000913781982369,-0.000542671596607
+invertible,NN,1,0.000913781982369,-0.000542671596607
+investigated,VBN,1,0.000913781982369,-0.000542671596607
+investigates,NNS,1,0.000913781982369,-0.000542671596607
+investigates spectrahedra,NA,1,0.000913781982369,-0.000542671596607
+irreducibility,JJ,1,0.000913781982369,-0.000542671596607
+irreducibility condition,NA,1,0.000913781982369,-0.000542671596607
+irreducibly,RB,1,0.000913781982369,-0.000542671596607
+is=-1,JJ,1,0.000913781982369,-0.000542671596607
+isometric,NN,1,0.000913781982369,-0.000542671596607
+isometric matrix,NA,1,0.000913781982369,-0.000542671596607
+itA,JJ,1,0.000913781982369,-0.000542671596607
+itA determines,NA,1,0.000913781982369,-0.000542671596607
+itA s=U,NA,1,0.000913781982369,-0.000542671596607
+itWA,JJ,1,0.000913781982369,-0.000542671596607
+itWA sW,NA,1,0.000913781982369,-0.000542671596607
+item,JJ,1,0.000913781982369,-0.000542671596607
+ix,NN,1,0.000913781982369,-0.000542671596607
+j+1,VBP,1,0.000913781982369,-0.000542671596607
+j+A,NN,1,0.000913781982369,-0.000542671596607
+j-1,JJ,1,0.000913781982369,-0.000542671596607
+j-A,JJ,1,0.000913781982369,-0.000542671596607
+j-A,NN,1,0.000913781982369,-0.000542671596607
+j-A jx,NA,1,0.000913781982369,-0.000542671596607
+j-th column,NA,1,0.000913781982369,-0.000542671596607
+j-th entry,NA,1,0.000913781982369,-0.000542671596607
+j< g},NA,1,0.000913781982369,-0.000542671596607
+j= I-C,NA,1,0.000913781982369,-0.000542671596607
+j=1,NNS,1,0.000913781982369,-0.000542671596607
+j=1/2,NN,1,0.000913781982369,-0.000542671596607
+j=1/2i,NN,1,0.000913781982369,-0.000542671596607
+j>,JJ,1,0.000913781982369,-0.000542671596607
+j>,NN,1,0.000913781982369,-0.000542671596607
+j],NNS,1,0.000913781982369,-0.000542671596607
+jx,NN,1,0.000913781982369,-0.000542671596607
+j},NN,1,0.000913781982369,-0.000542671596607
+k+1,FW,1,0.000913781982369,-0.000542671596607
+k+1,VBP,1,0.000913781982369,-0.000542671596607
+k+1},NN,1,0.000913781982369,-0.000542671596607
+k+1},VBD,1,0.000913781982369,-0.000542671596607
+k<,NN,1,0.000913781982369,-0.000542671596607
+k<,NNS,1,0.000913781982369,-0.000542671596607
+k< d},NA,1,0.000913781982369,-0.000542671596607
+k=,JJ,1,0.000913781982369,-0.000542671596607
+k=,NN,1,0.000913781982369,-0.000542671596607
+k>0,JJ,1,0.000913781982369,-0.000542671596607
+kernel,NNS,1,0.000913781982369,-0.000542671596607
+klep@auckland,NNP,1,0.000913781982369,-0.000542671596607
+klep@auckland ac,NA,1,0.000913781982369,-0.000542671596607
+kv,NN,1,0.000913781982369,-0.000542671596607
+latter,RBR,1,0.000913781982369,-0.000542671596607
+lemma,NN,1,0.000913781982369,-0.000542671596607
+lemma,VBP,1,0.000913781982369,-0.000542671596607
+lemma completes,NA,1,0.000913781982369,-0.000542671596607
+lemmas,JJ,1,0.000913781982369,-0.000542671596607
+lemmas,NN,1,0.000913781982369,-0.000542671596607
+lemmas preliminary,NA,1,0.000913781982369,-0.000542671596607
+length,NN,1,0.000913781982369,-0.000542671596607
+limiting,VBG,1,0.000913781982369,-0.000542671596607
+limiting argument,NA,1,0.000913781982369,-0.000542671596607
+linear Gleichstellensatz,NA,1,0.000913781982369,-0.000542671596607
+linear combinations,NA,1,0.000913781982369,-0.000542671596607
+linear mapping,NA,1,0.000913781982369,-0.000542671596607
+linear system,NA,1,0.000913781982369,-0.000542671596607
+loc,NN,1,0.000913781982369,-0.000542671596607
+longest,JJS,1,0.000913781982369,-0.000542671596607
+m+1,JJ,1,0.000913781982369,-0.000542671596607
+m+1,NNS,1,0.000913781982369,-0.000542671596607
+m+1,RB,1,0.000913781982369,-0.000542671596607
+m+1,VBP,1,0.000913781982369,-0.000542671596607
+m+1=,NN,1,0.000913781982369,-0.000542671596607
+m+1=j,VBD,1,0.000913781982369,-0.000542671596607
+m+1},$,1,0.000913781982369,-0.000542671596607
+m+1},NN,1,0.000913781982369,-0.000542671596607
+m+n,FW,1,0.000913781982369,-0.000542671596607
+m>,NN,1,0.000913781982369,-0.000542671596607
+main theorem,NA,1,0.000913781982369,-0.000542671596607
+major,JJ,1,0.000913781982369,-0.000542671596607
+major theme,NA,1,0.000913781982369,-0.000542671596607
+map,NNS,1,0.000913781982369,-0.000542671596607
+mapping,VBG,1,0.000913781982369,-0.000542671596607
+matrices A={A,NA,1,0.000913781982369,-0.000542671596607
+matricial Hahn-Banach,NA,1,0.000913781982369,-0.000542671596607
+matricial relaxation,NA,1,0.000913781982369,-0.000542671596607
+matrix algebras,NA,1,0.000913781982369,-0.000542671596607
+matrix convexEW,NA,1,0.000913781982369,-0.000542671596607
+matrix convexity,NA,1,0.000913781982369,-0.000542671596607
+matrix invariants,NA,1,0.000913781982369,-0.000542671596607
+matrix variables,NA,1,0.000913781982369,-0.000542671596607
+maximal admissible,NA,1,0.000913781982369,-0.000542671596607
+maximality,NN,1,0.000913781982369,-0.000542671596607
+meaning,NN,1,0.000913781982369,-0.000542671596607
+min,NN,1,0.000913781982369,-0.000542671596607
+minimality,NN,1,0.000913781982369,-0.000542671596607
+ml+1,NN,1,0.000913781982369,-0.000542671596607
+model theory,NA,1,0.000913781982369,-0.000542671596607
+monic matrix,NA,1,0.000913781982369,-0.000542671596607
+monic symmetric,NA,1,0.000913781982369,-0.000542671596607
+monoid,NN,1,0.000913781982369,-0.000542671596607
+monoid freely,NA,1,0.000913781982369,-0.000542671596607
+monomials,NNS,1,0.000913781982369,-0.000542671596607
+motivation,NN,1,0.000913781982369,-0.000542671596607
+multi-operator,NN,1,0.000913781982369,-0.000542671596607
+multi-operator functional,NA,1,0.000913781982369,-0.000542671596607
+multiple,NN,1,0.000913781982369,-0.000542671596607
+multivariable,JJ,1,0.000913781982369,-0.000542671596607
+multivariable operator,NA,1,0.000913781982369,-0.000542671596607
+m},NN,1,0.000913781982369,-0.000542671596607
+m} denote,NA,1,0.000913781982369,-0.000542671596607
+n=,RB,1,0.000913781982369,-0.000542671596607
+n=1,JJ,1,0.000913781982369,-0.000542671596607
+n=h,RB,1,0.000913781982369,-0.000542671596607
+nN,FW,1,0.000913781982369,-0.000542671596607
+nTT,JJ,1,0.000913781982369,-0.000542671596607
+namely,RB,1,0.000913781982369,-0.000542671596607
+natural types,NA,1,0.000913781982369,-0.000542671596607
+naturally,RB,1,0.000913781982369,-0.000542671596607
+naturally extend,NA,1,0.000913781982369,-0.000542671596607
+ncr,FW,1,0.000913781982369,-0.000542671596607
+ncr,NN,1,0.000913781982369,-0.000542671596607
+nd,IN,1,0.000913781982369,-0.000542671596607
+nd,RB,1,0.000913781982369,-0.000542671596607
+nd,VBP,1,0.000913781982369,-0.000542671596607
+ndN,NN,1,0.000913781982369,-0.000542671596607
+needed background,NA,1,0.000913781982369,-0.000542671596607
+nilpotent,JJ,1,0.000913781982369,-0.000542671596607
+nilpotent,NN,1,0.000913781982369,-0.000542671596607
+nilpotent matrices,NA,1,0.000913781982369,-0.000542671596607
+non-commuting,JJ,1,0.000913781982369,-0.000542671596607
+non-commuting variables,NA,1,0.000913781982369,-0.000542671596607
+non-empty,JJ,1,0.000913781982369,-0.000542671596607
+non-symmetric,JJ,1,0.000913781982369,-0.000542671596607
+non-trivial,JJ,1,0.000913781982369,-0.000542671596607
+non-trivial direction,NA,1,0.000913781982369,-0.000542671596607
+non-unital,JJ,1,0.000913781982369,-0.000542671596607
+noncommutative Choquet,NA,1,0.000913781982369,-0.000542671596607
+noncommutative Schur-Agler,NA,1,0.000913781982369,-0.000542671596607
+noncommuting variables,NA,1,0.000913781982369,-0.000542671596607
+nonnegative,JJ,1,0.000913781982369,-0.000542671596607
+nonnegative numbers,NA,1,0.000913781982369,-0.000542671596607
+nonzero,JJ,1,0.000913781982369,-0.000542671596607
+nonzero,VBZ,1,0.000913781982369,-0.000542671596607
+nonzero entry,NA,1,0.000913781982369,-0.000542671596607
+norm,VBP,1,0.000913781982369,-0.000542671596607
+norms,NNS,1,0.000913781982369,-0.000542671596607
+notational,JJ,1,0.000913781982369,-0.000542671596607
+notational ease,NA,1,0.000913781982369,-0.000542671596607
+nrg,JJ,1,0.000913781982369,-0.000542671596607
+nuclearity,NN,1,0.000913781982369,-0.000542671596607
+nz,RB,1,0.000913781982369,-0.000542671596607
+nz 2Supported,NA,1,0.000913781982369,-0.000542671596607
+n},JJ,1,0.000913781982369,-0.000542671596607
+occurs,VBZ,1,0.000913781982369,-0.000542671596607
+operator algebras,NA,1,0.000913781982369,-0.000542671596607
+operator analogues,NA,1,0.000913781982369,-0.000542671596607
+operator convexity,NA,1,0.000913781982369,-0.000542671596607
+operator model,NA,1,0.000913781982369,-0.000542671596607
+operator spaces,NA,1,0.000913781982369,-0.000542671596607
+operator system,NA,1,0.000913781982369,-0.000542671596607
+operator tuple,NA,1,0.000913781982369,-0.000542671596607
+operators,NNS,1,0.000913781982369,-0.000542671596607
+optimization BPR13,NA,1,0.000913781982369,-0.000542671596607
+orange,NN,1,0.000913781982369,-0.000542671596607
+ordinary,JJ,1,0.000913781982369,-0.000542671596607
+org/abs/1407,VBD,1,0.000913781982369,-0.000542671596607
+org/abs/1407 8198>,NA,1,0.000913781982369,-0.000542671596607
+org/abs/1601,JJ,1,0.000913781982369,-0.000542671596607
+org/abs/1601 07993>,NA,1,0.000913781982369,-0.000542671596607
+org/abs/1602,RB,1,0.000913781982369,-0.000542671596607
+org/abs/1602,VBD,1,0.000913781982369,-0.000542671596607
+org/abs/1602 00762>,NA,1,0.000913781982369,-0.000542671596607
+org/abs/1602 00765>,NA,1,0.000913781982369,-0.000542671596607
+origin,VBP,1,0.000913781982369,-0.000542671596607
+orthogonal sum,NA,1,0.000913781982369,-0.000542671596607
+otherwise,RB,1,0.000913781982369,-0.000542671596607
+p-1,JJ,1,0.000913781982369,-0.000542671596607
+p=1,JJ,1,0.000913781982369,-0.000542671596607
+p=1,VBP,1,0.000913781982369,-0.000542671596607
+pF,NN,1,0.000913781982369,-0.000542671596607
+pair C=,NA,1,0.000913781982369,-0.000542671596607
+pairs,NNS,1,0.000913781982369,-0.000542671596607
+particular,VBP,1,0.000913781982369,-0.000542671596607
+passing,VBG,1,0.000913781982369,-0.000542671596607
+pencil determined,NA,1,0.000913781982369,-0.000542671596607
+permutation matrix,NA,1,0.000913781982369,-0.000542671596607
+perspective,JJ,1,0.000913781982369,-0.000542671596607
+phenomena,VBP,1,0.000913781982369,-0.000542671596607
+play,VBP,1,0.000913781982369,-0.000542671596607
+plays,NNS,1,0.000913781982369,-0.000542671596607
+polynomial depending,NA,1,0.000913781982369,-0.000542671596607
+polynomials characterizes,NA,1,0.000913781982369,-0.000542671596607
+polynomials positive,NA,1,0.000913781982369,-0.000542671596607
+positive maps,NA,1,0.000913781982369,-0.000542671596607
+possibly,RB,1,0.000913781982369,-0.000542671596607
+preliminary lemmas,NA,1,0.000913781982369,-0.000542671596607
+preprint,NN,1,0.000913781982369,-0.000542671596607
+problems,NNS,1,0.000913781982369,-0.000542671596607
+problems described,NA,1,0.000913781982369,-0.000542671596607
+proceeding,VBG,1,0.000913781982369,-0.000542671596607
+process,NN,1,0.000913781982369,-0.000542671596607
+process terminates,NA,1,0.000913781982369,-0.000542671596607
+produce,VBP,1,0.000913781982369,-0.000542671596607
+products,NNS,1,0.000913781982369,-0.000542671596607
+programming,VBG,1,0.000913781982369,-0.000542671596607
+projection onto,NA,1,0.000913781982369,-0.000542671596607
+proof,VBD,1,0.000913781982369,-0.000542671596607
+proof appears,NA,1,0.000913781982369,-0.000542671596607
+proof shows,NA,1,0.000913781982369,-0.000542671596607
+proofs,JJ,1,0.000913781982369,-0.000542671596607
+proper subpencil,NA,1,0.000913781982369,-0.000542671596607
+proper subset,NA,1,0.000913781982369,-0.000542671596607
+proper subspace,NA,1,0.000913781982369,-0.000542671596607
+properly,RB,1,0.000913781982369,-0.000542671596607
+properly contains,NA,1,0.000913781982369,-0.000542671596607
+properties,NNS,1,0.000913781982369,-0.000542671596607
+property,NN,1,0.000913781982369,-0.000542671596607
+propertyM,NN,1,0.000913781982369,-0.000542671596607
+proposition,NN,1,0.000913781982369,-0.000542671596607
+prove,JJ,1,0.000913781982369,-0.000542671596607
+provide,VBP,1,0.000913781982369,-0.000542671596607
+pt,NN,1,0.000913781982369,-0.000542671596607
+qm,NN,1,0.000913781982369,-0.000542671596607
+quantum,JJ,1,0.000913781982369,-0.000542671596607
+quantum inequalities,NA,1,0.000913781982369,-0.000542671596607
+questions,NNS,1,0.000913781982369,-0.000542671596607
+quotients,NNS,1,0.000913781982369,-0.000542671596607
+r+1,NN,1,0.000913781982369,-0.000542671596607
+r<,NN,1,0.000913781982369,-0.000542671596607
+r=1,NN,1,0.000913781982369,-0.000542671596607
+rOpenness,NN,1,0.000913781982369,-0.000542671596607
+rOpenness propertyM,NA,1,0.000913781982369,-0.000542671596607
+rank,NN,1,0.000913781982369,-0.000542671596607
+reader,NN,1,0.000913781982369,-0.000542671596607
+reader's,NN,1,0.000913781982369,-0.000542671596607
+reader's convenience,NA,1,0.000913781982369,-0.000542671596607
+real numbers,NA,1,0.000913781982369,-0.000542671596607
+realization,NN,1,0.000913781982369,-0.000542671596607
+recent references,NA,1,0.000913781982369,-0.000542671596607
+recent results,NA,1,0.000913781982369,-0.000542671596607
+reduce,VB,1,0.000913781982369,-0.000542671596607
+reducing subspaces,NA,1,0.000913781982369,-0.000542671596607
+refer,VBP,1,0.000913781982369,-0.000542671596607
+references,NNS,1,0.000913781982369,-0.000542671596607
+reine,JJ,1,0.000913781982369,-0.000542671596607
+reine angew,NA,1,0.000913781982369,-0.000542671596607
+related,JJ,1,0.000913781982369,-0.000542671596607
+relaxation,NN,1,0.000913781982369,-0.000542671596607
+repeat,NN,1,0.000913781982369,-0.000542671596607
+representation theorem,NA,1,0.000913781982369,-0.000542671596607
+represented,VBD,1,0.000913781982369,-0.000542671596607
+resp,JJ,1,0.000913781982369,-0.000542671596607
+resp,NN,1,0.000913781982369,-0.000542671596607
+respect,VBP,1,0.000913781982369,-0.000542671596607
+restated,VBD,1,0.000913781982369,-0.000542671596607
+rests,NNS,1,0.000913781982369,-0.000542671596607
+result follows,NA,1,0.000913781982369,-0.000542671596607
+reverse,JJ,1,0.000913781982369,-0.000542671596607
+reverse inclusion,NA,1,0.000913781982369,-0.000542671596607
+reverses,VBZ,1,0.000913781982369,-0.000542671596607
+routine,NN,1,0.000913781982369,-0.000542671596607
+routine limiting,NA,1,0.000913781982369,-0.000542671596607
+row,NN,1,0.000913781982369,-0.000542671596607
+runs,NNS,1,0.000913781982369,-0.000542671596607
+s+t=d,NN,1,0.000913781982369,-0.000542671596607
+s+t=d,VBP,1,0.000913781982369,-0.000542671596607
+s=U,VBD,1,0.000913781982369,-0.000542671596607
+sa,NN,1,0.000913781982369,-0.000542671596607
+sa,RB,1,0.000913781982369,-0.000542671596607
+sa,VBD,1,0.000913781982369,-0.000542671596607
+sam@math,NN,1,0.000913781982369,-0.000542671596607
+sam@math ufl,NA,1,0.000913781982369,-0.000542671596607
+satisfying,VBG,1,0.000913781982369,-0.000542671596607
+self,NN,1,0.000913781982369,-0.000542671596607
+self contained,NA,1,0.000913781982369,-0.000542671596607
+self-adjoint coefficients,NA,1,0.000913781982369,-0.000542671596607
+self-adjoint elements,NA,1,0.000913781982369,-0.000542671596607
+self-adjoint matrices,NA,1,0.000913781982369,-0.000542671596607
+semi-algebraic geometry,NA,1,0.000913781982369,-0.000542671596607
+semidefinite programming,NA,1,0.000913781982369,-0.000542671596607
+sending,VBG,1,0.000913781982369,-0.000542671596607
+separate,JJ,1,0.000913781982369,-0.000542671596607
+separate argument,NA,1,0.000913781982369,-0.000542671596607
+separating,VBG,1,0.000913781982369,-0.000542671596607
+separating hyperplane,NA,1,0.000913781982369,-0.000542671596607
+separation result,NA,1,0.000913781982369,-0.000542671596607
+sequence,VBP,1,0.000913781982369,-0.000542671596607
+series,NN,1,0.000913781982369,-0.000542671596607
+series expansions,NA,1,0.000913781982369,-0.000542671596607
+settranslatorsemptysetaddresses,VBZ,1,0.000913781982369,-0.000542671596607
+setup,NN,1,0.000913781982369,-0.000542671596607
+sharp,JJ,1,0.000913781982369,-0.000542671596607
+sharpened,VBN,1,0.000913781982369,-0.000542671596607
+shows matrix,NA,1,0.000913781982369,-0.000542671596607
+shuffle discussed,NA,1,0.000913781982369,-0.000542671596607
+shuffles,NNS,1,0.000913781982369,-0.000542671596607
+signal,JJ,1,0.000913781982369,-0.000542671596607
+signal flow,NA,1,0.000913781982369,-0.000542671596607
+simple,JJ,1,0.000913781982369,-0.000542671596607
+simple lemmas,NA,1,0.000913781982369,-0.000542671596607
+singular,JJ,1,0.000913781982369,-0.000542671596607
+sized,VBN,1,0.000913781982369,-0.000542671596607
+sized identity,NA,1,0.000913781982369,-0.000542671596607
+sizes,JJ,1,0.000913781982369,-0.000542671596607
+sizes,NNS,1,0.000913781982369,-0.000542671596607
+sizes,VBZ,1,0.000913781982369,-0.000542671596607
+skip,VBP,1,0.000913781982369,-0.000542671596607
+skip straight,NA,1,0.000913781982369,-0.000542671596607
+smaller,JJR,1,0.000913781982369,-0.000542671596607
+smaller dimension,NA,1,0.000913781982369,-0.000542671596607
+solutions,NNS,1,0.000913781982369,-0.000542671596607
+somewhat,RB,1,0.000913781982369,-0.000542671596607
+spaces,VBZ,1,0.000913781982369,-0.000542671596607
+span,NN,1,0.000913781982369,-0.000542671596607
+span,VBD,1,0.000913781982369,-0.000542671596607
+span,VBP,1,0.000913781982369,-0.000542671596607
+spectrahedra,NNS,1,0.000913781982369,-0.000542671596607
+spectrahedra,VBP,1,0.000913781982369,-0.000542671596607
+spectrahedron,VBP,1,0.000913781982369,-0.000542671596607
+square,NN,1,0.000913781982369,-0.000542671596607
+square matrices,NA,1,0.000913781982369,-0.000542671596607
+standard,NN,1,0.000913781982369,-0.000542671596607
+standard basis,NA,1,0.000913781982369,-0.000542671596607
+statement,NN,1,0.000913781982369,-0.000542671596607
+statement holds,NA,1,0.000913781982369,-0.000542671596607
+steps,NNS,1,0.000913781982369,-0.000542671596607
+straight,JJ,1,0.000913781982369,-0.000542671596607
+straightforward,NN,1,0.000913781982369,-0.000542671596607
+strengthening,VBG,1,0.000913781982369,-0.000542671596607
+structure,NN,1,0.000913781982369,-0.000542671596607
+study,VBP,1,0.000913781982369,-0.000542671596607
+subordinate,JJ,1,0.000913781982369,-0.000542671596607
+subpencil,VBD,1,0.000913781982369,-0.000542671596607
+subsection,JJ,1,0.000913781982369,-0.000542671596607
+subsection contains,NA,1,0.000913781982369,-0.000542671596607
+subsequence,NN,1,0.000913781982369,-0.000542671596607
+subsequences,NNS,1,0.000913781982369,-0.000542671596607
+subspace,JJ,1,0.000913781982369,-0.000542671596607
+subspace,VBP,1,0.000913781982369,-0.000542671596607
+sum,JJ,1,0.000913781982369,-0.000542671596607
+summary,JJ,1,0.000913781982369,-0.000542671596607
+sums,JJ,1,0.000913781982369,-0.000542671596607
+sums,NN,1,0.000913781982369,-0.000542671596607
+suppose 1<,NA,1,0.000913781982369,-0.000542671596607
+surveys,NNS,1,0.000913781982369,-0.000542671596607
+symmetric,NN,1,0.000913781982369,-0.000542671596607
+symmetric linear,NA,1,0.000913781982369,-0.000542671596607
+symmetric matrices,NA,1,0.000913781982369,-0.000542671596607
+symmetric operator,NA,1,0.000913781982369,-0.000542671596607
+symmetry,NN,1,0.000913781982369,-0.000542671596607
+system category,NA,1,0.000913781982369,-0.000542671596607
+system engineering,NA,1,0.000913781982369,-0.000542671596607
+system quotients,NA,1,0.000913781982369,-0.000542671596607
+s},NN,1,0.000913781982369,-0.000542671596607
+s} s=1,NA,1,0.000913781982369,-0.000542671596607
+t>,VBP,1,0.000913781982369,-0.000542671596607
+t>1,JJ,1,0.000913781982369,-0.000542671596607
+tY,JJ,1,0.000913781982369,-0.000542671596607
+tY,NN,1,0.000913781982369,-0.000542671596607
+tY,VBP,1,0.000913781982369,-0.000542671596607
+technical,JJ,1,0.000913781982369,-0.000542671596607
+tensor,NN,1,0.000913781982369,-0.000542671596607
+tensor products,NA,1,0.000913781982369,-0.000542671596607
+term monomials,NA,1,0.000913781982369,-0.000542671596607
+terminates,NNS,1,0.000913781982369,-0.000542671596607
+theme,NN,1,0.000913781982369,-0.000542671596607
+theorem,JJ,1,0.000913781982369,-0.000542671596607
+theoremTheorem[section],JJ,1,0.000913781982369,-0.000542671596607
+theoremTheorem[section] cor[theorem]Corollarylemma[theorem]Lemmasublemma[theorem]Sublemmaprop[theorem]Propositiondefinition[theorem]Definitionalg[theorem]Algorithmremark[theorem]Remarkrem[theorem]Remarkconj[theorem]Conjecturequestion[theorem]Questionexample[theorem]Examplethm[theorem]Theoremlem[theorem]LemmaCor[theorem]Corollarydefi[theorem]Definitionlemma*Lemma,NA,1,0.000913781982369,-0.000542671596607
+theorems,NNS,1,0.000913781982369,-0.000542671596607
+theory SIG97,NA,1,0.000913781982369,-0.000542671596607
+transfer-function,NN,1,0.000913781982369,-0.000542671596607
+transfer-function realization,NA,1,0.000913781982369,-0.000542671596607
+transforms,VBZ,1,0.000913781982369,-0.000542671596607
+tuple,NNS,1,0.000913781982369,-0.000542671596607
+turns,VBZ,1,0.000913781982369,-0.000542671596607
+ubiquitous,JJ,1,0.000913781982369,-0.000542671596607
+ucsd,JJ,1,0.000913781982369,-0.000542671596607
+ucsd edu,NA,1,0.000913781982369,-0.000542671596607
+ufl,NN,1,0.000913781982369,-0.000542671596607
+ufl edu,NA,1,0.000913781982369,-0.000542671596607
+uniform,NN,1,0.000913781982369,-0.000542671596607
+uniform bound,NA,1,0.000913781982369,-0.000542671596607
+unimodular,JJ,1,0.000913781982369,-0.000542671596607
+unique,JJ,1,0.000913781982369,-0.000542671596607
+unitary U=U,NA,1,0.000913781982369,-0.000542671596607
+using,VBG,1,0.000913781982369,-0.000542671596607
+using equation,NA,1,0.000913781982369,-0.000542671596607
+usual,JJ,1,0.000913781982369,-0.000542671596607
+usual Hahn-Banach,NA,1,0.000913781982369,-0.000542671596607
+v=,VBP,1,0.000913781982369,-0.000542671596607
+v=0,NN,1,0.000913781982369,-0.000542671596607
+v>1,NN,1,0.000913781982369,-0.000542671596607
+vanishes,NNS,1,0.000913781982369,-0.000542671596607
+variable,JJ,1,0.000913781982369,-0.000542671596607
+variables Kra01,NA,1,0.000913781982369,-0.000542671596607
+various natural,NA,1,0.000913781982369,-0.000542671596607
+vector space,NA,1,0.000913781982369,-0.000542671596607
+view,NN,1,0.000913781982369,-0.000542671596607
+whenever,NN,1,0.000913781982369,-0.000542671596607
+whenever,WDT,1,0.000913781982369,-0.000542671596607
+working,VBG,1,0.000913781982369,-0.000542671596607
+write,JJ,1,0.000913781982369,-0.000542671596607
+write,RB,1,0.000913781982369,-0.000542671596607
+write,WRB,1,0.000913781982369,-0.000542671596607
+x=,JJ,1,0.000913781982369,-0.000542671596607
+x=,NNP,1,0.000913781982369,-0.000542671596607
+yield,NN,1,0.000913781982369,-0.000542671596607
+zero,NN,1,0.000913781982369,-0.000542671596607
+zero shows,NA,1,0.000913781982369,-0.000542671596607
+zeros,CD,1,0.000913781982369,-0.000542671596607
