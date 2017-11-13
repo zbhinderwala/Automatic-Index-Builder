@@ -27,8 +27,8 @@
       <file leaf-file-name="Parser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DSF/Parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="82" column="51" lean-forward="false" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+            <state relative-caret-position="356">
+              <caret line="228" column="57" lean-forward="false" selection-start-line="228" selection-start-column="57" selection-end-line="228" selection-end-column="57" />
               <folding>
                 <element signature="e#104#114#0" expanded="true" />
               </folding>
@@ -59,6 +59,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1340" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -94,6 +100,12 @@
               <item name="CSE519-FinalProject-BookIndices" type="462c0819:PsiDirectoryNode" />
               <item name="DSF" type="462c0819:PsiDirectoryNode" />
               <item name="CSV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSE519-FinalProject-BookIndices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE519-FinalProject-BookIndices" type="462c0819:PsiDirectoryNode" />
+              <item name="DSF" type="462c0819:PsiDirectoryNode" />
+              <item name="sample_latex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DSF/Parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="82" column="51" lean-forward="false" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+        <state relative-caret-position="356">
+          <caret line="228" column="57" lean-forward="false" selection-start-line="228" selection-start-column="57" selection-end-line="228" selection-end-column="57" />
           <folding>
             <element signature="e#104#114#0" expanded="true" />
           </folding>
