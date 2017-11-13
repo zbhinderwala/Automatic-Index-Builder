@@ -12,11 +12,9 @@ from pylatexenc.latexwalker import (
     LatexMacroNode, LatexEnvironmentNode, LatexMathNode, LatexWalkerParseError
 )
 import nltk
-from TexSoup import TexSoup
 
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
-
 
 #############################################
 #   Helper methods
@@ -79,6 +77,9 @@ def generateDataSet(words, type='unigram'):
         data_set['word'] = newWords
 
     return data_set
+
+#def getKeywords(fullText):
+
 
 
 #############################################
@@ -146,9 +147,7 @@ df_final = df_final.groupby(['word', 'pos']).size().reset_index(name="frequency"
 #   Check Keywords
 ##############################################
 
-# p = latextext.find(r'\kewords')
-# print(lw.get_token(pos=p))
-# exit()
+print ('Checking Keywords...\n')
 
 ##############################################
 #   Check Formatting
