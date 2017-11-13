@@ -13,11 +13,14 @@ from pylatexenc.latexwalker import (
 )
 import nltk
 import math
+import argparse
+import glob
+import os
 from TexSoup import TexSoup
 
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
-nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger', quiet=True)
 
 ############################################
 # common words in english
@@ -103,7 +106,7 @@ def checkWords(word):
     if word.lower() in nltk.corpus.stopwords.words('english'):
         return False
 
-    if word.lower()in common500:
+    if word.lower() in common500:
         return False
 
     if word.isdigit():
@@ -114,6 +117,13 @@ def checkWords(word):
 
     pattern = re.compile("([A-Za-z0-9]+)")
     return pattern.match(word)
+
+def checkBigram(bigram):
+    #removing invalid words
+    if not checkWords(bigram[0]) or not checkWords(bigram[1]):
+        return False
+    else:
+        return True
 
 
 # split text using an array of delimiters and check validity
@@ -149,131 +159,143 @@ def generateDataSet(words, type='unigram'):
 
     return data_set
 
+def generate_csv(file, filenum = 1):
+    print('Reading LaTeX File: ' + os.path.basename(file.name) + '...\n')
+
+    # Get only the text from the file
+    latextext = file.read().encode('utf-8')
+    text = LatexNodes2Text().latex_to_text(latextext)
+    lw = LatexWalker(latextext)
+
+    ##############################################
+    #   UNIGRAMS
+    ##############################################
+    print('Gathering Unigrams...\n')
+    # Create list where each word is a separate element
+    words = splitText(text)
+    # remove invalid words
+    unigrams = filter(checkWords, words)
+
+    # create pandas DataFrame of words
+    data_set = generateDataSet(unigrams)
+    df_final = data_set
+
+    #############################################
+    #   BIGRAMS - Commented until improved efficiency
+    #############################################
+    print('Gathering Bigrams...\n')
+    bigrams = list(nltk.bigrams(words))
+
+    bigrams = filter(checkBigram, bigrams)
+
+    dataset2 = generateDataSet(bigrams, type='bigram')
+
+    df_final = df_final.append(dataset2, ignore_index = True)
+
+    ##############################################
+    #   POS Tagging
+    ##############################################
+    print('Determining Parts of Speech...\n')
+    pos_tags = list(nltk.pos_tag(unigrams))
+    pos_df = pd.DataFrame(pos_tags, columns=['word', 'pos'])
+
+    df_final = pd.concat([df_final, pos_df['pos']], axis=1)
+    df_final['pos'] = df_final['pos'].replace(np.nan, 'NA')
+
+    ##############################################
+    #   Frequencies
+    ##############################################
+    print('Calculate Frequencies...\n')
+
+    # Get frequency of each word
+    df_final = df_final.groupby(['word', 'pos']).size().reset_index(name="frequency")
+
+
+    ##############################################
+    #   Calculatin Tf and Idf
+    ##############################################
+    print('Calculate Term Frequency and Document Frequency...\n')
+    
+    word_count = len(words)
+    term_freq = []
+    term_freq = df_final['frequency'] / word_count
+    idf = 17 / 1
+    tf_idf = []
+    tf_idf = term_freq * idf
+    df_final['tf_idf'] = tf_idf
+
+    ##############################################
+    #   Calculating Informativeness
+    ##############################################
+    print('Calculate Informativeness...\n')
+    
+    inf_list = []
+    for i in term_freq:
+        inf = i * math.log(i * idf , 2)
+        inf_list.append(inf)
+    df_final['inf'] = inf_list
+
+    ##############################################
+    #   Removing the words based on parts of speech
+    ##############################################
+    """pos_list = ['CD','CC','IN','PRP','RB','VBD','VB','JJ','VBN','VBZ','VBG','IN','WDT','WRB','VBP','FW']
+    for i in df_final['pos']:
+        if i in pos_list:
+            df_final = df_final.drop()"""
+
+    ##############################################
+    #   Check Formatting
+    ##############################################
+
+    ##############################################
+    #   File source
+    ##############################################
+
+    df_final['source'] = filenum
+
+    ##############################################
+    #   Export CSV
+    ##############################################
+
+    # Sort by frequency
+    df_final = df_final.sort_values(['frequency', 'word'], ascending = [False, True])
+
+    return df_final
 
 #############################################
 #   Main code
 #############################################
+parser = argparse.ArgumentParser(prog='Parser.py', description='Parse a LaTeX file into a CSV file to determine file index.')
+parser.add_argument('-d', '--dir', help='Parse entire directory of LaTeX files', required=False)
+parser.add_argument('-f', '--file', help='Parse single LaTeX file', required=False)
+parser.add_argument('-o', '--output', help='Output directory')
+args = parser.parse_args()
 
-if len(sys.argv) > 1:
+df = pd.DataFrame()
+
+if args.file:
     # Open given LaTeX file
-    file = open(sys.argv[1], 'r')
+    file = open(args.file, 'r')
 
-    output_name = sys.argv[2]
+    df = generate_csv(file)
+
+elif args.dir:
+    # Open one LaTeX file at a time
+    dirpath = args.dir + "/*.tex"
+    texfiles = glob.glob(dirpath)
+
+    for i in range(0, len(texfiles)):
+        file = open(texfiles[i], 'r')
+        
+        df_temp = generate_csv(file, i+1)
+
+        df = df.append(df_temp, ignore_index=True)
 
 else:
-    # Open default LaTeX file
-    file = open("chikin.tex", 'r')
-
-    output_name = "CSV/text.csv"
-
-print('Reading LaTeX File...\n')
-
-# Get only the text from the file
-latextext = file.read().encode('utf-8')
-text = LatexNodes2Text().latex_to_text(latextext)
-lw = LatexWalker(latextext)
-
-##############################################
-#   UNIGRAMS
-##############################################
-
-print('Gathering Unigrams...\n')
-# Create list where each word is a separate element
-words = splitText(text)
-# remove invalid words
-unigrams = filter(checkWords, words)
-
-# create pandas DataFrame of words
-data_set = generateDataSet(unigrams)
-df_final = data_set
-
-#############################################
-#   BIGRAMS - Commented until improved efficiency
-#############################################
-
-print('Gathering Bigrams...\n')
-bigrams = list(nltk.bigrams(words))
-invalid_bigrams = []
-
-#removing invalid words
-for bigram in bigrams:
-    if not (checkWords(bigram[0]) and  checkWords(bigram[1])):
-        invalid_bigrams.append(bigram)
-
-bigrams = [x for x in bigrams if x not in invalid_bigrams]
-
-dataset2 = generateDataSet(bigrams, type='bigram')
-
-df_final = df_final.append(dataset2, ignore_index = True)
-
-##############################################
-#   POS Tagging
-##############################################
-
-print('Determining Parts of Speech...\n')
-pos_tags = list(nltk.pos_tag(unigrams))
-pos_df = pd.DataFrame(pos_tags, columns=['word', 'pos'])
-
-df_final = pd.concat([df_final, pos_df['pos']], axis=1)
-df_final['pos'] = df_final['pos'].replace(np.nan, 'NA')
-
-##############################################
-#   Frequencies
-##############################################
-
-print('Calculate Frequencies...\n')
-
-# Get frequency of each word
-df_final = df_final.groupby(['word', 'pos']).size().reset_index(name="frequency")
-
-
-##############################################
-#   Calculatin Tf and Idf
-##############################################
-
-word_count = len(words)
-term_freq = []
-term_freq = df_final['frequency']/word_count
-idf = 17/1
-tf_idf = []
-tf_idf = term_freq*idf
-df_final['tf_idf'] = tf_idf
-
-##############################################
-#   Calculating Informativeness
-##############################################
-
-inf_list = []
-for i in term_freq:
-    inf = i*math.log(i*idf , 2)
-    inf_list.append(inf)
-df_final['inf'] = inf_list
-
-##############################################
-#   Removing the words based on parts of speech
-##############################################
-
-"""pos_list = ['CD','CC','IN','PRP','RB','VBD','VB','JJ','VBN','VBZ','VBG','IN','WDT','WRB','VBP','FW']
-for i in df_final['pos']:
-    if i in pos_list:
-        df_final = df_final.drop()"""
-
-##############################################
-#   Check Formatting
-##############################################
-
-
-##############################################
-#   Export CSV
-##############################################
-
-# Sort by frequency
-df_final = df_final.sort_values(['frequency', 'word'], ascending = [False, True])
+    parser.print_help()
+    exit()
 
 print('Exporting CSV...\n')
-df_final.to_csv(output_name, index=False)
+df.to_csv(args.output, index=False)
 
 print('Dataset Generation Complete.')
-
-
-
