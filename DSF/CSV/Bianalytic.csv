@@ -1,0 +1,16 @@
+word,pos,frequency
+XxmpX[theorem]Exampleexample,NNP,1
+XxmpX[theorem]Exampleexample XxmpY[theorem]Remarkremark,NA,1
+XxmpY[theorem]Remarkremark,NNP,1
+XxmpY[theorem]Remarkremark conj[theorem]Conjecturequestion[theorem]Question,NA,1
+conj[theorem]Conjecturequestion[theorem]Question,NN,1
+conj[theorem]Conjecturequestion[theorem]Question thm[theorem]Theoremlem[theorem]LemmaCor[theorem]Corollarydefi[theorem]Definitionassumption[theorem]Assumption,NA,1
+cor[theorem]Corollarylemma[theorem]Lemmasublemma[theorem]Sublemmaprop[theorem]Propositiondefinition[theorem]Definitionalg[theorem]Algorithm,JJ,1
+cor[theorem]Corollarylemma[theorem]Lemmasublemma[theorem]Sublemmaprop[theorem]Propositiondefinition[theorem]Definitionalg[theorem]Algorithm XxmpX[theorem]Exampleexample,NA,1
+darkbluergb0,NN,1
+darkbluergb0 settranslatorsemptysetaddresses,NA,1
+settranslatorsemptysetaddresses,NNS,1
+settranslatorsemptysetaddresses theoremTheorem[section],NA,1
+theoremTheorem[section],VBP,1
+theoremTheorem[section] cor[theorem]Corollarylemma[theorem]Lemmasublemma[theorem]Sublemmaprop[theorem]Propositiondefinition[theorem]Definitionalg[theorem]Algorithm,NA,1
+thm[theorem]Theoremlem[theorem]LemmaCor[theorem]Corollarydefi[theorem]Definitionassumption[theorem]Assumption,NN,1
