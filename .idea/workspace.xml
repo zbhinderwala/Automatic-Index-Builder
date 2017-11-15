@@ -24,14 +24,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Parser_my.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DSF/Parser_my.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="123" column="69" lean-forward="false" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Parser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DSF/Parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="228" column="57" lean-forward="false" selection-start-line="228" selection-start-column="57" selection-end-line="228" selection-end-column="57" />
-              <folding>
-                <element signature="e#104#114#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="242" column="11" lean-forward="true" selection-start-line="242" selection-start-column="11" selection-end-line="242" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,6 +49,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>check</find>
+      <find>lw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,18 +103,6 @@
               <item name="CSE519-FinalProject-BookIndices" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSE519-FinalProject-BookIndices" type="462c0819:PsiDirectoryNode" />
               <item name="DSF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE519-FinalProject-BookIndices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE519-FinalProject-BookIndices" type="462c0819:PsiDirectoryNode" />
-              <item name="DSF" type="462c0819:PsiDirectoryNode" />
-              <item name="CSV" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSE519-FinalProject-BookIndices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSE519-FinalProject-BookIndices" type="462c0819:PsiDirectoryNode" />
-              <item name="DSF" type="462c0819:PsiDirectoryNode" />
-              <item name="sample_latex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +224,7 @@
         <state relative-caret-position="1360">
           <caret line="80" column="11" lean-forward="false" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
           <folding>
-            <element signature="e#104#114#0" expanded="true" />
+            <element signature="e#104#114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -245,7 +242,7 @@
         <state relative-caret-position="1853">
           <caret line="109" column="46" lean-forward="false" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
           <folding>
-            <element signature="e#104#114#0" expanded="true" />
+            <element signature="e#104#114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -268,14 +265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DSF/chikin.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -303,13 +292,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DSF/chikin.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DSF/Parser_my.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="123" column="69" lean-forward="false" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DSF/Parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="228" column="57" lean-forward="false" selection-start-line="228" selection-start-column="57" selection-end-line="228" selection-end-column="57" />
-          <folding>
-            <element signature="e#104#114#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="242" column="11" lean-forward="true" selection-start-line="242" selection-start-column="11" selection-end-line="242" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

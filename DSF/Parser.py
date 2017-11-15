@@ -131,7 +131,7 @@ def splitText(text):
     # delimiters - only for characters that separate words
     # conjoining characters not included
     splitChars = {'\.', ' ', '\,', ':', ';', '\n', '\*' \
-        '\|', '\?', '\(', '\)', '\^', '_'}
+        '\|', '\?', '\(', '\)', '\^', '_','!','~','$','@','^','{','}'}
 
     splitString = ""
     for char in splitChars:
@@ -165,7 +165,7 @@ def generate_csv(file, filenum = 1):
     # Get only the text from the file
     latextext = file.read().encode('utf-8')
     text = LatexNodes2Text().latex_to_text(latextext)
-    lw = LatexWalker(latextext)
+    #lw = LatexWalker(latextext)
 
     ##############################################
     #   UNIGRAMS
@@ -196,7 +196,7 @@ def generate_csv(file, filenum = 1):
     #   POS Tagging
     ##############################################
     print('Determining Parts of Speech...\n')
-    pos_tags = list(nltk.pos_tag(unigrams))
+    pos_tags = list(nltk.pos_tag(df_final['word']))
     pos_df = pd.DataFrame(pos_tags, columns=['word', 'pos'])
 
     df_final = pd.concat([df_final, pos_df['pos']], axis=1)
@@ -234,6 +234,22 @@ def generate_csv(file, filenum = 1):
         inf = i * math.log(i * idf , 2)
         inf_list.append(inf)
     df_final['inf'] = inf_list
+
+    ##############################################
+    #  Assigning a score based on pos to each word
+    ##############################################
+    df_final['pos_rank'] = ""
+    for index,row in df_final.iterrows():
+        if row['pos'] == 'NNP':
+            row['pos_rank'] = 8
+        elif row['pos'] == 'NN':
+            row['pos_rank'] = 6
+        elif row['pos'] == 'NNS':
+            row['pos_rank'] = 6
+        elif row['pos'] == 'JJ':
+            row['pos_rank'] = 5
+        else:
+            row['pos_rank'] = 3
 
     ##############################################
     #   Removing the words based on parts of speech
