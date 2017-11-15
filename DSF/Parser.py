@@ -150,12 +150,14 @@ def generateDataSet(words, type='unigram'):
 
     if (type is 'unigram'):
         data_set['word'] = words
+        data_set['n_gram_score'] = 2
 
     if (type is 'bigram'):
         newWords = []
         for bigram in words:
             newWords.append(' '.join(bigram))
         data_set['word'] = newWords
+        data_set['n_gram_score'] = 10
 
     return data_set
 
@@ -208,7 +210,7 @@ def generate_csv(file, filenum = 1):
     print('Calculate Frequencies...\n')
 
     # Get frequency of each word
-    df_final = df_final.groupby(['word', 'pos']).size().reset_index(name="frequency")
+    df_final = df_final.groupby(['word','n_gram_score','pos']).size().reset_index(name="frequency")
 
 
     ##############################################
@@ -234,22 +236,6 @@ def generate_csv(file, filenum = 1):
         inf = i * math.log(i * idf , 2)
         inf_list.append(inf)
     df_final['inf'] = inf_list
-
-    ##############################################
-    #  Assigning a score based on pos to each word
-    ##############################################
-    df_final['pos_rank'] = ""
-    for index,row in df_final.iterrows():
-        if row['pos'] == 'NNP':
-            row['pos_rank'] = 8
-        elif row['pos'] == 'NN':
-            row['pos_rank'] = 6
-        elif row['pos'] == 'NNS':
-            row['pos_rank'] = 6
-        elif row['pos'] == 'JJ':
-            row['pos_rank'] = 5
-        else:
-            row['pos_rank'] = 3
 
     ##############################################
     #   Removing the words based on parts of speech
