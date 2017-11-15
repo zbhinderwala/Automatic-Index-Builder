@@ -1,0 +1,1064 @@
+,word,source,pos
+0,symmetric monic linear pencil,1,NN
+1,spectrahedron,1,NN
+2,linear matrix inequality,1,NN
+3,LMI,1,NNP
+4,free spectrahedron,1,NN
+5,circular,1,JJ
+6,free circular,1,JJ
+7,subpencil,1,NN
+8,defining subpencil,1,NN
+9,minimal defining pencil,1,NN
+10,matrix pencil ball,1,NN
+11,invariant under coordinate unitary conjugation,1,NN
+12,irreducible,1,JJ
+13,admissible chain,1,NN
+14,block zero column,1,NN
+15,matrix convex,1,NN
+16,closed under direct sums,1,NNS
+17,closed under isometric conjugation,1,NN
+18,matrix balanced,1,VBD
+19,detailed boundary,1,JJ
+20,monic,1,JJ
+21,operator pencil ball,1,NN
+22,affine linear mapping,1,VBG
+23,Floer s equation,2,NNP
+24,cobordism method,2,NN
+25,bifurcation method,2,NN
+26,energy on frak G ,2,NN
+27,Maslov index on frak G ,2,NNP
+28,energy on frak A ,2,VBZ
+29,Maslov index on frak A ,2,NNP
+30,critical submanifold,2,NN
+31,space of connecting orbits,2,NNS
+32,evaluation maps at infinity evaluation maps at infinity,2,NN
+33,orientation system of critical submanifold,2,VBP
+34,periodicity isomorphism periodicity isomorphism,2,NN
+35,Gromov compactness Gromov compactness,2,NNP
+36,compatibility at the boundary compatibility at the boundary,2,JJ
+37,compatibility at the corner compatibility at the corner,2,NN
+38,critical submanifold data,2,NNS
+39,K-system linear K-system,2,NNP
+40,linear system of Kuranishi structures it see K-system,2,JJ
+41,K-system partial linear K-system of energy cut level E ,2,NNP
+42,energy cut level energy cut level,2,NN
+43,running out problem,2,NN
+44,degree of Floer cochain complex,2,NN
+45,filtration of Floer cochain complex,2,JJ
+46,periodicity isomorphism of Floer cochain complex,2,JJ
+47,Floer cochain complex of linear K-system,2,NNP
+48,Novikov ring Lambda R rm nov,2,NNP
+49,Novikov ring Lambda R rm nov,2,NNP
+50,Novikov ring Lambda R rm nov,2,NNP
+51,degree of Floer cochain complex over universal Novikov ring,2,VBG
+52,filtration of Floer cochain complex over universal Novikov ring,2,VBG
+53,gapped cochain map,2,JJ
+54,gapped cochain complex,2,JJ
+55,Floer cohomology of linear K-system,2,NNP
+56,K-system Floer cohomology of linear K-system,2,NNP
+57,Floer cochain complex over universal Novikov ring,2,NNP
+58,interpolation space,2,NN
+59,evaluation maps at infinity of interpolation space,2,NN
+60,energy loss of morphism of linear K-systems,2,JJ
+61,orientation isomorphism of interpolation space,2,NN
+62,periodicity isomorphism of interpolation space,2,NN
+63,Gromov compactness of interpolation space,2,NNP
+64,compatibility at the boundary of interpolation space,2,NN
+65,compatibility at the corner of interpolation space,2,NN
+66,morphism of linear K-systems,2,JJ
+67,K-system morphism of linear K-systems,2,NNP
+68,energy loss energy loss,2,IN
+69,morphism of partial linear K-systems,2,JJ
+70,K-system morphism of partial linear K-systems,2,NNP
+71,morphism with energy loss and congruent to the isomorphism,2,NN
+72,submersion corner stratified weak submersion,2,NN
+73,corner corner stratified weak submersion,2,NN
+74,P -parametrized interpolation space,2,NNP
+75,parametrized family of morphisms parametrized family of morphisms,2,NN
+76,boundary of parametrized family of morphisms,2,VBD
+77,parametrized family of morphisms of partial linear K-systems,2,JJ
+78,K-system parametrized family of morphisms of partial linear K-systems,2,NNP
+79,homotopy morphisms of linear K-systems,2,JJ
+80,K-system homotopy between morphisms of linear K-systems,2,NNP
+81,homotopic morphisms of linear K-systems,2,JJ
+82,composition of morphisms of linear K-systems,2,JJ
+83,composition of parametrized morphisms of linear K-systems,2,JJ
+84,K-system composition of parametrized morphisms of linear K-systems,2,NNP
+85,energy cut level energy cut,2,NN
+86,K-system inductive system of partial linear K-systems,2,NNP
+87,uniform Gromov compactness,2,JJ
+88,morphism of inductive systems of partial linear K-systems,2,JJ
+89,K-system morphism of inductive systems of partial linear K-systems,2,JJ
+90,homotopy morphisms of inductive systems of partial linear K-systems,2,JJ
+91,K-system homotopy of morphisms of inductive systems of partial linear K-systems,2,JJ
+92,homotopic morphisms of inductive systems of partial linear K-systems,2,JJ
+93,Floer cohomology of inductive system of the partial linear K-systems HF mathcal FF,2,JJ
+94,K-system Floer cohomology of inductive system of the partial linear K-systems HF mathcal FF,2,NNP
+95,system of tubular neighborhoods,2,NNS
+96,retraction map,2,VBP
+97,corner trivialization of corners for one chart,2,JJ
+98,trivialization of corners for one chart,2,JJ
+99,tau -collaring of Kuranishi chart,2,JJ
+100,corner tau -corner trivialization,2,NN
+101,corner trivialization of corners it see tau -corner trivialization,2,NN
+102,tau -collaring of CF-perturbation,2,JJ
+103,tau -collaring of smooth map,2,JJ
+104,tau -collaring of multivalued perturbation,2,NN
+105,tau -collaring of differential form,2,JJ
+106,small corner,2,NN
+107,tau -collared Kuranishi neighborhood,2,JJ
+108,tau -collared Kuranishi neighborhood,2,JJ
+109,tau -collared coordinate change,2,JJ
+110,tau -collared Kuranishi structure,2,JJ
+111,tau -collared K-space,2,JJ
+112,K-space tau -collared,2,JJ
+113,tau -collared CF-perturbation,2,JJ
+114,tau -collared multivalued perturbation,2,JJ
+115,tau -collared good coordinate system,2,JJ
+116,tau -collared Kuranishi chart,2,JJ
+117,tau -collared vector bundle,2,JJ
+118,tau -collared embedding,2,JJ
+119,uniform family of tau -collared CF-perturbations,2,NNS
+120,uniform family of tau -collared multivalued perturbations,2,JJ
+121,tau -collaring tau -collaring,2,JJ
+122,trivialization of corners of K-space X widehat mathcal U,2,JJ
+123,good coordinate system tau -collaring,2,JJ
+124,good coordinate system trivialization of corners,2,NNS
+125,tau -collaring of good coordinate system,2,JJ
+126,trivialization of corners of good coordinate system,2,JJ
+127,good coordinate system tau -collared,2,JJ
+128,tau -collaring inward tau -collaring,2,JJ
+129,integration along the fiber push out integration along the fiber,2,NN
+130,push out it see integration along the fiber,2,VB
+131,partially trivialized fiber product,2,NN
+132,fiber product partially trivialized fiber product,2,NN
+133,corner partially trivialized fiber product,2,NN
+134,trivialization of corners partial,2,JJ
+135,corner partial trivialization of corners,2,NNS
+136,Kuranishi chart tau - frak C -collard Kuranishi neighborhood,2,NNP
+137,Kuranishi chart tau - frak C -collared coordinate change,2,NNP
+138,Kuranishi structure tau - frak C -collared Kuranishi structure,2,NNP
+139,K-space tau - frak C -collared,2,NNP
+140,corner tau - frak C -corner trivialization,2,NN
+141,partial trivialization of corners,2,NNS
+142,Kuranishi structure tau - frak C -collared CF-perturbation,2,NNP
+143,CF-perturbation tau - frak C -collared,2,JJ
+144,multivalued perturbation tau - frak C -collared,2,JJ
+145,good coordinate system tau - frak C -collared,2,JJ
+146,corner smoothing corner,2,NN
+147,smoothing corner smoothing corner,2,VBD
+148,corner tau - frak C -partial smoothing of corners,2,NNS
+149,smoothing corner tau - frak C -partial smoothing of corners,2,NNS
+150,corner tau -partial smoothing of corners,2,NNS
+151,smoothing corner tau -partial smoothing of corners,2,NNS
+152,Kuranishi structure partial smoothing of corners,2,NNP
+153,smoothing Kuranishi structure obtained by partial smoothing of corners,2,NNS
+154,widehat mathcal U,2,VBP
+155,identity morphism of mathcal F ,2,JJ
+156,rm ev,2,NN
+157,in the sense of flat ,2,JJ
+158,energy cut level partial cochain complex structure,2,NN
+159,partial cochain complex,2,JJ
+160,energy cut level partial cochain map,2,NN
+161,partial cochain map,2,NN
+162,energy cut level reduction by energy cut,2,JJ
+163,energy cut level promotion,2,NN
+164,promotion,2,NN
+165,vertical boundary,2,JJ
+166,boundary vertical boundary,2,JJ
+167,horizontal boundary,2,JJ
+168,boundary horizontal boundary,2,JJ
+169,energy loss of partial cochain map,2,NN
+170,cochain homotopy partial cochain homotopy,2,NN
+171,partial cochain homotopy,2,NN
+172,energy cut level partial cochain homotopy,2,NN
+173,energy loss of partial cochain homotopy,2,NN
+174,cochain homotopy cochain homotopic,2,NN
+175,identity morphism of inductive system mathcal FF,2,JJ
+176,K-system identity morphism of inductive system mathcal FF,2,NNP
+177,K-system linear K-system of Morse type,2,NNP
+178,bundle extension data of Kuranishi chart,2,NN
+179,bundle extension data of Kuranishi structure,2,NN
+180,bundle extension data compatibility with multivalued perturbation,2,NN
+181,multivalued perturbation compatibility with bundle extension data,2,NN
+182,compatibility of multivalued perturbation with bundle extension data,2,NNS
+183,direct-like product,2,NN
+184,thickening of Kuranishi structure with bundle extension data and multivalued perturbation ,2,NN
+185,virtual fundamental chain,2,IN
+186,bundle extension data of tau -collared Kuranishi structure,2,JJ
+187,in the sense of flat ,2,JJ
+188,K-system tree-like K-system,2,NNP
+189,decorated rooted metric ribbon tree,2,NN
+190,ribbon tree it see decorated rooted metric ribbon tree,2,NN
+191,A infty,2,NNP
+192,tree-like K-system it see A infty,2,JJ
+193,partial A infty,2,JJ
+194,partial P -parametrized A infty,2,JJ
+195,pseudo-isotopy of G -gapped filtered A infty,2,JJ
+196,pseudo-isotopy gapped,2,JJ
+197,gapped pseudo-isotopy,2,JJ
+198,pointwise in P direction,2,NN
+199,tau -collared P -parametrized partial A infty,2,JJ
+200,P -parametrized family of smooth correspondences,2,NNS
+201,orbifold orbifold chart,2,JJ
+202,orbifold base point of an orbifold chart,2,JJ
+203,orbifold isotropy group of an orbifold chart,2,NN
+204,orbifold local uniformization map,2,NN
+205,orbifold parametrization,2,NN
+206,orbifold subchart,2,IN
+207,orbifold compatible orbifold chart ,2,JJ
+208,orbifold representative,2,JJ
+209,orbifold embedding of orbifolds,2,NNS
+210,embedding of orbifolds,2,NNS
+211,orbifold diffeomorphism,2,VBP
+212,orbifold orbifold structure,2,JJ
+213,orbifold orbifold,2,JJ
+214,orbifold open suborbifold,2,NN
+215,orbifold orbifold atlas,2,NNS
+216,orbifold isomorphism of orbifold charts,2,VBZ
+217,orbifold coordinate change of orbifold charts,2,NNS
+218,orbifold smooth function on orbifold,2,VBD
+219,orbifold differential form on orbifold,2,JJ
+220,differential form on oribifold,2,JJ
+221,orbifold orientation,2,NN
+222,orbifold oriented orbifold chart,2,NN
+223,orbifold partition of unity,2,NN
+224,orbifold orbifold with corner,2,NN
+225,orbifold embedding of orbifolds with corners,2,NNS
+226,embedding of orbifolds with corners,2,NNS
+227,orbifold local representative of embedding,2,VBG
+228,embedding local representative of embedding of orbifolds,2,NNS
+229,orbifold orbifold chart of a vector bundle,2,JJ
+230,orbifold subchart of an orbifold chart of vector bundle,2,JJ
+231,orbifold representative of a vector bundle structure on orbifold,2,NN
+232,orbifold embedding of vector bundles on orbifolds,2,NNS
+233,embedding of vector bundles on orbifolds,2,VBP
+234,orbifold isomorphism of vector bundles on orbifolds,2,NNS
+235,orbifold vector bundle structure,2,VBP
+236,orbifold vector bundle on orbifold,2,JJ
+237,orbifold total space of vector bundle,2,JJ
+238,orbifold base space of vector bundle,2,JJ
+239,orbifold projection of vector bundle,2,JJ
+240,orbifold embedding of vector bundles,2,NNS
+241,embedding embedding of vector bundles,2,NNS
+242,orbifold orbibundle,2,VBP
+243,orbifold trivialization of vector bundle,2,JJ
+244,orbifold isomorphism of orbifold charts of a vector bundle,2,JJ
+245,orbifold coordinate change of orbifold charts of a vector bundle,2,JJ
+246,pull-back of vector bundle on orbifold,2,JJ
+247,orbifold restriction of vector bundle,2,NN
+248,orbifold local representative of embedding of vector bundle on orbifold,2,JJ
+249,embedding local representative of embedding of vector bundle on orbifold,2,JJ
+250,orbifold pull-back of vector bundle by a projection of another vector bundle,2,JJ
+251,orbifold section of vector bundle,2,JJ
+252,orbifold local expression of a section on orbifold chart,2,JJ
+253,connection,2,NN
+254,isotopic,2,NN
+255,isotopic relative to a compact subset,2,NN
+256,diffeomorphic to the projection of the normal bundle,2,JJ
+257,geodesic coordinate system,2,NN
+258,C epsilon -close to the identity,2,NNP
+259,orbifold covering chart,2,NN
+260,orbifold covering map,2,NN
+261,orbifold covering index,2,NN
+262,pull-back covering chart,2,JJ
+263,restriction of a covering,2,NN
+264,normalized codimension k corner,2,NN
+265,corner normalized codimension k corner,2,VBD
+266,K-space automorphism,2,NNP
+267,K-space effective action on K-space,2,NNP
+268,admissible function,2,NN
+269,exponentially small near the boundary,2,JJ
+270,admissible embedding,2,VBG
+271,admissible diffeomorphism,2,NN
+272,admissible action,2,NN
+273,admissible chart,2,IN
+274,admissible orbifold structure,2,NN
+275,orbifold admissible orbifold structure,2,NN
+276,admissible orbifold,2,VBD
+277,orbifold admissible,2,JJ
+278,orbifold admissible orbifold chart,2,JJ
+279,admissible admissible orbifold chart,2,NN
+280,admissible admissible coordinate change of admissible orbifold charts,2,NNS
+281,admissible admissible isomorphism of admissible orbifold charts,2,VBZ
+282,normal coordinates,2,NNS
+283,admissible tensor,2,IN
+284,admissible strongly admissible tensor,2,NN
+285,admissible Riemannian metric,2,JJ
+286,admissible isomorphism of admissible vector bundles,2,NNS
+287,admissible vector bundle,2,VBP
+288,admissible embedding of vector bundles,2,NNS
+289,admissible admissible orbifold chart of admissible vector bundle,2,VBP
+290,admissible trivialization of admissible vector bundle,2,JJ
+291,orbifold admissible orbifold atlas of admissible vector bundle,2,JJ
+292,admissible admissible orbifold atlas of admissible vector bundle,2,JJ
+293,admissible admissible coordinate change of admissible vector bundle,2,JJ
+294,admissible pull-back of admissible vector bundle,2,JJ
+295,pull-back of admissible vector bundle,2,JJ
+296,admissible section,2,NN
+297,admissible strongly admissible connection,2,NN
+298,Kuranishi structure admissible,2,NNP
+299,admissible Kuranishi structure,2,NN
+300,bundle extension data admissible bundle extension data,2,NN
+301,admissible bundle extension data,2,NN
+302,forgetful map of marked points,2,NNS
+303,corner corner stratified smooth map,2,VBP
+304,corner corner stratified submersion from orbifold ,2,JJ
+305,submersion corner stratified submersion from orbifold ,2,JJ
+306,corner corner stratified smooth map for K-space ,2,JJ
+307,strongly submersive corner stratified strong submersion,2,NN
+308,submersion corner stratified strong submersion,2,NN
+309,corner corner stratified strong submersion,2,NN
+310,smooth correspondence P -parametrized,2,JJ
+311,smooth correspondence P -parametrized perturbed,2,JJ
+312,R alpha,2,NNP
+313,mathcal M,2,NN
+314,R i alpha,2,NNP
+315,mathcal M H tau t,2,NN
+316,frak m k,2,NN
+317,J t mid t in ,2,NNP
+318,t ,2,NN
+319,t i ,2,NN
+320,w ,2,NN
+321,t ,2,NN
+322,mathcal U p ,2,NN
+323,Phi pq,2,NNP
+324,mathcal U frak p,2,NN
+325,Phi frak p frak q,2,NNP
+326,mathcal K frak p,2,NN
+327,frak s,2,NN
+328,frak V frak r,2,NN
+329,frak S frak p,2,NN
+330,R alpha,2,NNP
+331,o R alpha,2,VBZ
+332,rm PI,2,JJ
+333,mathcal M alpha -,2,JJ
+334,rm OI,2,NN
+335,E i ,2,NNP
+336,mathcal F,2,NN
+337,frak N i ,2,NN
+338,alpha in frak A mid mathcal M,2,NN
+339,alpha i ,2,NN
+340,lambda i mid P i e ne ,2,NN
+341,frak x in Lambda R rm nov,2,NN
+342,frak x in Lambda R rm nov,2,NN
+343,R i alpha i,2,NNP
+344,o R i alpha i,2,VBZ
+345,mathcal M i alpha i-,2,JJ
+346,alpha in frak A mid mathcal N,2,NN
+347,mathcal F i ,2,NN
+348,o R alpha,2,NN
+349,alpha in frak A mid exists i mathcal N,2,NN
+350,alpha in frak A mid exists i mathcal M,2,NN
+351,E i j ,2,NNP
+352,mathcal F j i ,2,NN
+353,frak N i j ,2,NN
+354,frak N i,2,NN
+355,frak H i ,2,NN
+356,frak H k ,2,NN
+357,frak H a ,2,NN
+358,frak H b ,2,NN
+359,frak H ab ,2,NN
+360,mathcal H i ,2,NN
+361,frak H j j ,2,NN
+362,frak H k ,2,NN
+363,frak H ,2,NN
+364,frak H a ,2,NN
+365,frak H b ,2,NN
+366,E i ,2,NNP
+367,mathcal F i ,2,NN
+368,frak N i ,2,NN
+369,dots k ,2,NN
+370,dots k ,2,NN
+371,dots k ,2,NN
+372,overline y t dots t k in V x mid text If i in A then t i ,2,NN
+373,frak V boxplus tau,2,NN
+374,frak V i frak r,2,NN
+375,overline y t dots t k mid t i le i dots k ,2,NN
+376,dots ell ,2,NN
+377,widehat mathfrak S boxplus tau,2,NN
+378,widehat mathfrak S sigma,2,NN
+379,mathcal U boxplus tau,2,NN
+380,Phi boxplus tau,2,NNP
+381,t dots t n ,2,NN
+382,- tau t a ,2,NNP
+383,t dots t k,2,NN
+384,t i mid t i t a j,2,NN
+385,overline y t dots t n in V p ,2,NN
+386,gamma in Gamma p ,2,NN
+387,i in dots n ,2,NN
+388,dots n ,2,NN
+389,gamma in Gamma hat p,2,NN
+390,overline y t dots t k in U boxplus tau ,2,NN
+391,t dots t k in k,2,NN
+392,gamma in Gamma frak r,2,NN
+393,y overline y t dots t k in overline V frak r,2,NN
+394,overline y t dots t k in V frak r,2,NN
+395,p ,2,NN
+396,dots ,2,NN
+397,i in dots k ,2,JJ
+398,overline y t dots t k mid t i le i k -k dots k ,2,JJ
+399,dots k ,2,NN
+400,left t dots t k in R k ,2,VBZ
+401,x t in R k- ,2,JJ
+402,- delta ,2,NNP
+403,t dots t k in k mid t i text for i notin A ,2,NN
+404,dots a ,2,NN
+405,dots b ,2,NN
+406,i dots i a ,2,NN
+407,dots k i ,2,NN
+408,E alpha k ,2,NNP
+409,E alpha ,2,NNP
+410,E alpha ,2,NNP
+411,E alpha - ,2,NNP
+412,E alpha ,2,NNP
+413,tau dots tau k in R cup pm infty ,2,NN
+414,pm infty ,2,NN
+415,T ,2,NNP
+416,tau ,2,VBZ
+417,E alpha - E alpha - mid mathcal M alpha - alpha ne emptyset E alpha - E alpha - le E ,2,NNP
+418,E frak E,2,NNP
+419,infty ,2,NN
+420,psi epsilon,2,NN
+421,frak m j alpha alpha -,2,JJ
+422,frak m alpha alpha -,2,JJ
+423,frak m alpha alpha -,2,JJ
+424,frak m alpha alpha -,2,JJ
+425,psi alpha alpha ,2,NN
+426,frak m i epsilon,2,NN
+427,epsilon k i ,2,NN
+428,psi i,2,NN
+429,R j alpha j,2,NNP
+430,o R j alpha j,2,VBZ
+431,mathcal M j alpha j-,2,JJ
+432,frak h epsilon,2,NN
+433,frak m i alpha alpha -,2,JJ
+434,psi j alpha alpha ,2,NN
+435,psi alpha alpha ,2,NN
+436,psi alpha alpha ,2,NN
+437,frak h alpha alpha ,2,NN
+438,psi alpha i ,2,NN
+439,frak h j alpha alpha ,2,JJ
+440,frak h alpha alpha ,2,JJ
+441,frak m i alpha alpha -,2,JJ
+442,frak m i prime,2,NN
+443,frak m prime,2,NN
+444,frak m prime,2,NN
+445,frak m ji epsilon,2,NN
+446,frak m i epsilon,2,NN
+447,frak m i epsilon i,2,NN
+448,frak m i epsilon i ,2,NN
+449,frak m i epsilon i,2,NN
+450,frak m i epsilon i ,2,NN
+451,frak m i epsilon i,2,NN
+452,frak m i epsilon i ,2,NN
+453,frak m ji epsilon ji,2,NN
+454,psi alpha alpha ,2,NN
+455,psi ,2,NN
+456,mathcal ID,2,NN
+457,frak H ba,2,NN
+458,mathcal F c i ,2,NN
+459,frak N c i i,2,NN
+460,frak N cb,2,NN
+461,frak H cb,2,NN
+462,frak H ca,2,NN
+463,E alpha C ,2,NNP
+464,E alpha ,2,NNP
+465,frak s i epsilon,2,NN
+466,widehat frak s epsilon,2,NN
+467,widetriangle frak s epsilon,2,NN
+468,x in X i mid f i x r ,2,NNP
+469,frak s epsilon,2,NN
+470,epsilon mid epsilon epsilon E ,2,NN
+471,rm v,2,NN
+472,dots k rm v,2,NN
+473,beta in frak G mid exists k mathcal M,2,NN
+474,beta in frak G mid exists k exists i mathcal M,2,NN
+475,j ,2,NN
+476,i ,2,NN
+477,i ,2,NN
+478,beta in frak G mid exists k exists i mathcal M,2,NN
+479,sum a beta,2,NN
+480,frak m t k beta,2,NN
+481,frak c t k beta,2,NN
+482,frak m k beta,2,NN
+483,frak m k beta,2,NN
+484,dots d ,2,NN
+485,i dots i vert I vert,2,NN
+486,bf t,2,NN
+487,frak m P k beta,2,NN
+488,mathcal M,2,NN
+489,mathcal AF,2,NN
+490,c ,2,NN
+491,E beta mu beta mid beta in frak G mathcal M k ,2,NNP
+492,E beta mid beta in G E beta ,2,NNP
+493,beta k mid beta in G k in Z ge ,2,NN
+494,widehat mathcal U k ,2,NN
+495,frak m k beta,2,NN
+496,frak m k beta,2,NN
+497,frak m j k beta,2,NN
+498,E beta ke mid beta k in G times Z ge ,2,NNP
+499,frak m P boxplus tau,2,NN
+500,frak m P times ,2,NN
+501,- tau ,2,NNP
+502,tau ,2,NN
+503,- tau ,2,NNP
+504,tau ,2,NN
+505,frak m epsilon,2,NN
+506,frak m j epsilon j,2,NN
+507,widehat mathcal U j ,2,NN
+508,widehat frak S,2,NN
+509,E i ,2,NNP
+510,frak m i k ,2,NN
+511,frak m i ,2,NN
+512,frak m i i ,2,NN
+513,frak m ,2,NN
+514,frak m ji,2,NN
+515,frak m j i i ,2,NN
+516,frak m i,2,NN
+517,frak m i,2,NN
+518,frak m i,2,NN
+519,frak m i i ,2,NN
+520,frak m i ,2,NN
+521,frak m i i ,2,NN
+522,frak m i i ,2,NN
+523,frak m ,2,NN
+524,frak m ,2,NN
+525,frak m j ,2,NN
+526,frak m times ,2,NN
+527,frak m ,2,NN
+528,frak m b,2,NN
+529,frak m a,2,NN
+530,frak m k t frak c k t ,2,NN
+531,gamma in Gamma mid gamma p p ,2,NN
+532,V i Gamma i phi i mid i in I ,2,NNP
+533,V X i Gamma X i phi X i mid i in I ,2,NNP
+534,V Y j Gamma Y j phi Y j mid j in J ,2,NNP
+535,U i ,2,NNP
+536,chi i mid i in I ,2,NN
+537,V frak r,2,NNP
+538,frak V frak r,2,NN
+539,frak V frak r,2,NN
+540,V i E i Gamma i phi i widehat phi i mid i in I ,2,NNP
+541,V i E i Gamma i phi i widehat phi i mid i in I ,2,NNP
+542,frak V frak r,2,NN
+543,V a frak r,2,NNP
+544,V frak r,2,NNP
+545,gamma in Gamma frak r,2,NN
+546,r mid text if d x y r the minimal geodesic joining x and y is unique,2,NN
+547,xi in T pX mid Vert xi Vert c p ,2,NNP
+548,x mid d x Z le c ,2,NNP
+549,p i mid j in J ,2,NN
+550,TB p j,2,NNP
+551,p j mid j dots J ,2,NN
+552,tilde x dots tilde x m x,2,NN
+553,x in V mid exists gamma in Gamma setminus ,2,NNP
+554,gamma in Gamma x mid sigma gamma i i ,2,NN
+555,overline y t dots t k in V x mid t i ,2,NN
+556,tilde x i mid i in I ,2,NN
+557,dots m ,2,NN
+558,i mid t i ,2,NN
+559,g in G mid gx x ,2,NN
+560,Phi p ,2,NNP
+561,Phi p ,2,NNP
+562,g in G mid gp p ,2,NN
+563,dots k ,2,NN
+564,V i Gamma i phi i vert i in I ,2,NNP
+565,x t dots t k mid x in overline V text t i if i in A ,2,NNP
+566,mathcal U p U p mathcal E p psi p s p right ,2,NN
+567,J s,2,NNP
+568,J s ,2,NNP
+569,rm id,2,NN
+570,widehat mathfrak S,2,NN
+571,negative mass motivations,3,NNS
+572,negative energy the problem of,3,VBP
+573,negative energy motivations,3,NNS
+574,negative energy traditional interpretation,3,VBP
+575,negative energy in quantum field theory,3,JJ
+576,negative energy in general relativity,3,NN
+577,vacuum energy cosmological constant,3,JJ
+578,vacuum energy negative contributions,3,NNS
+579,open questions,3,NNS
+580,constraint of relational definition,3,VBP
+581,constraint of relational definition universe,3,JJ
+582,negative energy the problem of ,3,JJ
+583,negative energy matter observational evidence,3,NN
+584,time irreversibility origin,3,NN
+585,negative energy propagation constraint,3,NN
+586,negative energy interaction constraint,3,NN
+587,time direction degree of freedom direction of propagation,3,NN
+588,negative energy versus negative charge,3,NN
+589,negative energy Dirac s solution,3,NN
+590,negative energy antiparticles,3,NNS
+591,negative energy transition constraint,3,VBP
+592,vacuum decay problem,3,JJ
+593,negative energy steady state cosmology,3,NN
+594,negative energy the problem of ,3,NNS
+595,time direction degree of freedom ,3,VBP
+596,time direction degree of freedom relativity of the sign of charges,3,NNS
+597,time direction degree of freedom relativity of the sign of energy,3,VBP
+598,time irreversibility backward in time propagation,3,NN
+599,time direction degree of freedom Feynman s interpretation,3,NN
+600,time direction degree of freedom grand unified theories,3,NNS
+601,negative energy negative action,3,VBP
+602,coordinative definition,3,NN
+603,time direction degree of freedom condition of continuity in time,3,NN
+604,negative energy matter requirement of exchange symmetry,3,NN
+605,negative mass traditional concept,3,IN
+606,negative mass negative inertial mass,3,NN
+607,constraint of relational definition gravitational force,3,NN
+608,principle of equivalence,3,NN
+609,time direction degree of freedom ,3,NN
+610,negative energy energy conditions,3,NNS
+611,vacuum energy negative densities,3,NNS
+612,negative energy of attractive force field,3,VBP
+613,negative energy bound systems,3,JJ
+614,negative energy positive energy theorems,3,JJ
+615,constraint of relational definition time direction-dependent property,3,JJ
+616,negative mass ,3,JJ
+617,negative mass gravitational mass,3,NN
+618,negative mass traditional concept ,3,NN
+619,negative mass principle of inertia,3,JJ
+620,gravitational repulsion,3,NN
+621,negative mass Newton s third law,3,NN
+622,constraint of relational definition sign of mass,3,NN
+623,negative mass absolute gravitational force,3,NN
+624,negative mass positive inertial mass,3,NN
+625,principle of equivalence violation of the,3,NN
+626,equivalent gravitational field ,3,NN
+627,inertial gravitational force,3,NN
+628,local inertial frame of reference,3,NN
+629,dynamic equilibrium of forces,3,NNS
+630,negative mass Newton s second law,3,VBP
+631,negative mass generalized Newton s second law,3,NN
+632,negative mass acceleration,3,NN
+633,negative mass traditional concept ,3,FW
+634,principle of equivalence Einstein s elevator experiment,3,NN
+635,principle of equivalence equivalent source,3,NN
+636,general relativistic theory observer dependent gravitational field,3,NN
+637,constraint of relational definition acceleration,3,NN
+638,Mach Ernst,3,NNP
+639,principle of equivalence relativized,3,VBD
+640,equivalent gravitational field ,3,JJ
+641,principle of equivalence ,3,NN
+642,constraint of relational definition principle of relativity,3,NN
+643,constraint of relational definition relativity of acceleration,3,NN
+644,constraint of relational definition absolute space,3,NN
+645,equivalent gravitational field,3,VBD
+646,relativistic frame dragging,3,VBG
+647,inertial gravitational force from identical matter distributions,3,NNS
+648,cosmological principle,3,JJ
+649,material nature of gravitation,3,NN
+650,universal force,3,NN
+651,material nature of gravitation electromagnetic field analogy,3,NN
+652,physical nature of geometry,3,NN
+653,Coriolis force,3,NNP
+654,global inertial frame of reference,3,NN
+655,principle of equivalence ,3,NN
+656,negative mass ,3,JJ
+657,voids in a matter distribution ,3,NN
+658,gravitational repulsion from voids in a matter distribution,3,NN
+659,negative energy matter overdensity,3,NN
+660,negative energy matter underdensity,3,NN
+661,voids in a matter distribution effects on expansion of space,3,NN
+662,voids in a matter distribution gravitational dynamics,3,NNS
+663,voids in a matter distribution inertial mass,3,VBP
+664,voids in a matter distribution Birkhoff s theorem,3,JJ
+665,voids in a matter distribution spherical voids,3,NNS
+666,voids in a matter distribution the hollow sphere analogy,3,NN
+667,gravitational repulsion uncompensated gravitational attraction,3,NN
+668,constraint of relational definition center of mass of the universe,3,NN
+669,Mach s principle,3,NNP
+670,voids in a matter distribution surrounding overdense shell,3,NNP
+671,negative energy matter voids in positive vacuum energy,3,JJ
+672,vacuum energy from quantum fluctuations,3,NNS
+673,vacuum energy virtual processes,3,NNS
+674,gravitational repulsion from missing positive vacuum energy,3,VBP
+675,vacuum energy equilibrium state,3,JJ
+676,voids in negative vacuum energy positive energy matter,3,NN
+677,voids in a matter distribution negative energy matter distribution,3,NN
+678,negative energy filled energy continuum,3,FW
+679,constraint of relational definition sign of energy,3,NN
+680,equations of state,3,VBP
+681,vacuum charge neutrality,3,NN
+682,negative energy matter homogeneous distribution,3,NN
+683,voids in negative vacuum energy mutual interactions,3,NNS
+684,gravitational repulsion uncompensated,3,VBD
+685,vacuum energy local absence of absence,3,NN
+686,voids in a matter distribution ,3,NN
+687,negative energy matter outstanding problems ,3,JJ
+688,negative energy pair annihilation,3,NN
+689,negative energy pair creation,3,NN
+690,energy out of nothing problem,3,FW
+691,negative energy matter conservation of energy,3,JJ
+692,matter creation,3,NN
+693,matter creation observational evidence,3,NN
+694,vacuum energy ground state,3,NN
+695,negative energy matter conservation of momentum,3,NN
+696,gravitational repulsion antigravity,3,NN
+697,perpetual motion problem,3,VBP
+698,time travel paradox,3,JJ
+699,negative energy matter implicit assumptions,3,NNS
+700,negative energy matter outstanding problems ,3,VBP
+701,negative energy matter dominant paradigm,3,JJ
+702,negative energy matter dark matter,3,RB
+703,Feynman Richard,3,NNP
+704,repulsive force field energy sign of,3,NN
+705,negative energy matter energy of force fields,3,NNS
+706,negative energy matter absence of interactions with,3,RB
+707,constraint of relational definition interaction field energy,3,JJ
+708,voids in a matter distribution,3,NN
+709,vacuum energy interactions with matter,3,NN
+710,negative energy matter concentrations,3,NNS
+711,negative energy matter rarity,3,NN
+712,energy out of nothing problem ,3,VBP
+713,matter creation favorable conditions,3,NNS
+714,negative energy matter momentum direction,3,JJ
+715,time direction degree of freedom pair creation and annihilation,3,NN
+716,time direction degree of freedom particle world-line,3,JJ
+717,time direction degree of freedom reversal of action,3,NN
+718,time direction degree of freedom reversal of energy,3,NN
+719,negative energy matter transformation into,3,IN
+720,gravitational repulsion weakness,3,NN
+721,quantum gravitation Planck energy,3,JJ
+722,second law of thermodynamics constraint on matter creation,3,NN
+723,second law of thermodynamics spreading of energy,3,NN
+724,second law of thermodynamics microstates,3,NNS
+725,second law of thermodynamics entropy,3,VBP
+726,second law of thermodynamics fluctuations,3,NNS
+727,matter creation permanence,3,NN
+728,matter creation conservation of energy,3,NN
+729,vacuum energy conservation of energy,3,NN
+730,second law of thermodynamics stable state,3,VBP
+731,matter creation quantum gravitational scale,3,NN
+732,matter creation big bang,3,NN
+733,matter creation cosmic expansion,3,NN
+734,time direction degree of freedom direction of the flow of time,3,NN
+735,negative energy matter sign of charge,3,NN
+736,discrete symmetry operations invariance of the sign of charge,3,NN
+737,energy out of nothing problem ,3,VBP
+738,vacuum decay problem ,3,NN
+739,interaction boson,3,NN
+740,interaction vertex mixed action signs,3,VBZ
+741,Rutherford atom model,3,NNP
+742,constraint of relational definition lower energies,3,NNS
+743,second law of thermodynamics thermal equilibrium,3,VBP
+744,second law of thermodynamics matter disintegration,3,NN
+745,negative energy matter initial distribution,3,NN
+746,second law of thermodynamics smoothness of matter distribution,3,NN
+747,vacuum energy zero point,3,NN
+748,vacuum decay problem ,3,NN
+749,negative energy matter colliding opposite energy bodies,3,NNS
+750,general relativistic theory conservation of energy,3,VBP
+751,general relativistic theory gravitational field energy,3,JJ
+752,vacuum energy gravitational potential energy,3,NN
+753,negative energy matter gravitational potential energy,3,NN
+754,negative energy kinetic energy,3,JJ
+755,negative mass absolute inertial mass,3,NN
+756,strong nuclear interaction,3,NN
+757,vacuum energy virtual particles,3,NNS
+758,principle of equivalence entangled system,3,VBP
+759,negative energy matter outstanding problems,3,JJ
+760,gravitational repulsion antimatter experiment,3,NN
+761,negative energy matter antimatter experiment with,3,NN
+762,negative energy matter potential energy,3,JJ
+763,energy out of nothing problem work and useful energy,3,JJ
+764,wormhole,3,NN
+765,wormhole traversable,3,JJ
+766,wormhole throat,3,NN
+767,wormhole exotic matter,3,NN
+768,black hole,3,JJ
+769,black hole spacetime singularity,3,NN
+770,black hole gravitational collapse,3,NN
+771,wormhole instability,3,NN
+772,time travel paradox causality violation,3,NN
+773,second law of thermodynamics degrees of freedom,3,NN
+774,black hole event horizon,3,NN
+775,black hole surface area,3,NN
+776,black hole entropy,3,NN
+777,black hole matter absorption,3,NN
+778,black hole mass reduction,3,NN
+779,second law of thermodynamics violation,3,NN
+780,negative energy matter thermal energy,3,RB
+781,negative energy matter heat,3,JJ
+782,negative energy matter radiation,3,NN
+783,negative energy matter temperature,3,NN
+784,black hole thermodynamics nn,3,NN
+785,black hole temperature nn,3,NN
+786,black hole surface gravitational field nn,3,NN
+787,negative temperatures nn,3,JJ
+788,black hole entropy nn,3,JJ
+789,negative energy myths,3,NNS
+790,axioms negative energy ,3,IN
+791,axioms negative energy matter ,3,JJ
+792,axioms negative mass ,3,JJ
+793,general relativistic theory generalized gravitational field equations,3,NNS
+794,negative energy matter inhomogeneities,3,NNS
+795,axioms negative energy ,3,VBP
+796,axioms negative energy matter ,3,JJ
+797,axioms negative mass ,3,NN
+798,general relativistic theory generalized gravitational field equations ,3,NN
+799,general relativistic theory mathematical structure,3,NN
+800,axioms negative energy matter,3,NN
+801,general relativistic theory observer dependent energy sign,3,NN
+802,general relativistic theory observer dependent metric properties,3,NNS
+803,general relativistic theory natural viewpoints,3,NNS
+804,general relativistic theory energy sign convention,3,NN
+805,general relativistic theory earlier publications,3,NNS
+806,general relativistic theory distinctive features,3,VBZ
+807,general relativistic theory bi-metric theories,3,NNS
+808,general relativistic theory conjugate metrics,3,NNS
+809,general relativistic theory stress-energy tensors,3,NNS
+810,Petit Jean-Pierre nn,3,NNP
+811,general relativistic theory justifications,3,NNS
+812,general relativistic theory earlier interpretations,3,NNS
+813,general relativistic theory consequences,3,NNS
+814,general relativistic theory assumptions,3,NNS
+815,general relativistic theory curvature tensors,3,NNS
+816,general relativistic theory geodesics,3,NNS
+817,general relativistic theory general covariance,3,NN
+818,general relativistic theory alternative proposals,3,NNS
+819,general relativistic theory redefined energy ground state,3,VBP
+820,general relativistic theory mathematical requirement,3,JJ
+821,general relativistic theory additional variables,3,NNS
+822,general relativistic theory alternative notation nn,3,VBP
+823,general relativistic theory pull-overs,3,NNS
+824,general relativistic theory maps,3,NNS
+825,general relativistic theory metric conversion factors,3,NNS
+826,general relativistic theory Einstein tensor,3,VBP
+827,general relativistic theory vacuum energy terms,3,NNS
+828,general relativistic theory physical requirements,3,NNS
+829,general relativistic theory irregular stress-energy tensors,3,NNS
+830,general relativistic theory average stress-energy tensors,3,NNS
+831,general relativistic theory variational principle,3,JJ
+832,vacuum energy natural maximum densities,3,NNS
+833,quantum gravitation,3,VBP
+834,general relativistic theory vacuum stress-energy tensors,3,NNS
+835,general relativistic theory natural vacuum stress-energy tensors,3,NNS
+836,negative energy matter cosmological models,3,NNS
+837,negative energy matter universal expansion,3,NN
+838,axioms negative energy,3,IN
+839,axioms negative mass,3,NN
+840,negative mass Newtonian gravitation,3,NN
+841,general relativistic theory Newtonian limit or approximation,3,NN
+842,negative energy matter ratio of cosmic densities,3,NNS
+843,general relativistic theory generalized gravitational field equations ,3,VBP
+844,time direction degree of freedom,3,JJ
+845,negative mass,3,NN
+846,quantum gravitation gravitons,3,NNS
+847,black hole negative energy matter,3,VBP
+848,quantum gravitation Planck scale,3,JJ
+849,discrete symmetry operations alternative formulation,3,NN
+850,discrete symmetry operations charge conjugation C ,3,NN
+851,discrete symmetry operations space reversal P ,3,NN
+852,discrete symmetry operations time reversal T ,3,NN
+853,discrete symmetry violation,3,NN
+854,discrete symmetry operations quantum field theory,3,NN
+855,discrete symmetry operations semi-classical viewpoint,3,JJ
+856,discrete symmetry operations gravitation,3,NN
+857,black hole matter degrees of freedom,3,NN
+858,discrete symmetry operations reversal of action M ,3,NN
+859,discrete symmetry operations antimatter,3,NN
+860,discrete symmetry operations traditional conception,3,NN
+861,discrete symmetry operations sign of energy,3,NN
+862,discrete symmetry operations sign of charge,3,NN
+863,discrete symmetry operations spacetime reversal,3,NN
+864,discrete symmetry operations kinematic representation,3,NN
+865,discrete symmetry operations backward motion,3,NN
+866,discrete symmetry operations angular momentum,3,NN
+867,discrete symmetry operations momentum,3,NN
+868,discrete symmetry operations space intervals,3,NNS
+869,time irreversibility unidirectional time,3,JJ
+870,constraint of relational definition discrete symmetry operation,3,NN
+871,discrete symmetry operations time intervals,3,NNS
+872,constraint of relational definition space and time reversals,3,NNS
+873,constraint of relational definition reversal of momentum,3,VBP
+874,constraint of relational definition reversal of energy,3,JJ
+875,constraint of relational definition polar asymmetry,3,NN
+876,constraint of relational definition directional asymmetry,3,NN
+877,constraint of relational definition absolute direction,3,NN
+878,constraint of relational definition absolute lopsidedness,3,NN
+879,discrete symmetry weak interaction,3,NN
+880,discrete symmetry operations handedness,3,NN
+881,constraint of relational definition sign of charge,3,NN
+882,constraint of relational definition completeness,3,JJ
+883,constraint of relational definition self-determination,3,NN
+884,multiverse,3,NN
+885,discrete symmetry operations CPT theorem,3,NN
+886,discrete symmetry operations combined operations,3,NNS
+887,discrete symmetry operations PTC transformation PTC transformation,3,VBP
+888,special relativity,3,NN
+889,constraint of relational definition imbalance,3,NN
+890,constraint of relational definition space and time directions,3,NNS
+891,time direction degree of freedom chronological order,3,VBP
+892,discrete symmetry operations dependencies,3,NNS
+893,time irreversibility thermodynamic time,3,VBP
+894,time direction degree of freedom bidirectional time,3,JJ
+895,second law of thermodynamics constraint on process description,3,NN
+896,discrete symmetry operations reversal of motion,3,NN
+897,time direction degree of freedom antiparticles,3,NNS
+898,time irreversibility thermodynamic arrow of time,3,RB
+899,time direction degree of freedom time direction-dependent property,3,JJ
+900,discrete symmetry operations space and time coordinates,3,NNS
+901,discrete symmetry operations conjugate properties,3,NNS
+902,discrete symmetry operations joint variation,3,VBP
+903,discrete symmetry operations space-related properties,3,NNS
+904,discrete symmetry operations time-related properties,3,NNS
+905,discrete symmetry operations invariance of the sign of action,3,NN
+906,discrete symmetry operations quantum operators,3,NNS
+907,state vector,3,VBP
+908,propagator,3,NN
+909,discrete symmetry operations electric field,3,NN
+910,discrete symmetry operations magnetic field,3,VBD
+911,discrete symmetry operations currents,3,NNS
+912,neutron s electric dipole moment,3,JJ
+913,neutron s electric dipole moment direction of dipole,3,JJ
+914,neutron s electric dipole moment precession movement,3,JJ
+915,discrete symmetry operations enantiomorphic equivalent,3,NN
+916,fermion,3,NN
+917,polarization,3,NN
+918,discrete symmetry operations equivalent operations,3,NNS
+919,discrete symmetry operations fermion quantum phase,3,VBP
+920,discrete symmetry operations space rotation,3,NN
+921,discrete symmetry operations classical equations,3,NNS
+922,discrete symmetry operations basic action reversal operation M I ,3,VBP
+923,discrete symmetry operations identity operation I ,3,JJ
+924,discrete symmetry operations action sign degree of freedom,3,NN
+925,negative energy matter discrete symmetries,3,NNS
+926,negative energy matter antimatter,3,VBP
+927,grand unification theories,3,NNS
+928,quark,3,VBP
+929,local causality,3,JJ
+930,discrete symmetry matter-antimatter asymmetry,3,NN
+931,black hole thermodynamics,3,NNS
+932,black hole information,3,NN
+933,black hole event horizon degrees of freedom,3,NN
+934,black hole macroscopic parameters,3,NNS
+935,black hole mass,3,VBP
+936,black hole angular momentum,3,NN
+937,black hole charge,3,NN
+938,Bekenstein bound,3,NNP
+939,black hole conservation of information,3,NN
+940,quantum gravitation discrete space,3,NN
+941,quantum gravitation Planck time,3,JJ
+942,quantum gravitation elementary unit of surface,3,NN
+943,black hole Schwarzschild radius,3,NN
+944,quantum gravitation Planck length,3,NN
+945,quantum gravitation Planck area,3,NN
+946,Boltzmann s constant,3,NNP
+947,t Hooft Gerard t Hooft Gerard,3,NN
+948,quantum gravitation elementary black hole,3,NN
+949,quantum gravitation Planck mass,3,NN
+950,second law of thermodynamics gravitational entropy,3,NN
+951,discrete symmetry operations fundamental degrees of freedom,3,NN
+952,black hole momentum,3,NN
+953,black hole stable state,3,NN
+954,particle accelerator,3,NN
+955,black hole particle momenta,3,NN
+956,tidal effect,3,JJ
+957,particle beam,3,NN
+958,unidirectional variable,3,JJ
+959,quantum chromodynamics,3,NNS
+960,meson,3,JJ
+961,wavelength,3,JJ
+962,black hole redshift,3,NN
+963,black hole time dilation,3,NN
+964,kinetic energy,3,FW
+965,rest mass,3,NN
+966,quantum gravitation Planck momentum,3,NN
+967,black hole particle energies,3,NNS
+968,black hole state magnification,3,NN
+969,black hole temperature,3,NN
+970,black hole particle charges,3,VBZ
+971,black hole particle handedness,3,JJ
+972,unification scale,3,JJ
+973,black hole surface gravitational field,3,NN
+974,black hole electromagnetic field,3,VBD
+975,black hole Hawking radiation,3,NN
+976,nucleus,3,NN
+977,electrostatic field pair creation,3,NN
+978,quantum gravitation spin networks,3,VBZ
+979,second law of thermodynamics coarse-graining,3,JJ
+980,quantum gravitation fluctuating gravitational field,3,NN
+981,statistical mechanics,3,NNS
+982,quantum gravitation microscopic black hole,3,JJ
+983,quantum gravitation momentum direction,3,NN
+984,quantum gravitation negative energy,3,JJ
+985,quantum gravitation energy fluctuations,3,NNS
+986,statistical mechanics non-equilibrium thermodynamics,3,NNS
+987,statistical mechanics near-equilibrium thermodynamics,3,NNS
+988,time irreversibility irreversible processes,3,NNS
+989,second law of thermodynamics static equilibrium,3,VBP
+990,statistical mechanics equilibrium thermodynamics,3,NNS
+991,black hole merger,3,NN
+992,negative temperatures,3,NNS
+993,negative temperatures energy levels,3,JJ
+994,second law of thermodynamics temperature,3,NN
+995,negative temperatures infinite temperature,3,NN
+996,negative temperatures spin system in magnetic field,3,VBN
+997,negative temperatures decrease of entropy,3,RB
+998,second law of thermodynamics energy,3,JJ
+999,negative temperatures black hole,3,JJ
+1000,negative temperatures negative energy,3,JJ
+1001,general relativistic theory,3,NN
+1002,negative energy in quantum field theory see negative densities vacuum energy,3,JJ
+1003,time direction degree of freedom requirement of continuity see condition of continuity in time time direction degree of freedom,3,NN
+1004,negative energy matter uniform distribution see homogeneous distribution negative energy matter,3,RB
+1005,negative action matter see negative energy matter,3,RB
+1006,time direction degree of freedom time-symmetric viewpoint see bidirectional time time direction degree of freedom,3,JJ
+1007,discrete symmetry operations parity P see space reversal P discrete symmetry operations,3,NNS
+1008,discrete symmetry operations spin see angular momentum discrete symmetry operations,3,NNS
+1009,discrete symmetry operations fermion wavefunction see fermion quantum phase discrete symmetry operations,3,NNS
+1010,thermodynamic time asymmetry see time irreversibility,3,NN
+1011,constraint of relational definition fundamental lopsidedness see absolute lopsidedness constraint of relational definition,3,NN
+1012,black hole semi-classical theory see thermodynamics black hole,3,JJ
+1013,quantum gravitation elementary unit of area see elementary unit of surface quantum gravitation,3,NN
+1014,Bekenstein bound surface information and entropy see black hole,3,NNP
+1015,Painlev e analysis,4,NNP
+1016,Painlev e property,4,NNP
+1017,Painlev e property for ODEs,4,NNP
+1018,singularity movable,4,JJ
+1019,singularity fixed,4,JJ
+1020,Painlev e functions,4,NNP
+1021,irreducibility,4,NN
+1022,classification,4,NN
+1023,B acklund transformation,4,NNP
+1024,B acklund transformation auto--,4,NNP
+1025,integrability,4,NN
+1026,B acklund parameter,4,NNP
+1027,Painlev e property for PDEs,4,NNP
+1028,hodograph transformation,4,NN
+1029,reduction noncharacteristic,4,JJ
+1030,Painlev e test,4,NNP
+1031,method of pole-like expansions,4,NNS
+1032,singular manifold variable,4,JJ
+1033,homographic group,4,NN
+1034,homographic invariants,4,NNS
+1035,Schwarzian,4,JJ
+1036,KPP equation,4,NNP
+1037,diophantine condition,4,NN
+1038,no-logarithm condition,4,NN
+1039,singular part operator,4,NN
+1040,Kundu-Eckhaus equation,4,NNP
+1041,truncation method,4,NN
+1042,singular manifold method,4,NN
+1043,Darboux involution,4,NNP
+1044,Lax pair,4,NNP
+1045,Korteweg-de Vries equation modified,4,NNP
+1046,singular manifold equation,4,NN
+1047,Korteweg-de Vries equation,4,NNP
+1048,Darboux-Halphen system,4,NNP
+1049,Lorenz model,4,NNP
+1050,solitary waves,4,VBZ
+1051,Kuramoto-Sivashinsky equation,4,NNP
+1052,Painlev e equation PVI ,4,NNP
+1053,Liouville--integrability,4,NNP
+1054,H enon-Heiles system,4,NNP
+1055,separating variables,4,VBZ
+1056,Painlev e property discrete,4,NNP
+1057,Painlev e test discrete,4,NNP
+1058,singularity confinement method,4,NN
+1059,contiguity relation,4,NN
+1060,u l vert l j ,4,JJ
+1061,u x k pas k-k dots N ,4,JJ
+1062,u x pasq k k-k dots N ,4,JJ
