@@ -183,7 +183,7 @@ def generate_csv(file, filenum = 1):
     df_final = data_set
 
     #############################################
-    #   BIGRAMS - Commented until improved efficiency
+    #   BIGRAMS
     #############################################
     print('Gathering Bigrams...\n')
     bigrams = list(nltk.bigrams(words))
@@ -214,7 +214,7 @@ def generate_csv(file, filenum = 1):
 
 
     ##############################################
-    #   Calculatin Tf and Idf
+    #   Calculating Tf and Idf
     ##############################################
     print('Calculate Term Frequency and Document Frequency...\n')
     
