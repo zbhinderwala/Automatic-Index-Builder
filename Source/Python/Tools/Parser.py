@@ -16,7 +16,7 @@ import math
 import argparse
 import glob
 import os
-from TexSoup import TexSoup
+import phrasefinder
 
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
@@ -161,7 +161,7 @@ def generateDataSet(words, type='unigram'):
 
     return data_set
 
-def generate_csv(file, filenum = 1):
+def generate_csv(file, filenum=1):
     print('Reading LaTeX File: ' + os.path.basename(file.name) + '...\n')
 
     # Get only the text from the file
@@ -238,6 +238,47 @@ def generate_csv(file, filenum = 1):
     df_final['inf'] = inf_list
 
     ##############################################
+    #   Google Ngram - Match Count and Volume Count
+    ##############################################
+    print('Retrieving Match and Volume Count...')
+
+    match = []
+    volume = []
+
+    word_count = len(df_final['word'])
+    counter = 1
+    for x in df_final['word']:
+
+        sys.stdout.write("\r%d/%d" % (counter, word_count))
+        sys.stdout.flush()
+        match_str = ''
+        vol_str = ''
+
+        try:
+            result = phrasefinder.search(x)
+
+            if result.status == phrasefinder.Status.Ok:   
+                if len(result.phrases) > 0:
+                    match_str = (result.phrases[0].match_count)
+                    vol_str = (result.phrases[0].volume_count)
+        except:
+            match_str = 'Error'
+            vol_str = 'Error'
+
+        match.append(match_str)
+        volume.append(vol_str)
+
+        counter += 1
+
+
+
+    df_final['match_count'] = match
+    df_final['volume_count'] = volume
+
+    print('\n')
+
+
+    ##############################################
     #   Removing the words based on parts of speech
     ##############################################
     """pos_list = ['CD','CC','IN','PRP','RB','VBD','VB','JJ','VBN','VBZ','VBG','IN','WDT','WRB','VBP','FW']
@@ -289,7 +330,7 @@ elif args.dir:
     for i in range(0, len(texfiles)):
         file = open(texfiles[i], 'r')
         
-        df_temp = generate_csv(file, i+1)
+        df_temp = generate_csv(file, i + 1)
 
         df = df.append(df_temp, ignore_index=True)
 
