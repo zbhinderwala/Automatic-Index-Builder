@@ -254,75 +254,44 @@ def generate_csv(file, filenum=1):
     ##############################################
     #   Google Ngram - Match Count and Volume Count
     ##############################################
-    print('Retrieving Google Ngram Data...')
 
-    '''
-        def getMatchVolume(i, x, numWords):
-        sys.stdout.write("\r%d/%d" % (i, numWords))
-        sys.stdout.flush()
+    if args.ngram:
+        print('Retrieving Google Ngram Data...')
 
-        match_str = '1'
-        vol_str = '1'
+        match = []
+        volume = []
 
-        try:
-            result = phrasefinder.search(x)
+        word_count = len(df_final['word'])
+        counter = 1
+        for x in df_final['word']:
 
-            if result.status == phrasefinder.Status.Ok:   
-                if len(result.phrases) > 0:
-                    match_str = (result.phrases[0].match_count)
-                    vol_str = (result.phrases[0].volume_count)
-        except:
-            match_str = '-1'
-            vol_str = '-1'
+            sys.stdout.write("\r%d/%d" % (counter, word_count))
+            sys.stdout.flush()
+            match_str = '1'
+            vol_str = '1'
 
-        return(match_str, vol_str)
+            try:
+                result = phrasefinder.search(x)
 
-    match = []
-    volume = []
+                if result.status == phrasefinder.Status.Ok:   
+                    if len(result.phrases) > 0:
+                        match_str = (result.phrases[0].match_count)
+                        vol_str = (result.phrases[0].volume_count)
+            except:
+                match_str = '-1'
+                vol_str = '-1'
 
-    match, volume = map(lambda index_word:\
-        getMatchVolume(index_word[0], index_word[1], len(df_final['word'])),enumerate(df_final['word']))
+            match.append(match_str)
+            volume.append(vol_str)
 
-    df_final['match_count'] = match
-    df_final['volume_count'] = volume
-
-    print('\n')
-    '''
-
-    match = []
-    volume = []
-
-    word_count = len(df_final['word'])
-    counter = 1
-    for x in df_final['word']:
-
-        sys.stdout.write("\r%d/%d" % (counter, word_count))
-        sys.stdout.flush()
-        match_str = '1'
-        vol_str = '1'
-
-        try:
-            result = phrasefinder.search(x)
-
-            if result.status == phrasefinder.Status.Ok:   
-                if len(result.phrases) > 0:
-                    match_str = (result.phrases[0].match_count)
-                    vol_str = (result.phrases[0].volume_count)
-        except:
-            match_str = '-1'
-            vol_str = '-1'
-
-        match.append(match_str)
-        volume.append(vol_str)
-
-        counter += 1
+            counter += 1
 
 
 
-    df_final['match_count'] = match
-    df_final['volume_count'] = volume
+        df_final['match_count'] = match
+        df_final['volume_count'] = volume
 
-    print('\n')
+        print('\n')
 
 
     ##############################################
@@ -359,6 +328,8 @@ parser = argparse.ArgumentParser(prog='Parser.py', description='Parse a LaTeX fi
 parser.add_argument('-d', '--dir', help='Parse entire directory of LaTeX files', required=False)
 parser.add_argument('-f', '--file', help='Parse single LaTeX file', required=False)
 parser.add_argument('-o', '--output', help='Output directory')
+parser.add_argument('-n', '--ngram', help='Calculate Google Ngram data', required=False)
+
 args = parser.parse_args()
 
 df = pd.DataFrame()
