@@ -144,7 +144,7 @@ def splitText(text):
     # conjoining characters not included
     splitChars = {'\.', ' ', '\,', ':', ';', '\n', '\*', \
         '\|', '\?', '\(', '\)', '\^', '_','!','~','$','@','^',\
-        '{','}'
+        '{','}','\[','\]'
     }
 
     splitString = ""
