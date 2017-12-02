@@ -1,0 +1,1226 @@
+\documentclass[24pt]{article}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{a4}
+\usepackage{alltt}
+\usepackage{graphicx}
+\topmargin=-1cm
+\headheight=0in
+\textheight=24cm
+\textwidth=18cm
+\oddsidemargin=-1cm
+\evensidemargin=-3cm
+\usepackage{epsf}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cite}
+\usepackage{hyperref}
+%\usepackage{lipsum}
+%\usepackage{blindtext}
+%\usepackage[toc,page]{appendix}
+\DeclareMathOperator{\sech}{sech}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\setcounter{MaxMatrixCols}{20} 
+\newcommand{\pt}{\partial}
+\renewcommand{\baselinestretch}{1.2}
+
+\begin{document}
+\title{\bf Causal horizons in a bouncing universe}
+\author{Kaushik Bhattacharya, Pritha Bari, Saikat Chakraborty 
+\thanks{ E-mail:~ kaushikb, pribari, snilch@iitk.ac.in} 
+\\ 
+\normalsize
+Department of Physics, Indian Institute of Technology,\\ 
+\normalsize
+Kanpur 208016, India}
+\maketitle 
+%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+In this article we study the nature of the particle horizon, event
+horizon and the Hubble radius in a cosmological model which
+accommodates a cosmological bounce. The nature of the horizons and
+their variation with time are presented for various models of the
+universe. The effective role of the Hubble radius in affecting
+causality in such kind of models is briefly discussed.
+\end{abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+The issue of causality is at the heart of relativistic physics. In
+cosmology, where it is assumed that we live in an expanding universe
+modelled on the Friedmann-Lemaitre-Robertson-Walker (FLRW) metric, the
+causal nature of the universe is understood by the properties 
+of the particle horizon and the event horizon.  In Big-Bang cosmology
+it is assumed that there is a finite age of the universe and
+intuitively one can visualize that during this time light has
+travelled only a finite region and consequently Big-Bang cosmology
+predicts a calculable particle horizon for any observer in the present
+universe. On the other hand if there was no Big-Bang to start with, as
+in non-singular bouncing cosmological
+models\cite{Brandenberger:2016vhg,Novello:2008ra}, then it becomes
+very difficult to say whether a particle horizon exists for any
+observer.  In this article we will show that for non-singular bouncing
+cosmologies, where a contracting phase precedes the expansion phase
+there may exist certain conditions which dictate when a particle
+horizon will exist. Like the particle horizon the event horizon plays
+an important role in gravitational theories. In general thermodynamic
+behavior of a system can be linked with the event horizon as is done
+in black hole physics.  Some authors have even tried to associate
+thermodynamic properties of the universe with the cosmic event
+horizon\cite{Gibbons:1977mu}.  In the present article we will show
+that some of our toy examples of bouncing cosmologies do have event
+horizons.
+
+Except the particle and event horizons the Hubble radius also plays an
+important role\cite{Lewis:2012yk, Harrison:1991dv} in determining the
+causal structure of the universe.  The Hubble radius defines the
+Hubble sphere and the surface of the Hubble sphere is called the
+Hubble surface.  Many authors use Hubble horizon to describe the
+boundary of the Hubble sphere although in this article we will not
+associate the word horizon with the Hubble surface.  Later we will see
+that in bouncing cosmologies the Hubble surface affects the causal
+structure of spacetime in a very subtle way.  A general discussion
+illuminating the relationship of the particle horizon and the Hubble
+surface, in expanding spacetime, can be found in
+Ref.\cite{Davis:2003ad}. The referred article addresses various
+misconceptions related to the actual role of the Hubble surface.
+
+Although the concepts of the particle horizon, event horizon and the
+Hubble surface are commonly used and well discussed topics in Big-Bang
+cosmology\cite{Ellis:2015wdi, Margalef-Bentabol:2012kwa,
+  MargalefBentabol:2013bh} they are rarely discussed in the bouncing
+universe paradigm where a contracting phase of the universe changes
+course and starts to expand again giving rise to the expanding
+universe we observe. The bouncing models are interesting because they
+do not contain any singularities\cite{Brandenberger:2016vhg,
+  Novello:2008ra, Martin:2004pm, Brandenberger:2012zb,
+  Cai:2012va}. Once one includes a contracting universe, a universe
+which does not have any initial time to start, the concept of the
+particle horizon becomes much more involved. Some discussion on the
+causality issue in bouncing cosmological scenario is included in
+Ref.~\cite{Martin:2003bp}. In a bouncing universe the scale-factor of
+the FLRW metric is not a power law function of time during the bounce
+and consequently the difference between Hubble radius and the particle
+horizon distance (if it exists) diverge maximally near the bounce
+point. In this article we will discuss the general nature of particle
+horizon, event horizon and the Hubble surface in bouncing cosmological
+models. The material in the article is presented in the following way.
+In the next section we describe the preliminary theoretical tools
+which we will employ throughout the article. In section \ref{pheh} we
+quantitatively define the concepts of the horizons and the Hubble
+radius.  In section \ref{tbm} we specify two toy bounce models where
+all the horizons exist. In the subsequent section \ref{relc} a more
+realistic bounce model is discussed. We give multiple examples of this
+model using various parameters specifying the bounce.  We discuss
+about the results obtained in this article in section \ref{disc} and
+finally conclude the paper in the subsequent section.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Requirements of a cosmological bounce}
+
+In this article we will use the homogeneous and isotropic FLRW
+spacetime. We will particularly work with the spatially
+flat FLRW metric and its form in the spherical polar coordinates is given by
+\begin{eqnarray}
+ds^2 = -dt^2 + a^2(t) \left[ dr^2 + r^2(d\theta^2 +
+  \sin^2 \theta\,\,d\phi^2)\right]\,,
+\label{sfrw}
+\end{eqnarray}
+where $r$ is comoving radial coordinate. We are using units where the
+velocity of light $c=1$. Here $a(t)$ is the scale-factor for the FLRW
+spacetime.  The Einstein equation in the cosmological setting can be
+expressed in terms of the Hubble parameter $H\equiv \dot{a}/a$, where
+a dot over a quantity specifies a time derivative of that quantity.
+The relevant equations are
+\begin{eqnarray}
+H^2 &=&\frac{\kappa}{3}\rho\,,
+\label{fried1}\\
+\dot{H} &=&-\frac{\kappa}{2}(\rho + P)\,,
+\label{fried2}
+\end{eqnarray}
+where $\rho$ is the energy density and $P$ is the pressure of 
+matter which pervades the universe. In the above equations
+$\kappa=8\pi G$ where $G=1/M_P^2$, $M_P=1.2 \times 10^{19}\,{\rm
+  GeV}$, being the Planck mass. We are using units where $\hbar=1$
+where $\hbar$ is the reduced Planck constant. We have assumed that the
+cosmological constant term to be zero. The conservation of
+energy-momentum leads to another equation
+\begin{eqnarray}
+\dot{\rho}=-3H(\rho + P)\,.
+\label{encon}
+\end{eqnarray}
+The above set of equations by themselves cannot give proper dynamical
+solutions as the number of variables, $a$, $\dot{a}$, $\rho$ and $P$,
+exceeds the number of equations. In such a case one assumes a
+barotropic equation of state as
+\begin{eqnarray}
+P=\omega \rho\,,
+\label{beos}
+\end{eqnarray}
+where $\omega$ is supposed to be constant for a particular kind of
+matter. The above equations always predicts a spacetime singularity as
+$t \to 0$ if the matter content of the universe satisfies some energy
+conditions. One can evade the singularity, by introducing a bouncing
+universe where the scale-factor remains finite as $t \to 0$, by
+violating the null energy condition (NEC) in general relativity.
+Although the above set of equation with the specification of a
+constant $\omega$ makes the system solvable and one can in principle
+find out the scale-factor as a function of time as a solution, in
+reality when we apply this theory in the case of a cosmological bounce
+the program may get inverted. In this inverted way one assumes a
+particular form of the scale-factor to start with. Then using the same
+above set of equations one can derive how energy scales with time and
+the form of the barotropic ratio. In this approach the barotropic
+ratio may not turn out to be a constant in time.  This inverted way of
+solving the bouncing problem is applied in various cases because it is
+relatively easier to guess a bouncing scale-factor than to guess the
+kind of fluid which can produce a cosmological bounce.
+
+If one wants to avoid the Big-Bang singularity near $t=0$ then one can
+model a universe where the scale-factor $a(t)$ never becomes zero at
+$t=0$. In these models the universe contracts during the time $-\infty
+< t \le 0$ and expands during $t \ge 0$ and the cosmological bounce
+happens at $t=0$ when $a(t=0) \ne 0$ and $\dot{a}(t=0)=0$. The global
+minima of the scale-factor is at the bounce point. The universe
+expands after the bounce, implying $\dot{a}$ becomes positive and
+increases after the bounce. This second condition implies that
+$\ddot{a}(t=0)>0$. The above conditions can also be specified in terms
+of the Hubble parameter as:
+\begin{eqnarray}
+\left. H \right|_{t=0}=0\,,\,\,\,\,\,
+\left. \dot{H} \right|_{t=0} > 0\,.
+\label{bcond}
+\end{eqnarray}
+The bounce conditions stated above and Eq.~(\ref{fried2}) immediately
+shows that in the flat FLRW spacetime, during bounce
+\begin{eqnarray}
+\left[\rho + P \right]_{t=0} < 0\,.
+\label{nec}
+\end{eqnarray}
+The above condition specifies that the NEC has to be violated at the
+bounce point. The violation of the NEC require exotic
+matter\cite{Rubakov:2014jja} in the early universe. One may even
+change the gravitational theory to accommodate a cosmological
+bounce\cite{Paul:2014cxa, Bhattacharya:2015nda}. In this article we
+will not go into the details of the complexities of theories which
+generates a cosmological bounce, assuming satisfactory solutions of
+these difficult issue exists in principle. We will concentrate on the
+main issue of the article which is related to the causality question
+in bouncing cosmologies.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Particle Horizon, Event Horizon and Hubble Radius in bouncing
+cosmological models}
+\label{pheh}
+
+In the context of, spatially flat, FLRW spacetime let us think of a
+light ray which travels from a point $(t_i,R,\theta,\phi)$ to
+$(t_0,0,\theta,\phi)$. Light travels along a null geodesic and in our
+particular case we have assumed a null, radial geodesic which serves
+our purpose. From the line-element we see that for such a null
+geodesic
+$$ds^2 = -dt^2 + a^2(t) dr^2= 0\,.$$
+This above equation gives,
+\begin{eqnarray}
+\int_{t_i}^{t_0} \frac{dt}{a(t)} = R\,,
+\label{tr}
+\end{eqnarray}
+which gives the comoving distance between the emitter and the
+observer. In the above the subscript '$i$' refers to the time of
+emission of the light signal from the source, and the subscript '$0$'
+refers to the time of reception of the light signal by the
+observer.
+
+If the time $t_0$ is the present cosmological time when the observer
+is observing the universe, the physical distance to the the emitter in
+the observers frame will be $R_P(t_0) = a(t_0) R$.  The regions from
+where light could reach the observer at $t=t_0$ forms the region which
+may have any causal effect on the present condition of the universe
+and regions outside this region can have no causal effect on the
+present day universe. All the regions from which light has reached the
+present observable universe is enclosed by the causal horizon for the
+central observer. The causally connected region is enclosed by a
+2-dimensional spacelike spherical surface whose radial physical
+coordinate at $t=t_0$ is called $R_P$, and this spacelike surface is
+called the particle horizon.  In the bouncing universe, $t_i \to
+-\infty$, and we can write,
+\begin{eqnarray}
+R_P(t_0) \equiv a(t_0)\int_{-\infty}^{t_0} \frac{dt}{a(t)}\,. 
+\label{pht}
+\end{eqnarray}
+We will use the above definition of the particle horizon throughout
+this article.
+
+If there exists a finite distance which light can travel in infinite
+time in the future, emanating from a spatial point at some time, then
+an event horizon can exist. The event horizon is defined by a spatial
+two-dimensional spherical surface, whose radius is given by the
+finite distance travelled by light in infinite time in the future.
+The formal mathematical definition (of the radius) of the event
+horizon is:
+\begin{eqnarray}
+R_E(t_0) \equiv a(t_0)\int_{t_0}^{\infty} \frac{dt}{a(t)}\,,
+\label{eht}
+\end{eqnarray}
+where again $t_0$ is the present time of the observer. 
+
+The Hubble radius is the radial coordinate of the boundary of the
+Hubble sphere which is a closed two dimensional spatial surface at any
+cosmological time. The Hubble radius is defined as:
+\begin{eqnarray}
+R_H(t_0) \equiv \frac{1}{|H(t_0)|}\,.
+\label{hubs}
+\end{eqnarray}
+The center of the Hubble sphere is located at the observers
+position. The Hubble sphere does not depend upon the past history or
+the future of the universe. In the expression of $R_H$ we have
+deliberately used the modulus of $H$ to accommodate a contracting
+phase of the universe when $H<0$. 
+
+From the definitions of the horizons one can deduce
+\begin{eqnarray}
+\dot{R}_P &=& 1 + H R_P\,,
+\label{rpr}\\
+\dot{R}_E &=& -1 + H R_E\,.
+\label{rer}
+\end{eqnarray}
+In the Big-Bang paradigm it is seen that $R_P$ always increases
+superluminally as $H R_P$ is positive definite. In the Big-Bang
+paradigm the rate of increment of the particle horizon is more than
+the expansion rate of the universe. The galaxies on the particle
+horizon are receding with a speed $H R_P$ where as the particle
+horizon is receding relatively faster and the size of the observable
+universe increases with time. In the bouncing scenario more
+interesting things can happen.
+
+In the contracting phase of the universe $H<0$ and Eq.~(\ref{rpr})
+shows that during this time
+$$0 \le \dot{R}_P < 1\,,\,\,\,\,{\rm or}\,\,\,\,\,\,\dot{R}_P<0\,.$$ The
+particle horizon distance can increases with time when $H R_P > -1$
+and the opposite can happen when $H R_P < -1$. If $HR_P=-1$ then
+$\dot{R}_P=0$ and consequently bouncing cosmologies may have a minimum
+of the particle horizon distance. When the particle horizon distance
+increases with time, during the contraction phase, one must have $|H|
+R_P < 1$ or
+\begin{eqnarray}
+0 \le \dot{R}_P < 1\,,\,\,\,\,\,\,{\rm if}\,\,R_P < R_H\,.
+\label{rpin}  
+\end{eqnarray}
+Similarly, when the particle horizon distance decreases with time,
+during the contraction phase, one must have
+\begin{eqnarray}
+\dot{R}_P <0\,,\,\,\,\,\,\,{\rm if}\,\,R_P > R_H\,.
+\label{rpde}  
+\end{eqnarray}
+The above equations show that during the contraction phase of the
+universe the particle horizon can increase subluminally or may
+decrease at any rate. On the other hand
+\begin{eqnarray}
+\dot{R}_P = 0\,,\,\,\,\,\,\,{\rm if}\,\,R_P = R_H\,.
+\label{rpc}  
+\end{eqnarray}
+If the above condition can be maintained for a brief period then
+during that period the particle horizon size may remain constant. If
+the above condition turns out to be true at only one instant then the
+particle horizon will have an extremum at that instant.  From the
+above discussion one can predict some properties related to the
+particle horizon and the Hubble radius. The points are as follows:
+\begin{enumerate}
+\item If the particle horizon distance tends to a constant,
+  non-singular, value as $t_0 \to -\infty$ then the Hubble radius must
+  be equal to the particle horizon distance as $t_0 \to -\infty$.
+
+\item If $R_P(t_0) \to \infty$ as $t_0 \to -\infty$ then in the
+  initial phase, or the full phase, of contraction one must have $R_P > R_H$.
+\end{enumerate}
+One can easily prove the above statements. If $R_P$ tends to a
+constant as $t_0$ tends to large negative time then $\dot{R}_P \sim 0$
+during that very early period and consequently $R_P \sim R_H$ as $t_0
+\to -\infty$. The second statement can be proved by noting the fact
+that if $R_P$ is maximum as $t_0 \to -\infty$ then for later times the
+particle horizon distance can only decrease. When the particle horizon
+distance decreases with time one must have $R_P > R_H$.
+ 
+The way the event horizon grows with time is given in Eq.~(\ref{rer}).
+In the contracting phase, where $H R_E$ is negative definite, it can
+be easily seen that the event horizon will steeply decrease with time.
+All the above points will become apparent in various bouncing models
+in the later part of this article.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The two horizons and the Hubble radius in symmetrical toy
+  bounce models}
+\label{tbm}
+
+In this section we present some simplified examples where the
+functional forms of the scale-factor remains same during $-\infty < t
+< \infty$. The bouncing models presented in this section can be
+taken as toy examples as in reality the functional form of the
+scale-factor of evolution changes its form at different times when the
+matter content of the universe undergoes a qualitative transformation,
+like the transformation of radiation dominated universe to a universe
+filled with dust matter. In the present case we will simply ignore the
+various phases of the universe during its evolution and consider only
+a bouncing phase which extends in both the temporal directions. In
+later sections we will present the more realistic cases. The present
+discussion will show how a contracting phase affects the concept of
+the horizons discussed in the previous section.
+
+We present two cases, where the scale-factors describing a bouncing
+universe, are of the following form:
+\begin{eqnarray}
+a(t)=\left\{
+\begin{array}{ll}
+a_0 e^{A t^2}\\
+a_0 \cosh (Bt)
+\end{array}
+\right.
+\label{bsfs}
+\end{eqnarray}
+where $a_0$, $A$ and $B$ are positive real valued
+constants\footnote{Here it must be noted that if the spatial sections
+  of the FLRW universe is assumed to be closed (spherical slicing)
+  then the second scale-factor actually describes a bouncing de Sitter
+  universe where the Hubble parameter is a constant, 
+  $H=B$. In the present article we are working with flat FLRW metric
+  and consequently the second scale-factor does not correspond to a de
+  Sitter solution and the Hubble parameter is not a constant.}. The
+functional forms of the scale-factors show that both the bounces are
+symmetrical in time.  It is to be noted that there can be various
+other forms of scale-factors which can give rise to contraction and
+bounce. In the later sections of this article we will show some
+examples where the evolution of the universe is not symmetrical with
+respect to the bounce point.
+
+The particle horizon for the first case is given by
+\begin{eqnarray}
+R_P(t_0) =  e^{A t_0^2} \int_{-\infty}^{t_0} e^{-A t^2} dt\,,
+\end{eqnarray}
+assuming the scale-factor remained the same till $t\to -\infty$. The
+integral on the right hand side can be evaluated by using the properties of the
+Gaussian integrals. After doing the integral one obtains
+\begin{eqnarray}
+\int_{-\infty}^{t_0} e^{-A t^2} dt=\sqrt{\frac{\pi}{A}}\left[1
+  -\frac{1}{2}\,\, {\rm erfc}(\sqrt{A}\, t_0)\right]\,,
+\label{phint1}
+\end{eqnarray}
+where ${\rm erfc}(\sqrt{A}\, t_0)$ is the complimentary error
+function.  To see how the above integral behaves in the extreme cases
+where $t \to \pm\infty$ one requires the following properties of the
+complementary error function,
+$$\lim_{x \to -\infty} {\rm erfc}(x)=2\,,\,\,\,\, \lim_{x \to
+  \infty} {\rm erfc}(x)=0\,.$$ It must be noted that the above
+limits saturates near $x=0$, this information
+will help us to figure out the behavior of the particle horizon at
+the extreme limits. With all these information we can now write the
+expression for particle horizon for the first case as:
+\begin{eqnarray}
+R_P(t_0) =  e^{A t_0^2} \sqrt{\frac{\pi}{A}}\left[1
+-\frac{1}{2}\,\,
+{\rm erfc}(\sqrt{A}\, t_0)\right]\,.
+\label{case1}
+\end{eqnarray}
+The limits and their properties of the complimentary error function
+listed above shows that the value of the particle horizon remains
+finite at both the extremities of the time variable.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t!]
+\centering
+\includegraphics[scale=.7]{exp_bounce.pdf}
+\caption{Plot of Hubble radius represented by continuous blue curve,
+  particle horizon radius in orange dashed curve and event horizon
+  radius in green dotted curve for $a=e^{t^2}$ bounce model. Here 
+  $a_0=1$ sets the scale-factor at the bounce point and $A$ is assumed
+  to have unit magnitude. For more explanation see the text below.}
+\label{f:etsq}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+The above expression shows that the particle horizon quickly vanishes
+as one goes back in negative time and the particle horizon
+increases indefinitely as time evolves, $t \to \infty$. At the bounce
+moment, $R_P(0)=\frac12\sqrt{\frac{\pi}{A}}$. The plot of the particle
+horizon, represented in orange dashed curve, is shown in Fig.~\ref{f:etsq}. The
+above result can be interpreted in a simple way. As the observer moves
+back in time, $t \to -\infty$, the observer does not receive any light
+from the other parts of the universe from the past as light emitting
+particles are infinitely distant from the observer. After a long time
+the observer first receives light from its past, and a causal
+connection is made. At this moment, $t_0$, the particle horizon
+$R_P(t_0)$ comes into account. The amount of light which the observer
+receives is coming from the closest sources in the past. As time
+proceeds more and more regions from the past are coming in causal
+contact with the observer and the process continues forever.
+
+In this case we have $|H|=2A|t|$ and consequently one can easily see
+that $R_P(t_0)$ is never proportional to $1/|H(t_0)|$. In general if
+the universe admits of both an expanding phase and a contracting phase
+it is better to work with $|H|$ instead of $H$ as the Hubble parameter
+remains negative during the cosmological contraction. In the present
+case we see that near $t\to -\infty$ both $R_P(t_0)$ and $1/|H(t_0)|$
+vanishes. At $t=0$, $R_P(0)$ remains finite whereas $1/|H(t_0)| \to
+\infty$. The nature of the Hubble surface, plotted in the blue, is
+shown in Fig.~\ref{f:etsq}.  The interesting thing to note is the
+relative behavior of the Hubble surface and particle horizon before
+the bounce. In this toy model the Hubble  radius is always
+greater than the particle horizon radius before the bounce and
+consequently the particle horizon size increases with time.  Here $R_H
+> R_P$ and the two distance scales differ maximally near the bounce
+point $t=0$. Although near the bouncing point the universe is moving
+towards a momentarily static universe, where dynamical effects of the
+expansion can be neglected, $R_H \to \infty$, practically the whole
+region inside the 2-surface with radius $R_H$ is causally disconnected
+as $R_P$ is finite at $t=0$.
+
+It is interesting to note that this toy example of a bouncing universe
+do admit an event horizon. In this case we have
+\begin{eqnarray}
+R_E(t_0) &=& e^{A t_0^2} \int_{t_0}^{\infty} e^{-A t^2}
+dt\nonumber\\ &=& \frac{1}{2}\sqrt{\frac{\pi}{A}}\,\, e^{A t_0^2}
+\,\,{\rm erfc}(\sqrt{A}\,\,t_0)\,.
+\label{cas1e}
+\end{eqnarray}
+The above result shows the existence of finite event horizon distance
+for a bouncing cosmological model. The behavior of the event horizon
+is plotted in green in Fig.~\ref{f:etsq}. The plot shows that the
+event horizon diverges at $t_0 \to -\infty$, but in general it has a
+finite value for all other times and decreases smoothly as time
+evolves. As predicted in the last section, the event horizon steeply
+decreases during the contracting phase. In this toy model the event
+horizon and particle horizon has the same radius at the bounce point
+$t=0$.
+
+In the second case we see that although the scale-factor is very
+different when compared to the first case, still the horizon
+properties remain qualitatively the same. In this case the particle
+horizon is given by:
+\begin{eqnarray}
+R_P(t_0) = \frac2B \cosh(Bt_0) \tan^{-1}(e^{B t_0})\,.
+\label{case2}
+\end{eqnarray}
+It is seen that the particle horizon asymptotically goes to $1/B$ as
+$t_0 \to -\infty$, and $R_P(0)=\pi/2B$ which is finite. The particle
+horizon diverges as time increases in the positive direction as
+expected. The nature of the particle horizon radius is shown by the
+orange dashed curve in Fig.~\ref{f:acosh}.  The interpretation of this
+kind of behavior of $R_P(t_0)$ remains the same as before, except the
+fact that the particle horizon is non-zero in the far past. In the
+present case $|H(t)|=B |\tanh(Bt)|$ and as a result $1/|H(t)|$ tends
+to $1/B$ when $t \to \pm \infty$ and it diverges as $t \to 0$. The
+Hubble radius is shown by the continuous blue line in
+Fig.~\ref{f:acosh}. In this case also we see that $R_P>R_H$ and the
+particle horizon size increases with time.  The two length scales
+differ maximally near the bounce point as in the last example. In both
+the cases we see that at very early times the particle horizon
+distance and the Hubble radius becomes equal in magnitude. This
+happens as the particle horizon distance attains a constant value
+during the very early phase of contraction.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t!]
+\centering
+\includegraphics[scale=.7]{cosh_bounce.pdf}
+\caption{Plot of Hubble radius represented by continuous blue curve,
+particle horizon radius in orange dashed curve and event horizon
+radius in green dotted curve for $a=\cosh t$ bounce model. Here 
+$a_0=1$ sets the scale-factor at the bounce point and $B$ is assumed
+to have unit magnitude. For more explanation see the text below.}
+\label{f:acosh}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Like the previous example, the present bouncing model also admits of
+finite event horizon (except at $t \to -\infty$). In the present case,
+\begin{eqnarray}
+R_E(t_0) =  \frac{2}{B} \cosh
+(Bt_0)\tan^{-1}(e^{-B t_0})\,.
+\label{case2e}
+\end{eqnarray}
+The nature of the event horizon radius is shown by the dotted green
+curve in Fig.~\ref{f:acosh}. The nature of the event horizons from the
+two examples are consistent. Both the plots show that the event
+horizon grows indefinitely as one moves back in time and steeply decreases
+with time during contraction. 
+
+The nature of the horizons as plotted in Fig.~\ref{f:etsq} and
+Fig.~\ref{f:acosh} show an interesting feature. As the bounces are
+symmetrical in time the particle horizon and the event horizon are
+symmetrical in time. The particle horizon transforms into the event
+horizon if one changes the direction of time and vice versa.  In both
+the cases discussed above we notice that the particle horizon radius
+is an increasing function of time. Once some part of the universe gets
+causally connected that part always remains so and more regions of the
+universe gets inside the particle horizon as time increases. In the
+more realistic bounce model discussed in the next section we will see
+that this feature of the particle horizon is lost.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{A more realistic calculation}
+\label{relc}
+
+
+In this section we assume at least three transformations in the
+bouncing universe.  The first transformation occurs during the
+contracting phase of the universe. We assume that the contracting
+universe was dominated by some form of matter which gave rise to a
+scale-factor whose functional form was given by a power law. A power
+law scale-factor cannot lead to a cosmological bounce and consequently
+we assume that at some time $t^\prime < 0$ the nature of the matter
+content/geometry of the universe changed. During $t^{\prime } < t <
+t^{\prime \prime}$ where $t^{\prime \prime}>0$, the scale-factor of
+the universe changed from the power law form and the new scale-factor
+accommodates a bounce at $t=0$. Ultimately the universe comes out of
+the bouncing phase at $t^{\prime \prime}$ and the scale-factor again
+transforms to a power law function. This is a simple but realistic
+description of a cosmological bounce as we know that the scale-factor
+of the bouncing universe must have changed to a power law form after
+the bounce\footnote{In this article we do not consider the case where
+  the bouncing universe culminates in an expanding inflationary
+  universe.}. From our understanding of the expanding phase of the
+universe and symmetry arguments it is natural to think that some power
+law contraction phase may precede the bouncing phase of the
+universe. The geometry of the universe changes at $t^\prime$ and
+$t^{\prime\prime}$ and in our simplistic model the change happens
+instantaneously. In flat FLRW spacetime one can always associate a
+series of flat spatial hypersurfaces at each instant of cosmic time
+$t$. When the nature of the scale-factor changes at some time $t_0$ it
+implies that there is a flat 3-dimensional spatial hypersurface which
+separates spacetime into two regions. For $t<t_0$ the scale-factor on
+the spatially flat hypersurfaces were given by the old scale-factor,
+$a_{\rm old}(t)$, and for spatial slices corresponding to $t>0$ the
+scale-factor takes the new value, $a_{\rm new}(t)$.  The surface at
+$t_0$ acts like a junction between two temporal regions with different
+scale-factors and in general relativity two metrics with different
+time dependence can only be matched over a hypersurface if the
+junction conditions are satisfied\footnote{A nice discussion on the
+  junction conditions in general relativity can be found in
+  Ref.~\cite{poisson}.}. For the FLRW metric the junction conditions
+state that at the junction, which corresponds to a 3-dim spatial
+hypersurface at time $t_0$ in the present case,
+$$a_{\rm old}(t_0) = a_{\rm new}(t_0)\,,\,\,\,\,\,\dot{a}_{\rm
+  old}(t_0) = \dot{a}_{\rm new}(t_0)\,.$$
+When ever the geometry of the universe changes at some time we will assume that
+the above junction conditions are satisfied.
+
+We will assume that our model universe has the three following
+scale-factors in the three different phases as: 
+\begin{eqnarray}
+a(t)=\left\{
+\begin{array}{ll}
+c_0 (-t)^m\,,\,\,\,\,\,\,\,\,t_i \le t < t^\prime\,,\\
+a_0 + b_0 t^{2p}\,,\,\,\,\,\,\,\,\, t^{\prime } < t < t^{\prime \prime}\,, \\
+d_0 t^n \,,\,\,\,\,\,\,\,\,t^{\prime \prime} < t \le \infty\,.\\
+\end{array}
+\right.
+\label{atc}
+\end{eqnarray}
+In the above equation $t_i(<0)$ is assumed to be some initial time
+which will ultimately tend to $-\infty$. The quantities $m$ and $n$
+are positive real constants and $m$ is in general not equal to $n$.
+The constant $p$ takes positive integer values.  Out of the three
+constants we will assume that $0< n < 1$ as because in an expanding
+flat FLRW model this constraint is generally followed. This condition
+on $n$ predicts that the bouncing universe scenario we are discussing
+at present does not admit an event horizon as it is well known that
+the flat FLRW metric does not have any event horizon if the
+scale-factor has a power law form where $n$ satisfies the above
+constraint. The coefficients $c_0$, $a_0$, $b_0$ and $d_0$ are also
+positive real constants out of which $a_0$ normalizes the scale-factor
+at the bounce time.  The Hubble radius during the three phases are:
+\begin{eqnarray}
+R_H(t_0) \equiv \frac{1}{|H(t_0)|}=\left\{
+\begin{array}{ll}
+\frac{|t_0|}{m}\,,\,\,\,\,\,\,\,\,t_i \le t_0 < t^\prime\,,\\
+\left|\frac{a_0 + b_0 t_0^{2p}}{2b_0 p t_0^{2p-1}}\right|\,,\,\,\,\,\,\,\,\,
+t^{\prime }
+< t_0 < t^{\prime \prime}\, \\
+\frac{t_0}{n} \,,\,\,\,\,\,\,\,\,t^{\prime \prime} < t_0 \le \infty\,\\
+\end{array}
+\right.
+\end{eqnarray}
+Because of the junction conditions, on the metric, at $t^\prime$ and
+$t^{\prime\prime}$ one can easily verify that $R_H(t_0)$ changes
+continuously at the junctions.  The particle horizon at any time
+during expansion can be written as:
+\begin{eqnarray}
+R_P(t_0)= d_0 t_0^n \left [\int_{t_i}^{t'} \frac{dt}{c_0(-t)^m}+
+  \int_{t'}^{t''} \frac{dt}{a_0 + b_0 t^{2p}} + \int_{t''}^{t_0}
+  \frac{dt}{d_0t^n}\right]\,.\,\,\,\,\,\,\,\,(t^{\prime \prime} < t_0
+\le \infty)
+\label{rpd}
+\end{eqnarray}
+Unlike the case with the toy models of bounce in the present case we
+have to specify the particle horizons in all the three phases
+of development of the universe as the scale-factors change during
+these phases. The particle horizon radius during the power law
+contraction phase is given by
+\begin{eqnarray}
+  R_P(t_0) = \frac{1}{1-m}[(-t_0)^m (-t_i)^{1-m}+t_0]\,.\,\,\,\,\,\,\,\,
+  (t_i \le t_0 < t^\prime)
+\label{rpi}
+\end{eqnarray}
+Similarly, the particle horizon radius during the bouncing phase is given by
+\begin{eqnarray}
+R_P(t_0) = (a_0 +  b_0t_0^{2p})\left[\frac{1}{c_0(1-m)}\Big((-t_i)^{1-m}-(-t')^{1-m}
+    \Big) +\int ^{t_0} _{t'} \frac{dt}{a_0 +  b_0t^{2p}}
+  \right]\,.\,\,\,\,\,\,\,\, (t^{\prime } < t_0 < t^{\prime \prime})
+\label{rpm}
+\end{eqnarray}
+The expression of the particle horizon distance during the expansion
+phase is
+\begin{eqnarray}
+R_P(t_0)&=&d_0 t_0^n \left[\frac{1}{c_0(1-m)}\Big((-t_i)^{1-m}-(-t')^{1-m} \Big)
+  +\int ^{t''} _{t'} \frac{dt}{a_0 +  b_0t^{2p}}\right.\nonumber\\
+&+&\left.\frac{1}{d_0(1-n)}\Big(t_0^{1-n}-t''^{1-n}\Big)\right] \,.
+\,\,\,\,\,\,\,\,(t^{\prime \prime} < t_0 \le \infty)
+\label{rpf}
+\end{eqnarray}
+We will specify the the integral containing the term $1/(a_0 + b_0
+t^{2p})$ later, at present we concentrate on the junction
+conditions. Applying the junction conditions at $t'$ we get
+\begin{eqnarray}
+  a_0=\left(\frac{2p}{m}-1\right)b_0 t'^{2p}\,,\,\,\,\,\,\,\,\,\,\,
+  c_0 (-t')^m=\frac{a_0}{1-(m/2p)}\,.
+\label{jptp}
+\end{eqnarray}
+Similarly applying the junction conditions at $t^{\prime\prime}$ one gets,
+\begin{eqnarray}
+a_0= \left(\frac{2p}{n}-1\right)b_0 t''^{2p}\,,\,\,\,\,\,\,\,\,\,\,
+d_0 t''^n=\frac{a_0}{1-(n/2p)}\,.
+\label{jctpp}
+\end{eqnarray}
+Comparing the above conditions one easily gets
+\begin{equation}
+\Big (\frac{t''}{t'}\Big)^{2p}  = \frac{\frac{2p}{m}-1}{\frac{2p}{n}-1}\,,
+\label{tptpp}
+\end{equation}
+which sets a relationship between the matching times and the parameters
+appearing in the scale-factors. Henceforth whenever we specify the
+expression of the particle horizon and the Hubble radius we will
+assume that the constants appearing in those expressions satisfy the
+above junction conditions. 
+
+The expressions of the particle horizon distances, as given in
+Eqs.~(\ref{rpi}), (\ref{rpm}) and (\ref{rpf}), shows that $R_P(t_0)$
+for all the phases is finite (as $t_i \to -\infty$) only when
+$m>1$. Consequently, the existence of the particle horizon in the
+realistic case depends upon the value of $m$.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Nature of particle horizon}
+
+In this subsection we will consider $m>1$ and assume $t_i \to -\infty$.
+In this article we will present the results for two values of
+$p$. In the first case $p=1$ and in the second case $p=2$ both of
+which gives rise to a symmetric bouncing phase.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{The case where $p=1$}
+
+When $p=1$ one can write the expressions for particle horizon distance as:
+\begin{eqnarray}
+R_P(t_0)=\left\{
+\begin{array}{ll}
+\frac{t_0}{1-m}\,,\,\,\,\,\,\,\,\,(-\infty \le t_0 < t^\prime)\\
+(a_0 +  b_0t_0^2)\left[\frac{1}{c_0(m-1)}(-t')^{1-m} - \frac{1}{\sqrt{a_0
+      b_0}} \arctan(\sqrt{\frac{b_0}{a_0}} t')+ \frac{1}{\sqrt{a_0
+      b_0}} \arctan(\sqrt{\frac{b_0}{a_0}} t_0)\right]\,,
+\,\,\,\,\,\,\,\,(t^{\prime } < t_0 < t^{\prime \prime}) \\  
+d_0 t_0^n \left[\frac{1}{c_0(m-1)}(-t')^{1-m} - \frac{1}{\sqrt{a_0
+      b_0}} \arctan\Big(\sqrt{\frac{b_0}{a_0}} t'\Big) + \frac{1}{\sqrt{a_0
+      b_0}} \arctan\Big(\sqrt{\frac{b_0}{a_0}} t''\Big)\right.\\
+\left.+\frac{1}{d_0(1-n)}\
+\Big(t_0^{1-n}-t''^{1-n}\Big)\right]\,.\,\,\,\,\,\,\,\,\,(t^{\prime
+  \prime} < t_0 \le \infty)
+\end{array}
+\right.
+\end{eqnarray}
+Finally we have to choose the constants appearing in the above
+expressions judiciously such that the junction conditions are
+satisfied. We take $a_0=1$ and $n=1/2$ assuming a radiation dominated
+universe just after the bouncing phase. The time instants where the
+scale-factors change are assumed to be $t'=-2$ and $t''=1$ in some
+units. From the junction conditions one can now easily obtain 
+$$m=\frac{8}{7}\,,\,\,b_0=\frac{1}{3}\,,\,\,c_0=\frac{7}{3}2^{-\frac{8}{7}}\,,\,\,
+d_0=\frac{4}{3}\,.$$ Using these values we can write the particle
+horizon radius at any phase of evolution of the universe. Particle
+horizon distance at any time during power law contraction is simply
+given by
+\begin{eqnarray}
+R_P(t_0)= -7t_0\,.
+\end{eqnarray}
+In this phase $t_0<0$. Particle horizon distance in the intermediate bouncing
+phase comes out to be:
+\begin{eqnarray}
+R_P(t_0)= \Big(1 +  \frac{t_0^2}{3}\Big)\left[6 + \sqrt{3}
+  \Big(\arctan\Big(\frac{t_0}{\sqrt{3}}\Big) + \arctan \Big(\frac{2}{\sqrt{3}}\Big)\Big)\right]\,.
+\end{eqnarray}
+Finally the particle horizon radius during the expanding phase of the
+universe is:
+\begin{eqnarray}
+R_P(t_0)= \frac{4}{3} t_0^{\frac{1}{2}} \left[6 + \sqrt{3} \Big(\arctan{\Big(\frac{1}
+    {\sqrt{3}}\Big)} +
+  \arctan{\Big(\frac{2}{\sqrt{3}}\Big)}\Big)+\frac32(t_0^{1/2} -1)\right]\,.
+\end{eqnarray}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t!]
+\begin{minipage}[b]{0.5\linewidth}
+\centering
+\includegraphics[scale=.7]{bouncing_univ_1.pdf}
+\caption{Variation of particle horizon radius in orange dashed line
+  and Hubble radius in blue through bounce for p=1.}
+\label{f:p1}
+\end{minipage}
+\hspace{0.2cm}
+\begin{minipage}[b]{0.5\linewidth}
+\centering
+\includegraphics[scale=.7]{bouncing_univ_2.pdf}
+\caption{Variation of particle horizon radius in orange dashed line
+  and Hubble radius in blue through bounce for p=2.}
+\label{f:p2}
+\end{minipage}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The particle horizon and the Hubble radius are plotted for the case
+$p=1$ in Fig.~\ref{f:p1}. In the plot the Hubble radius is drawn in
+blue and the particle horizon is shown by orange dashed curve.  The
+plot shows that most of the time the Hubble sphere is causally
+connected except very near to the bounce point where the Hubble radius
+diverge. We have plotted the behavior of the particle horizon distance
+and the Hubble radius near the bounce point and consequently the plots
+do not convey the complete information about these distance scales
+away from the bounce point. As one goes back in time the Hubble radius
+increases and so does the particle horizon distance. The important
+feature which comes out of the plot is that the particle horizon
+decreases initially and then it attains a minimum value near the
+bounce and increases in the expanding phase.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{The case where $p=2$}
+
+In the present case the integral involving the term $1/(a_0 + b_0 t^{2p})$
+yields\cite{grad}
+$$\int\frac{dt}{a_0+b_0 t^4}=\frac{\alpha}{4 \sqrt{2}a_0}\left[\ln
+  \Big(\frac{t^2 + \sqrt{2} \alpha t + \alpha^2}{t^2 - \sqrt{2} \alpha
+    t + \alpha^2}\Big)+2 \arctan \frac{\sqrt{2}\alpha t}{\alpha^2 -
+    t^2}\right]\,,$$ where $\alpha=(\frac{a_0}{b_0})^{\frac{1}{4}}$.
+Using the above result we can write the particle horizon distance in
+the three cases as:
+\begin{eqnarray}
+R_P(t_0)=\left\{
+\begin{array}{ll}
+\frac{t_0}{1-m}\,,\,\,\,\,\,\,\,\,(-\infty \le t < t^\prime)\\
+(a_0 +  b_0 t_0^4)\left[\frac{1}{c_0(m-1)}(-t')^{1-m} +\frac{ \alpha}{
+  4 \sqrt{2}a_0} \Big(\ln \Big[\frac{t'^2 - \sqrt{2} \alpha t' + \alpha^2}{
+      t'^2 + \sqrt{2} \alpha t' + \alpha^2} \times \frac{
+      t_0^2 + \sqrt{2} \alpha t + \alpha^2}{
+      t_0^2 - \sqrt{2} \alpha t + \alpha^2}\Big]\right.\\
+   \left. + 2 \arctan\frac{\sqrt{2} \alpha t_0}{\alpha^2 - t_0^2} - 
+   2 \arctan\frac{\sqrt{2} \alpha t'}{\alpha^2 - t'^2}\Big)\right]\,,\,\,\,\,\,\,\,\,
+(t^{\prime } < t_0 < t^{\prime \prime})\\
+d_0 t_0^n \left[\frac{1}{c_0(m-1)}(-t')^{1-m}  +\frac{ \alpha}{
+  4 \sqrt{2}a_0} \Big(\ln\Big[\frac{t'^2 - \sqrt{2} \alpha t' + \alpha^2}{
+      t'^2 + \sqrt{2} \alpha t' + \alpha^2} \times \frac{
+      t''^2 + \sqrt{2} \alpha t'' + \alpha^2}{
+      t''^2 - \sqrt{2} \alpha t'' + \alpha^2}\Big]\right. \\
+\left. + 2 \arctan\frac{\sqrt{2} \alpha t''}{\alpha^2 - t''^2} - 
+2 \arctan\frac{\sqrt{2} \alpha t'}{\alpha^2 - t'^2}\Big)+
+\frac{1}{d_0(1-n)}(t_0^{1-n}-t''^{1-n})
+\right]\,.\,\,\,\,\,\,\,\,(t^{\prime \prime} < t_0 \le \infty)\\
+\end{array}
+\right.
+\end{eqnarray}
+In the present we set $a_0=1$ and $n=1/2$ as done in the previous
+case.  The time instants where the scale-factors change are assumed to
+be the same as in the previous case. The junction conditions now
+predict
+$$m=\frac{64}{23}\,,\,\,b_0=\frac{1}{7}\,,\,\,c_0=\frac{23}{7}2^{-\frac{64}{23}}\,,\,\,
+d_0=\frac{8}{7}\,.$$ The resulting particle horizon distance is
+plotted in orange dashed curve in Fig.~\ref{f:p2}. The Hubble radius
+at each instant is plotted in blue curve. The present plot is
+qualitatively same as the one in Fig.~\ref{f:p1}. The only difference
+between them is that for the case $p=2$ the radiation dominated
+universe can have a certain region where the Hubble radius exceeds
+the particle horizon distance.  Both the curves show that the particle
+horizon follows a smooth curve which has a minima near the bounce
+point. 
+
+In both the above cases we observe that during the contraction phase
+the Hubble surface lies within the particle horizon. From our
+discussion in section \ref{pheh} one can infer that in such cases the
+particle horizon size must decrease with time. This behavior of the
+particle horizon is in contrast to the corresponding behavior of the
+particle horizons in the toy model examples.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+\label{disc}
+
+We discuss the important points regarding horizons in bouncing
+cosmologies in this section. At first we will like to point out the
+the role of various energy conditions in deciding the fate of the
+existence of the horizons. We start with the toy examples.
+In the first case in the toy examples of bounce one can easily show that
+$$\rho=\frac{12A^2}{\kappa}t^2 \ge 0\,,\,\,\,\,\rho+P = -\frac{4A}{\kappa}
+<0\,,$$ when $A>0$. In the second case we have
+$$\rho=\frac{3B^2}{\kappa}\tanh^2(Bt) \ge 0\,,\,\,\,\,
+\rho+P=-\frac{2B^2}{\kappa}\sech^2 (Bt) < 0\,.$$ Both the above
+examples show that in these cases the strong energy condition (SEC),
+the weak energy condition (WEC) and the NEC are violated during
+$-\infty < t < \infty$.  In these cases all the horizons exist.
+
+In the realistic case of cosmological bounce presented in the paper we
+see that if the contracting phase prior to the bouncing phase has a
+power law scale-factor then the particle horizon exists only when
+$m>1$. As in general relativity the exponent in the power law is
+related with the barotropic equation of state $\omega$ via
+$$\omega=\frac{2-3m}{3m}\,,$$ it is seen that $\omega \ge 0$ only
+when $m \le 2/3$, where the equation of state becomes zero at
+$m=2/3$. If $m > 2/3$ the barotropic ratio becomes negative. As a
+consequence it follows that if there is a power law contraction phase
+before the bouncing phase then the condition $\omega<0$ ensures the
+existence of a finite particle horizon. The condition that $m>1$
+translates to
+\begin{eqnarray}
+-1< \omega < -\frac13\,,  
+\label{secv}    
+\end{eqnarray}  
+which specifies that in such a case $\rho + 3P < 0$ during the
+contraction phase. This result shows that the particle horizon in such
+cases can only exist if the SEC is violated during the power law
+contraction phase. On the other hand $\rho + P>0$ and the WEC will
+hold during the contraction phase. Near the bounce point all the above
+energy conditions will be violated.
+
+In the realistic bounce model we have used various forms of the
+scale-factors in the various evolutionary phases of the universe. The
+different metric smoothly transforms from one form to the other
+because of the junction conditions. The junction conditions and our
+choice of the bouncing scale-factor combines to produce an interesting
+effect. It is apparent from Eq.~(\ref{tptpp}) that if one chooses
+$t^{\prime\prime}=1$, $t^\prime=-1$ and $n=1/2$ then $m$ also turns
+out to be $1/2$ when $p$ is an integer. The junction condition and
+symmetric matching times combine to predict a symmetrical evolution of
+the universe through bounce. If we want to have an asymmetrical
+evolution of the universe the matching times should be different which
+will lead to dissimilar values of $m$ and $n$ or one may choose to
+have $m \ne n$ which will give asymmetric matching times.
+
+In the toy examples we saw the minima of the particle horizons appear
+near $t \to -\infty$. The particle horizons then grows
+monotonically. The particle horizon radius displays such a behavior
+because in both the toy examples the scale-factors at $t \to -\infty$
+diverge too fast as one moves back in time and consequently
+considerable amount of light cannot reach any region of the universe
+in the first case. In the second case only a small region remains
+causally connected as $t \to -\infty$. In these cases, the surface
+defining the particle horizon, at a particular time, have a subluminal
+velocity of contraction. As a consequence, centrally directed,
+in-coming, light from outside the particle horizon can overtake this
+surface and reach the central observer. In this case the particle
+horizon increases as more light from distant parts of the universe
+reach the central observer as time increases. In the realistic cases,
+where particle horizon exists, we observe that the minima of the
+particle horizon distance is always near the bounce point. In these
+cases the scale-factor during the contraction phase is given by a
+power law function of time which diverges as $t \to -\infty$ but this
+divergence is much milder than the divergences of the scale-factors in
+the toy models. As one moves back in time a much wider part of the
+universe seems to be causally connected in the realistic cases.  But
+as in these cases the particle horizon distance exceeds the Hubble
+radius the surface defining the particle horizon, at a particular
+time, is radially moving inward in a superluminal way. Photons which
+are moving radially inward from outside this surface will not be able
+to reach this surface.  As the surface contracts with time the
+particle horizon distance diminishes with time. It is to be noted that
+a contracting particle horizon does not imply that causal regions of
+the universe are moving out of the horizon, it implies that as the
+universe contracts no new causal regions are entering the particle
+horizon. 
+
+The minima of the particle horizon appears near the bounce point in
+the more realistic models. This happens when $R_P=R_H$. In the
+examples given in this paper the condition $R_P=R_H$ happens at an
+instant and consequently the particle horizon attains a minima at that
+instant. If the two surfaces, describing the particle horizon and the
+Hubble surface, remain identical for some period of time then during
+that period the particle horizon distance will remain constant. This
+will happen because light cannot enter radially inward into the
+particle horizon as the surface defining the particle horizon, at a
+particular time, contracts with the speed of light. More over as the
+spatial surface defining the particle horizon, at a particular time,
+is moving inwards with just the velocity of light all the emitters
+inside this surface move inwards subluminally and the light they emit
+can reach the observer in due time. In this case neither the particle
+horizon distance increases nor it decreases with time.
+
+It must be noted that the surface, with definite physical radius,
+which define the particle horizon or the Hubble surface at a
+particular time, $t$, may not define the particle horizon or the
+Hubble surface at a later time $t^\prime>t$. Another surface, with a
+different physical radius, will define the particle horizon at
+$t^\prime$.  As an example, the surface which coincides with the
+particle horizon at time $t$, in the case where $R_P < R_H$, contracts
+with time as its physical radial coordinate shrinks with time.  On the
+other hand the particle horizon distance increases with time. The
+surface which defines the Hubble sphere at any particular time, $t$,
+will contract in time where as the Hubble radius may increase with
+time.
+
+Although in the Big-Bang paradigm the particle horizon distance and
+the Hubble radius are proportional to each other when the scale-factor
+of expansion is given by a power law function in bouncing models this
+fact does not hold anymore. In the bouncing models the power law
+expansion phase may accommodate a particle horizon and the
+relationship between the particle horizon distance and the Hubble
+radius is much more complex.  Although the present authors have not
+seen any article addressing the issue related to the particle horizons
+in bouncing models, a recent publication \cite{Barrau:2017ukm} discuss
+the effect of bouncing models on luminosity distance in cosmology.
+
+If a bouncing universe does not have a finite particle horizon then
+the only compact surface which determines the causal structure of the
+universe is the Hubble surface. Although the Hubble radius diverges
+during the bounce time, it is the only compact 2-dimensional surface
+which can have any say on the causal structure of the universe during
+the contracting and expanding phases.
+
+The above points encapsulate the important conclusions drawn from the
+present work. The above points specify the complex nature of the
+causality problem encountered in cosmological models which accommodate
+a cosmological bounce. It is evident from the discussion that there
+can be various conditions dictating the presence of the particle
+horizon and the event horizon in bouncing cosmologies. In some cases
+both may cease to exist. If the contraction phase is dominated by dust
+and the expansion phase dominated by radiation non of the horizons
+exist. In some cases only the event horizon may exist.  If the
+contracting phase is dust dominated and the future expanding universe
+is de Sitter then we expect that event horizon will exist even though
+the particle horizon does not exist. In some, artificial cases, both
+may exist as in the case of the toy examples presented in the article.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion}
+
+The present article addresses the topic related to causality in
+general bouncing cosmological models based on the general relativistic
+flat FLRW solution.  Keeping the standard definitions of the particle
+horizon, event horizon and Hubble radius the present article
+generalizes their meaning in a bouncing universe which accommodates an
+infinitely stretched (in time) contraction phase.  It is shown that in
+many bouncing cases the particle horizon may not exist. On the other
+hand if matter content of the universe, during the contraction phase,
+violates some energy energy conditions then the particle horizon can
+exist in some simple models. The realistic models studied in the paper
+are simple as they involve a single phase change, when the
+scale-factor changes, during the contraction period. One can model
+more complex contraction phases in the future but the existence of the
+particle horizon will mainly depend upon the earliest phase one
+considers during contraction.
+
+Two toy model bounce scenario is presented at first which illuminates
+the generalization of the concepts of the horizons in the bouncing
+scenario. The toy models have a single scale-factor during
+contraction, bounce and expansion phases. In the examples we show 
+the toy models have both the horizons. 
+
+A more realistic model of cosmological bounce, which accommodates
+three phases of evolution of the universe, is presented in the
+article. The realistic case exposes the difficulty in calculating the
+particle horizon distance as the properties of particle horizon
+becomes dependent on the earliest history of the bouncing models.  In
+the more realistic calculation, presented in the article, the
+contraction and the expansion phases are guided by a power law
+scale-factor where as the bouncing scale-factor is assumed to be an
+even function of time. It is shown that in the more realistic models of bounce 
+there can be some cases where the particle horizon may
+exist. The criterion for existence of particle horizons depends upon
+the energy conditions followed by matter during contraction. We have
+emphasized the special role of the Hubble surface which affects
+the time evolution of the particle horizon.
+
+The present work shows that the causality problem in bouncing universe
+is intrinsically related to an understanding of the various phases of
+the universe during the contraction phase. As our understanding of the
+contraction phase is purely speculative at present the models we use
+to figure out the nature of particle horizon remains over
+simplistic. The present authors believe that although the causality
+problem in bouncing universe models are far from being solved the
+present article shows the qualitative and quantitative difficulties
+one must have to circumvent in the future to produce more meaningful 
+results.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{thebibliography}{999}
+
+%\cite{Brandenberger:2016vhg}
+\bibitem{Brandenberger:2016vhg} 
+  R.~Brandenberger and P.~Peter,
+  %``Bouncing Cosmologies: Progress and Problems,''
+  Found.\ Phys.\  {\bf 47}, no. 6, 797 (2017)
+  doi:10.1007/s10701-016-0057-0
+  [arXiv:1603.05834 [hep-th]].
+  %%CITATION = doi:10.1007/s10701-016-0057-0;%%
+  %64 citations counted in INSPIRE as of 24 Nov 2017
+
+%\cite{Novello:2008ra}
+\bibitem{Novello:2008ra} 
+  M.~Novello and S.~E.~P.~Bergliaffa,
+  %``Bouncing Cosmologies,''
+  Phys.\ Rept.\  {\bf 463}, 127 (2008)
+  doi:10.1016/j.physrep.2008.04.006
+  [arXiv:0802.1634 [astro-ph]].
+  %%CITATION = doi:10.1016/j.physrep.2008.04.006;%%
+  %368 citations counted in INSPIRE as of 23 Nov 2017 
+
+%\cite{Gibbons:1977mu}
+\bibitem{Gibbons:1977mu} 
+  G.~W.~Gibbons and S.~W.~Hawking,
+  %``Cosmological Event Horizons, Thermodynamics, and Particle Creation,''
+  Phys.\ Rev.\ D {\bf 15}, 2738 (1977).
+  doi:10.1103/PhysRevD.15.2738
+  %%CITATION = doi:10.1103/PhysRevD.15.2738;%%
+  %1924 citations counted in INSPIRE as of 24 Nov 2017
+
+%\cite{Lewis:2012yk}
+\bibitem{Lewis:2012yk} 
+  G.~F.~Lewis and P.~van Oirschot,
+  %``How does the Hubble Sphere limit our view of the Universe?,''
+  Mon.\ Not.\ Roy.\ Astron.\ Soc.\  {\bf 423}, L26 (2012)
+  doi:10.1111/j.1745-3933.2012.01249.x
+  [arXiv:1203.0032 [astro-ph.CO]].
+  %%CITATION = doi:10.1111/j.1745-3933.2012.01249.x;%%
+  %9 citations counted in INSPIRE as of 29 Nov 2017
+
+%\cite{Harrison:1991dv}
+\bibitem{Harrison:1991dv} 
+  E.~R.~Harrison,
+  %``Hubble spheres and particle horizons,''
+  Astrophys.\ J.\  {\bf 383}, 60 (1991).  
+  
+%\cite{Davis:2003ad}
+\bibitem{Davis:2003ad} 
+  T.~M.~Davis and C.~H.~Lineweaver,
+  %``Expanding confusion: common misconceptions of cosmological horizons and the superluminal expansion of the universe,''
+  Proc.\ Astron.\ Soc.\ Austral.\ 
+  [Publ.\ Astron.\ Soc.\ Austral.\  {\bf 21}, 97 (2004)]
+  doi:10.1071/AS03040
+  [astro-ph/0310808].
+  %%CITATION = doi:10.1071/AS03040;%%
+  %71 citations counted in INSPIRE as of 24 Nov 2017
+
+%\cite{Ellis:2015wdi}
+\bibitem{Ellis:2015wdi} 
+  G.~F.~R.~Ellis and J.~P.~Uzan,
+  %``Causal structures in inflation,''
+  Comptes Rendus Physique {\bf 16}, 928 (2015)
+  doi:10.1016/j.crhy.2015.07.005
+  [arXiv:1612.01084 [gr-qc]].
+  %%CITATION = doi:10.1016/j.crhy.2015.07.005;%%
+  %2 citations counted in INSPIRE as of 24 Nov 2017
+  
+%\cite{Margalef-Bentabol:2012kwa}
+\bibitem{Margalef-Bentabol:2012kwa} 
+  B.~Margalef-Bentabol, J.~Margalef-Bentabol and J.~Cepa,
+  %``Evolution of the Cosmological Horizons in a Concordance Universe,''
+  JCAP {\bf 1212}, 035 (2012)
+  doi:10.1088/1475-7516/2012/12/035
+  [arXiv:1302.1609 [astro-ph.CO]].
+  %%CITATION = doi:10.1088/1475-7516/2012/12/035;%%
+  %2 citations counted in INSPIRE as of 24 Nov 2017
+
+%\cite{MargalefBentabol:2013bh}
+\bibitem{MargalefBentabol:2013bh} 
+  B.~Margalef-Bentabol, J.~Margalef-Bentabol and J.~Cepa,
+  %``Evolution of the Cosmological Horizons in a Concordance Universe with Countably Infinitely Many State Equations,''
+  JCAP {\bf 1302}, 015 (2013)
+  doi:10.1088/1475-7516/2013/02/015
+  [arXiv:1302.2186 [astro-ph.CO]].
+  %%CITATION = doi:10.1088/1475-7516/2013/02/015;%%
+  %2 citations counted in INSPIRE as of 24 Nov 2017
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\cite{Martin:2004pm}
+\bibitem{Martin:2004pm} 
+  J.~Martin and P.~Peter,
+  %``On the properties of the transition matrix in bouncing cosmologies,''
+  Phys.\ Rev.\ D {\bf 69}, 107301 (2004)
+  doi:10.1103/PhysRevD.69.107301
+  [hep-th/0403173].
+  %%CITATION = doi:10.1103/PhysRevD.69.107301;%%
+  %28 citations counted in INSPIRE as of 23 Nov 2017
+
+%\cite{Brandenberger:2012zb}
+\bibitem{Brandenberger:2012zb} 
+  R.~H.~Brandenberger,
+  %``The Matter Bounce Alternative to Inflationary Cosmology,''
+  arXiv:1206.4196 [astro-ph.CO].
+  %%CITATION = ARXIV:1206.4196;%%
+  %126 citations counted in INSPIRE as of 23 Nov 2017
+
+%\cite{Cai:2012va}
+\bibitem{Cai:2012va} 
+  Y.~F.~Cai, D.~A.~Easson and R.~Brandenberger,
+  %``Towards a Nonsingular Bouncing Cosmology,''
+  JCAP {\bf 1208}, 020 (2012)
+  doi:10.1088/1475-7516/2012/08/020
+  [arXiv:1206.2382 [hep-th]].
+  %%CITATION = doi:10.1088/1475-7516/2012/08/020;%%
+  %178 citations counted in INSPIRE as of 23 Nov 2017 
+
+%\cite{Martin:2003bp}
+\bibitem{Martin:2003bp} 
+  J.~Martin and P.~Peter,
+  %``On the causality argument in bouncing cosmologies,''
+  Phys.\ Rev.\ Lett.\  {\bf 92}, 061301 (2004)
+  doi:10.1103/PhysRevLett.92.061301
+  [astro-ph/0312488].
+  %%CITATION = doi:10.1103/PhysRevLett.92.061301;%%
+  %57 citations counted in INSPIRE as of 23 Nov 2017  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+%\cite{Rubakov:2014jja}
+\bibitem{Rubakov:2014jja} 
+  V.~A.~Rubakov,
+  %``The Null Energy Condition and its violation,''
+  Phys.\ Usp.\  {\bf 57}, 128 (2014)
+  [Usp.\ Fiz.\ Nauk {\bf 184}, no. 2, 137 (2014)]
+  doi:10.3367/UFNe.0184.201402b.0137
+  [arXiv:1401.4024 [hep-th]].
+  %%CITATION = doi:10.3367/UFNe.0184.201402b.0137;%%
+  %67 citations counted in INSPIRE as of 23 Nov 2017
+
+%\cite{Paul:2014cxa}
+\bibitem{Paul:2014cxa} 
+  N.~Paul, S.~N.~Chakrabarty and K.~Bhattacharya,
+  %``Cosmological bounces in spatially flat FRW spacetimes in metric $f(R)$ gravity,''
+  JCAP {\bf 1410}, no. 10, 009 (2014)
+  doi:10.1088/1475-7516/2014/10/009
+  [arXiv:1405.0139 [gr-qc]].
+  %%CITATION = doi:10.1088/1475-7516/2014/10/009;%%
+  %9 citations counted in INSPIRE as of 23 Nov 2017
+
+%\cite{Bhattacharya:2015nda}
+\bibitem{Bhattacharya:2015nda} 
+  K.~Bhattacharya and S.~Chakrabarty,
+  %``Intricacies of Cosmological bounce in polynomial metric $f(R)$ gravity for flat FLRW spacetime,''
+  JCAP {\bf 1602}, no. 02, 030 (2016)
+  doi:10.1088/1475-7516/2016/02/030
+  [arXiv:1509.01835 [gr-qc]].
+  %%CITATION = doi:10.1088/1475-7516/2016/02/030;%%
+  %4 citations counted in INSPIRE as of 23 Nov 2017  
+
+\bibitem{poisson}
+  E.~Poisson, ``An advanced course in general relativity,''
+  https://www.physics.uoguelph.ca/poisson/research/agr.pdf
+
+\bibitem{grad}  
+I.~S. Gradshteyn and I.~M. Ryzhik, ``Table of Integrals, Series, and Products,''
+Seventh Edition (Edited by A. Jeffrey and D. Zwillinger), Page 73.  
+
+%\cite{Barrau:2017ukm}
+\bibitem{Barrau:2017ukm} 
+  A.~Barrau, K.~Martineau and F.~Moulin,
+  %``Seeing through the cosmological bounce: Footprints of the contracting phase and luminosity distance in bouncing models,''
+  arXiv:1711.05301 [gr-qc].
+  %%CITATION = ARXIV:1711.05301;%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+\end{thebibliography}
+\end{document}
