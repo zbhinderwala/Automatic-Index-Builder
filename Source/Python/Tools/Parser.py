@@ -115,7 +115,19 @@ def checkWords(word):
     if len(word) < 2:
         return False
 
-    pattern = re.compile("([A-Za-z0-9]+)")
+    if any(i.isdigit() for i in word):
+        return False
+    
+    invalidChars = {'=', '<', '>', '+'}
+
+    for c in invalidChars:
+        if c in word:
+            return False
+
+    if len(word) < 3:
+        return False
+
+    pattern = re.compile("([A-Za-z]+)")
     return pattern.match(word)
 
 def checkBigram(bigram):
@@ -130,8 +142,10 @@ def checkBigram(bigram):
 def splitText(text):
     # delimiters - only for characters that separate words
     # conjoining characters not included
-    splitChars = {'\.', ' ', '\,', ':', ';', '\n', '\*' \
-        '\|', '\?', '\(', '\)', '\^', '_','!','~','$','@','^','{','}'}
+    splitChars = {'\.', ' ', '\,', ':', ';', '\n', '\*', \
+        '\|', '\?', '\(', '\)', '\^', '_','!','~','$','@','^',\
+        '{','}'
+    }
 
     splitString = ""
     for char in splitChars:
@@ -240,7 +254,40 @@ def generate_csv(file, filenum=1):
     ##############################################
     #   Google Ngram - Match Count and Volume Count
     ##############################################
-    print('Retrieving Match and Volume Count...')
+    print('Retrieving Google Ngram Data...')
+
+    '''
+        def getMatchVolume(i, x, numWords):
+        sys.stdout.write("\r%d/%d" % (i, numWords))
+        sys.stdout.flush()
+
+        match_str = '1'
+        vol_str = '1'
+
+        try:
+            result = phrasefinder.search(x)
+
+            if result.status == phrasefinder.Status.Ok:   
+                if len(result.phrases) > 0:
+                    match_str = (result.phrases[0].match_count)
+                    vol_str = (result.phrases[0].volume_count)
+        except:
+            match_str = '-1'
+            vol_str = '-1'
+
+        return(match_str, vol_str)
+
+    match = []
+    volume = []
+
+    match, volume = map(lambda index_word:\
+        getMatchVolume(index_word[0], index_word[1], len(df_final['word'])),enumerate(df_final['word']))
+
+    df_final['match_count'] = match
+    df_final['volume_count'] = volume
+
+    print('\n')
+    '''
 
     match = []
     volume = []
@@ -251,8 +298,8 @@ def generate_csv(file, filenum=1):
 
         sys.stdout.write("\r%d/%d" % (counter, word_count))
         sys.stdout.flush()
-        match_str = ''
-        vol_str = ''
+        match_str = '1'
+        vol_str = '1'
 
         try:
             result = phrasefinder.search(x)
@@ -262,8 +309,8 @@ def generate_csv(file, filenum=1):
                     match_str = (result.phrases[0].match_count)
                     vol_str = (result.phrases[0].volume_count)
         except:
-            match_str = 'Error'
-            vol_str = 'Error'
+            match_str = '-1'
+            vol_str = '-1'
 
         match.append(match_str)
         volume.append(vol_str)
