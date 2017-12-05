@@ -179,7 +179,11 @@ def generate_csv(file, filenum=1):
     print('Reading LaTeX File: ' + os.path.basename(file.name) + '...\n')
 
     # Get only the text from the file
-    latextext = file.read().encode('utf-8')
+    try:
+        latextext = file.read().encode('utf-8')
+    except:
+        latextext= file.read()
+
     text = LatexNodes2Text().latex_to_text(latextext)
     #lw = LatexWalker(latextext)
 
@@ -271,6 +275,7 @@ def generate_csv(file, filenum=1):
             vol_str = '1'
 
             try:
+                # search for term x through Google Ngrams using phrasefinder
                 result = phrasefinder.search(x)
 
                 if result.status == phrasefinder.Status.Ok:   
