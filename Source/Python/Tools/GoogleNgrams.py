@@ -1,7 +1,7 @@
 import phrasefinder
 import sys
 
-def GoogleNgrams(words):
+def GoogleNgrams(words, quiet=True):
     match = []
     volume = []
 
@@ -9,8 +9,10 @@ def GoogleNgrams(words):
     counter = 1
     for x in words:
 
-        sys.stdout.write("\r%d/%d" % (counter, word_count))
-        sys.stdout.flush()
+        if not quiet :
+            sys.stdout.write("\r%d/%d" % (counter, word_count))
+            sys.stdout.flush()
+
         match_str = '1'
         vol_str = '1'
 

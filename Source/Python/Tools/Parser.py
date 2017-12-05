@@ -267,7 +267,7 @@ def generate_csv(file, filenum=1):
         match = []
         volume = []
 
-        match, volume = GoogleNgrams(df_final['word'])
+        match, volume = GoogleNgrams(df_final['word'], quiet=False)
 
         df_final['match_count'] = match
         df_final['volume_count'] = volume
