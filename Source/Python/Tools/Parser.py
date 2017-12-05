@@ -180,9 +180,9 @@ def generate_csv(file, filenum=1):
 
     # Get only the text from the file
     try:
-        latextext = file.read().encode('utf-8')
-    except:
         latextext= file.read()
+    except:
+        latextext= file.read().encode("utf-8")
 
     text = LatexNodes2Text().latex_to_text(latextext)
     #lw = LatexWalker(latextext)
