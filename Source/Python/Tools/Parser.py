@@ -2,6 +2,7 @@
 #   Imports
 #############################################
 import csv
+import GoogleNgrams
 import sys
 import re
 import pandas as pd
@@ -17,6 +18,7 @@ import argparse
 import glob
 import os
 import phrasefinder
+from GoogleNgrams import GoogleNgrams
 
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
@@ -265,33 +267,7 @@ def generate_csv(file, filenum=1):
         match = []
         volume = []
 
-        word_count = len(df_final['word'])
-        counter = 1
-        for x in df_final['word']:
-
-            sys.stdout.write("\r%d/%d" % (counter, word_count))
-            sys.stdout.flush()
-            match_str = '1'
-            vol_str = '1'
-
-            try:
-                # search for term x through Google Ngrams using phrasefinder
-                result = phrasefinder.search(x)
-
-                if result.status == phrasefinder.Status.Ok:   
-                    if len(result.phrases) > 0:
-                        match_str = (result.phrases[0].match_count)
-                        vol_str = (result.phrases[0].volume_count)
-            except:
-                match_str = '-1'
-                vol_str = '-1'
-
-            match.append(match_str)
-            volume.append(vol_str)
-
-            counter += 1
-
-
+        match, volume = GoogleNgrams(df_final['word'], quiet=False)
 
         df_final['match_count'] = match
         df_final['volume_count'] = volume
