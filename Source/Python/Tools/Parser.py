@@ -328,7 +328,7 @@ parser = argparse.ArgumentParser(prog='Parser.py', description='Parse a LaTeX fi
 parser.add_argument('-d', '--dir', help='Parse entire directory of LaTeX files', required=False)
 parser.add_argument('-f', '--file', help='Parse single LaTeX file', required=False)
 parser.add_argument('-o', '--output', help='Output directory')
-parser.add_argument('-n', '--ngram', help='Calculate Google Ngram data', required=False)
+parser.add_argument('-n', '--ngram', help='Calculate Google Ngram data', required=False, action='store_true', default=False)
 
 args = parser.parse_args()
 
