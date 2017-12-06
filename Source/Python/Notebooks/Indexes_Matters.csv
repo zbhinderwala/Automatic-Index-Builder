@@ -1,0 +1,445 @@
+,word,source,pos
+0,negative mass motivations,1,NNS
+1,negative energy the problem of,1,VBP
+2,negative energy motivations,1,NNS
+3,negative energy traditional interpretation,1,VBP
+4,negative energy in quantum field theory,1,JJ
+5,negative energy in general relativity,1,NN
+6,vacuum energy cosmological constant,1,JJ
+7,vacuum energy negative contributions,1,NNS
+8,open questions,1,NNS
+9,constraint of relational definition,1,VBP
+10,constraint of relational definition universe,1,JJ
+11,negative energy the problem of ,1,JJ
+12,negative energy matter observational evidence,1,NN
+13,time irreversibility origin,1,NN
+14,negative energy propagation constraint,1,NN
+15,negative energy interaction constraint,1,NN
+16,time direction degree of freedom direction of propagation,1,NN
+17,negative energy versus negative charge,1,NN
+18,negative energy Dirac's solution,1,NN
+19,negative energy antiparticles,1,NNS
+20,negative energy transition constraint,1,VBP
+21,vacuum decay problem,1,JJ
+22,negative energy steady state cosmology,1,NN
+23,negative energy the problem of ,1,NNS
+24,time direction degree of freedom ,1,VBP
+25,time direction degree of freedom relativity of the sign of charges,1,NNS
+26,time direction degree of freedom relativity of the sign of energy,1,VBP
+27,time irreversibility backward in time propagation,1,NN
+28,time direction degree of freedom Feynman's interpretation,1,NN
+29,time direction degree of freedom grand unified theories,1,NNS
+30,negative energy negative action,1,VBP
+31,coordinative definition,1,NN
+32,time direction degree of freedom condition of continuity in time,1,NN
+33,negative energy matter requirement of exchange symmetry,1,NN
+34,negative mass traditional concept,1,IN
+35,negative mass negative inertial mass,1,NN
+36,constraint of relational definition gravitational force,1,NN
+37,principle of equivalence,1,NN
+38,time direction degree of freedom ,1,NN
+39,negative energy energy conditions,1,NNS
+40,vacuum energy negative densities,1,NNS
+41,negative energy of attractive force field,1,VBP
+42,negative energy bound systems,1,JJ
+43,negative energy positive energy theorems,1,JJ
+44,constraint of relational definition time direction-dependent property,1,JJ
+45,negative mass ,1,JJ
+46,negative mass gravitational mass,1,NN
+47,negative mass traditional concept ,1,NN
+48,negative mass principle of inertia,1,JJ
+49,gravitational repulsion,1,NN
+50,negative mass Newton's third law,1,NN
+51,constraint of relational definition sign of mass,1,NN
+52,negative mass absolute gravitational force,1,NN
+53,negative mass positive inertial mass,1,NN
+54,principle of equivalence violation of the,1,NN
+55,equivalent gravitational field ,1,NN
+56,inertial gravitational force,1,NN
+57,local inertial frame of reference,1,NN
+58,dynamic equilibrium of forces,1,NNS
+59,negative mass Newton's second law,1,VBP
+60,negative mass generalized Newton's second law,1,NN
+61,negative mass acceleration,1,NN
+62,negative mass traditional concept ,1,FW
+63,principle of equivalence Einstein's elevator experiment,1,NN
+64,principle of equivalence equivalent source,1,NN
+65,general relativistic theory observer dependent gravitational field,1,NN
+66,constraint of relational definition acceleration,1,NN
+67,Mach Ernst,1,NNP
+68,principle of equivalence relativized,1,VBD
+69,equivalent gravitational field ,1,JJ
+70,principle of equivalence ,1,NN
+71,constraint of relational definition principle of relativity,1,NN
+72,constraint of relational definition relativity of acceleration,1,NN
+73,constraint of relational definition absolute space,1,NN
+74,equivalent gravitational field,1,VBD
+75,relativistic frame dragging,1,VBG
+76,inertial gravitational force from identical matter distributions,1,NNS
+77,cosmological principle,1,JJ
+78,material nature of gravitation,1,NN
+79,universal force,1,NN
+80,material nature of gravitation electromagnetic field analogy,1,NN
+81,physical nature of geometry,1,NN
+82,Coriolis force,1,NNP
+83,global inertial frame of reference,1,NN
+84,principle of equivalence ,1,NN
+85,negative mass ,1,JJ
+86,voids in a matter distribution ,1,NN
+87,gravitational repulsion from voids in a matter distribution,1,NN
+88,negative energy matter overdensity,1,NN
+89,negative energy matter underdensity,1,NN
+90,voids in a matter distribution effects on expansion of space,1,NN
+91,voids in a matter distribution gravitational dynamics,1,NNS
+92,voids in a matter distribution inertial mass,1,VBP
+93,voids in a matter distribution Birkhoff's theorem,1,JJ
+94,voids in a matter distribution spherical voids,1,NNS
+95,voids in a matter distribution the hollow sphere analogy,1,NN
+96,gravitational repulsion uncompensated gravitational attraction,1,NN
+97,constraint of relational definition center of mass of the universe,1,NN
+98,Mach's principle,1,NNP
+99,voids in a matter distribution surrounding overdense shell,1,NNP
+100,negative energy matter voids in positive vacuum energy,1,JJ
+101,vacuum energy from quantum fluctuations,1,NNS
+102,vacuum energy virtual processes,1,NNS
+103,gravitational repulsion from missing positive vacuum energy,1,VBP
+104,vacuum energy equilibrium state,1,JJ
+105,voids in negative vacuum energy positive energy matter,1,NN
+106,voids in a matter distribution negative energy matter distribution,1,NN
+107,negative energy filled energy continuum,1,FW
+108,constraint of relational definition sign of energy,1,NN
+109,equations of state,1,VBP
+110,vacuum charge neutrality,1,NN
+111,negative energy matter homogeneous distribution,1,NN
+112,voids in negative vacuum energy mutual interactions,1,NNS
+113,gravitational repulsion uncompensated,1,VBD
+114,vacuum energy local absence of absence,1,NN
+115,voids in a matter distribution ,1,NN
+116,negative energy matter outstanding problems ,1,JJ
+117,negative energy pair annihilation,1,NN
+118,negative energy pair creation,1,NN
+119,energy out of nothing problem,1,FW
+120,negative energy matter conservation of energy,1,JJ
+121,matter creation,1,NN
+122,matter creation observational evidence,1,NN
+123,vacuum energy ground state,1,NN
+124,negative energy matter conservation of momentum,1,NN
+125,gravitational repulsion antigravity,1,NN
+126,perpetual motion problem,1,VBP
+127,time travel paradox,1,JJ
+128,negative energy matter implicit assumptions,1,NNS
+129,negative energy matter outstanding problems ,1,VBP
+130,negative energy matter dominant paradigm,1,JJ
+131,negative energy matter dark matter,1,RB
+132,Feynman Richard,1,NNP
+133,repulsive force field energy sign of,1,NN
+134,negative energy matter energy of force fields,1,NNS
+135,negative energy matter absence of interactions with,1,RB
+136,constraint of relational definition interaction field energy,1,JJ
+137,voids in a matter distribution,1,NN
+138,vacuum energy interactions with matter,1,NN
+139,negative energy matter concentrations,1,NNS
+140,negative energy matter rarity,1,NN
+141,energy out of nothing problem ,1,VBP
+142,matter creation favorable conditions,1,NNS
+143,negative energy matter momentum direction,1,JJ
+144,time direction degree of freedom pair creation and annihilation,1,NN
+145,time direction degree of freedom particle world-line,1,JJ
+146,time direction degree of freedom reversal of action,1,NN
+147,time direction degree of freedom reversal of energy,1,NN
+148,negative energy matter transformation into,1,IN
+149,gravitational repulsion weakness,1,NN
+150,quantum gravitation Planck energy,1,JJ
+151,second law of thermodynamics constraint on matter creation,1,NN
+152,second law of thermodynamics spreading of energy,1,NN
+153,second law of thermodynamics microstates,1,NNS
+154,second law of thermodynamics entropy,1,VBP
+155,second law of thermodynamics fluctuations,1,NNS
+156,matter creation permanence,1,NN
+157,matter creation conservation of energy,1,NN
+158,vacuum energy conservation of energy,1,NN
+159,second law of thermodynamics stable state,1,VBP
+160,matter creation quantum gravitational scale,1,NN
+161,matter creation big bang,1,NN
+162,matter creation cosmic expansion,1,NN
+163,time direction degree of freedom direction of the flow of time,1,NN
+164,negative energy matter sign of charge,1,NN
+165,discrete symmetry operations invariance of the sign of charge,1,NN
+166,energy out of nothing problem ,1,VBP
+167,vacuum decay problem ,1,NN
+168,interaction boson,1,NN
+169,interaction vertex mixed action signs,1,VBZ
+170,Rutherford atom model,1,NNP
+171,constraint of relational definition lower energies,1,NNS
+172,second law of thermodynamics thermal equilibrium,1,VBP
+173,second law of thermodynamics matter disintegration,1,NN
+174,negative energy matter initial distribution,1,NN
+175,second law of thermodynamics smoothness of matter distribution,1,NN
+176,vacuum energy zero point,1,NN
+177,vacuum decay problem ,1,NN
+178,negative energy matter colliding opposite energy bodies,1,NNS
+179,general relativistic theory conservation of energy,1,VBP
+180,general relativistic theory gravitational field energy,1,JJ
+181,vacuum energy gravitational potential energy,1,NN
+182,negative energy matter gravitational potential energy,1,NN
+183,negative energy kinetic energy,1,JJ
+184,negative mass absolute inertial mass,1,NN
+185,strong nuclear interaction,1,NN
+186,vacuum energy virtual particles,1,NNS
+187,principle of equivalence entangled system,1,VBP
+188,negative energy matter outstanding problems,1,JJ
+189,gravitational repulsion antimatter experiment,1,NN
+190,negative energy matter antimatter experiment with,1,NN
+191,negative energy matter potential energy,1,JJ
+192,energy out of nothing problem work and useful energy,1,JJ
+193,wormhole,1,NN
+194,wormhole traversable,1,JJ
+195,wormhole throat,1,NN
+196,wormhole exotic matter,1,NN
+197,black hole,1,JJ
+198,black hole spacetime singularity,1,NN
+199,black hole gravitational collapse,1,NN
+200,wormhole instability,1,NN
+201,time travel paradox causality violation,1,NN
+202,second law of thermodynamics degrees of freedom,1,NN
+203,black hole event horizon,1,NN
+204,black hole surface area,1,NN
+205,black hole entropy,1,NN
+206,black hole matter absorption,1,NN
+207,black hole mass reduction,1,NN
+208,second law of thermodynamics violation,1,NN
+209,negative energy matter thermal energy,1,RB
+210,negative energy matter heat,1,JJ
+211,negative energy matter radiation,1,NN
+212,negative energy matter temperature,1,NN
+213,black hole thermodynamics nn,1,NN
+214,black hole temperature nn,1,NN
+215,black hole surface gravitational field nn,1,NN
+216,negative temperatures nn,1,JJ
+217,black hole entropy nn,1,JJ
+218,negative energy myths,1,NNS
+219,axioms negative energy ,1,IN
+220,axioms negative energy matter ,1,JJ
+221,axioms negative mass ,1,JJ
+222,general relativistic theory generalized gravitational field equations,1,NNS
+223,negative energy matter inhomogeneities,1,NNS
+224,axioms negative energy ,1,VBP
+225,axioms negative energy matter ,1,JJ
+226,axioms negative mass ,1,NN
+227,general relativistic theory generalized gravitational field equations ,1,NN
+228,general relativistic theory mathematical structure,1,NN
+229,axioms negative energy matter,1,NN
+230,general relativistic theory observer dependent energy sign,1,NN
+231,general relativistic theory observer dependent metric properties,1,NNS
+232,general relativistic theory natural viewpoints,1,NNS
+233,general relativistic theory energy sign convention,1,NN
+234,general relativistic theory earlier publications,1,NNS
+235,general relativistic theory distinctive features,1,VBZ
+236,general relativistic theory bi-metric theories,1,NNS
+237,general relativistic theory conjugate metrics,1,NNS
+238,general relativistic theory stress-energy tensors,1,NNS
+239,Petit Jean-Pierre nn,1,NNP
+240,general relativistic theory justifications,1,NNS
+241,general relativistic theory earlier interpretations,1,NNS
+242,general relativistic theory consequences,1,NNS
+243,general relativistic theory assumptions,1,NNS
+244,general relativistic theory curvature tensors,1,NNS
+245,general relativistic theory geodesics,1,NNS
+246,general relativistic theory general covariance,1,NN
+247,general relativistic theory alternative proposals,1,NNS
+248,general relativistic theory redefined energy ground state,1,VBP
+249,general relativistic theory mathematical requirement,1,JJ
+250,general relativistic theory additional variables,1,NNS
+251,general relativistic theory alternative notation nn,1,VBP
+252,general relativistic theory pull-overs,1,NNS
+253,general relativistic theory maps,1,NNS
+254,general relativistic theory metric conversion factors,1,NNS
+255,general relativistic theory Einstein tensor,1,VBP
+256,general relativistic theory vacuum energy terms,1,NNS
+257,general relativistic theory physical requirements,1,NNS
+258,general relativistic theory irregular stress-energy tensors,1,NNS
+259,general relativistic theory average stress-energy tensors,1,NNS
+260,general relativistic theory variational principle,1,JJ
+261,vacuum energy natural maximum densities,1,NNS
+262,quantum gravitation,1,VBP
+263,general relativistic theory vacuum stress-energy tensors,1,NNS
+264,general relativistic theory natural vacuum stress-energy tensors,1,NNS
+265,negative energy matter cosmological models,1,NNS
+266,negative energy matter universal expansion,1,NN
+267,axioms negative energy,1,IN
+268,axioms negative mass,1,NN
+269,negative mass Newtonian gravitation,1,NN
+270,general relativistic theory Newtonian limit or approximation,1,NN
+271,negative energy matter ratio of cosmic densities,1,NNS
+272,general relativistic theory generalized gravitational field equations ,1,VBP
+273,time direction degree of freedom,1,JJ
+274,negative mass,1,NN
+275,quantum gravitation gravitons,1,NNS
+276,black hole negative energy matter,1,VBP
+277,quantum gravitation Planck scale,1,JJ
+278,discrete symmetry operations alternative formulation,1,NN
+279,discrete symmetry operations charge conjugation C ,1,NN
+280,discrete symmetry operations space reversal P ,1,NN
+281,discrete symmetry operations time reversal T ,1,NN
+282,discrete symmetry violation,1,NN
+283,discrete symmetry operations quantum field theory,1,NN
+284,discrete symmetry operations semi-classical viewpoint,1,JJ
+285,discrete symmetry operations gravitation,1,NN
+286,black hole matter degrees of freedom,1,NN
+287,discrete symmetry operations reversal of action M ,1,NN
+288,discrete symmetry operations antimatter,1,NN
+289,discrete symmetry operations traditional conception,1,NN
+290,discrete symmetry operations sign of energy,1,NN
+291,discrete symmetry operations sign of charge,1,NN
+292,discrete symmetry operations spacetime reversal,1,NN
+293,discrete symmetry operations kinematic representation,1,NN
+294,discrete symmetry operations backward motion,1,NN
+295,discrete symmetry operations angular momentum,1,NN
+296,discrete symmetry operations momentum,1,NN
+297,discrete symmetry operations space intervals,1,NNS
+298,time irreversibility unidirectional time,1,JJ
+299,constraint of relational definition discrete symmetry operation,1,NN
+300,discrete symmetry operations time intervals,1,NNS
+301,constraint of relational definition space and time reversals,1,NNS
+302,constraint of relational definition reversal of momentum,1,VBP
+303,constraint of relational definition reversal of energy,1,JJ
+304,constraint of relational definition polar asymmetry,1,NN
+305,constraint of relational definition directional asymmetry,1,NN
+306,constraint of relational definition absolute direction,1,NN
+307,constraint of relational definition absolute lopsidedness,1,NN
+308,discrete symmetry weak interaction,1,NN
+309,discrete symmetry operations handedness,1,NN
+310,constraint of relational definition sign of charge,1,NN
+311,constraint of relational definition completeness,1,JJ
+312,constraint of relational definition self-determination,1,NN
+313,multiverse,1,NN
+314,discrete symmetry operations CPT theorem,1,NN
+315,discrete symmetry operations combined operations,1,NNS
+316,discrete symmetry operations PTC transformation PTC transformation,1,VBP
+317,special relativity,1,NN
+318,constraint of relational definition imbalance,1,NN
+319,constraint of relational definition space and time directions,1,NNS
+320,time direction degree of freedom chronological order,1,VBP
+321,discrete symmetry operations dependencies,1,NNS
+322,time irreversibility thermodynamic time,1,VBP
+323,time direction degree of freedom bidirectional time,1,JJ
+324,second law of thermodynamics constraint on process description,1,NN
+325,discrete symmetry operations reversal of motion,1,NN
+326,time direction degree of freedom antiparticles,1,NNS
+327,time irreversibility thermodynamic arrow of time,1,RB
+328,time direction degree of freedom time direction-dependent property,1,JJ
+329,discrete symmetry operations space and time coordinates,1,NNS
+330,discrete symmetry operations conjugate properties,1,NNS
+331,discrete symmetry operations joint variation,1,VBP
+332,discrete symmetry operations space-related properties,1,NNS
+333,discrete symmetry operations time-related properties,1,NNS
+334,discrete symmetry operations invariance of the sign of action,1,NN
+335,discrete symmetry operations quantum operators,1,NNS
+336,state vector,1,VBP
+337,propagator,1,NN
+338,discrete symmetry operations electric field,1,NN
+339,discrete symmetry operations magnetic field,1,VBD
+340,discrete symmetry operations currents,1,NNS
+341,neutron's electric dipole moment,1,JJ
+342,neutron's electric dipole moment direction of dipole,1,JJ
+343,neutron's electric dipole moment precession movement,1,JJ
+344,discrete symmetry operations enantiomorphic equivalent,1,NN
+345,fermion,1,NN
+346,polarization,1,NN
+347,discrete symmetry operations equivalent operations,1,NNS
+348,discrete symmetry operations fermion quantum phase,1,VBP
+349,discrete symmetry operations space rotation,1,NN
+350,discrete symmetry operations classical equations,1,NNS
+351,discrete symmetry operations basic action reversal operation M I ,1,VBP
+352,discrete symmetry operations identity operation I ,1,JJ
+353,discrete symmetry operations action sign degree of freedom,1,NN
+354,negative energy matter discrete symmetries,1,NNS
+355,negative energy matter antimatter,1,VBP
+356,grand unification theories,1,NNS
+357,quark,1,VBP
+358,local causality,1,JJ
+359,discrete symmetry matter-antimatter asymmetry,1,NN
+360,black hole thermodynamics,1,NNS
+361,black hole information,1,NN
+362,black hole event horizon degrees of freedom,1,NN
+363,black hole macroscopic parameters,1,NNS
+364,black hole mass,1,VBP
+365,black hole angular momentum,1,NN
+366,black hole charge,1,NN
+367,Bekenstein bound,1,NNP
+368,black hole conservation of information,1,NN
+369,quantum gravitation discrete space,1,NN
+370,quantum gravitation Planck time,1,JJ
+371,quantum gravitation elementary unit of surface,1,NN
+372,black hole Schwarzschild radius,1,NN
+373,quantum gravitation Planck length,1,NN
+374,quantum gravitation Planck area,1,NN
+375,Boltzmann's constant,1,NNP
+376,t Hooft Gerard t Hooft Gerard,1,NN
+377,quantum gravitation elementary black hole,1,NN
+378,quantum gravitation Planck mass,1,NN
+379,second law of thermodynamics gravitational entropy,1,NN
+380,discrete symmetry operations fundamental degrees of freedom,1,NN
+381,black hole momentum,1,NN
+382,black hole stable state,1,NN
+383,particle accelerator,1,NN
+384,black hole particle momenta,1,NN
+385,tidal effect,1,JJ
+386,particle beam,1,NN
+387,unidirectional variable,1,JJ
+388,quantum chromodynamics,1,NNS
+389,meson,1,JJ
+390,wavelength,1,JJ
+391,black hole redshift,1,NN
+392,black hole time dilation,1,NN
+393,kinetic energy,1,FW
+394,rest mass,1,NN
+395,quantum gravitation Planck momentum,1,NN
+396,black hole particle energies,1,NNS
+397,black hole state magnification,1,NN
+398,black hole temperature,1,NN
+399,black hole particle charges,1,VBZ
+400,black hole particle handedness,1,JJ
+401,unification scale,1,JJ
+402,black hole surface gravitational field,1,NN
+403,black hole electromagnetic field,1,VBD
+404,black hole Hawking radiation,1,NN
+405,nucleus,1,NN
+406,electrostatic field pair creation,1,NN
+407,quantum gravitation spin networks,1,VBZ
+408,second law of thermodynamics coarse-graining,1,JJ
+409,quantum gravitation fluctuating gravitational field,1,NN
+410,statistical mechanics,1,NNS
+411,quantum gravitation microscopic black hole,1,JJ
+412,quantum gravitation momentum direction,1,NN
+413,quantum gravitation negative energy,1,JJ
+414,quantum gravitation energy fluctuations,1,NNS
+415,statistical mechanics non-equilibrium thermodynamics,1,NNS
+416,statistical mechanics near-equilibrium thermodynamics,1,NNS
+417,time irreversibility irreversible processes,1,NNS
+418,second law of thermodynamics static equilibrium,1,VBP
+419,statistical mechanics equilibrium thermodynamics,1,NNS
+420,black hole merger,1,NN
+421,negative temperatures,1,NNS
+422,negative temperatures energy levels,1,JJ
+423,second law of thermodynamics temperature,1,NN
+424,negative temperatures infinite temperature,1,NN
+425,negative temperatures spin system in magnetic field,1,VBN
+426,negative temperatures decrease of entropy,1,RB
+427,second law of thermodynamics energy,1,JJ
+428,negative temperatures black hole,1,JJ
+429,negative temperatures negative energy,1,JJ
+430,general relativistic theory,1,NN
+431,negative energy in quantum field theory see negative densities vacuum energy,1,JJ
+432,time direction degree of freedom requirement of continuity see condition of continuity in time time direction degree of freedom,1,NN
+433,negative energy matter uniform distribution see homogeneous distribution negative energy matter,1,RB
+434,negative action matter see negative energy matter,1,RB
+435,time direction degree of freedom time-symmetric viewpoint see bidirectional time time direction degree of freedom,1,JJ
+436,discrete symmetry operations parity P see space reversal P discrete symmetry operations,1,NNS
+437,discrete symmetry operations spin see angular momentum discrete symmetry operations,1,NNS
+438,discrete symmetry operations fermion wavefunction see fermion quantum phase discrete symmetry operations,1,NNS
+439,thermodynamic time asymmetry see time irreversibility,1,NN
+440,constraint of relational definition fundamental lopsidedness see absolute lopsidedness constraint of relational definition,1,NN
+441,black hole semi-classical theory see thermodynamics black hole,1,JJ
+442,quantum gravitation elementary unit of area see elementary unit of surface quantum gravitation,1,NN
+443,Bekenstein bound surface information and entropy see black hole,1,NNP
