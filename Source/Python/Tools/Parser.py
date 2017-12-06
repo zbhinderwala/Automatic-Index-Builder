@@ -231,12 +231,13 @@ def generate_csv(file, filenum=1):
 
     # Get frequency of each word
     df_final = df_final.groupby(['word','n_gram_score','pos']).size().reset_index(name="frequency")
-
+    df_final['wordCount'] = len(words)
 
     ##############################################
     #   Calculating Tf and Idf
     ##############################################
-    print('Calculate Term Frequency and Document Frequency...\n')
+    """
+    print('Calculate Term Frequency and Document Frequency...')
     
     word_count = len(words)
     term_freq = []
@@ -245,18 +246,19 @@ def generate_csv(file, filenum=1):
     tf_idf = []
     tf_idf = term_freq * idf
     df_final['tf_idf'] = tf_idf
-
+    """
     ##############################################
     #   Calculating Informativeness
     ##############################################
-    print('Calculate Informativeness...\n')
+    """
+    print('Calculate Informativeness...')
     
     inf_list = []
     for i in term_freq:
         inf = i * math.log(i * idf , 2)
         inf_list.append(inf)
     df_final['inf'] = inf_list
-
+    """
     ##############################################
     #   Google Ngram - Match Count and Volume Count
     ##############################################
